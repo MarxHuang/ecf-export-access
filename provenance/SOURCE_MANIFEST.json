@@ -697,11 +697,11 @@
     },
     {
       "path": "paper/supporting_information.tex",
-      "bytes": 178222,
-      "sha256": "aa1d482289c26bd7e898505f38bfd3006022d9612482512370dcaa202282f632",
+      "bytes": 178213,
+      "sha256": "f122a7ac0286eaa9c33a2f863cdc00db16b02108753a2d6e5fa2a21d3b53b3f6",
       "source_path": "outputs/ees_transition/EES_PARAGRAPH_REVIEW_MASTER_20260901/supporting_information.tex",
-      "source_bytes": 178222,
-      "source_sha256": "aa1d482289c26bd7e898505f38bfd3006022d9612482512370dcaa202282f632",
+      "source_bytes": 178213,
+      "source_sha256": "f122a7ac0286eaa9c33a2f863cdc00db16b02108753a2d6e5fa2a21d3b53b3f6",
       "encoding": "original"
     },
     {
