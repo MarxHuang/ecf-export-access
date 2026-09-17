@@ -15,7 +15,7 @@ The study examines when unused export permission prevents other participants fro
 
 This repository is a **private author-review deposit** as of 17 September 2026. The authors have authorized the scoped reuse licences below. This does not change repository visibility: editors and reviewers still need working access. The repository URL is unchanged; no repository DOI has been assigned. The manuscript is not presented as an accepted publication.
 
-The `author-review-2026-09-17-r3` revision withdraws manuscript TeX files, bibliography/style files, standalone manuscript figures, and publisher compilation assets from the current tree. It retains the compiled main text and SI, numerical code, result tables, and figure data. The scientific files retained here are byte-identical to the preceding revision. Older commits and tags still contain manuscript sources; this update does not erase Git history.
+The `author-review-2026-09-17-r4` revision updates the main PDF to restore six omitted author email addresses from the earlier IEEE manuscript, retaining the two already present. All eight addresses have name labels and mailto links. Only the author-contact footnotes changed; the abstract, scientific text, SI, numerical code, result tables and figure data are unchanged. Manuscript TeX, bibliography/style files, standalone manuscript figures and publisher compilation assets remain absent from the current tree following r3. Older commits and tags still contain manuscript sources; this update does not erase Git history.
 
 ## Contents
 

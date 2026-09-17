@@ -445,11 +445,11 @@
     },
     {
       "path": "paper/main.pdf",
-      "bytes": 2420133,
-      "sha256": "d275bb915b59e2a168cd30881db1429075c01bf12e4926ddf93ad28055a40aec",
+      "bytes": 2422214,
+      "sha256": "b50beac4954737f26533b606fc6f04a29004238b8b3b69171913f95dec53ba36",
       "source_path": "outputs/ees_transition/EES_PARAGRAPH_REVIEW_MASTER_20260901/main.pdf",
-      "source_bytes": 2420133,
-      "source_sha256": "d275bb915b59e2a168cd30881db1429075c01bf12e4926ddf93ad28055a40aec",
+      "source_bytes": 2422214,
+      "source_sha256": "b50beac4954737f26533b606fc6f04a29004238b8b3b69171913f95dec53ba36",
       "encoding": "original"
     },
     {
