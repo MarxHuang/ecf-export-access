@@ -40,15 +40,11 @@ Wencong Xiao, Rankai Zhu, Jie Huang, and Yusheng Xue}
 \begin{document}
 \maketitle
 
-This Supporting Information (SI) provides the mathematical and numerical basis
-for three distinctions in the main paper: private delivery gains versus losses
-elsewhere, total request reduction versus its distribution across participants, and
-completed-state recovery versus later feedback performance. Part I derives
-these relationships and the bounded ECF update. Part II specifies the allocation
+This Supporting Information (SI) supplies the derivations, simulation methods,
+and detailed results for the main paper. Part I derives the effects of request
+choice and the properties of the ECF update. Part II specifies the allocation
 rules and controlled network approximation. Part III describes the public-data
-simulation and reports the complete energy, sensitivity, and topology results.
-The tables retain detailed numerical results so that the main paper can focus
-on their interpretation.
+simulation and reports its energy balances and sensitivity analyses.
 
 \renewcommand{\thesection}{S\arabic{section}}
 \renewcommand{\theequation}{S\arabic{equation}}
@@ -62,12 +58,8 @@ on their interpretation.
 \section{Guide to the Supporting Analyses and Notation}
 \label{supp:scope}
 
-The supporting analyses follow the argument from request choice to delivery
-and then to feedback. Section S2 derives the distinction between private payoff
-and total delivery. Sections S3--S4 define the temporal update and the equal-total
-comparison. Sections S5--S9 supply allocation details, and Section S10 evaluates
-the same feedback with public profiles and network models.
-Table~\ref{tab:supp_experiment_evidence_map} provides a more detailed guide.
+Table~\ref{tab:supp_experiment_evidence_map} links the main-paper questions to
+the supporting analyses.
 Shared symbols appear in Section S1.1; derivation-specific symbols and parameter
 grids are defined locally. Throughout, $[\,\cdot\,]^+$ denotes the positive-part
 operator.
@@ -228,12 +220,12 @@ map is
 \boldsymbol\eta_{\mathcal R}\right).
 \label{eq:supp_allocation_map}
 \end{equation}
-Without an active ECF ceiling, $\mathbf r^{\mathrm{adm}}=\mathbf r^{\mathrm{cap}}$.
+When no ECF ceiling binds, $\mathbf r^{\mathrm{adm}}=\mathbf r^{\mathrm{cap}}$.
 Otherwise, the same allocation map receives the ceiling-limited request in
 \eqref{eq:supp_credible_request}. Rule parameters
 $\boldsymbol\eta_{\mathcal R}$ enter $\Pi_{\mathcal R}$. They do not alter the
 network-feasible set. The auxiliary margin-retention variant is defined with its sensitivity
-analysis in Section S5. Without an active ECF ceiling, $\psi_i=C_i$.
+analysis in Section S5. In the no-feedback baseline, $\psi_i=C_i$.
 
 \section{Request Choice and Delivery Externality}
 \label{supp:behavioral_diagnostic}
@@ -961,7 +953,10 @@ $\min\{x_i,a_i\}$ componentwise.
 In this controlled setting, the post-event record is simulation truth:
 $\mathbf a^{\mathrm{tel}}(t)=\mathbf a(t)$. The study evaluates 25,920 observed
 deliveries. ECF contributes 12,960 replay attempts across its three gain
-settings, and all four replay conditions hold in 12,910 of them.
+settings, and all four replay conditions hold in 12,910 of them. Median
+recovered delivery is 37.844~kW (interquartile range 25.606--57.527~kW),
+and 99.46\% of the attempts recover more than 5~kW. At the primary gain,
+20 of 4,320 attempts recover no net delivery.
 
 Both allocation states in every matched comparison pass the specified
 convergence, balance, voltage, and two-ended apparent-power checks under the
@@ -1118,11 +1113,9 @@ positive total request, direct substitution gives
 \end{equation}
 Thus ECF and the equal-total control remove the same request total but generally
 remove it at different connections.
-The control obtains its reduction total from ECF. Its role is to explain the
-effect of distributing that reduction, rather than to supply an independent
-operating policy. This comparison does not isolate the contribution of each
-of ECF's four replay conditions; it compares their resulting request vector
-with proportional reduction.
+The control obtains its reduction total from ECF and distributes it
+proportionally. It therefore tests the location of the reduction, rather than
+an independent operating policy or the contribution of individual replay conditions.
 
 The mismatch-only comparison in Section~\ref{supp:temporal_recursion} evaluates
 two complete feedback rules. Mismatch-only feedback uses each participant's
@@ -1220,8 +1213,8 @@ Y^{\mathrm{ECF}}-Y^{\mathrm{uni}}
 -(H^{\mathrm{ECF}}-H^{\mathrm{uni}}).
 \label{eq:supp_proportional_delivery_decomposition}
 \end{equation}
-The factor $\rho^c$ is the feasible value returned by the specified allocation
-search. The identity does not require that value to be globally maximal.
+The identity holds for the feasible factor $\rho^c$ returned by the specified
+allocation search, whether or not that factor is globally maximal.
 Different spatial request distributions can yield different feasible factors,
 so equal-total request reduction need not produce equal-total authorization.
 If $R=0$, both allocations and deliveries are zero.
@@ -1246,19 +1239,13 @@ delivery by only 0.235~kWh. The sum of absolute half-hour delivery differences
 is 2.690~kWh, so their close totals do not conceal large offsetting delivery
 changes. Requests are uniformly reduced in 969 half-hours. In 967 of them,
 the no-feedback allocation factor satisfies the condition above, making its
-award vector a feasible candidate after uniform reduction. These comparisons
-explain the nearly coincident control deliveries without treating the controls
-as identical or assuming that either search is globally optimal.
+award vector a feasible candidate after uniform reduction. This explains the
+nearly coincident deliveries while retaining the interval-level differences.
 
-The controlled application uses the comparisons and trajectories specified
-in Section S3.5. At the primary gain, the equal-total control matches ECF's
-aggregate request reduction in every interval, allowing the spatial effect
-to be evaluated separately from its amount. Across all three gains, 12,910
-of 12,960 replays qualify; the median recovered delivery is 37.844~kW
-(interquartile range 25.606--57.527~kW), and 99.46\% exceed 5~kW.
-At the primary gain, 20 of 4,320 attempts recover no net delivery. The
-decomposition above explains the subsequent outcomes without assuming that
-every unused award represents recoverable delivery.
+Section S3.5 reports the controlled trajectories and their replay-recovery
+distribution. In each interval at the primary gain, the equal-total control
+matches ECF's aggregate request reduction, separating its amount from its
+distribution across participants.
 
 \section*{Part II. Controlled-Study Formulation and Numerical Details}
 
@@ -1280,8 +1267,8 @@ $0\le\kappa<1$ and
 \label{eq:supp_mr_recovery}
 \end{equation}
 Thus rule parameters alter the allocation objective or rule, whereas margin
-retention alters the feasible network allowance. For a case without an active
-ECF ceiling, $\psi_i=C_i$ for every $i$; for a case without margin retention,
+retention alters the feasible network allowance. In the no-feedback baseline,
+$\psi_i=C_i$ for every $i$; for a case without margin retention,
 $\kappa=0$.
 
 \subsection{Retained network margin}
@@ -1310,10 +1297,8 @@ weight, mismatch-only feedback is compared with no feedback under the same
 allocation formulation. Across temporal profiles, mismatch-only feedback
 reduces mean $M_x$ by 18.43--34.68\% and raises the capacity-normalized Jain
 index by 0.139--0.648 percentage points. Every matched reactive-power pair
-passes the specified AC checks. The weight changes the response of this
-delivery-ratio comparison. The ECF comparisons use the primary allocation
-settings; these auxiliary results describe the allocation formulation rather
-than establish ECF's sensitivity to the weight.
+passes the specified AC checks. These results concern mismatch-only feedback;
+the ECF comparisons retain the primary FA weight.
 
 \section{One-Parameter Allocation Rules}
 \label{supp:one_parameter_rules}
@@ -1618,7 +1603,7 @@ $\mathbf J_x$ used in the main paper. In plain terms, this derivative accounts
 for both the direct change in the admitted request and the request-dependent ME
 or FA context. The Stage~1 upper-bound derivative is valid only while its dual
 basis remains fixed. If a connection-bound regime, active set, dual basis, or
-same-context ME reference solution changes, both sides of the request step are
+ME reference solution for those inputs changes, both sides of the request step are
 solved again and their response is evaluated by paired finite difference.
 
 \section{Controlled Medium-Voltage Allocation Proxy and AC Verification}
@@ -1742,22 +1727,12 @@ physical-feasibility result reported in the main paper.
 \section{Australian Public-Data Replay}
 \label{supp:australian_replay}
 
-The public-data analyses ask whether completed records improve later delivery,
-what information is needed for that comparison, and how the response changes
-across time and network locations. Sections~\ref{supp:au_sources}--\ref{supp:au_construction}
-define the sources, information requirements, chronology, statistical
-procedure, and common allocation model. Section~\ref{supp:au_energy} gives
-the energy balance. Section~\ref{supp:same_update_qualification} isolates
-replay qualification before Sections~\ref{supp:au_sensitivity}--\ref{supp:bounded_record_dynamic}
-examine gain, memory, and record quality.
-
-Sections~\ref{supp:mapping}--\ref{supp:individual_delivery} move from spatial
-placement and PV capacity to network structure and individual delivery.
-Section~\ref{supp:experiential_requests} then allows requests to respond to
-participants' own delivery histories. Section~\ref{supp:au_scope} brings
-these findings together. Each comparison states what changes from the
-common setting, retains the full numerical results, and identifies the
-claim those results support.
+The public-data analyses test whether completed records can improve later
+delivery under varying output, record quality, and network conditions. The
+sources and common model are defined first, followed by the energy balance.
+Subsequent comparisons vary qualification, memory, record error, profile
+placement, PV capacity, and network structure. The final experiment allows
+participants to adjust requests using their own delivery histories.
 
 \subsection{Public network and household records}
 \label{supp:au_sources}
@@ -1820,6 +1795,9 @@ in the project repository.\footnote{Project repository: \repositoryurl. Access
 is currently restricted to author review and will be arranged for editors and
 reviewers before submission.} Original measurements and network files are
 obtained from the cited distributors under their applicable terms.
+The repository instructions distinguish checks of saved result tables from
+full simulation reruns and identify the external inputs and auxiliary
+trajectory files required for each analysis.
 
 \subsection{Information used by the completed-state replay}
 \label{supp:au_information}
@@ -1944,8 +1922,9 @@ Let $\iota(i)$ map service connection $i$ to one source profile. The mapping is
 deterministic and covers all 1,255 service connections. The forward-uptake
 scenario assigns export participation to 418 connections, or approximately one
 third of the total. Each historical gross-generation profile is divided by its
-documented source capacity and rescaled to the scenario connection capacity.
-The resulting $C_i$ bounds admitted requests and authorized access. Household
+documented source capacity and rescaled to its scenario PV capacity. For this
+scenario, the export connection bound $C_i$ is set numerically equal to that
+PV capacity; it bounds admitted requests and authorized access. Household
 active demand is GC+CL, uses 0.95 lagging power factor, and is multiplied by the
 selected global load scale. PV export operates at unity power factor.
 For allocation, this retrospective replay treats contemporaneous half-hour
@@ -2052,6 +2031,10 @@ versions and the parameter-selection sequence. Earlier evaluations had already
 been inspected before this scenario was constructed; the present assessment
 is therefore a fixed-scenario reevaluation, not a new blind validation. No
 parameter is reselected from the reported ECF or equal-total outcomes.
+The additional fixed-update, cross-day-memory, profile-placement, and
+PV-capacity comparisons were specified after the primary results were known.
+Their settings were fixed before their respective simulations, and the
+primary scenario remains the reference throughout.
 
 The four controls are no feedback, previous-day persistence, ECF with
 $\beta_{\mathrm{ECF}}=0.5$, and the equal-total control.
@@ -2288,8 +2271,6 @@ from mismatch-only feedback, which smooths a delivery-to-award ratio.
 The comparison uses all 80 primary assessment days, 418 export participants,
 48 half-hours per day, and the same daily capacity reset, raw requests,
 available export, mapping, network, allocation search, and physical limits.
-It was specified after the primary results were available; the comparator,
-dates, parameters, and analysis were fixed before its results were calculated.
 The ECF branch reproduces the primary request, award, delivery, and ceiling
 trajectories. Only the use of replay qualification differs between controls.
 
@@ -2341,7 +2322,8 @@ latency or the cost of validating available-export records.
 Thus the same-update comparison identifies the aggregate effect of using
 replay qualification within the evaluated daily feedback loop. It does not
 separate the individual replay conditions or establish a universally preferable
-gain. The following comparison tests retention of ceiling state across days.
+gain. Section~\ref{supp:contiguous_state} tests retention of ceiling state
+across days.
 
 \subsection{Gain and input sensitivities around the common scenario}
 \label{supp:au_sensitivity}
@@ -2465,9 +2447,8 @@ qualification also retains its own ceiling state at gain 0.5; no feedback
 requires no state transfer. All raw requests, available output, mapping,
 network settings, and physical criteria remain unchanged.
 
-The dates and comparisons were fixed before calculating these new trajectories,
-after the daily-reset results were known. No missing dates are synthesized or
-joined across calendar gaps. The static network model is initialized daily
+No missing dates are synthesized or joined across calendar gaps.
+The static network model is initialized daily
 as before: the changed state is the request ceiling, not an internal storage
 or voltage-controller state. Thus the experiment isolates the role of ceiling
 initialization without changing the physical or behavioral model.
@@ -2557,10 +2538,9 @@ is not necessarily harmless: unit gain has the shortest runs but the lowest
 aggregate delivery. Recovery duration alone therefore cannot rank the updates.
 
 All 26,880 interval--control records satisfy the specified authorization and
-delivery checks, and all 11,520 ECF replay states pass their physical screens.
-The calculations retain 15,360 ceiling updates and 280 setting-specific
-day-boundary transfers. Independent checks reproduce the recursive updates,
-equal-total requests, delivery identities, and recorded physical criteria.
+delivery checks, and all 11,520 ECF replay states pass their physical screens.\footnote{Checks
+cover 15,360 ceiling updates and 280 setting-specific day-boundary transfers,
+along with equal-total requests and delivery identities.}
 The first day of each block reproduces its corresponding daily-reset
 trajectory. These counts describe repeated controls on the original 80 dates,
 not an enlarged independent sample. The result addresses initialization over
@@ -2574,10 +2554,11 @@ An error bound can make the estimated replay gain reliable without making the la
 update more productive. This comparison applies the lower record in
 \eqref{eq:supp_robust_replay_lower_bound} during the feedback trajectory,
 rather than only evaluating it on fixed completed-state pairs. The prescribed
-radii are 1\%, 5\%, and 10\% of registered connection capacity. At each radius,
+radii are 1\%, 5\%, and 10\% of the connection bound $C_i$. At each radius,
 all records have either the positive or negative bias. The point-record and
 lower-bound controls each evolve their own ceilings under the same raw
-requests, network, profiles, and gain 0.5. Each of the 80 days starts at capacity.
+requests, network, profiles, and gain 0.5. Each of the 80 days starts with
+$\psi_i=C_i$.
 An exact-record run adds a thirteenth setting and reproduces the primary ECF
 delivery of 239.356~MWh and all 483 qualifying intervals.
 
@@ -2593,8 +2574,8 @@ not the unobserved available-export value. Original and effective records are
 retained. The radii are prescribed stress levels, not calibrated meter errors.
 
 Both controls recompute the proportional replay award from the admitted
-requests and fixed network data. They use the same record-centred construction
-for its physical screen: connection-point active power equals completed
+requests and fixed network data. For the physical screen, both set
+connection-point active power equal to completed
 residual import minus candidate export, with household reactive demand fixed.
 Candidate export is the smaller of the replay award and effective record.
 Point-record control uses this delivery estimate in the recovery conditions.
@@ -2621,27 +2602,31 @@ conservatism of the lower-bound update under underestimation.
 \caption{Energy outcomes with bounded record errors over the same 80 dates.
 P denotes point-record control and L denotes delivery-lower-bound control.
 The bias magnitude equals the stated radius as a percentage of $C_i$.
-All energy columns are in MWh. The last column is relative to no feedback.}
+Energy totals and their differences are in MWh. The last column gives the
+date-adjusted 95\% interval for the mean daily delivery difference in kWh.
+Both differences compare the stated control with no feedback.}
 \label{tab:supp_record_energy}
 \vspace{3pt}
-\small
-\begin{tabular}{@{}llrrrr@{}}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llrrrrr@{}}
 \toprule
-Bias & Control & Delivered & Authorized & Unused & Delivery difference \\
+Bias & Control & Delivered & Authorized & Unused &
+\shortstack{Delivery\\difference} & \shortstack{Daily difference\\95\% interval (kWh)} \\
 \midrule
-Exact & L & 239.356 & 329.696 & 90.341 & 1.392 \\
-$-1\%$ & P & 239.377 & 329.391 & 90.014 & 1.414 \\
-$-1\%$ & L & 239.423 & 329.485 & 90.062 & 1.459 \\
-$+1\%$ & P & 239.423 & 329.805 & 90.382 & 1.459 \\
-$+1\%$ & L & 239.356 & 329.696 & 90.341 & 1.392 \\
-$-5\%$ & P & 239.355 & 329.779 & 90.424 & 1.392 \\
-$-5\%$ & L & 239.178 & 329.728 & 90.550 & 1.215 \\
-$+5\%$ & P & 239.532 & 329.931 & 90.399 & 1.569 \\
-$+5\%$ & L & 239.356 & 329.696 & 90.341 & 1.392 \\
-$-10\%$ & P & 239.178 & 329.728 & 90.550 & 1.215 \\
-$-10\%$ & L & 238.909 & 329.357 & 90.448 & 0.946 \\
-$+10\%$ & P & 239.545 & 330.020 & 90.475 & 1.582 \\
-$+10\%$ & L & 239.356 & 329.696 & 90.341 & 1.392 \\
+Exact & L & 239.356 & 329.696 & 90.341 & 1.392 & [4.88, 29.93] \\
+$-1\%$ & P & 239.377 & 329.391 & 90.014 & 1.414 & [6.01, 29.34] \\
+$-1\%$ & L & 239.423 & 329.485 & 90.062 & 1.459 & [7.05, 29.43] \\
+$+1\%$ & P & 239.423 & 329.805 & 90.382 & 1.459 & [6.30, 30.18] \\
+$+1\%$ & L & 239.356 & 329.696 & 90.341 & 1.392 & [4.88, 29.93] \\
+$-5\%$ & P & 239.355 & 329.779 & 90.424 & 1.392 & [6.17, 28.62] \\
+$-5\%$ & L & 239.178 & 329.728 & 90.550 & 1.215 & [4.65, 25.72] \\
+$+5\%$ & P & 239.532 & 329.931 & 90.399 & 1.569 & [7.61, 31.61] \\
+$+5\%$ & L & 239.356 & 329.696 & 90.341 & 1.392 & [4.88, 29.93] \\
+$-10\%$ & P & 239.178 & 329.728 & 90.550 & 1.215 & [4.65, 25.72] \\
+$-10\%$ & L & 238.909 & 329.357 & 90.448 & 0.946 & [2.25, 21.39] \\
+$+10\%$ & P & 239.545 & 330.020 & 90.475 & 1.582 & [7.79, 31.76] \\
+$+10\%$ & L & 239.356 & 329.696 & 90.341 & 1.392 & [4.88, 29.93] \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2753,9 +2738,7 @@ household load, and installed participant capacity are therefore the same
 under every assignment. Individual available export still varies by
 electrical location.
 
-The five permutations were fixed before these additional simulations; the
-primary analysis had already been completed. For reproducibility, each group's
-receiving connections are ordered by load name. Donor profiles are ordered
+Each group's receiving connections are ordered by load name. Donor profiles are ordered
 by a SHA-256 key formed from the mapping key, group, and load name, with
 load name breaking ties. The five mapping keys are 18001--18005. The ordered
 donor profiles are assigned to the ordered receiving connections. No mapping
@@ -2768,9 +2751,8 @@ and unchanged PV scaling and network limits. The four controls are no
 feedback, previous-day persistence, ECF, and the equal-total control generated
 by that mapping's ECF trajectory. Table~\ref{tab:supp_mapping_energy} gives
 all energy totals. For uncertainty estimates, the comparison unit is a paired
-network day within one mapping. A calendar-dependent wild bootstrap uses
-10,000 antithetic replicates and weights whose covariance decreases linearly
-to zero at a separation of eight calendar days. Table~\ref{tab:supp_mapping_contrasts}
+network day within one mapping. The calendar-dependent wild bootstrap follows
+Section~S10.3. Table~\ref{tab:supp_mapping_contrasts}
 reports pointwise intervals for each mean difference. The five assignments
 reuse the same dates and network; their results are reported separately.
 
@@ -2834,7 +2816,7 @@ authorization.
 \paragraph{Capacity and matched operating conditions.}
 The capacity levels are 0.50, 0.75, 1.00, 1.25, and 1.50 times the primary
 scale, corresponding to 2.045--6.135~MW across the 418 export participants.
-Gross PV profiles and registered export capacities use the same factor.
+Gross PV profiles and connection bounds $C_i$ use the same factor.
 Available export is then recalculated after subtracting the unchanged load;
 it is not obtained by multiplying the original net surplus. The forecast
 rule retains its 90th-percentile increment, recalculated from the scaled
@@ -2847,9 +2829,7 @@ capacity initialization. The allocation search and physical checks are
 unchanged, including the 1.07-pu authorization ceiling, 0.90--1.10-pu delivery
 range, and native transformer limits. No feedback, previous-day persistence,
 ECF, and each ECF trajectory's own equal-total control are compared within
-each capacity level. The four additional factors were fixed before their
-simulations, after the primary analysis was available. The original factor
-1.00 remains the primary reference.
+each capacity level. The original factor 1.00 remains the primary reference.
 
 \paragraph{Delivery, scarcity, and authorization.}
 Across all five levels, ECF gains 1.392--1.879~MWh over no feedback and
@@ -2880,8 +2860,7 @@ delivers 47.52--51.94~MWh less than ECF
 
 \paragraph{Uncertainty and physical checks.}
 Each added level uses 80 paired network days. The pointwise 95\% intervals
-use 10,000 antithetic dependent wild-bootstrap replicates, with a covariance
-that decreases linearly to zero over eight calendar days (random key 184).
+use the calendar-dependent wild bootstrap in Section~S10.3 (random key 184).
 The levels share their dates and network and are not pooled as independent
 feeder samples. The four added levels contain 61,440 interval--control records
 and 15,360 completed-state replay comparisons. All pass the stated numerical,
@@ -3252,9 +3231,7 @@ integral under ECF is 1656.33~MWh, compared with 1629.26~MWh at fixed
 probabilities, after averaging the three seeds.
 This integral measures requests over time, not awarded or delivered energy.
 To isolate the effect of preference updates, the comparison keeps the candidate
-requests and random draws unchanged. A direct comparison with the primary
-forecast-based request would change both the candidate set and the preference
-update.
+requests and random draws unchanged; only the preference update differs.
 
 Table~\ref{tab:supp_adapt_interaction} compares ECF's advantage between these
 two behavior modes. Preference adjustment increases its daily advantage
@@ -3442,12 +3419,7 @@ Likewise, fixed participant locations in the placement and PV-capacity studies
 do not test changing adoption. The energy gain must be assessed against record
 validation, communication, and computation costs. Annual energy, welfare,
 market value, generation displacement, and emissions require the corresponding
-calendar coverage and economic or emissions models. The repository contains
-source identifiers, preprocessing and mapping, chronological roles, result
-tables, statistics, network-endpoint quantities, and analysis code. Its
-reproduction instructions distinguish verification of saved tables from full
-simulation reruns and identify the external inputs and auxiliary trajectory
-caches required by the archived diagnostic programs.
+calendar coverage and economic or emissions models.
 
 
 \begingroup

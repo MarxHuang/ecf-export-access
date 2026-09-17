@@ -11,8 +11,11 @@ The study examines when unused export permission prevents other participants fro
 - [Reproduction instructions](docs/REPRODUCING.md), with a quick check that requires only Python's standard library.
 - [Input sources and redistribution status](docs/DATA_SOURCES.md).
 - [Version and experiment map](docs/EXPERIMENTS.md).
+- [Manuscript sharing and public-release checklist](docs/PUBLIC_RELEASE.md).
 
 This repository is a **private author-review deposit** as of 17 September 2026. A public release and reuse licence have not yet been approved. The repository URL is real; no repository DOI has been assigned. The manuscript has not been represented here as an accepted publication.
+
+The `author-review-2026-09-17-r2` revision synchronizes the latest main text and SI, including their compiled PDFs. All 29 deposited manuscript files were checked against the current author master. Four files changed: the main text and SI in TeX and PDF form. Numerical code, result tables, and figure assets are unchanged. The source manifest records the updated hashes.
 
 ## Contents
 
@@ -45,4 +48,4 @@ The primary ECF-minus-no-feedback comparison is approximately **+1.392 MWh deliv
 
 Ausgrid measurements and the CSIRO/GridQube networks must be obtained from their original distributors under their applicable terms. This deposit provides source identifiers, processing code, mappings, date selections, and calculated results; it does not redistribute their raw measurement files or network models. See [DATA_SOURCES.md](docs/DATA_SOURCES.md).
 
-No general open-source or open-data licence is granted by this private deposit. Original third-party notices continue to apply. Before public release, the authors should approve a licence and confirm the distribution rights for each included material. Author-review and journal-access arrangements are separate from permission to reuse materials.
+No general open-source or open-data licence is granted by this private deposit. Original third-party notices continue to apply. The proposed split is MIT for original code and CC BY 4.0 for author-owned result tables and explanatory documentation; this proposal is **not yet a licence grant**. Manuscript sources, manuscript figures, publisher templates, and third-party inputs are outside that proposal. Before public release, the authors should approve the scope and confirm the distribution rights for each included material. Author-review and journal-access arrangements are separate from permission to reuse materials. See [PUBLIC_RELEASE.md](docs/PUBLIC_RELEASE.md).

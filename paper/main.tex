@@ -96,19 +96,18 @@
  much they can export. Unused export permission can block delivery elsewhere,
  but a shortfall alone cannot establish that loss. Automatically tightening
  future access can also prevent useful delivery when output recovers. We model
- how participants choose requests before their available output is known. The analysis identifies
+ how participants choose how much access to request before output is known. The analysis identifies
  when a larger request improves the participant's expected payoff but reduces
  total delivery. We propose externality-conditioned counterfactual feedback
  (ECF) to update future request ceilings using completed operating records.
- After each interval, ECF recalculates the allocation for that interval,
- capping requests from participants with unused awards at their completed
- delivery. The calculation retains the interval's loads, network topology, limits and
- allocation rule. It uses post-event estimates of available export to
- calculate what each participant could have delivered. Future ceilings tighten
- for the unused-award group only if the alternative releases access for
- others, increases their delivery and total delivery, and passes
- alternating-current (AC) power-flow checks. Otherwise, ceilings recover toward
- registered capacity. Controlled medium-voltage simulations test five
+ ECF compares the completed allocation with an alternative that caps requests
+ from participants with unused awards at their recorded delivery. Under the
+ same network conditions and allocation rule, post-event estimates of available
+ export show whether this alternative could have delivered more electricity
+elsewhere and in total. Only a recovery that passes alternating-current (AC)
+power-flow checks leads ECF to tighten that group's future ceilings;
+ otherwise, ceilings recover toward their fixed connection bounds.
+ Controlled medium-voltage simulations test five
  allocation rules. With a moderate update weight and no shortfall charge, ECF
  delivers more electricity on average than spreading the same total request
  reduction proportionally across participants. In a separate 80-day Australian
@@ -117,11 +116,11 @@
  Total authorization rises while its unused portion falls relative to no
  feedback. A control that applies the same ceiling update after every unused
  award leaves less permission unused than ECF, yet ECF delivers 2.76\% more
- electricity. Giving the latest interval full weight instead
- reduces total delivery below the no-feedback level. These findings distinguish
- increasing delivered electricity from merely reducing unused permission.
- They show how completed operating records can improve future export allocation
- without changing network limits or replacing the allocation rule. \\
+ electricity. Fully replacing ECF's current ceilings with targets from the
+ latest interval instead lowers delivery below the no-feedback level.
+ The results show why future export access should reflect both the delivery
+ that others could have supplied and the risk of restricting output recovery,
+ rather than simply minimizing unused permission. \\
 \end{tabular}
 \end{@twocolumnfalse}\vspace{0.2cm}
 ]
@@ -136,21 +135,20 @@
 \footnotetext{\dag~Supporting Information (SI), code, calculated results, and figure data are deposited at \repositoryurl. Access is currently restricted to author review; see Data availability.}
 
 \section*{Broader context}
-The growth of distributed generation makes better use of existing network
-capacity important alongside network expansion. Flexible export arrangements
+As distributed generation grows, operators need to make better use of existing
+network capacity while planning reinforcement. Flexible export arrangements
 in South Australia, California, and the EU manage generation within network
 limits \cite{sapn2024dapr,cpuc2022e5230,eu2024flexibleconnections}; China's
 distributed photovoltaic requirements also emphasize connection capacity and
-controllability \cite{nea2025distributedpv}. These developments make access to
-constrained networks an ongoing operating concern. Yet permission to export
+controllability \cite{nea2025distributedpv}. These developments bring attention
+to how access is managed after generators connect. Permission to export
 and electricity delivered are different outcomes. Where participants request
 access before output is known, an unused award can prevent another connection
 from supplying electricity that was available. Reducing requests after every
 shortfall is not enough: it can also remove access needed when output recovers.
-The challenge is to learn from unused awards without treating all of them as
-lost opportunities. This study uses completed operating records to identify
-when an alternative allocation could have delivered more electricity, then
-uses that comparison to guide later requests. Existing network limits,
+Together with estimates of available output, completed operating records can
+show whether a different allocation would have allowed more delivery. This
+study uses that comparison to guide later request ceilings. Existing network limits,
 allocation rules, and settlement arrangements remain in place. The resulting
 operating principle is to judge an adjustment by the delivery it enables,
 not simply by the unused permission it removes. It requires a reliable record
@@ -218,13 +216,13 @@ access needed during high-output intervals. The operational challenge is
 therefore to use the information revealed after delivery to improve later
 allocation, while retaining useful access under uncertainty.
 
-This question extends the closed-loop use of operating information in
-cyber--physical power systems \cite{yu2016smartgridcps,xue2017cpsse} to the
-sharing of constrained export access. Completed records reveal more than
-whether a participant used its award: together with available-export
-information, they can show whether a different allocation would have allowed
-others to deliver more. The question is how to use that distinction in later
-requests without discarding the protection that advance access provides.
+Closed-loop operation uses measurements to revise subsequent actions in
+cyber--physical power systems \cite{yu2016smartgridcps,xue2017cpsse}.
+For export sharing, a completed record can similarly inform the next request
+ceiling. Metered delivery reveals which awards were unused; available-export
+information is needed to establish whether a different allocation could have
+supplied more electricity. The update must also retain access for intervals
+in which output recovers.
 
 \subsection{Related Work}
 
@@ -287,13 +285,12 @@ reporting errors. They also clarify the distinction needed here: a charge
 based on one participant's shortfall and the delivery forgone by other
 participants need not have the same magnitude or depend on the same information.
 
-These approaches provide network-feasible allocation, incentives, and several
-ways to use operating history. The distinction examined here is not whether
-history should matter, but what a completed shortfall justifies changing.
-Awards and meter readings identify unused permission. Available-export
-information is also needed to determine whether someone else could have used
-it. We use that comparison to guide subsequent requests while retaining the
-underlying allocation rule.
+These approaches provide network-feasible allocation, incentives, and ways to
+use operating history. Here, we ask whether unused export permission prevented
+other participants from delivering electricity, and whether that finding
+should change later request ceilings. This requires a comparison of possible
+deliveries, beyond identifying a shortfall from awards and meter readings.
+The comparison informs later requests while retaining the underlying allocation rule.
 
 \subsection{Contributions}
 
@@ -310,10 +307,12 @@ We then introduce externality-conditioned counterfactual feedback (ECF), which
 uses recoverable delivery rather than shortfall alone to select later request
 updates. It compares the completed allocation with a physically feasible
 alternative and tightens future ceilings only when that alternative recovers
-delivery elsewhere and increases the total. A bounded update preserves the
-existing allocation rule and limits the response to the latest record. The
-comparison qualifies an unused-award group; it does not assign individual
-responsibility or require private payoff information.
+delivery elsewhere and increases the total. The update blends the current
+ceiling with a target derived from the completed interval, while leaving the
+allocation rule unchanged. We derive the ceiling bounds and recovery rate.
+The comparison identifies recoverable delivery for the unused-award group as
+a whole; it neither assigns individual responsibility nor requires private
+payoff information.
 
 Two matched controls support these contributions. Equal-total reduction
 isolates where requests are reduced, while the same update without replay
@@ -852,7 +851,8 @@ W_{\mathrm{FA}}(\mathbf x,\mathbf r^{\mathrm{adm}};
 \label{eq:fairness_objective}
 \end{equation}
 The quadratic term pulls each participant's request-normalized authorized
-fraction toward the average fraction in the same-context ME allocation. It is
+fraction toward the average fraction in the ME allocation computed for the
+same admitted requests and network conditions. It is
 an allocation-equality term, not a measure of broader social fairness.
 Table~\ref{tab:behavior_design} reports the experimental settings.
 
@@ -870,7 +870,7 @@ hierarchy tolerance. Under the certificate conditions in the \suppref{}, the
 selected allocation is unique and its total authorized access is within
 $\tau_H$ of the Stage~1 optimum.
 
-FA uses the same-context ME solution only to compute
+FA uses this ME reference solution only to compute
 \eqref{eq:fairness_reference_fraction}; it does not impose the ME near-optimality
 floor. It can therefore trade total authorized access against request-normalized
 access equality as $\alpha_{\mathrm{FA}}$ changes. The \suppref{} gives the
@@ -1057,6 +1057,10 @@ g(t)=
 \end{cases}
 \label{eq:replay_condition_indicator}
 \end{equation}
+With exact available-export records and the common tolerance used here, the
+total-recovery condition implies the two outside-gain conditions (SI,
+Section~S3.1). The latter describe how delivery is recovered; they are not
+independent tests of the same event.
 The required AC checks depend on the network representation. The controlled
 study checks convergence, power balance, voltage, and apparent power at both
 branch ends for allocation and delivery states
@@ -1336,19 +1340,14 @@ network approximation allocates access, and nonlinear radial alternating-current
 ECF tightens a later request ceiling only when the replay releases access to
 participants outside the unused-award group, increases their delivery, increases
 total delivery, and passes the specified AC checks. If all four conditions
-hold, ceilings for the unused-award group move toward completed delivery;
+hold, ceilings for the unused-award group move toward delivery in that interval;
 other ceilings move toward their fixed connection bounds. If any condition
-fails, all ceilings move toward those bounds.
+fails, all ceilings move toward those bounds. The gain $\beta_{\mathrm{ECF}}$
+sets the weight of this target in the next ceiling; the fixed connection
+bound $C_i$ does not change.
 Fig.~\ref{fig:claim_allocation_framework} separates the completed operation,
 the post-event comparison, and the update for the next interval. The calculation
 changes future request ceilings, not the completed allocation or delivery.
-
-The outside access and delivery changes describe how recovery occurs. With an
-exact availability record and the same numerical threshold, increased total
-delivery implies both outside gains (Section S3.1 of the \suppref{}).
-They are therefore not independent filters in that model. The implementation
-retains all three comparisons and checks AC feasibility separately; Methods
-also specifies the treatment of uncertain records.
 
 Two comparisons serve different purposes in this paper. The economic analysis
 compares larger requests with forecast-based reference requests. The term
@@ -1359,11 +1358,6 @@ allocation with its replay and uses operating records to decide whether later
 ceilings should tighten. It does not need the private payoff. The frequency of
 classified externality cases and the frequency of ECF activation therefore
 measure different events.
-
-The update in Fig.~\ref{fig:claim_allocation_framework} moves the current
-ceiling $\psi_i(t)$ toward the selected target $\psi_i^{\mathrm{tar}}(t)$.
-The gain $\beta_{\mathrm{ECF}}$ controls this move; the fixed connection bound
-$C_i$ does not change. Methods gives the exact equations.
 
 \begin{figure*}[!t]
 \centering
@@ -1386,15 +1380,16 @@ delivery remain unchanged.}
 \label{fig:claim_allocation_framework}
 \end{figure*}
 
-The comparison mechanisms test the delivery consequences of different updates
-(Table~\ref{tab:feedback_controls}). Mismatch-only feedback uses a participant's
-own delivery-to-award ratio without checking delivery elsewhere. The equal-total
-control removes exactly as much total request as ECF in each interval but uses
-a common proportional reduction for everyone. It therefore distinguishes the
-amount of request removed from its distribution across participants.
-Its matched total comes from ECF, making it an explanatory control rather than
-an independently operated policy. Previous-day persistence provides
-a further public-data comparison with more conservative requests.
+Two controls separate where requests are reduced from whether to reduce them
+(Table~\ref{tab:feedback_controls}). The equal-total control removes exactly as
+much total request as ECF in each interval, but distributes that reduction
+proportionally across participants. Its matched total comes from ECF, so it
+explains the effect of request distribution rather than supplying an independent
+operating policy. ECF without replay qualification instead keeps the same
+ceiling-update formula and gain but applies the delivery target after every
+unused award. This comparison tests the value of checking whether others
+could have delivered more before tightening. The table also describes the
+shortfall-cost, mismatch-only, and previous-day persistence comparisons.
 Table~\ref{tab:experiment_evidence_map} links the resulting questions to the
 experiments; Methods and the \suppref{} give their construction.
 
@@ -1646,7 +1641,8 @@ loading assumptions.
 The forward-uptake scenario assigns export participation to 418 of the 1,255
 service connections. We scale the 300 PV profiles to a mean capacity of
 9.9~kWp. Fixed profile reuse across 418 participants gives a participant mean
-of 9.784~kWp.
+of 9.784~kWp. In this scenario, each export connection bound $C_i$ is set
+numerically equal to the participant's scaled PV capacity.
 The 9.9-kWp scale uses the reported mean Australian rooftop installation in the
 March quarter of 2025 \cite{cer2025qcmrMarch}. This defines a forward uptake
 case rather than a historical feeder reconstruction.
@@ -1674,11 +1670,12 @@ PV-minus-load surplus before network access is applied, so it can exceed $C_i$.
 The bound limits the admitted request and export award, and hence
 $y_i^c\le x_i^c\le C_i$; it does not clip the underlying proxy.
 
-At each half-hour, the raw request begins with the previous day's
-$a_i^{\mathrm{prof}}$ at the
-same half-hour. It adds the positive part of the 90th percentile of
-same-half-hour day-to-day changes estimated from 2010--2011, and then meets the
-fixed connection bound $C_i$. This constructed forecast replaces the single-interval
+At each half-hour, the raw request equals the previous day's
+$a_i^{\mathrm{prof}}$ at the same half-hour plus a nonnegative forecast increment.
+The increment is the positive part of the 90th percentile of same-half-hour
+day-to-day changes estimated from 2010--2011. The raw request is then capped
+at the fixed connection bound $C_i$ before the feedback ceiling is applied.
+This constructed forecast replaces the single-interval
 request-choice model used in the controlled study. Household demand uses 0.95
 lagging power factor, whereas PV export uses unity power factor.
 For allocation, this retrospective replay treats contemporaneous half-hour
@@ -1742,7 +1739,7 @@ or replaces a deterministic 10\% of participant records with completed delivery.
 All transformed records are floored at current modeled delivery; the first
 lagged half-hour also uses delivery alone. Each setting generates its own
 equal-total control. A second set compares point-record and lower-bound
-recovery tests at error radii of 1\%, 5\%, and 10\% of registered capacity,
+recovery tests at error radii of 1\%, 5\%, and 10\% of the connection bound $C_i$,
 under common positive and negative biases. These controls evolve separately.
 Reference availability checks their recovery decisions afterward; it does
 not select their updates. The exact-record case and six bias settings per
@@ -1763,7 +1760,7 @@ structure separately. Five mappings reassign whole profiles within participant
 and nonparticipant groups, preserving profile reuse, PV capacities and forecast
 histories, participant locations, phase connections, and aggregate inputs
 (SI S10.10). The capacity comparison keeps the original mapping and all 418
-participant locations, scales gross PV and registered capacities by
+participant locations, scales gross PV and the connection bounds by
 0.50, 0.75, 1.00, 1.25, or 1.50, and recalculates net available export and
 forecast increments under the same construction rule (SI S10.11).
 These comparisons retain the primary dates, load scale, network limits,
@@ -1961,15 +1958,15 @@ requests associated with delivery loss elsewhere, but it also removes useful
 access when available export is unexpectedly high.
 
 At $\vartheta=0$, the shortfall-cost benchmark coincides with no feedback.
-Using that common baseline, mismatch-only feedback increases mean total
-delivery by 15.2~kW, while ECF increases it by 24.9~kW. ECF's additional
-advantage over mismatch-only feedback is therefore 9.7~kW. The three controls
-receive the same raw requests. Relative to forecast-based reference requests,
-the no-feedback loss of 21.7~kW becomes a gain of 3.2~kW under ECF. ECF retains
-79.4\% of the changed-request group's no-feedback delivery gain and reduces
-the delivery loss outside that group to 9.4~kW. The externality-interval share
-falls by 29.0 percentage points. Section S3 reports the group decomposition and
-the control comparisons with their respective baselines.
+Using that common baseline and the same raw requests, mismatch-only feedback
+increases mean total delivery by 15.2~kW, while ECF increases it by 24.9~kW.
+ECF therefore delivers 9.7~kW more than mismatch-only feedback.
+
+Relative to forecast-based reference requests, the no-feedback loss of
+21.7~kW becomes a gain of 3.2~kW under ECF. This improvement retains
+79.4\% of the changed-request group's no-feedback delivery gain while reducing
+the loss elsewhere. Section S3 reports the full group decomposition and
+classification shares alongside both comparison baselines.
 
 A gain in average delivery can coexist with more intervals classified as
 request--access--delivery externalities because a count does not reflect the
@@ -2004,8 +2001,7 @@ proportional reduction. Both electrical location and the output available at
 each connection contribute to that effect. Mismatch-only feedback provides a
 separate comparison with an update based on own delivery, without testing
 recovery elsewhere. It changes both the information used and the update law,
-whereas the equal-total control fixes the amount removed. The two comparisons
-therefore assess the resulting updates from complementary directions.
+whereas the equal-total control fixes the amount removed.
 
 At $\vartheta=0$ and $\beta_{\mathrm{ECF}}=0.5$, ECF delivers 9.7~kW more than
 mismatch-only feedback and 24.8~kW more than the equal-total control.
@@ -2158,10 +2154,8 @@ equal-total control. ECF and equal-total use $\beta_{\mathrm{ECF}}=0.5$.}
 \label{fig:behavior_linked_physical_fairness}
 \end{figure}
 
-Thus physical feasibility, delivered electricity, and allocation equality
-answer different questions. The observed gain in delivery is not a claim that
-ECF maximizes every sharing objective. The \suppref{} reports secondary
-allocation-formulation analyses under the same operating limits.
+The \suppref{} also reports secondary allocation-formulation analyses under
+the same operating limits.
 
 \subsection{Public-data replay gains delivery through a different allocation of access}
 \label{sec:australian_results}
@@ -2195,17 +2189,17 @@ uniformly scaling requests preserves their relative sizes. If the network
 constraint still binds, the allocation factor can compensate for that scaling
 and leave awards unchanged. The near-equality of no-feedback and equal-total
 delivery is consistent with this property, derived in Section S4. Selective
-updates change relative requests instead. The energy balance describes their
-resulting delivery gain without assigning independent causal effects to
-increased authorization and reduced unused awards.
+updates change relative requests instead. The energy balance records the
+combined outcome; it does not assign separate causal effects to increased
+authorization and reduced unused awards.
 
 The gain is uneven over time. ECF delivers more on 44 days, less on 32,
 and the same amount on four against each control. Its mean daily gain is
 17.4~kWh, with dependence-adjusted 95\% intervals of 5.1--29.7~kWh against
 no feedback and 4.9--29.9~kWh against equal-total reduction. Only 483 of
 3,840 half-hours (12.6\%) qualify for tightening. This frequency describes
-how often the model finds a recoverable opportunity, not detection accuracy
-or a guarantee of improvement on every day.
+how often the model finds a recoverable opportunity; the daily comparisons
+measure the subsequent delivery outcome.
 
 The connection-point gain also appears at the source terminal. Net source
 exchange increases by 1.377~MWh against each control, retaining about 98.9\%
@@ -2226,9 +2220,8 @@ insufficient as an operating objective: withdrawing access can improve the
 ratio even while reducing delivered energy.
 
 All primary control trajectories satisfy the specified allocation and delivery
-checks. Network limits nevertheless reduce the admitted-request scale in
-44.4\% of ECF half-hours. The comparison therefore concerns how constrained
-access is used, rather than a benefit obtained by allowing infeasible delivery.
+checks, while network limits reduce the admitted-request scale in 44.4\% of
+ECF half-hours. Thus the common operating limits still constrain allocation.
 Fig.~\ref{fig:australian_external_replay} reports the daily differences and
 aggregate energy changes.
 
@@ -2255,8 +2248,8 @@ over the assessed period.}
 \subsubsection{Replay checks and update weight have distinct effects on delivery}
 \label{sec:qualification_results}
 
-A same-update comparison isolates the value of checking recoverable delivery.
-Removing the replay test while keeping the update formula and gain unchanged reduces modeled
+Keeping the update formula fixed isolates the value of the replay test.
+Removing that test while retaining the same gain reduces modeled
 delivery from 239.36 to 232.93~MWh. ECF therefore delivers 6.42~MWh (2.76\%)
 more, with higher delivery on 75 of 80 days. Its mean daily advantage is
 80.3~kWh, with a dependence-adjusted 95\% interval of 69.3--91.2~kWh.
@@ -2297,19 +2290,17 @@ therefore not explained by the daily reset. Section S10.8 relates ceiling
 recovery to the update law and reports every block, including three in which
 gain 0.5 delivers less than no feedback.
 
-ECF also retains its aggregate delivery advantage when participants adjust
-requests from their own past delivery. Each participant chooses among smaller
+ECF's mean advantage persists when participants revise requests from their own
+delivery history. Across 80 dates, it delivers 1.44~MWh more than no feedback
+and 4.53~MWh more than the same update without qualification. These totals
+average three random seeds within each date. Participants choose among smaller
 and larger requests, with preferences and ceilings carried across consecutive
-days. Across the 80 dates and three random seeds, ECF delivers 1.44~MWh more
-than no feedback and 4.53~MWh more than the same update without qualification;
-both controls develop their own request histories. The equal-total shadow,
-which follows ECF's history rather than learning independently, delivers
-1.50~MWh less than ECF. These totals average the seeds within each date.
-Compared with keeping request-choice probabilities fixed, preference updates
-increase the advantage of retaining the replay checks, but do not establish a
-larger advantage over no feedback. Section S10.15 reports the request model,
-paired uncertainty, and daily variation. Thus ECF's mean benefit survives
-experience-based request adjustment, without requiring requests to remain fixed.
+days; these three controls develop separate request histories. The equal-total shadow
+also delivers less than ECF, but follows ECF's history rather than learning
+independently. Compared with fixed request-choice probabilities, preference
+updates increase ECF's advantage over the update without qualification, but
+do not establish a larger advantage over no feedback. Section S10.15 gives
+the request model, all paired contrasts, and their uncertainty.
 
 \subsubsection{Record quality affects qualification and later delivery differently}
 \label{sec:record_results}
@@ -2329,9 +2320,12 @@ Thus robustness of the mean gain does not imply equal robustness of each
 replay decision.
 
 Using a delivery lower bound protects the recovery test, but does not always
-increase later delivery. A separate comparison runs both record treatments
-at error radii of 1\%, 5\%, and 10\% of registered capacity, under common
-overestimation and underestimation. Point-record control tightens after 11,
+increase later delivery. One control tests recovery using the available-export
+estimate directly. The other subtracts its error allowance, retaining at least
+the completed delivery, to obtain a conservative estimate. We compare these
+point-record and lower-bound controls at error radii of 1\%, 5\%, and 10\%
+of the connection bound $C_i$, under common overestimation and underestimation.
+Point-record control tightens after 11,
 28, and 33 intervals in the three overestimation cases even though the
 unperturbed model does not meet the recovery criteria. Lower-bound control
 has no such interval in any of the six cases.
@@ -2404,15 +2398,11 @@ installed MW falls from 0.81 to 0.27~MWh across the smallest and largest
 capacities. More PV therefore does not imply a proportionally larger benefit
 from this feedback.
 
-Capacity also changes the balance between authorization and its use. At half
-the primary capacity, ECF grants 2.26~MWh more authorization and leaves
-0.60~MWh more unused, yet delivers 1.66~MWh more than no feedback. At the
-primary capacity, unused authorization instead decreases. Both responses
-improve delivery, but only one reduces unused authorization.
-Section S10.11 of the \suppref{} gives all four controls, daily comparisons,
-and their satisfactory physical checks. Together, the placement and capacity
-comparisons show why delivered energy is the relevant outcome: unused
-authorization can rise or fall while delivery improves.
+As in the placement comparison, increased delivery can accompany increased
+unused authorization: both rise at half the primary PV capacity. Section S10.11
+of the \suppref{} gives the complete energy balances, daily comparisons, and
+physical checks. Placement and capacity therefore affect how much additional
+electricity can use the changed allocation, not just how much permission remains unused.
 
 Changing the network section gives a related spatial comparison. ECF delivers
 more than the equal-total control in all 13 published LV
@@ -2474,13 +2464,12 @@ separately in the SI. Results are not pooled across models.}
 \label{sec:discussion}
 \label{sec:policy_implications}
 
-The findings suggest that export-access arrangements should be evaluated by
-the electricity delivered as well as the permission allocated. Persistence
-uses a larger fraction of its award but delivers substantially less electricity.
-The same update without replay qualification removes more unused authorization
-than ECF, yet also delivers less. Neither minimizing unused awards nor
-maximizing authorization utilization is therefore a sufficient operating objective.
-A useful adjustment must preserve access that can be used when output recovers.
+Export-access arrangements should be evaluated by the electricity delivered,
+not just the permission allocated or the fraction used. Both persistence and
+the update without replay qualification improve measures of authorization use
+while delivering less than ECF. The comparisons identify three practical
+requirements: consider where requests are reduced, test whether an unused
+award prevented delivery elsewhere, and preserve access for output recovery.
 
 \paragraph{Use completed records to complement allocation and settlement.}
 Network-aware allocation already accounts for electrical location. The
@@ -2531,13 +2520,13 @@ of storage, demand, or local controllers must be modeled when access changes
 them. Independently validated error bounds can make the recovery comparison
 conservative, while AC feasibility is checked separately. When increased
 replay delivery cannot be established, ECF lets ceilings recover toward
-registered capacity. The bounded-record results also show the cost of caution:
+their fixed connection bounds. The bounded-record results also show the cost of caution:
 rejecting more doubtful updates can forgo later delivery gains. Record
 validation, communication, and replay computation must therefore be assessed
 against the additional energy delivered, rather than inferred from the
 activation rate.
 
-\paragraph{Scope and next evidence.}
+\paragraph{Scope and field evaluation.}
 The controlled study connects request incentives to delivery under five rules
 within a declared synthetic medium-voltage envelope. The public simulations
 add measured household chronology, customer-voltage limits, and native
@@ -2570,11 +2559,11 @@ limits: a feasible trajectory can still have an unfavorable delivery outcome.
 \section{Conclusions}
 \label{sec:conclusion}
 
-An unused export award does not, by itself, establish that another participant
-could have delivered more electricity. Larger requests can also protect useful
-delivery when output is uncertain. ECF therefore tests whether an alternative
-allocation of a completed interval would have enabled more delivery elsewhere
-and in total before adjusting later request ceilings.
+An unused export award does not, by itself, establish a delivery loss elsewhere.
+ECF tests this possibility by comparing feasible allocations for the completed
+interval before adjusting later request ceilings. The comparison identifies
+an opportunity for others to deliver more; the update must still preserve
+useful access as output changes.
 
 The results show that reducing the same total request can produce different
 delivery outcomes depending on whose requests are reduced. Network location
