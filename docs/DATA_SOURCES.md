@@ -23,7 +23,7 @@ Use the three original half-hour CSV files covering July 2010–June 2013. File 
 - Collection DOI: https://doi.org/10.25919/ghnz-bk28
 - Collection page: https://data.csiro.au/collection/csiro:65408
 
-The stored collection metadata identifies the public network but marks copyright as reserved to GridQube. Public download access alone does not establish redistribution permission. Therefore the OpenDSS network files are obtained from the collection by the reproducing researcher, not copied into this repository.
+The collection's official metadata identifies **CC BY-NC-SA 4.0** and retains the notice “All Rights (including copyright) GridQube 2025.” A copyright notice does not cancel the stated licence. The two stored metadata records preserve both fields. The OpenDSS network files themselves are not copied into this repository; obtain them from the collection under its terms. The project's MIT and CC BY grants do not replace the collection's non-commercial and share-alike conditions where those conditions apply.
 
 The representative LV model source and version identifiers are retained in their scenario protocols and metadata. The same source-access rule applies to these network files. Any later decision to redistribute inputs must preserve their source licences and notices.
 
@@ -32,3 +32,5 @@ The representative LV model source and version identifiers are retained in their
 The deposit contains calculated interval/day results, figure tables, preprocessing and simulation code, scenario settings, selected-date lists, deterministic mapping tables, and source identifiers/hashes. It does not contain private utility operational records. Delivery quantities in the Australian experiment are model outputs derived from the cited profiles and network representation.
 
 Third-party source DOIs above remain valid source citations. They are distinct from a DOI for this repository; no repository DOI is claimed.
+
+See [the third-party notices](../THIRD_PARTY_NOTICES.md) and [licensing scope](../LICENSING.md). Author-generated numerical outputs are licensed only to the extent of the contributors' rights; upstream data, metadata and dependencies retain their own terms.

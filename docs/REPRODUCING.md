@@ -61,9 +61,9 @@ python -m tools.audit_v16_realized_delivery_ac --help
 
 Pass explicit `--case`, `--policy`, `--source`, `--execution`, `--behavior`, `--design` and output paths. The compressed calibration and behavior files can be expanded with step 2. Use a new output directory and the deposited frozen design; do not call `--freeze-design` to replace it. The required network input must be obtained separately as described in `DATA_SOURCES.md`.
 
-## 6. Compile the paper
+## 6. Read the paper
 
-The `paper/` directory is a complete TeX project. Use pdfLaTeX, BibTeX and two further pdfLaTeX passes for `main.tex` and `supporting_information.tex`. No numerical experiment is required to compile either document. The current figures are supplied as PDFs.
+The `paper/` directory contains the compiled author manuscript and SI. Their TeX files, bibliography/style files, standalone figures and publisher compilation assets have been withdrawn from the current repository tree. Manuscript compilation is therefore not a supported operation in this checkout. This does not remove the numerical code, saved results or figure-data tables used to inspect and reproduce the scientific calculations.
 
 ## Verification status
 

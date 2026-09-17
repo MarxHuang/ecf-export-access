@@ -1,0 +1,477 @@
+path,terms,scope
+.gitattributes,MIT,Original software/configuration; third-party dependencies excluded
+.gitignore,MIT,Original software/configuration; third-party dependencies excluded
+CITATION.cff,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+LICENSE,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+LICENSES/CC-BY-4.0.txt,Licence notice,Legal text or rights notice; not a project research-data licence grant
+LICENSES/CC-BY-NC-SA-4.0.txt,Licence notice,Legal text or rights notice; not a project research-data licence grant
+LICENSES/LicenseRef-Manuscript.txt,Licence notice,Legal text or rights notice; not a project research-data licence grant
+LICENSES/MIT.txt,Licence notice,Legal text or rights notice; not a project research-data licence grant
+LICENSING.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+README.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+THIRD_PARTY_NOTICES.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+docs/DATA_SOURCES.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+docs/EXPERIMENTS.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+docs/FIGURE_DATA.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+docs/PUBLIC_RELEASE.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+docs/REPRODUCING.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/australian_main/Fig10_sensitivity.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/australian_main/Fig11_topology.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/australian_main/Fig9-11_Origin_data.xlsx,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/australian_main/Fig9a_daily.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/australian_main/Fig9a_summary.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/australian_main/Fig9b_energy.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/australian_main/SI_sections.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/bounded_record/Bounded_record_feedback.xlsx,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/bounded_record/Contrasts.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/bounded_record/Daily.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/bounded_record/Energy.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/bounded_record/Recovery.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Controlled_figure_data.xlsx,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig03_behavior_method_theta0_sigma020.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig03_behavior_surface.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig03_capability_tree.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig03_representative_utility_curve.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig03_stepwise_consequence_equivalent_summary.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig03c_request_choice_classes.xlsx,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig04_representative_causal_trace.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig05_control_contrast.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig05_externality_classification_sensitivity.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig05_penalty_behavior_effect.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig05_settlement_feedback_stage.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig06_dimension_robustness_theta0.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig07_beta_sensitivity.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig07_gate_materiality_distribution.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig07_gate_materiality_sensitivity.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig07_gate_reason_summary.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig07_paired_primary_distribution.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig08_physical_validity_summary.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/controlled/Fig08_trajectory_physical_fairness.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/participant_adaptation/Behavior.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/participant_adaptation/Blocks.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/participant_adaptation/Contrasts.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/participant_adaptation/Daily.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/participant_adaptation/Energy.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/participant_adaptation/Interaction.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/participant_adaptation/Participant_adaptation.xlsx,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/profile_mapping/Contrasts.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/profile_mapping/Daily.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/profile_mapping/Energy.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/profile_mapping/Profile_mapping.xlsx,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/pv_capacity/Contrasts.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/pv_capacity/Daily.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/pv_capacity/Energy.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/pv_capacity/Exposure.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/pv_capacity/PV_capacity.xlsx,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/schematic/示意量值.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+paper/README.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+paper/main.pdf,LicenseRef-Manuscript,All rights reserved; no open licence grant
+paper/supporting_information.pdf,LicenseRef-Manuscript,All rights reserved; no open licence grant
+provenance/DEPOSIT_CHECK.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+provenance/LICENSE_MANIFEST.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+provenance/SOURCE_MANIFEST.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+provenance/TEST_STATUS.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/dynamic_feedback_v12_3/DYNAMIC_FEEDBACK_DESIGN_MANIFEST.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/048_AUSTRALIAN_TELEMETRY_AND_GAIN_SENSITIVITY_PROTOCOL_V1.yaml,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/091_data/external/ausgrid_solar_home_2010_2013/LOCAL_SHA256_MANIFEST.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/091_data/external/csiro_australian_mv_lv_feeder_v1/CSIRO_COLLECTION_METADATA.json,Original third-party terms,Unmodified source metadata; collection states CC BY-NC-SA-4.0; no project relicense
+reproduction/outputs/ees_transition/archive/091_data/external/csiro_australian_mv_lv_feeder_v1/LOCAL_SHA256_MANIFEST.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/091_data/external/csiro_australian_mv_lv_feeder_v1/SCHEMA_ORG_METADATA.json,Original third-party terms,Unmodified source metadata; collection states CC BY-NC-SA-4.0; no project relicense
+reproduction/outputs/ees_transition/archive/091_data/processed/australian_external_replay_v1/CASE_INPUT_METADATA.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/091_data/processed/australian_external_replay_v1/CASE_INPUT_SHA256_MANIFEST.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/091_data/processed/australian_external_replay_v1/CSIRO_LOAD_TO_AUSGRID_PROFILE_MAPPING.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/091_data/processed/australian_external_replay_v2/AU_PRIMARY_EVALUATION_DATES_80.txt,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/091_data/processed/australian_external_replay_v2/CASE_INPUT_METADATA.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/091_data/processed/australian_external_replay_v2/CASE_INPUT_SHA256_MANIFEST.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/091_data/processed/australian_external_replay_v2/CSIRO_LOAD_TO_AUSGRID_PROFILE_MAPPING.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/091_data/processed/australian_external_replay_v2_complete_cohort/CASE_INPUT_METADATA.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/091_data/processed/australian_external_replay_v2_complete_cohort/CASE_INPUT_SHA256_MANIFEST.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/091_data/processed/australian_external_replay_v2_complete_cohort/CSIRO_LOAD_TO_AUSGRID_PROFILE_MAPPING.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/093_EES_COMPUTATIONAL_ENVIRONMENT.yaml,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/AUTHORIZATION_MARGIN.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/EVALUATION_PROTOCOL.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/LOAD_SCALE.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/VERIFIED_RESULTS.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV10_223bus/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV10_223bus/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV10_223bus/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV11_216bus/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV11_216bus/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV11_216bus/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV12_248bus/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV12_248bus/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV12_248bus/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV15_137bus/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV15_137bus/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV15_137bus/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV17_279bus/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV17_279bus/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV17_279bus/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV22_80bus/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV22_80bus/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV22_80bus/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV24_246bus/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV24_246bus/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV24_246bus/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV25_232bus/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV25_232bus/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV25_232bus/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV26_205bus/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV26_205bus/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV26_205bus/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV29_90bus/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV29_90bus/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV29_90bus/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV30_315bus/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV30_315bus/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV30_315bus/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV32_100bus/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV32_100bus/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV32_100bus/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV9_258bus/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV9_258bus/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/LV9_258bus/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_025_exact/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_025_exact/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_025_exact/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_050_dropout_010/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_050_dropout_010/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_050_dropout_010/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_050_lag_one/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_050_lag_one/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_050_lag_one/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_050_scale_090/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_050_scale_090/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_050_scale_090/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_050_scale_110/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_050_scale_110/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_050_scale_110/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_100_exact/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_100_exact/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/beta_100_exact/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/complete_cohort/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/complete_cohort/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/complete_cohort/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/primary/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/primary/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/primary/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_G/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_G/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_G/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_J/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_J/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_J/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_L/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_L/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_L/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_M/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_M/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_M/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_N/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_N/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_N/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_O/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_O/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_O/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_P/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_P/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_P/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_Q/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_Q/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_Q/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_R/AU_EXTERNAL_DAY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_R/AU_EXTERNAL_INTERVAL_RESULTS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/runs/taxonomy_R/AU_EXTERNAL_RUN_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/scientific_source/src/r4r/__init__.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/scientific_source/src/r4r/_version.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/scientific_source/src/r4r/australian_allocation.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/scientific_source/src/r4r/australian_data.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/scientific_source/src/r4r/australian_opendss.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/scientific_source/src/r4r/australian_policy.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/scientific_source/src/r4r/externality_feedback.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/scientific_source/tools/run_ees_australian_external_replay.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/LV10_223bus.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/LV11_216bus.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/LV12_248bus.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/LV15_137bus.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/LV17_279bus.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/LV22_80bus.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/LV24_246bus.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/LV25_232bus.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/LV26_205bus.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/LV29_90bus.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/LV30_315bus.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/LV32_100bus.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/LV9_258bus.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/beta_025_exact.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/beta_050_dropout_010.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/beta_050_lag_one.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/beta_050_scale_090.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/beta_050_scale_110.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/beta_100_exact.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/complete_cohort.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/primary.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/taxonomy_G.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/taxonomy_J.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/taxonomy_L.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/taxonomy_M.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/taxonomy_N.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/taxonomy_O.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/taxonomy_P.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/taxonomy_Q.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/151_FROZEN_SCENARIO_EVALUATION_20260907/statistics/taxonomy_R.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/157_PROPORTIONAL_SEARCH_AUDIT_20260907/v2/AUDIT_PROTOCOL.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/160_ALLOCATION_VECTOR_REVIEW_20260907/check_captured_vectors.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/160_ALLOCATION_VECTOR_REVIEW_20260907/check_search_progress.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/164_CEILING_TRAJECTORY_REVIEW_20260907/INDEPENDENT_TRAJECTORY_CHECK.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/164_CEILING_TRAJECTORY_REVIEW_20260907/audit_revision.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/164_CEILING_TRAJECTORY_REVIEW_20260907/compile_current.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/164_CEILING_TRAJECTORY_REVIEW_20260907/package_current.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/164_CEILING_TRAJECTORY_REVIEW_20260907/reconstruct_ceilings.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/164_CEILING_TRAJECTORY_REVIEW_20260907/render_review.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/164_CEILING_TRAJECTORY_REVIEW_20260907/verify_reconstruction.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/169_SAME_UPDATE_QUALIFICATION_COMPARISON_20260908/PROTOCOL.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/169_SAME_UPDATE_QUALIFICATION_COMPARISON_20260908/PROTOCOL.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/169_SAME_UPDATE_QUALIFICATION_COMPARISON_20260908/UNIT_TESTS.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/169_SAME_UPDATE_QUALIFICATION_COMPARISON_20260908/VERIFIED_COMPARISON.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/169_SAME_UPDATE_QUALIFICATION_COMPARISON_20260908/audit_current.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/169_SAME_UPDATE_QUALIFICATION_COMPARISON_20260908/compile_current.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/169_SAME_UPDATE_QUALIFICATION_COMPARISON_20260908/package_current.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/169_SAME_UPDATE_QUALIFICATION_COMPARISON_20260908/render_review.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/169_SAME_UPDATE_QUALIFICATION_COMPARISON_20260908/run_comparison.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/169_SAME_UPDATE_QUALIFICATION_COMPARISON_20260908/verify_and_summarize.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/173_CONTIGUOUS_STATE_FEEDBACK_20260908/PROTOCOL.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/173_CONTIGUOUS_STATE_FEEDBACK_20260908/PROTOCOL.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/173_CONTIGUOUS_STATE_FEEDBACK_20260908/RECOVERY_DIAGNOSTIC.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/173_CONTIGUOUS_STATE_FEEDBACK_20260908/UNIT_TESTS.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/173_CONTIGUOUS_STATE_FEEDBACK_20260908/VERIFIED_RESULTS.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/173_CONTIGUOUS_STATE_FEEDBACK_20260908/check_longest_block.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/173_CONTIGUOUS_STATE_FEEDBACK_20260908/diagnose_recovery.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/173_CONTIGUOUS_STATE_FEEDBACK_20260908/run_contiguous.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/173_CONTIGUOUS_STATE_FEEDBACK_20260908/test_verifier_faults.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/173_CONTIGUOUS_STATE_FEEDBACK_20260908/verify_results.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/175_BOUNDED_RECORD_INTERFACE_20260908/PROTOCOL.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/175_BOUNDED_RECORD_INTERFACE_20260908/PROTOCOL.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/175_BOUNDED_RECORD_INTERFACE_20260908/UNIT_TESTS.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/175_BOUNDED_RECORD_INTERFACE_20260908/bounded_feedback.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/175_BOUNDED_RECORD_INTERFACE_20260908/check_fixed_pairs.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/175_BOUNDED_RECORD_INTERFACE_20260908/inspect_roundoff.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/175_BOUNDED_RECORD_INTERFACE_20260908/step_adapter.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/175_BOUNDED_RECORD_INTERFACE_20260908/test_bounded_feedback.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/175_BOUNDED_RECORD_INTERFACE_20260908/test_step_adapter.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/175_BOUNDED_RECORD_INTERFACE_20260908/verify_fixed_pairs.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/176_BOUNDED_RECORD_FEEDBACK_20260908/PROTOCOL.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/176_BOUNDED_RECORD_FEEDBACK_20260908/PROTOCOL.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/176_BOUNDED_RECORD_FEEDBACK_20260908/control_step.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/176_BOUNDED_RECORD_FEEDBACK_20260908/inspect_record_conflict.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/176_BOUNDED_RECORD_FEEDBACK_20260908/run_feedback.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/176_BOUNDED_RECORD_FEEDBACK_20260908/test_information_path.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/M01.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/M02.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/M03.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/M04.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/M05.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/MANUSCRIPT_COMPARISONS.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/PROTOCOL.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/PROTOCOL.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/VERIFIED_MAPPING_RESULTS.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/audit_replay_ac.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/check_power_accounting.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/diagnose_power_residual.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/interpret_binding.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/prepare_mapping.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/run_mapping.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/test_mapping.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/180_PROFILE_MAPPING_ROBUSTNESS_20260908/verify_mapping.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/184_PV_SCALE_ROBUSTNESS_20260908/PRIMARY_NORMALIZATION.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/184_PV_SCALE_ROBUSTNESS_20260908/PROTOCOL.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/184_PV_SCALE_ROBUSTNESS_20260908/PROTOCOL.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/184_PV_SCALE_ROBUSTNESS_20260908/PUBLICATION_DATA.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/184_PV_SCALE_ROBUSTNESS_20260908/VERIFIED_SCALE_RESULTS.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/184_PV_SCALE_ROBUSTNESS_20260908/audit_replay_ac.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/184_PV_SCALE_ROBUSTNESS_20260908/prepare_publication_data.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/184_PV_SCALE_ROBUSTNESS_20260908/prepare_scale.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/184_PV_SCALE_ROBUSTNESS_20260908/primary_normalization.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/184_PV_SCALE_ROBUSTNESS_20260908/run_scale.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/184_PV_SCALE_ROBUSTNESS_20260908/scale_inputs.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/184_PV_SCALE_ROBUSTNESS_20260908/test_saved_checks.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/184_PV_SCALE_ROBUSTNESS_20260908/test_scale.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/184_PV_SCALE_ROBUSTNESS_20260908/test_screen_checks.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/184_PV_SCALE_ROBUSTNESS_20260908/verify_scale.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/185_INDIVIDUAL_DELIVERY_REVIEW_20260908/VERIFIED_INDIVIDUAL_RESULTS.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/185_INDIVIDUAL_DELIVERY_REVIEW_20260908/analyze_individual.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/185_INDIVIDUAL_DELIVERY_REVIEW_20260908/audit_manuscript.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/185_INDIVIDUAL_DELIVERY_REVIEW_20260908/compile_current.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/185_INDIVIDUAL_DELIVERY_REVIEW_20260908/finalize.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/185_INDIVIDUAL_DELIVERY_REVIEW_20260908/verify_individual.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/186_ADAPTATION_INFORMATION_REVIEW_20260908/check_ceiling_equivalence.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/POLICY_TESTS.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/PROTOCOL.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/PROTOCOL.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/PUBLICATION_DATA.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/VERIFIED_ADAPTATION.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/VERIFIED_ADAPTATION_DAILY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/VERIFIED_SAVED_AC.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/VERIFIED_SOURCE_RECORDS.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/audit_adaptation.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/check_saved_ac.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/check_source_records.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/finish_saved_ac.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/participant_policy.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/prepare_publication_data.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/run_adaptation.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/test_policy.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/test_postprocess.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/test_saved_ac.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/test_saved_audit.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/endogenous_request_choice_v14/ENDOGENOUS_MARGINAL_EXTERNALITY_CELLS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/endogenous_request_choice_v14/ENDOGENOUS_OUT_OF_SAMPLE_SHIFT_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/endogenous_request_choice_v14/ENDOGENOUS_REQUEST_CHOICE_AGGREGATE.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/endogenous_request_choice_v14/ENDOGENOUS_REQUEST_CHOICE_BY_METHOD.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/endogenous_request_choice_v14/ENDOGENOUS_REQUEST_CHOICE_CELLS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/endogenous_request_choice_v14/ENDOGENOUS_REQUEST_CHOICE_RESULTS.json.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/endogenous_request_choice_v14/LOCATION_ROBUST_REQUEST_RESPONSE.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/endogenous_request_choice_v14/LOCATION_ROBUST_REQUEST_RESPONSE.json.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_AGGREGATE_OVERALL.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_BEHAVIORAL_CLOSURE_AUDIT.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_BETA_SENSITIVITY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_CONTROL_CONTRAST.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_DESIGN.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_DIMENSION_CONTRAST_THETA_0.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_EVIDENCE_SUMMARY.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_EXTERNALITY_CLASSIFICATION_SENSITIVITY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_GATE_MATERIALITY_SENSITIVITY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_GATE_REASON_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_INTERVAL_DATA.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_PAIRED_PRIMARY_CONTRAST.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_PAIRED_PRIMARY_DISTRIBUTION.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_PENALTY_BEHAVIOR_EFFECT.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_PROFILE_METHOD_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_REALIZED_DELIVERY_AC_AUDIT.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_REALIZED_DELIVERY_AC_AUDIT.json.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_RESULTS.json.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_SETTLEMENT_FEEDBACK_STAGE_COMPARISON.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_SETTLEMENT_FEEDBACK_STAGE_CONTRASTS.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_STEPWISE_CONSEQUENCE_EQUIVALENT.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_STEPWISE_CONSEQUENCE_EQUIVALENT_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_TRAJECTORY_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/externality_conditioned_feedback_v16/V16_VERIFIED_TELEMETRY_ASSUMPTION_AUDIT.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/rate_v4_design/V4_FREEZE_DEVELOPMENT/CASE141_SYNTHETIC_RATE_POLICY_V4.yaml,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/rate_v4_design/V4_FREEZE_DEVELOPMENT/fresh_source_design/V12_3_FRESH_SOURCE_ENVELOPE_V5.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/outputs/rate_v4_design/V4_FREEZE_DEVELOPMENT/fresh_source_design/V12_3_METHOD_EXECUTION_V8.json.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/pyproject.toml,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/__init__.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/_version.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/ac_solver.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/algebraic_allocation.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/allocation_domain.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/allocation_pipeline.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/australian_allocation.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/australian_data.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/australian_opendss.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/australian_policy.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/capacity_binding.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/contracts/registry_loader.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/effective_deviation.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/engineering_mva.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/errors.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/externality_feedback.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/independent_ac_solver.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/injection_adapter.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/metrics.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/mitigation.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/models/__init__.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/models/ac.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/models/base.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/models/calibration.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/models/common.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/models/diagnostic.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/models/evidence.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/models/network.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/models/optimization.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/models/participants.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/models/provenance.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/models/scenarios.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/models/validation.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/multi_reporter.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/network_parser.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/objective_contracts.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/objective_diagnostics.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/operating_point.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/pair_metrics.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/participant_registry.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/proxy_evaluator.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/reactive_spec.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/request_contracts.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/request_generation.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/request_policies.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/request_scenario.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/scenario_execution.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/scenario_registry.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/serialization/__init__.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/serialization/canonical_json.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/serialization/codec.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/serialization/hashing.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/synthetic_rate.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/types/__init__.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/types/collections.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/types/enums.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/types/identifiers.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/types/scalars.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/src/r4r/types/units.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tests/unit/test_australian_data.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tests/unit/test_australian_policy.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tests/unit/test_externality_feedback.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tests/unit/test_v16_externality_conditioned_feedback.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/ac_network_screen_diagnostics.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/ac_proxy_diagnostics.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/analyze_ees_australian_external_replay.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/analyze_ees_australian_network_energy_extension.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/analyze_v14_endogenous_request_choice.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/analyze_v16_externality_conditioned_feedback.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/audit_ieee141_m1_state_dependent_realized_allocation.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/audit_v16_behavioral_closure.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/audit_v16_realized_delivery_ac.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/audit_v16_verified_telemetry_assumption.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/build_ieee141_m1_v2_directed_probe_spec.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/build_ieee141_rate_v4_execution_input.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/diagnostic_active_set.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/diagnostic_allocation_pair.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/diagnostic_feasible_domain.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/diagnostic_five_method_profiles.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/diagnostic_five_method_runner.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/diagnostic_ieee141_context.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/diagnostic_margin_modes.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/diagnostic_objective_problems.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/diagnostic_optimization.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/diagnostic_pair_batch.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/diagnostic_signed_domain.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/diagnostic_solver_allocation.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/export_v16_manuscript_figure_data.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/ieee141_diagnostic_batch.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/ieee141_m1_candidate_guard.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/ieee141_m1_joint_trust.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/ieee141_m1_rho_policy.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/ieee141_m1_source_conic_kkt.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/ieee141_rate_v4_design_ac_runner.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/ieee141_rate_v4_groundwork.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/max_export_canonical.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/prepare_ees_australian_case_inputs.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/run_ieee141_m1_state_dependent_method_execution.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/run_ieee141_m1_v12_3_mitigation_counterfactual.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/run_ieee141_m1_v2_directed_probe_ac_truth.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/run_ieee141_m1_v2_positive_export_feasibility.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/run_ieee141_reporter_scan.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/run_v12_3_dynamic_feedback_experiment.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/run_v12_3_dynamic_horizontal_controls.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/run_v12_3_multi_reporter_experiment.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/run_v12_3_request_multiplier_sensitivity.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/run_v14_location_robust_request_response.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/run_v15_endogenous_dynamic_access.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/run_v16_externality_conditioned_feedback.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/split_identity.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/verify_ees_australian_case_inputs.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/tools/verify_ees_australian_network_energy_endpoint_statistics.py,MIT,Original software/configuration; third-party dependencies excluded
+tools/expand_results.py,MIT,Original software/configuration; third-party dependencies excluded
+tools/run_public_case.py,MIT,Original software/configuration; third-party dependencies excluded
+tools/verify_deposit.py,MIT,Original software/configuration; third-party dependencies excluded

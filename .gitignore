@@ -14,3 +14,10 @@ __pycache__/
 reruns/
 local_inputs/
 expanded/
+
+# Manuscript compilation sources are kept in the separate local author master.
+paper/*
+!paper/main.pdf
+!paper/supporting_information.pdf
+!paper/README.md
+*.zip

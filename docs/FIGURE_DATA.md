@@ -27,7 +27,7 @@ The `pv_capacity/` and `bounded_record/` folders support the additional SI table
 1. Open the workbook for the relevant family, or import the CSV with comma delimiter and UTF-8 encoding. Keep textual control and scenario IDs as categorical columns.
 2. Identify the response, unit, comparator and interval type from the column header and the matching main/SI caption before selecting X, Y or error-bar columns.
 3. Preserve paired comparisons. Do not mix ECF-minus-comparator differences with larger-request-minus-reference differences.
-4. Use the current `paper/figures/` PDFs as the visual reference. They contain the author's final panel arrangement, not the exporter's historical figure numbering.
+4. Use the figures embedded in `paper/main.pdf` and `paper/supporting_information.pdf` as the visual reference. Standalone manuscript figure files and TeX compilation assets are not distributed in the current tree. Follow the current panel arrangement, not the exporter's historical figure numbering.
 5. For distributions, import the underlying daily or trajectory observations where provided. Summary interval endpoints are not observations and must not be treated as a raw distribution.
 6. Use Times New Roman and the author's chosen palette if matching the current artwork. Check that median, mean, central interval and uncertainty interval match the caption; they are not interchangeable.
 

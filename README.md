@@ -11,17 +11,17 @@ The study examines when unused export permission prevents other participants fro
 - [Reproduction instructions](docs/REPRODUCING.md), with a quick check that requires only Python's standard library.
 - [Input sources and redistribution status](docs/DATA_SOURCES.md).
 - [Version and experiment map](docs/EXPERIMENTS.md).
-- [Manuscript sharing and public-release checklist](docs/PUBLIC_RELEASE.md).
+- [File-by-file licensing](LICENSING.md) and [public-release checklist](docs/PUBLIC_RELEASE.md).
 
-This repository is a **private author-review deposit** as of 17 September 2026. A public release and reuse licence have not yet been approved. The repository URL is real; no repository DOI has been assigned. The manuscript has not been represented here as an accepted publication.
+This repository is a **private author-review deposit** as of 17 September 2026. The authors have authorized the scoped reuse licences below. This does not change repository visibility: editors and reviewers still need working access. The repository URL is unchanged; no repository DOI has been assigned. The manuscript is not presented as an accepted publication.
 
-The `author-review-2026-09-17-r2` revision synchronizes the latest main text and SI, including their compiled PDFs. All 29 deposited manuscript files were checked against the current author master. Four files changed: the main text and SI in TeX and PDF form. Numerical code, result tables, and figure assets are unchanged. The source manifest records the updated hashes.
+The `author-review-2026-09-17-r3` revision withdraws manuscript TeX files, bibliography/style files, standalone manuscript figures, and publisher compilation assets from the current tree. It retains the compiled main text and SI, numerical code, result tables, and figure data. The scientific files retained here are byte-identical to the preceding revision. Older commits and tags still contain manuscript sources; this update does not erase Git history.
 
 ## Contents
 
 | Directory | Contents |
 |---|---|
-| `paper/` | Current main text, SI, TeX dependencies, and the figures used in those documents |
+| `paper/` | Compiled author manuscript and SI PDFs only, with a sharing notice; no manuscript compilation sources |
 | `figure_data/` | Source tables for the current main and supplementary figures, plus tabulated sensitivities |
 | `reproduction/src/` and `reproduction/tools/` | Controlled-study implementation and preprocessing/analysis tools |
 | `reproduction/outputs/` | Selected parameter files, calculated results, and the frozen Australian implementation |
@@ -48,4 +48,13 @@ The primary ECF-minus-no-feedback comparison is approximately **+1.392 MWh deliv
 
 Ausgrid measurements and the CSIRO/GridQube networks must be obtained from their original distributors under their applicable terms. This deposit provides source identifiers, processing code, mappings, date selections, and calculated results; it does not redistribute their raw measurement files or network models. See [DATA_SOURCES.md](docs/DATA_SOURCES.md).
 
-No general open-source or open-data licence is granted by this private deposit. Original third-party notices continue to apply. The proposed split is MIT for original code and CC BY 4.0 for author-owned result tables and explanatory documentation; this proposal is **not yet a licence grant**. Manuscript sources, manuscript figures, publisher templates, and third-party inputs are outside that proposal. Before public release, the authors should approve the scope and confirm the distribution rights for each included material. Author-review and journal-access arrangements are separate from permission to reuse materials. See [PUBLIC_RELEASE.md](docs/PUBLIC_RELEASE.md).
+| Material | Applied terms |
+|---|---|
+| Original simulation, analysis and reproduction code, tests, and software configuration | [MIT](LICENSES/MIT.txt) |
+| Author-owned calculated results, figure data and explanatory documentation | [CC BY 4.0](LICENSES/CC-BY-4.0.txt) |
+| Main manuscript and SI PDFs | All rights reserved; no open article licence is granted by this repository |
+| Third-party metadata, input materials and dependencies | Their own terms; not relicensed by this project |
+
+See [LICENSING.md](LICENSING.md) for exact scope, [the per-file register](provenance/LICENSE_MANIFEST.csv), and [third-party notices](THIRD_PARTY_NOTICES.md). MIT and CC BY permit commercial reuse of material within their respective scopes. These grants cover only rights held by the contributors; they do not override upstream restrictions or grant rights to third-party source data, publisher artwork, logos or fonts. Code snippets in the documentation are MIT-licensed.
+
+The repository remains private. In particular, **do not make the existing history public while manuscript-source disclosure is unwanted**. See [PUBLIC_RELEASE.md](docs/PUBLIC_RELEASE.md) for the access and history checks still needed before release.
