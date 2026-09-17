@@ -1,0 +1,1222 @@
+﻿[
+    {
+        "path":  "CSIRO_COLLECTION_METADATA.json",
+        "bytes":  5620,
+        "sha256":  "1adcb327860d25346a5b00dfe1c64910bda759bf23999849c71e24e4ef90a2bc"
+    },
+    {
+        "path":  "SCHEMA_ORG_METADATA.json",
+        "bytes":  5049,
+        "sha256":  "a043c4a002a07b825323b1d11f78b2ee9d0549cea512de731bc6e2f59b8df403"
+    },
+    {
+        "path":  "000065408v001/data/Master.dss",
+        "bytes":  6425,
+        "sha256":  "7b0f55396b5c98d23169cd661c2eba0a6678ed1fd0fb27773c3b533d89e381ea"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV10_223bus/Groundings.dss",
+        "bytes":  7790,
+        "sha256":  "8ecf95556cd4e75fc63a19fe490d4abe7533b1adbd060036c79c64f7711d646e"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV10_223bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV10_223bus/lines.dss",
+        "bytes":  26394,
+        "sha256":  "c7dcdb2a4d8fcfdecdd2259b043d5ba47a1dfb343d9f44507b8474d228dddb95"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV10_223bus/Loads.dss",
+        "bytes":  8032,
+        "sha256":  "c7d50887731a936181bc4fbed62ff38b8771f6f112942b104aa85711966b1f58"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV10_223bus/Master.dss",
+        "bytes":  350,
+        "sha256":  "72351eb2942cb423930a40be96ccf26390bac326bf309eb1d3cb6bc159aacc9a"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV10_223bus/Switches.dss",
+        "bytes":  1563,
+        "sha256":  "9411cd8be994c63cc6814fefa81c4acd9ce8be4bf922cf419a5fdf869d317183"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV10_223bus/Transformers.dss",
+        "bytes":  250,
+        "sha256":  "e04038e6451014d7cdfe8719ebd76b724006301c07aca85570bb913dfcc900f0"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV11_216bus/Groundings.dss",
+        "bytes":  9109,
+        "sha256":  "4c9b4e22f6920a6b74427086c2a8903103c77761049c44e3401ed16e6a0e6cc7"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV11_216bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV11_216bus/lines.dss",
+        "bytes":  25516,
+        "sha256":  "e6c0cd4577430314c04353d605239c321271822258f8ebf56e4a27bdc0ceaf29"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV11_216bus/Loads.dss",
+        "bytes":  9401,
+        "sha256":  "3c527165fa1f28c44621195a471b75072a587bbf82d638eeeaab21b701a880c5"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV11_216bus/Master.dss",
+        "bytes":  351,
+        "sha256":  "ebb1008afd152aa713ad185770b36a9eaf9852f92dde859793877b5251c9e535"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV11_216bus/Switches.dss",
+        "bytes":  1563,
+        "sha256":  "0d5c610e5f9100d11b6bd033799acdbd05687fa1e82f2a276617944688c5e3ee"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV11_216bus/Transformers.dss",
+        "bytes":  251,
+        "sha256":  "a345d50a4e3e4e497ae3b4e1c8a9a7c6a24bb27d73096c4632e77e83341be6b8"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV12_248bus/Groundings.dss",
+        "bytes":  10013,
+        "sha256":  "27563e3a6d643f25d6b364f74751e245e94e165d6102a162038a569dbf37bdcc"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV12_248bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV12_248bus/lines.dss",
+        "bytes":  29065,
+        "sha256":  "95d16f655d91629db6791b5e500ccab62e8f04d4a9b074c03a6bca0ae0a7b6f9"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV12_248bus/Loads.dss",
+        "bytes":  10345,
+        "sha256":  "d920b9cf553a19906bb577ff641f483907094bd57e42329872c40ec30243eda3"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV12_248bus/Master.dss",
+        "bytes":  351,
+        "sha256":  "1bbd65e33f9e1faa3126cf8c6fe7fcc04b28e24ff6453b4b0f768e18ce17536d"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV12_248bus/Switches.dss",
+        "bytes":  1565,
+        "sha256":  "c4593ae23b492a6ccbdd3dce94d614c11bd05b5f3fbbc1c9d0534078c81784e3"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV12_248bus/Transformers.dss",
+        "bytes":  250,
+        "sha256":  "e3ceffaa1d8e262192d92facabc37de69a57f4de413ec8fab86d21cd34d8b087"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV13_58bus/Groundings.dss",
+        "bytes":  982,
+        "sha256":  "7b97fb9fb62540342f27a58ab435a0c088015a053403a783fcf6f526e35f9ffa"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV13_58bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV13_58bus/lines.dss",
+        "bytes":  5833,
+        "sha256":  "0eebe673bd05e18a486ecc0e2ced2f987388e2c643fa70e689782ac50a5568aa"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV13_58bus/Loads.dss",
+        "bytes":  940,
+        "sha256":  "a2766e41e8efca190022926b82ad360b1fdf6f7d242dc9ad251868c2c9730e6d"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV13_58bus/Master.dss",
+        "bytes":  350,
+        "sha256":  "04aee4eaf5a0797e48c3e618e3a2b3297fe53cd95644d0567ec2a839d80109ac"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV13_58bus/Switches.dss",
+        "bytes":  1850,
+        "sha256":  "b6500db2a424486e46b90fc176d58fcd8ebbbf14a4d0d6a46081674f008af86d"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV13_58bus/Transformers.dss",
+        "bytes":  251,
+        "sha256":  "aa7846364648f834d89b4a132b8fadc890841b79bb9d46929d85391b7f2be2e6"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV14_13bus/Groundings.dss",
+        "bytes":  81,
+        "sha256":  "df92f3032c584e80a14c7a6e29c9fdc71a3370e88d74a5775315280cbc9d2d09"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV14_13bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV14_13bus/lines.dss",
+        "bytes":  858,
+        "sha256":  "82a2deba038fae8da64696d4408145d63bab5b080160253e4d1efd936c773544"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV14_13bus/Loads.dss",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV14_13bus/Master.dss",
+        "bytes":  350,
+        "sha256":  "0e1a5e4035273e06dc3cc9924a11a9808957b7a2956fac9163057887432579a2"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV14_13bus/Switches.dss",
+        "bytes":  713,
+        "sha256":  "31446a20486f6bf4ef463953bf7537005fdc956ec6f7dba50bf56c20f2bc9995"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV14_13bus/Transformers.dss",
+        "bytes":  250,
+        "sha256":  "4d97cac2a364b5ccbb587cfb89df29b51c8cce163660a1362199373986bf8d8e"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV15_137bus/Groundings.dss",
+        "bytes":  3863,
+        "sha256":  "84c2c021c5ab29bff21a87343d461fb8c060452873100f20e9cdea8992d5536a"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV15_137bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV15_137bus/lines.dss",
+        "bytes":  15995,
+        "sha256":  "6cf538e2ab6be2115d7c23feef332d06175c5a47e5a6aceb337da98a9382ec53"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV15_137bus/Loads.dss",
+        "bytes":  3941,
+        "sha256":  "fdb7edb6a4a3ed8ea008b6513d1f7090bb46e423ac3a139e844268c88127f67d"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV15_137bus/Master.dss",
+        "bytes":  350,
+        "sha256":  "5cd5f96719659a5709acf7df4a8b99e7e4adf667622d199372dca2ed96f2df2d"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV15_137bus/Switches.dss",
+        "bytes":  1281,
+        "sha256":  "6818f50584f70f3392c2d05fd64ca23a1892872fe17ec2379f9820c61425d2b2"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV15_137bus/Transformers.dss",
+        "bytes":  249,
+        "sha256":  "eca3fd69db52aea9ff9501d8d3a4e25db61f16df84fda2dca7836462546ef829"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV16_12bus/Groundings.dss",
+        "bytes":  164,
+        "sha256":  "85a11048e5f77dcc5db74cf9aa98f83d6486ff45adbd60c2a616ebe02ede82f9"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV16_12bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV16_12bus/lines.dss",
+        "bytes":  856,
+        "sha256":  "7e7a6f8cd14a1b9ef45743dc639110909597dbf05bc6561b24fc827643d7b5e1"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV16_12bus/Loads.dss",
+        "bytes":  85,
+        "sha256":  "a29627899c94017214008ed15810689516d6becb9b659e895dfd8ca2c90aacf3"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV16_12bus/Master.dss",
+        "bytes":  349,
+        "sha256":  "be0e5b8eba77f021f0d0799a813356d1bb10e971fa1b112a3d9c0e84bfe6fda8"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV16_12bus/Switches.dss",
+        "bytes":  707,
+        "sha256":  "84821b17b6724d9b43e629ddfa4ef722d1ef66c84dcc505dbfb28e9c934aabc7"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV16_12bus/Transformers.dss",
+        "bytes":  249,
+        "sha256":  "18aacd291e95684ff755c12f3187de994fbb2c24e6f15db8a8e222787d0581ce"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV17_279bus/Groundings.dss",
+        "bytes":  11631,
+        "sha256":  "5c785190ce2e756b77075f0fa80a92a1f818d456b79d539be38ea796e67388b8"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV17_279bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV17_279bus/lines.dss",
+        "bytes":  33397,
+        "sha256":  "32c4681c7104f4eded21f55122181085c4568c95528ff435b0523cfec1d1870c"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV17_279bus/Loads.dss",
+        "bytes":  12042,
+        "sha256":  "12b8d5fd41f5e753eafe0691a5b4fc706ca5caef04798202472696146ee7f755"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV17_279bus/Master.dss",
+        "bytes":  351,
+        "sha256":  "f326db4514fd484524dac44e6c8b2802817b3e74ddd27a9692f4a9af8ffbe13b"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV17_279bus/Switches.dss",
+        "bytes":  2277,
+        "sha256":  "28372c2c62803bb52a6341b841c0cb464319e3b858f2ccbf60af636db18cc0b8"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV17_279bus/Transformers.dss",
+        "bytes":  249,
+        "sha256":  "a7a41a5662d1866ef645e07dd38852109254ec2dcd97f6bd0d937025ef23d79b"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV18_12bus/Groundings.dss",
+        "bytes":  164,
+        "sha256":  "1f272b048ebef4a87cc52aea43e6d7373ba4619d4bea2190e4b71d0cbaeea1ef"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV18_12bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV18_12bus/lines.dss",
+        "bytes":  859,
+        "sha256":  "419f0ad9962d58e0290e2314548a1b92e1b3c6de83a81278e09ce0eedbbdf6b8"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV18_12bus/Loads.dss",
+        "bytes":  85,
+        "sha256":  "c37a382a2bc501d916b1827872d383618dc4cc35c56ddbccb4bc025285963c72"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV18_12bus/Master.dss",
+        "bytes":  350,
+        "sha256":  "15873382b73c57ccbae7c8ca5645053f8a34594c70c0c5b95003f111a45691bd"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV18_12bus/Switches.dss",
+        "bytes":  709,
+        "sha256":  "284f86891f24ec3c54f5d7dbd4e32d87c85fdf7da5b05fbae1cc8414bc1eb0f6"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV18_12bus/Transformers.dss",
+        "bytes":  251,
+        "sha256":  "f66a759abb6348a38f3d7d3b77fbb2ca6e5a929de3a987b952734b9c94199d23"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV19_13bus/Groundings.dss",
+        "bytes":  78,
+        "sha256":  "2d572d487f039e4c252bd6dce4158a7886738f75a7cb5d72c7ba692f6d0caed4"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV19_13bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV19_13bus/lines.dss",
+        "bytes":  854,
+        "sha256":  "6c3cc842d5922ba781defa6afe4fd1e66546ab7dcda5550acc50fc74e82e6303"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV19_13bus/Loads.dss",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV19_13bus/Master.dss",
+        "bytes":  350,
+        "sha256":  "f735bd2f84343b761abca1711914a427a9126d37613a95157dfaee2656893040"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV19_13bus/Switches.dss",
+        "bytes":  712,
+        "sha256":  "03fce1f95818329838d15e86b1c812d496e599343648505ee4b59f381fbe8dd6"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV19_13bus/Transformers.dss",
+        "bytes":  250,
+        "sha256":  "3ad42165877a47f8e160cea1b19a9275f778f4564f51f9ce89ef7eee99646f8d"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV1_14bus/Groundings.dss",
+        "bytes":  244,
+        "sha256":  "712de28f906059221ca3f8b67483134fcb05dac479a23a743a29826cd5172883"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV1_14bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV1_14bus/lines.dss",
+        "bytes":  1107,
+        "sha256":  "cca3799411a029b4891f1f853da2a4df6fbb7f4897587201d3ad50ce7fce4409"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV1_14bus/Loads.dss",
+        "bytes":  172,
+        "sha256":  "5710ce2931c0fc38c41200a215e05c742b9ee8eb098d84e1b34ffd8447cc9fca"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV1_14bus/Master.dss",
+        "bytes":  349,
+        "sha256":  "3d31d447b424408e0b2507a3d196972164c2960d757235616e71ac9a6ba6aa80"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV1_14bus/Switches.dss",
+        "bytes":  711,
+        "sha256":  "bc8664f6591862d51fd21ca7b67cfc75f7ef3fb2982fe0befe37f5a869f56b78"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV1_14bus/Transformers.dss",
+        "bytes":  237,
+        "sha256":  "49ae8d5af3992cd76aaca1c9a412d25ee290c11a4a1c6cf7e740f445837517e8"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV20_26bus/Groundings.dss",
+        "bytes":  413,
+        "sha256":  "a483769006fefdf0b03ff1ee50506ae1a11963a3c83892a2a8aebcf7e53e135d"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV20_26bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV20_26bus/lines.dss",
+        "bytes":  2359,
+        "sha256":  "ebef9bf487ce33bed6762549de75b81f76cc0bfcd9a5a8fd74363f27a4c46ccb"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV20_26bus/Loads.dss",
+        "bytes":  343,
+        "sha256":  "a340f87a18181567f51af6718394ab6d6e0e58e3a1b4f9dc2be8d320b55abade"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV20_26bus/Master.dss",
+        "bytes":  350,
+        "sha256":  "7a6139a735e18e0506aa51bade490602574904b4086b7f7ff89c0774ecd34a4d"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV20_26bus/Switches.dss",
+        "bytes":  1282,
+        "sha256":  "513ecc88bd52b877c9934f665d3b07287b32f33b05e5250c6f4cb99cbc2c8141"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV20_26bus/Transformers.dss",
+        "bytes":  251,
+        "sha256":  "ec166f422c31b5d1548f6db2951720ebf2451f92493b5209a72e4b859b6a3aee"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV22_80bus/Groundings.dss",
+        "bytes":  1791,
+        "sha256":  "58eed0ece99cb9118fcb43a0aadc155416907fe91c1bdd50371ad476bab5b3ed"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV22_80bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV22_80bus/lines.dss",
+        "bytes":  8725,
+        "sha256":  "5f120ff6c7aa03267a89ebf2e8f8e52db84e9c7489c779ada6c0e89f9236572a"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV22_80bus/Loads.dss",
+        "bytes":  1791,
+        "sha256":  "a028b9059bc5e2d2efab65d6ef84fefe65e3aea47f24252b7d540ff649b02af8"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV22_80bus/Master.dss",
+        "bytes":  349,
+        "sha256":  "1904134a99cc454438322fd1bf97b943a7c66ffcd5b17b1b8cde2c13ef983b2a"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV22_80bus/Switches.dss",
+        "bytes":  1707,
+        "sha256":  "e65306e38b973e679ff5ca6a141bac59308860044ea019a2a723cf7249cb48c4"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV22_80bus/Transformers.dss",
+        "bytes":  249,
+        "sha256":  "c0146ce24ea63a050df654ce3806eec43306385b00c6b2db097e82e3176ab00e"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV23_13bus/Groundings.dss",
+        "bytes":  161,
+        "sha256":  "d7db95f0444e2567ca98a1398b3467382e7fdc3d65e4ba53295258bc4e64e29b"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV23_13bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV23_13bus/lines.dss",
+        "bytes":  982,
+        "sha256":  "eb435d323b0c6b821ffb46f09af9e3478e6e9fb71995dbef00ba84b8a5286a8b"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV23_13bus/Loads.dss",
+        "bytes":  85,
+        "sha256":  "221e75962f63031c5d94dbf88ccafffe94d810399786fb9e7335e07275dcf31e"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV23_13bus/Master.dss",
+        "bytes":  349,
+        "sha256":  "d93d7730c985666ff6dde32777f547e068b255b0325ea53762af224c6890723a"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV23_13bus/Switches.dss",
+        "bytes":  710,
+        "sha256":  "52769b9d67dc247cc4b3b55332274b21cbd271afdc87387ff88b822c61370d1e"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV23_13bus/Transformers.dss",
+        "bytes":  250,
+        "sha256":  "305307a8ae4ab30c3d7ed5daea2a61f4458c6b882f70d5a652a394c5664b48b5"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV24_246bus/Groundings.dss",
+        "bytes":  10006,
+        "sha256":  "70b9bc3acc0eb4be9a465bef8c9901bd7339f6f4dc5402aee9864599018c022f"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV24_246bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV24_246bus/lines.dss",
+        "bytes":  29283,
+        "sha256":  "a8f791f249d06f4d3897428c8c3324871e8faa2e59f7cb036c418fd172dee2ae"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV24_246bus/Loads.dss",
+        "bytes":  10343,
+        "sha256":  "f9b8fa4b3560bc4a69995a4e2b24a8d27b4ce1f630101cf66b97b44be2bc447c"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV24_246bus/Master.dss",
+        "bytes":  350,
+        "sha256":  "336f7f614a4e0b63c42f3ba03de950a2f8c2c56cc8d8b74b05e361410b704e1a"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV24_246bus/Switches.dss",
+        "bytes":  1565,
+        "sha256":  "be857111ce271a8d0c1b3711c0a87351597a752f9f6ebc37de38ff4a64b637cf"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV24_246bus/Transformers.dss",
+        "bytes":  249,
+        "sha256":  "d2195abc920f149ef8b2a7ecb39d0825772b6b04082cfa339dc5b06c04fed302"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV25_232bus/Groundings.dss",
+        "bytes":  9274,
+        "sha256":  "1183a312a315becf9dd11e5ac29eb3cbc3671565023ad0a6e0e90eac3a64b311"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV25_232bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV25_232bus/lines.dss",
+        "bytes":  27791,
+        "sha256":  "7e40a9a6d915e5ff815fed2b931be8e08350c736b98d7715417809e52a7d79e2"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV25_232bus/Loads.dss",
+        "bytes":  9566,
+        "sha256":  "692acde18c914dc14d67bfa9dd0405f2aaf21c1ec931343d2b902b5de3a43c33"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV25_232bus/Master.dss",
+        "bytes":  351,
+        "sha256":  "296605d20804a4643d2e0829b529d6bc727e68c9df4103d17f9a6a6162f2143c"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV25_232bus/Switches.dss",
+        "bytes":  1703,
+        "sha256":  "7c01caec2cd757a1bbdf34a6070d47a220985760c4b706fa1e688061dbffef0b"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV25_232bus/Transformers.dss",
+        "bytes":  250,
+        "sha256":  "739ecf7d9fa9242bc793789adc16fecfda48e1a37dab39bdf4f4c130d58e8c6e"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV26_205bus/Groundings.dss",
+        "bytes":  7754,
+        "sha256":  "88b0a7731506709f451375a58f26bd4a9cf2efaca0ee48eb53fea75d48b3974e"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV26_205bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV26_205bus/lines.dss",
+        "bytes":  24247,
+        "sha256":  "ad940ba1aa8ccb78ab9efbba4a20f3c0b3b5a88d8ac745cece9a92bb5bae2284"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV26_205bus/Loads.dss",
+        "bytes":  8018,
+        "sha256":  "28d73062c3693d2f08f177353f8f8f7ca977eff54fc1aa618fa612f2b47145c6"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV26_205bus/Master.dss",
+        "bytes":  351,
+        "sha256":  "5308054b6a20cdc4e89ad5200a837c01cdcd2c7df1a25dace431a7b231966863"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV26_205bus/Switches.dss",
+        "bytes":  1709,
+        "sha256":  "f5b0068bf600047be21cba597f83be963e2bc17af3de545225b275f721c299a4"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV26_205bus/Transformers.dss",
+        "bytes":  251,
+        "sha256":  "55d5c594cf47dd6d606132bba91d79b9383578d688a7669840e723574e672bd4"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV27_23bus/Groundings.dss",
+        "bytes":  164,
+        "sha256":  "22df4ef0149aded20f6d66d55ee7e38fb03de178b1d2442222a702ec21ddb250"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV27_23bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV27_23bus/lines.dss",
+        "bytes":  1967,
+        "sha256":  "c03ee23c7041deb3c817e81f977006b0dcb386b70337a40fd55a566e1c4ea45b"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV27_23bus/Loads.dss",
+        "bytes":  86,
+        "sha256":  "23085b0a87235ce9ad256e89f205e1e8dd63e689d00e43153a485dd4ac610062"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV27_23bus/Master.dss",
+        "bytes":  349,
+        "sha256":  "81762fe74e0638236248aa2f10459aec1d9d66611ea255db664a59e0a00864cd"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV27_23bus/Switches.dss",
+        "bytes":  987,
+        "sha256":  "07b8bc4fd00aa84fb943161c57fd3788b13da3af1abc6fe4c950f49cf446aea4"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV27_23bus/Transformers.dss",
+        "bytes":  250,
+        "sha256":  "f19752e47dd396d706312ecc970ecda1f6f3a7bc14e626b53bd66ba1af8372d9"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV28_25bus/Groundings.dss",
+        "bytes":  324,
+        "sha256":  "a1bb391af51b63ddc6ff1b89a9edd363f59028c56ca41d8c643865c0b1940c45"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV28_25bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV28_25bus/lines.dss",
+        "bytes":  2432,
+        "sha256":  "aa1e5e06ab7452a95eeffbcc5661b3a7a62c16fb50c61ea2a7d82afaab0e0580"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV28_25bus/Loads.dss",
+        "bytes":  257,
+        "sha256":  "08357412308ec132cd37c850234717dc9b9db37fa57019f8c53f2f1aaae29c56"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV28_25bus/Master.dss",
+        "bytes":  349,
+        "sha256":  "1c32dced2604fc595c66f4238b150e2555c277e585cceba79cc85920ddd55884"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV28_25bus/Switches.dss",
+        "bytes":  570,
+        "sha256":  "784e9f435e3fc559fed2de518040df84aa7f52453a9beb6769e658ab983cd7cf"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV28_25bus/Transformers.dss",
+        "bytes":  249,
+        "sha256":  "cfc39bda0fb771ba0d2666bf73f871776ffd5a7fe88992c39f1f7705a3e869d1"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV29_90bus/Groundings.dss",
+        "bytes":  3439,
+        "sha256":  "41272a2bb801c4e5c5d8b768f7e0b120b7ad303a7816e3d07728196470f5d39c"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV29_90bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV29_90bus/lines.dss",
+        "bytes":  10237,
+        "sha256":  "97ee3813c5f70c0564eddff63042b489179fe609fb038878088b001e52ba8ebc"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV29_90bus/Loads.dss",
+        "bytes":  3498,
+        "sha256":  "03a6b88018d4466ff057feb3144472e57f74cacabf9a457cb1bf649469195ec9"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV29_90bus/Master.dss",
+        "bytes":  350,
+        "sha256":  "25498063a66812d90e46d4593ac6219416732652de72419bb2a9f61bd18cd52f"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV29_90bus/Switches.dss",
+        "bytes":  1280,
+        "sha256":  "e44f2daf992bb430ab18da1ed8f3fcfbb7537f8d01a38fbcb3c661c817b82199"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV29_90bus/Transformers.dss",
+        "bytes":  251,
+        "sha256":  "f48d40d72a51d73ab58129d2ae023166662fc4457528a9141009fb1162be4d3f"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV2_43bus/Groundings.dss",
+        "bytes":  659,
+        "sha256":  "3822a63fd8ad8bf39583811f82b2257f4843dd0a1ee86ab192d846d8e4e5011d"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV2_43bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV2_43bus/lines.dss",
+        "bytes":  4888,
+        "sha256":  "a83617413ed6fc36c2001db34ce1b9c0e6eb1f97c97e59e5f88c31510b74ef73"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV2_43bus/Loads.dss",
+        "bytes":  600,
+        "sha256":  "de82cfcf468ed36bdec6485a7ea1670ac77d1a3f55a3a9b9ca4cbd94e7274819"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV2_43bus/Master.dss",
+        "bytes":  363,
+        "sha256":  "f13ae4fd162a3de7acbdd5fbb29aa750204cf4f647ebeac427bff4317a039bb5"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV2_43bus/Switches.dss",
+        "bytes":  568,
+        "sha256":  "2bed274a29d4dde8ef4d5babc903d8fd06a6a041076f523fc017713a7aba788d"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV2_43bus/Transformers.dss",
+        "bytes":  251,
+        "sha256":  "7e682283491bc9aecffa43f94abd49a3ebbfe3e03bf67bc9e12969d6bb99fd92"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV30_315bus/Groundings.dss",
+        "bytes":  12470,
+        "sha256":  "67a739166da21cdde074bda817b0bc28774f9a8dcbc5277a2124316f02582722"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV30_315bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV30_315bus/lines.dss",
+        "bytes":  37513,
+        "sha256":  "9a284d58266f3fe2b5bfd50cfd2ea175d683ccfec1d7d91198c487970b8a46f0"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV30_315bus/Loads.dss",
+        "bytes":  12910,
+        "sha256":  "27a3a4edba0334103ec14da929ad2f9a7cf25253c6fdb06a72c6a6cb20454478"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV30_315bus/Master.dss",
+        "bytes":  350,
+        "sha256":  "f6978c4398745b26fb84950ec087c1d7ed3d5d164dbf372d09ed17c00c504f59"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV30_315bus/Switches.dss",
+        "bytes":  1707,
+        "sha256":  "8c039763e0ebce8136aceaaefe5293021afd1369f81824dc22bc0b4660797b89"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV30_315bus/Transformers.dss",
+        "bytes":  249,
+        "sha256":  "c0a4ce666f970a0903f3e622ec80683815ee6379d231454ca20de329b7a6ad59"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV31_15bus/Groundings.dss",
+        "bytes":  330,
+        "sha256":  "d1192890029dc8e56acba7efea2dc1bf0bae2d452f5c551cd3906349371f3033"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV31_15bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV31_15bus/lines.dss",
+        "bytes":  1230,
+        "sha256":  "96d273bf5525407529b636d23951e4f0cdaef7eb044fde7f6283954a9bb915c6"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV31_15bus/Loads.dss",
+        "bytes":  258,
+        "sha256":  "3ea3572d452b4d563785a9859b4ced85e098e946380e696c84a323a84700f5cb"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV31_15bus/Master.dss",
+        "bytes":  350,
+        "sha256":  "34285d6acf9491e830492f3ff96df6fda22ab0e7d9e50308b1a1bd8ffbbe2f7d"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV31_15bus/Switches.dss",
+        "bytes":  569,
+        "sha256":  "2cb7dd77be48205e7a984f987a0ef003ba4a9af501ca7729789da20c98f2a3c8"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV31_15bus/Transformers.dss",
+        "bytes":  251,
+        "sha256":  "2b067ce9a0859ccfd12eca7ad0c1bb601c8882645a2150a21e422df287ba7af1"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV32_100bus/Groundings.dss",
+        "bytes":  1889,
+        "sha256":  "1d89b4d875ac03db66a6cf2f31e14bc263eacefa3ff798dacfc208d990a75d20"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV32_100bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV32_100bus/lines.dss",
+        "bytes":  11441,
+        "sha256":  "986a39971238313242d4fd4bba9c926038fb216376aa17f798a11b3ff39cfc31"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV32_100bus/Loads.dss",
+        "bytes":  1881,
+        "sha256":  "3be7502bab755b6cad0f4c264a42150131777254a63cca953d0804de559c6ebd"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV32_100bus/Master.dss",
+        "bytes":  351,
+        "sha256":  "a4d4f7931a6c6f3e40244f4af81b7072b573e1f2db4ea8622f07ceee5c27c095"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV32_100bus/Switches.dss",
+        "bytes":  1706,
+        "sha256":  "b50d987af3e10cc23f1348140e7307691e84104dd251ee3eac3ad7e2e1b83243"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV32_100bus/Transformers.dss",
+        "bytes":  251,
+        "sha256":  "d7247bd101544b46b05893ccc47669522a7a489d329b22d6509ebe7f92556925"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV33_1bus/Groundings.dss",
+        "bytes":  81,
+        "sha256":  "49b18901bb8378dc04b4071eae3eb8b39c2cca1a35f053127acf7e7f3ec8f8ef"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV33_1bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV33_1bus/lines.dss",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV33_1bus/Loads.dss",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV33_1bus/Master.dss",
+        "bytes":  349,
+        "sha256":  "6c277f9129db57cb737f2ff8854d66f0d83a8780c6391fcb1b1cbb277b913974"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV33_1bus/Switches.dss",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV33_1bus/Transformers.dss",
+        "bytes":  250,
+        "sha256":  "6857c2d8164e74cb3973206f038ffc2c635bbd24e7fd333a1d009ced29e7ef89"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV34_20bus/Groundings.dss",
+        "bytes":  160,
+        "sha256":  "80f2b8d0d25dfd7f60d358e86e47ea0ab67fb195acfa3114447d0dcdd95bfb2b"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV34_20bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV34_20bus/lines.dss",
+        "bytes":  2027,
+        "sha256":  "669c309e1f54edc7fb4193f76b8aeea636080f3febbd48ce2ee81da8053be6ff"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV34_20bus/Loads.dss",
+        "bytes":  85,
+        "sha256":  "2b7b52e4ed70525c197f76bd51fb49b7fcd1b14cba06d81f1de6798b01ed7c5c"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV34_20bus/Master.dss",
+        "bytes":  349,
+        "sha256":  "f03cfaf603c427e60657bb34759aca1f6c655c12bbf364458ee3076075c94a61"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV34_20bus/Switches.dss",
+        "bytes":  427,
+        "sha256":  "9e3405fb30eb76e58115ecc32b60ec2e2745c70962b4e787f998d15e333d95bf"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV34_20bus/Transformers.dss",
+        "bytes":  249,
+        "sha256":  "7e0078a8c7d07e08d19d552b3691c6b73f61cb1961aad59fe7f5f012ea006f79"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV3_55bus/Groundings.dss",
+        "bytes":  1065,
+        "sha256":  "fad7f315e75fae098b8ffaecfda27360ed124bef773ccc1b012b72a2c492422f"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV3_55bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV3_55bus/lines.dss",
+        "bytes":  5719,
+        "sha256":  "e137eddf858910c13febf27ce369a83d6e9071fa9c0bf329eb97e39a76fbfd75"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV3_55bus/Loads.dss",
+        "bytes":  1024,
+        "sha256":  "c67bb4ccae7eca9f381bf7f82d10e54ec51c7b9223a0a4562bf56fd6369842f8"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV3_55bus/Master.dss",
+        "bytes":  362,
+        "sha256":  "8561ba18ea842d0d05fb1e1e4ac5496dd7905876f60f6867fcc11c16fef48db3"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV3_55bus/Switches.dss",
+        "bytes":  1428,
+        "sha256":  "16b4153eb597f4c71374279183043868ea491ea9e2a2bff055f9a30469665f8f"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV3_55bus/Transformers.dss",
+        "bytes":  249,
+        "sha256":  "097fdb79020bb5e4b1cd4f15c464e2b15fc399a9b75aa1363f31e87274811d5d"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV4_36bus/Groundings.dss",
+        "bytes":  164,
+        "sha256":  "410240df9eac9cd938ccb4cf44c3c4ce018e82251054582ebd4e62c69eac2cf5"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV4_36bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV4_36bus/lines.dss",
+        "bytes":  3586,
+        "sha256":  "4e856de566f4d5955013bbd32e63bf0e03c0c20d8f996bfc984852870f7d65ab"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV4_36bus/Loads.dss",
+        "bytes":  86,
+        "sha256":  "0588a617d9c0b89cfde5c92f26e8ae42bac8d63bb8d5727abbeec801c99832bc"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV4_36bus/Master.dss",
+        "bytes":  349,
+        "sha256":  "b3c80083283a031d5a987ae0d498cefa64b001a2e5f899d1ab2ef37d1764baee"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV4_36bus/Switches.dss",
+        "bytes":  851,
+        "sha256":  "42d9ce722a25549ff400ca159e4e4b8a313b9adc1be5c831eb0cbb0fbbd03606"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV4_36bus/Transformers.dss",
+        "bytes":  250,
+        "sha256":  "b929fc10e93f6a3563b2d5ce179abff0223b1d5a7af2e7414b53af77e7388395"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV5_14bus/Groundings.dss",
+        "bytes":  244,
+        "sha256":  "b775c1a5a673297b6d1677fd6bc6f114e01ae509a83a0f07f3e1ffc03e25375b"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV5_14bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV5_14bus/lines.dss",
+        "bytes":  1094,
+        "sha256":  "2e4adbe672a647f0f7f414514f2651fa0bd9adfb1664d5291c5f834e341f84fe"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV5_14bus/Loads.dss",
+        "bytes":  171,
+        "sha256":  "b9a1d526b505b6c28feb2c120d7f7433a6a7261a4db7b2370e86d67f1df1b673"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV5_14bus/Master.dss",
+        "bytes":  349,
+        "sha256":  "da118d999c81c51452b4ba1fd0397a6c9424841c9003f8318cdb2626418a8efa"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV5_14bus/Switches.dss",
+        "bytes":  712,
+        "sha256":  "64b0773db68bf9ddf39f909175f7587ba081dfcb425a92d155e22d571b55c4f1"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV5_14bus/Transformers.dss",
+        "bytes":  251,
+        "sha256":  "6c233891796928f6a019832ba62855db661d38c6dda6f3001e918dd0085fe36e"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV6_17bus/Groundings.dss",
+        "bytes":  161,
+        "sha256":  "b7ae8e3eccfc801c743e4224e2843b6edc9cab7ea1e20941f976d38e93f59b31"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV6_17bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV6_17bus/lines.dss",
+        "bytes":  1350,
+        "sha256":  "ad92db455338758f27bf96eecaf6a072b4dad511e55f0114574044a995426914"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV6_17bus/Loads.dss",
+        "bytes":  85,
+        "sha256":  "69a1e977d1c4964039060e1f0810027dcef6d216c033fca9f05a539607509068"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV6_17bus/Master.dss",
+        "bytes":  349,
+        "sha256":  "8748b7cb70fb47ecc2c70217b4053e4eeee4f15622f98aee3dedef0385031ee7"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV6_17bus/Switches.dss",
+        "bytes":  996,
+        "sha256":  "de0573ba05eb6ccc584da13fa7c538799967d454b8e7f9d5bfdd92a1d217cb3c"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV6_17bus/Transformers.dss",
+        "bytes":  250,
+        "sha256":  "ae399b6016800124339609260069cd674a66251fbd0f485ebd60be74c00ba5b1"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV7_29bus/Groundings.dss",
+        "bytes":  487,
+        "sha256":  "7313c8a1a67b41f61599162551247e6eefbe3cbcffad77a3ebe03ab694817976"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV7_29bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV7_29bus/lines.dss",
+        "bytes":  2595,
+        "sha256":  "0da60815f51e2bbbbfd0f903aa83db4e63b4829be426db2d4ff8ee59161dc79a"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV7_29bus/Loads.dss",
+        "bytes":  426,
+        "sha256":  "156b295c34ec293a2746da81298560f55951b13a28c1238ff50a42166a1922c7"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV7_29bus/Master.dss",
+        "bytes":  349,
+        "sha256":  "178a48440f823047b4f13d06ff45e69a4da4c7f697b65472a4078defe12fd88f"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV7_29bus/Switches.dss",
+        "bytes":  1134,
+        "sha256":  "5e4824498f228256b1c0141ca900b48b5a83155197702d139206cdfc064286c5"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV7_29bus/Transformers.dss",
+        "bytes":  250,
+        "sha256":  "10073f1fd327078fd211d5de3caf974145f1d26c092086a9d8fbb74db13e9ec7"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV8_14bus/Groundings.dss",
+        "bytes":  241,
+        "sha256":  "8f2b8bee8d84f8fb2051256a17a6fe8dadd8ebb4b4af8db42845269795ce5d31"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV8_14bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV8_14bus/lines.dss",
+        "bytes":  1102,
+        "sha256":  "3f2366f8b68d49bb403f08394df806c7f6bd2b022e6fb043e23ebd6610160edf"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV8_14bus/Loads.dss",
+        "bytes":  169,
+        "sha256":  "a8874224e0465c1d364468541258e74b2644775551e7fdd6f0f3e05a5f4eeffd"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV8_14bus/Master.dss",
+        "bytes":  348,
+        "sha256":  "323ac3a4af3a6c119b621b61c0a42c4443fa23b7a059e42e38b8a9569259113b"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV8_14bus/Switches.dss",
+        "bytes":  712,
+        "sha256":  "e1344ec8357b3bd889ee638756dec1c0646dd7abefaedfdbfd85e75e2d7c4337"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV8_14bus/Transformers.dss",
+        "bytes":  249,
+        "sha256":  "887b717171272542ebdf462745cca28adc39b5a09c27c300ba084478a956aad3"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV9_258bus/Groundings.dss",
+        "bytes":  10179,
+        "sha256":  "6ec5f2fa58f214efea0a59b3d89a2a96372183dcb234fff0c953c7b9766e844c"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV9_258bus/Linecodes.dss",
+        "bytes":  10209,
+        "sha256":  "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV9_258bus/lines.dss",
+        "bytes":  30946,
+        "sha256":  "241fa4f28c9e473fdb911197b3840fc584e6c329f05a3ee835a44f778f67ec15"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV9_258bus/Loads.dss",
+        "bytes":  10513,
+        "sha256":  "23d0acdf0690ca3dadbdb4143a981f27165710edf978dcc58fa2f1544648175b"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV9_258bus/Master.dss",
+        "bytes":  350,
+        "sha256":  "b35c77903a73ba3a6d9d0e4d54b4c2f7265d2458ba00b16f457520c517809d2b"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV9_258bus/Switches.dss",
+        "bytes":  1994,
+        "sha256":  "cc11ea96cca9650445f124a28cf747ee7df1c605d9f0ad1f52861bda1d104cc1"
+    },
+    {
+        "path":  "000065408v001/data/LV/LV9_258bus/Transformers.dss",
+        "bytes":  250,
+        "sha256":  "601732e556088385dcff779d6c0dd493d2df7c7b518171351a90695e892bec4a"
+    },
+    {
+        "path":  "000065408v001/data/MV/MV21_328bus/Groundings.dss",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "000065408v001/data/MV/MV21_328bus/Linecodes.dss",
+        "bytes":  10486,
+        "sha256":  "cc024e916f21426d7a0b0b6a16c48743e305af699d8427b0d8d847009c4f5ad0"
+    },
+    {
+        "path":  "000065408v001/data/MV/MV21_328bus/lines.dss",
+        "bytes":  29367,
+        "sha256":  "510d19801afcf4cd2b42156d1ee9c3ce3c804d5d0916794e18671a3765778e61"
+    },
+    {
+        "path":  "000065408v001/data/MV/MV21_328bus/Loads.dss",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "000065408v001/data/MV/MV21_328bus/Switches.dss",
+        "bytes":  11927,
+        "sha256":  "ad56460f8d85840d9bb8f3018345185bd7685d8d16e68b9118ca26d0d7978f38"
+    },
+    {
+        "path":  "000065408v001/data/MV/MV21_328bus/Transformers.dss",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+        "path":  "000065408v001/metadata/collection_import_sha256sum.txt",
+        "bytes":  23765,
+        "sha256":  "5d8dafde45925f007aae6f7c4e3ce118539a8821aeb1b1d86dec8b19c56a5c23"
+    },
+    {
+        "path":  "000065408v001/metadata/Creative%20Commons%20Attribution-Noncommercial-Share%20Alike%20Licence.html",
+        "bytes":  671,
+        "sha256":  "0c1b2981ac78915c427fe9cf27097b3e71ff7dd52ac28a6eee2ff4738fb7333d"
+    },
+    {
+        "path":  "000065408v001/metadata/dublincore-000065408v001.xml",
+        "bytes":  2029,
+        "sha256":  "5e012ddce0048eedd5280c0c995be29bf6a206ab0862e2087269bc82e88815c9"
+    },
+    {
+        "path":  "000065408v001/metadata/readme-help.md",
+        "bytes":  4175,
+        "sha256":  "ac765fc1d7cb0bda9bf5a435fc2475aaed13b20755f2a09bf7c1b476925401f5"
+    }
+]

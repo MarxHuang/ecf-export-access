@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "files_verified": 479,
+  "australian_cases": 30,
+  "australian_interval_rows": 514752,
+  "primary_days": 80,
+  "primary_comparisons": {
+    "NO_FEEDBACK": {
+      "delivery_MWh": 1.3922339022548158,
+      "authorization_MWh": 1.2064296342909984,
+      "unused_authorization_MWh": -0.1858042679637748
+    },
+    "MATCHED_UNIFORM": {
+      "delivery_MWh": 1.3919993710973984,
+      "authorization_MWh": 1.2132508196267509,
+      "unused_authorization_MWh": -0.1787485514706333
+    }
+  },
+  "primary_qualification_count": 483,
+  "primary_assessed_intervals": 3840,
+  "scope": "Saved-file integrity and aggregate arithmetic; no new simulation or AC solution."
+}

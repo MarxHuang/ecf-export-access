@@ -1,0 +1,241 @@
+﻿Behavior,Comparator,Seed,Contiguous block,Dates in block,Delivery difference (MWh)
+Own-delivery adaptation,No feedback,2001,1,7,-0.0035662500706905575
+Own-delivery adaptation,No feedback,2001,2,14,0.11082089276829876
+Own-delivery adaptation,No feedback,2001,3,3,0.09957738482707401
+Own-delivery adaptation,No feedback,2001,4,2,0.01685800263492565
+Own-delivery adaptation,No feedback,2001,5,2,-0.04748948537395625
+Own-delivery adaptation,No feedback,2001,6,1,-0.04294183642706528
+Own-delivery adaptation,No feedback,2001,7,4,-0.01829984445629451
+Own-delivery adaptation,No feedback,2001,8,7,0.16113770188136378
+Own-delivery adaptation,No feedback,2001,9,35,0.7721418601405076
+Own-delivery adaptation,No feedback,2001,10,5,0.008603175424557241
+Own-delivery adaptation,No feedback,2002,1,7,0.05461892311337824
+Own-delivery adaptation,No feedback,2002,2,14,0.28297368934639655
+Own-delivery adaptation,No feedback,2002,3,3,0.08353463828673391
+Own-delivery adaptation,No feedback,2002,4,2,0.14919969573289382
+Own-delivery adaptation,No feedback,2002,5,2,0.006294982119853909
+Own-delivery adaptation,No feedback,2002,6,1,0.03877239362840701
+Own-delivery adaptation,No feedback,2002,7,4,-0.020404658122023633
+Own-delivery adaptation,No feedback,2002,8,7,0.15222842321160845
+Own-delivery adaptation,No feedback,2002,9,35,0.760837730431503
+Own-delivery adaptation,No feedback,2002,10,5,0.22454075781554406
+Own-delivery adaptation,No feedback,2003,1,7,0.054002932862623254
+Own-delivery adaptation,No feedback,2003,2,14,0.10374130639480406
+Own-delivery adaptation,No feedback,2003,3,3,0.0114843311870243
+Own-delivery adaptation,No feedback,2003,4,2,0.11378874271413775
+Own-delivery adaptation,No feedback,2003,5,2,-0.013492398423033958
+Own-delivery adaptation,No feedback,2003,6,1,0.004243883190169662
+Own-delivery adaptation,No feedback,2003,7,4,0.043879487383544635
+Own-delivery adaptation,No feedback,2003,8,7,0.3329429563512951
+Own-delivery adaptation,No feedback,2003,9,35,0.8757293446643183
+Own-delivery adaptation,No feedback,2003,10,5,0.017137471621557543
+Own-delivery adaptation,No feedback,Mean of 3 seeds,1,7,0.035018535301770314
+Own-delivery adaptation,No feedback,Mean of 3 seeds,2,14,0.1658452961698331
+Own-delivery adaptation,No feedback,Mean of 3 seeds,3,3,0.06486545143361075
+Own-delivery adaptation,No feedback,Mean of 3 seeds,4,2,0.09328214702731907
+Own-delivery adaptation,No feedback,Mean of 3 seeds,5,2,-0.0182289672257121
+Own-delivery adaptation,No feedback,Mean of 3 seeds,6,1,0.000024813463837129273
+Own-delivery adaptation,No feedback,Mean of 3 seeds,7,4,0.0017249949350754972
+Own-delivery adaptation,No feedback,Mean of 3 seeds,8,7,0.21543636048142245
+Own-delivery adaptation,No feedback,Mean of 3 seeds,9,35,0.8029029784121097
+Own-delivery adaptation,No feedback,Mean of 3 seeds,10,5,0.08342713495388629
+Own-delivery adaptation,Same update without qualification,2001,1,7,0.19429481885954925
+Own-delivery adaptation,Same update without qualification,2001,2,14,0.8320734798194573
+Own-delivery adaptation,Same update without qualification,2001,3,3,0.3336304101254519
+Own-delivery adaptation,Same update without qualification,2001,4,2,0.013018640717988639
+Own-delivery adaptation,Same update without qualification,2001,5,2,0.015852532152359267
+Own-delivery adaptation,Same update without qualification,2001,6,1,0.02716834696802861
+Own-delivery adaptation,Same update without qualification,2001,7,4,0.1027537952918065
+Own-delivery adaptation,Same update without qualification,2001,8,7,0.25765748030288016
+Own-delivery adaptation,Same update without qualification,2001,9,35,2.392000543604903
+Own-delivery adaptation,Same update without qualification,2001,10,5,0.4304328280705416
+Own-delivery adaptation,Same update without qualification,2002,1,7,0.04249102829324114
+Own-delivery adaptation,Same update without qualification,2002,2,14,0.5433430688980128
+Own-delivery adaptation,Same update without qualification,2002,3,3,0.423119545015318
+Own-delivery adaptation,Same update without qualification,2002,4,2,0.01190466607164975
+Own-delivery adaptation,Same update without qualification,2002,5,2,0.06875975454071659
+Own-delivery adaptation,Same update without qualification,2002,6,1,0.11614346133188747
+Own-delivery adaptation,Same update without qualification,2002,7,4,0.26405607647584217
+Own-delivery adaptation,Same update without qualification,2002,8,7,0.3182928744961009
+Own-delivery adaptation,Same update without qualification,2002,9,35,2.2390162788601695
+Own-delivery adaptation,Same update without qualification,2002,10,5,0.4745273695787071
+Own-delivery adaptation,Same update without qualification,2003,1,7,0.12982282614083074
+Own-delivery adaptation,Same update without qualification,2003,2,14,0.5289251195093794
+Own-delivery adaptation,Same update without qualification,2003,3,3,0.34635719593358116
+Own-delivery adaptation,Same update without qualification,2003,4,2,-0.06674355386794995
+Own-delivery adaptation,Same update without qualification,2003,5,2,0.02191426491618964
+Own-delivery adaptation,Same update without qualification,2003,6,1,0.12522837293395295
+Own-delivery adaptation,Same update without qualification,2003,7,4,0.40771322445028346
+Own-delivery adaptation,Same update without qualification,2003,8,7,0.3904852636694711
+Own-delivery adaptation,Same update without qualification,2003,9,35,2.2624155595963846
+Own-delivery adaptation,Same update without qualification,2003,10,5,0.3425202548155377
+Own-delivery adaptation,Same update without qualification,Mean of 3 seeds,1,7,0.12220289109787372
+Own-delivery adaptation,Same update without qualification,Mean of 3 seeds,2,14,0.6347805560756165
+Own-delivery adaptation,Same update without qualification,Mean of 3 seeds,3,3,0.36770238369145036
+Own-delivery adaptation,Same update without qualification,Mean of 3 seeds,4,2,-0.013940082359437184
+Own-delivery adaptation,Same update without qualification,Mean of 3 seeds,5,2,0.03550885053642183
+Own-delivery adaptation,Same update without qualification,Mean of 3 seeds,6,1,0.08951339374462301
+Own-delivery adaptation,Same update without qualification,Mean of 3 seeds,7,4,0.2581743654059774
+Own-delivery adaptation,Same update without qualification,Mean of 3 seeds,8,7,0.3221452061561507
+Own-delivery adaptation,Same update without qualification,Mean of 3 seeds,9,35,2.2978107940204855
+Own-delivery adaptation,Same update without qualification,Mean of 3 seeds,10,5,0.4158268174882621
+Own-delivery adaptation,Equal-total shadow,2001,1,7,0.0020892603599360626
+Own-delivery adaptation,Equal-total shadow,2001,2,14,0.1209212122422465
+Own-delivery adaptation,Equal-total shadow,2001,3,3,0.10047352006311638
+Own-delivery adaptation,Equal-total shadow,2001,4,2,0.01747636074777592
+Own-delivery adaptation,Equal-total shadow,2001,5,2,-0.04727440480477885
+Own-delivery adaptation,Equal-total shadow,2001,6,1,-0.04873101327408369
+Own-delivery adaptation,Equal-total shadow,2001,7,4,-0.015915100416294514
+Own-delivery adaptation,Equal-total shadow,2001,8,7,0.1639476916585556
+Own-delivery adaptation,Equal-total shadow,2001,9,35,0.8040183071580048
+Own-delivery adaptation,Equal-total shadow,2001,10,5,0.009057201215258104
+Own-delivery adaptation,Equal-total shadow,2002,1,7,0.05746041657384815
+Own-delivery adaptation,Equal-total shadow,2002,2,14,0.29258742221925793
+Own-delivery adaptation,Equal-total shadow,2002,3,3,0.0841230266373203
+Own-delivery adaptation,Equal-total shadow,2002,4,2,0.14853330448876045
+Own-delivery adaptation,Equal-total shadow,2002,5,2,0.010010624163347082
+Own-delivery adaptation,Equal-total shadow,2002,6,1,0.040241749061090015
+Own-delivery adaptation,Equal-total shadow,2002,7,4,-0.01826690405521525
+Own-delivery adaptation,Equal-total shadow,2002,8,7,0.15390622760429506
+Own-delivery adaptation,Equal-total shadow,2002,9,35,0.8133698192146058
+Own-delivery adaptation,Equal-total shadow,2002,10,5,0.22446830600973589
+Own-delivery adaptation,Equal-total shadow,2003,1,7,0.05525585233642705
+Own-delivery adaptation,Equal-total shadow,2003,2,14,0.07748847587961194
+Own-delivery adaptation,Equal-total shadow,2003,3,3,0.012037608487487361
+Own-delivery adaptation,Equal-total shadow,2003,4,2,0.11253037941926003
+Own-delivery adaptation,Equal-total shadow,2003,5,2,-0.012472790042356241
+Own-delivery adaptation,Equal-total shadow,2003,6,1,0.004559286639111093
+Own-delivery adaptation,Equal-total shadow,2003,7,4,0.04605909205395253
+Own-delivery adaptation,Equal-total shadow,2003,8,7,0.33009049962064596
+Own-delivery adaptation,Equal-total shadow,2003,9,35,0.9315149614946278
+Own-delivery adaptation,Equal-total shadow,2003,10,5,0.01689539068750423
+Own-delivery adaptation,Equal-total shadow,Mean of 3 seeds,1,7,0.03826850975673709
+Own-delivery adaptation,Equal-total shadow,Mean of 3 seeds,2,14,0.16366570344703882
+Own-delivery adaptation,Equal-total shadow,Mean of 3 seeds,3,3,0.06554471839597469
+Own-delivery adaptation,Equal-total shadow,Mean of 3 seeds,4,2,0.09284668155193213
+Own-delivery adaptation,Equal-total shadow,Mean of 3 seeds,5,2,-0.016578856894596
+Own-delivery adaptation,Equal-total shadow,Mean of 3 seeds,6,1,-0.0013099925246275272
+Own-delivery adaptation,Equal-total shadow,Mean of 3 seeds,7,4,0.00395902919414759
+Own-delivery adaptation,Equal-total shadow,Mean of 3 seeds,8,7,0.21598147296116554
+Own-delivery adaptation,Equal-total shadow,Mean of 3 seeds,9,35,0.8496343626224128
+Own-delivery adaptation,Equal-total shadow,Mean of 3 seeds,10,5,0.0834736326374994
+No preference update,No feedback,2001,1,7,0.0010371557320163483
+No preference update,No feedback,2001,2,14,0.0564000968128231
+No preference update,No feedback,2001,3,3,0.10059971717353555
+No preference update,No feedback,2001,4,2,0.0175250150427253
+No preference update,No feedback,2001,5,2,-0.046926454932437967
+No preference update,No feedback,2001,6,1,-0.0407459140081059
+No preference update,No feedback,2001,7,4,-0.016193309843076875
+No preference update,No feedback,2001,8,7,0.20400580460564477
+No preference update,No feedback,2001,9,35,0.7847599815624011
+No preference update,No feedback,2001,10,5,0.02888733368757257
+No preference update,No feedback,2002,1,7,0.04514309932981719
+No preference update,No feedback,2002,2,14,0.2432098584821376
+No preference update,No feedback,2002,3,3,0.08519023528282355
+No preference update,No feedback,2002,4,2,0.14874673556248608
+No preference update,No feedback,2002,5,2,0.009941789686886082
+No preference update,No feedback,2002,6,1,0.03898239282613725
+No preference update,No feedback,2002,7,4,-0.020089399093676796
+No preference update,No feedback,2002,8,7,0.16485941781288105
+No preference update,No feedback,2002,9,35,0.7764912908724563
+No preference update,No feedback,2002,10,5,0.19057232236051358
+No preference update,No feedback,2003,1,7,0.08933280475723038
+No preference update,No feedback,2003,2,14,0.10074404007389193
+No preference update,No feedback,2003,3,3,0.011350773098406375
+No preference update,No feedback,2003,4,2,0.11165680733748617
+No preference update,No feedback,2003,5,2,-0.009981979349539927
+No preference update,No feedback,2003,6,1,0.0042796211823716845
+No preference update,No feedback,2003,7,4,0.043426168468658766
+No preference update,No feedback,2003,8,7,0.32351800820591237
+No preference update,No feedback,2003,9,35,0.730662963816099
+No preference update,No feedback,2003,10,5,0.017052804922998988
+No preference update,No feedback,Mean of 3 seeds,1,7,0.04517101993968797
+No preference update,No feedback,Mean of 3 seeds,2,14,0.13345133178961754
+No preference update,No feedback,Mean of 3 seeds,3,3,0.06571357518492182
+No preference update,No feedback,Mean of 3 seeds,4,2,0.09264285264756586
+No preference update,No feedback,Mean of 3 seeds,5,2,-0.015655548198363935
+No preference update,No feedback,Mean of 3 seeds,6,1,0.000838700000134344
+No preference update,No feedback,Mean of 3 seeds,7,4,0.0023811531773016994
+No preference update,No feedback,Mean of 3 seeds,8,7,0.23079441020814606
+No preference update,No feedback,Mean of 3 seeds,9,35,0.7639714120836522
+No preference update,No feedback,Mean of 3 seeds,10,5,0.07883748699036172
+No preference update,Same update without qualification,2001,1,7,0.14213768081386124
+No preference update,Same update without qualification,2001,2,14,0.7175766889166009
+No preference update,Same update without qualification,2001,3,3,0.32690216633536595
+No preference update,Same update without qualification,2001,4,2,0.012095765919878154
+No preference update,Same update without qualification,2001,5,2,0.01391822069178339
+No preference update,Same update without qualification,2001,6,1,0.03191484182159776
+No preference update,Same update without qualification,2001,7,4,0.08930795239104983
+No preference update,Same update without qualification,2001,8,7,0.2920164776473433
+No preference update,Same update without qualification,2001,9,35,2.2034014571132987
+No preference update,Same update without qualification,2001,10,5,0.4317206188957696
+No preference update,Same update without qualification,2002,1,7,0.007718626831005881
+No preference update,Same update without qualification,2002,2,14,0.4563782021601246
+No preference update,Same update without qualification,2002,3,3,0.4167599523277574
+No preference update,Same update without qualification,2002,4,2,0.013321329702486118
+No preference update,Same update without qualification,2002,5,2,0.06666151214001115
+No preference update,Same update without qualification,2002,6,1,0.11280384107988306
+No preference update,Same update without qualification,2002,7,4,0.26371544433251115
+No preference update,Same update without qualification,2002,8,7,0.3058111047324732
+No preference update,Same update without qualification,2002,9,35,1.9430493515955862
+No preference update,Same update without qualification,2002,10,5,0.442090065211483
+No preference update,Same update without qualification,2003,1,7,0.1984039429893838
+No preference update,Same update without qualification,2003,2,14,0.45711460266737536
+No preference update,Same update without qualification,2003,3,3,0.34403226315530633
+No preference update,Same update without qualification,2003,4,2,-0.07629836260900857
+No preference update,Same update without qualification,2003,5,2,0.025306834264471778
+No preference update,Same update without qualification,2003,6,1,0.12618646279468138
+No preference update,Same update without qualification,2003,7,4,0.4028281699179366
+No preference update,Same update without qualification,2003,8,7,0.37345266243978825
+No preference update,Same update without qualification,2003,9,35,1.7328528139856738
+No preference update,Same update without qualification,2003,10,5,0.35194815106185473
+No preference update,Same update without qualification,Mean of 3 seeds,1,7,0.11608675021141698
+No preference update,Same update without qualification,Mean of 3 seeds,2,14,0.5436898312480335
+No preference update,Same update without qualification,Mean of 3 seeds,3,3,0.36256479393947655
+No preference update,Same update without qualification,Mean of 3 seeds,4,2,-0.016960422328881435
+No preference update,Same update without qualification,Mean of 3 seeds,5,2,0.035295522365422105
+No preference update,Same update without qualification,Mean of 3 seeds,6,1,0.09030171523205406
+No preference update,Same update without qualification,Mean of 3 seeds,7,4,0.2519505222138325
+No preference update,Same update without qualification,Mean of 3 seeds,8,7,0.32376008160653486
+No preference update,Same update without qualification,Mean of 3 seeds,9,35,1.9597678742315197
+No preference update,Same update without qualification,Mean of 3 seeds,10,5,0.4085862783897024
+No preference update,Equal-total shadow,2001,1,7,0.001066389896812403
+No preference update,Equal-total shadow,2001,2,14,0.05637635901396587
+No preference update,Equal-total shadow,2001,3,3,0.10059439901142953
+No preference update,Equal-total shadow,2001,4,2,0.017505924682910123
+No preference update,Equal-total shadow,2001,5,2,-0.04695227517998246
+No preference update,Equal-total shadow,2001,6,1,-0.040752786070856306
+No preference update,Equal-total shadow,2001,7,4,-0.01621157368654691
+No preference update,Equal-total shadow,2001,8,7,0.2040016677515495
+No preference update,Equal-total shadow,2001,9,35,0.7847523998114821
+No preference update,Equal-total shadow,2001,10,5,0.02887541188042131
+No preference update,Equal-total shadow,2002,1,7,0.045114867229028466
+No preference update,Equal-total shadow,2002,2,14,0.24362750497310115
+No preference update,Equal-total shadow,2002,3,3,0.08518401268067999
+No preference update,Equal-total shadow,2002,4,2,0.1487332500602454
+No preference update,Equal-total shadow,2002,5,2,0.009947586830697741
+No preference update,Equal-total shadow,2002,6,1,0.03897244045479198
+No preference update,Equal-total shadow,2002,7,4,-0.020134563329361033
+No preference update,Equal-total shadow,2002,8,7,0.16487258188195764
+No preference update,Equal-total shadow,2002,9,35,0.776449148945249
+No preference update,Equal-total shadow,2002,10,5,0.19057121771143692
+No preference update,Equal-total shadow,2003,1,7,0.08927521992545007
+No preference update,Equal-total shadow,2003,2,14,0.10072434162893895
+No preference update,Equal-total shadow,2003,3,3,0.011333523515229427
+No preference update,Equal-total shadow,2003,4,2,0.11164666807809187
+No preference update,Equal-total shadow,2003,5,2,-0.009972122121004734
+No preference update,Equal-total shadow,2003,6,1,0.004265602362580889
+No preference update,Equal-total shadow,2003,7,4,0.04339801263598231
+No preference update,Equal-total shadow,2003,8,7,0.3235111346999888
+No preference update,Equal-total shadow,2003,9,35,0.7306890232470536
+No preference update,Equal-total shadow,2003,10,5,0.01705404402647548
+No preference update,Equal-total shadow,Mean of 3 seeds,1,7,0.045152159017096974
+No preference update,Equal-total shadow,Mean of 3 seeds,2,14,0.13357606853866866
+No preference update,Equal-total shadow,Mean of 3 seeds,3,3,0.06570397840244631
+No preference update,Equal-total shadow,Mean of 3 seeds,4,2,0.09262861427374913
+No preference update,Equal-total shadow,Mean of 3 seeds,5,2,-0.01565893682342982
+No preference update,Equal-total shadow,Mean of 3 seeds,6,1,0.0008284189155055207
+No preference update,Equal-total shadow,Mean of 3 seeds,7,4,0.002350625206691454
+No preference update,Equal-total shadow,Mean of 3 seeds,8,7,0.2307951281111653
+No preference update,Equal-total shadow,Mean of 3 seeds,9,35,0.7639635240012616
+No preference update,Equal-total shadow,Mean of 3 seeds,10,5,0.0788335578727779

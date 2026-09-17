@@ -1,0 +1,4 @@
+﻿externality_interval_share,mean_coalition_delivery_gain_kw,mean_outside_delivery_loss_kw,mean_positive_part_delivery_loss_kw,mean_private_utility_gain_kw_equivalent,mean_selected_gamma,mean_signed_feeder_delivery_change_kw,penalty_to_export_value_ratio,productive_high_request_interval_share,trajectory_count
+0.501388888889,15.9479830788,37.6467280763,22.8551057189,15.9479830788,1.51333333333,-21.6987449976,0,0.15,90
+0.155555555556,8.67761911652,9.35674411694,2.04090791325,4.37167075855,1.14266666667,-0.679125000417,1,0.330555555556,90
+0,0.0706670080876,0.160259766341,0.0975512833163,0.14038302572,1.04533333333,-0.089592758253,10,0.109722222222,90

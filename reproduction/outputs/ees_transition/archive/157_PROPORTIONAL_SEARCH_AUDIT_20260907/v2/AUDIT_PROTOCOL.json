@@ -1,0 +1,692 @@
+{
+  "purpose": "Independent numerical allocation-search diagnosis; not a new efficacy scenario",
+  "frozen_protocol_sha256": "9885fa7d44418ce3fe3d972c368b48dd8380651f6df1eeb9b3adf576914fc3a1",
+  "config": {
+    "dss_root": "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data",
+    "package": "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\processed\\australian_external_replay_v2",
+    "mapping_file": "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\processed\\australian_external_replay_v2\\CSIRO_LOAD_TO_AUSGRID_PROFILE_MAPPING.csv",
+    "split": "EVALUATION",
+    "load_scale": 0.3,
+    "beta": 0.5,
+    "telemetry_mode": "EXACT",
+    "telemetry_scale": 1.0,
+    "telemetry_dropout_fraction": 0.1,
+    "telemetry_dropout_seed": "AU_TELEMETRY_DROPOUT_V1"
+  },
+  "core_hashes": {
+    "australian_allocation.py": "3f4de5a17b3a73de87d0f77bd34524fc71e9792130e96707336b271085465fb7",
+    "australian_data.py": "020731172fa297445577243e078058958ebd9a115c36892e7ed16fbc198b94df",
+    "australian_opendss.py": "9abac8ed51905dd5dc015d2731dfe94ea5287e9e0f3d6f77c0d7ef64902fc7b1",
+    "australian_policy.py": "29f511aec92770b6b082ab9ebab2e3f21765be656717bf50572a42e56603ccc1",
+    "externality_feedback.py": "b61392bb6cb020094640a3372c208a386e452d7e885898f9a3a74351f8e48f44",
+    "_version.py": "28f0bb87c20ba123a9c9e56de0d86ef52162a323b58e44579e277ddae9cc5c5b",
+    "__init__.py": "3ee48a9fea16a7322b2959260cda2e123a4c6549e601382b87b7c10c5bb89ede"
+  },
+  "runner_sha256": "d5534a0387ae2ce6ae4b59b8fc9620db98f8b99e07bda85f6a347f1b96e4c4a0",
+  "input_hashes": {
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\processed\\australian_external_replay_v2\\CSIRO_LOAD_TO_AUSGRID_PROFILE_MAPPING.csv": "e6a18bbfa2f7c23981ad6528417b9cd5a612d062c960521eb181567c8afdec28",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\processed\\australian_external_replay_v2\\AU_PRIMARY_EVALUATION_DATES_80.txt": "9534ecc917ef5f0cf909b3259101ff08bbfe113083f3bf3abca99f660c76b2b7",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\151_FROZEN_SCENARIO_EVALUATION_20260907\\runs\\primary\\AU_EXTERNAL_INTERVAL_RESULTS.csv": "d540fdfca6a42f717890f343bbfe4dd7045db57e7905fc4bece86ee42480b607",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\processed\\australian_external_replay_v2\\AUSGRID_DEVELOPMENT_2011_2012.npz": "989729eebd49a820b8454897143a976fa2d92875ea30f1a3a7720b14cdd6d40f",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\processed\\australian_external_replay_v2\\AUSGRID_EVALUATION_2012_2013.npz": "b97030a82f30ae8649ea4516ac12e219a44de4a88c71a7c14adc840183de4c44",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\processed\\australian_external_replay_v2\\AUSGRID_TRAIN_2010_2011.npz": "62535c920217c66f46b397a532ee1540a7fadff681dd70e86030657b8a2cfd7c",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV10_223bus\\Groundings.dss": "8ecf95556cd4e75fc63a19fe490d4abe7533b1adbd060036c79c64f7711d646e",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV10_223bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV10_223bus\\lines.dss": "c7dcdb2a4d8fcfdecdd2259b043d5ba47a1dfb343d9f44507b8474d228dddb95",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV10_223bus\\Loads.dss": "c7d50887731a936181bc4fbed62ff38b8771f6f112942b104aa85711966b1f58",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV10_223bus\\Master.dss": "72351eb2942cb423930a40be96ccf26390bac326bf309eb1d3cb6bc159aacc9a",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV10_223bus\\Switches.dss": "9411cd8be994c63cc6814fefa81c4acd9ce8be4bf922cf419a5fdf869d317183",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV10_223bus\\Transformers.dss": "e04038e6451014d7cdfe8719ebd76b724006301c07aca85570bb913dfcc900f0",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV11_216bus\\Groundings.dss": "4c9b4e22f6920a6b74427086c2a8903103c77761049c44e3401ed16e6a0e6cc7",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV11_216bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV11_216bus\\lines.dss": "e6c0cd4577430314c04353d605239c321271822258f8ebf56e4a27bdc0ceaf29",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV11_216bus\\Loads.dss": "3c527165fa1f28c44621195a471b75072a587bbf82d638eeeaab21b701a880c5",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV11_216bus\\Master.dss": "ebb1008afd152aa713ad185770b36a9eaf9852f92dde859793877b5251c9e535",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV11_216bus\\Switches.dss": "0d5c610e5f9100d11b6bd033799acdbd05687fa1e82f2a276617944688c5e3ee",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV11_216bus\\Transformers.dss": "a345d50a4e3e4e497ae3b4e1c8a9a7c6a24bb27d73096c4632e77e83341be6b8",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV12_248bus\\Groundings.dss": "27563e3a6d643f25d6b364f74751e245e94e165d6102a162038a569dbf37bdcc",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV12_248bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV12_248bus\\lines.dss": "95d16f655d91629db6791b5e500ccab62e8f04d4a9b074c03a6bca0ae0a7b6f9",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV12_248bus\\Loads.dss": "d920b9cf553a19906bb577ff641f483907094bd57e42329872c40ec30243eda3",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV12_248bus\\Master.dss": "1bbd65e33f9e1faa3126cf8c6fe7fcc04b28e24ff6453b4b0f768e18ce17536d",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV12_248bus\\Switches.dss": "c4593ae23b492a6ccbdd3dce94d614c11bd05b5f3fbbc1c9d0534078c81784e3",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV12_248bus\\Transformers.dss": "e3ceffaa1d8e262192d92facabc37de69a57f4de413ec8fab86d21cd34d8b087",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV13_58bus\\Groundings.dss": "7b97fb9fb62540342f27a58ab435a0c088015a053403a783fcf6f526e35f9ffa",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV13_58bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV13_58bus\\lines.dss": "0eebe673bd05e18a486ecc0e2ced2f987388e2c643fa70e689782ac50a5568aa",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV13_58bus\\Loads.dss": "a2766e41e8efca190022926b82ad360b1fdf6f7d242dc9ad251868c2c9730e6d",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV13_58bus\\Master.dss": "04aee4eaf5a0797e48c3e618e3a2b3297fe53cd95644d0567ec2a839d80109ac",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV13_58bus\\Switches.dss": "b6500db2a424486e46b90fc176d58fcd8ebbbf14a4d0d6a46081674f008af86d",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV13_58bus\\Transformers.dss": "aa7846364648f834d89b4a132b8fadc890841b79bb9d46929d85391b7f2be2e6",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV14_13bus\\Groundings.dss": "df92f3032c584e80a14c7a6e29c9fdc71a3370e88d74a5775315280cbc9d2d09",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV14_13bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV14_13bus\\lines.dss": "82a2deba038fae8da64696d4408145d63bab5b080160253e4d1efd936c773544",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV14_13bus\\Loads.dss": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV14_13bus\\Master.dss": "0e1a5e4035273e06dc3cc9924a11a9808957b7a2956fac9163057887432579a2",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV14_13bus\\Switches.dss": "31446a20486f6bf4ef463953bf7537005fdc956ec6f7dba50bf56c20f2bc9995",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV14_13bus\\Transformers.dss": "4d97cac2a364b5ccbb587cfb89df29b51c8cce163660a1362199373986bf8d8e",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV15_137bus\\Groundings.dss": "84c2c021c5ab29bff21a87343d461fb8c060452873100f20e9cdea8992d5536a",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV15_137bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV15_137bus\\lines.dss": "6cf538e2ab6be2115d7c23feef332d06175c5a47e5a6aceb337da98a9382ec53",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV15_137bus\\Loads.dss": "fdb7edb6a4a3ed8ea008b6513d1f7090bb46e423ac3a139e844268c88127f67d",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV15_137bus\\Master.dss": "5cd5f96719659a5709acf7df4a8b99e7e4adf667622d199372dca2ed96f2df2d",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV15_137bus\\Switches.dss": "6818f50584f70f3392c2d05fd64ca23a1892872fe17ec2379f9820c61425d2b2",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV15_137bus\\Transformers.dss": "eca3fd69db52aea9ff9501d8d3a4e25db61f16df84fda2dca7836462546ef829",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV16_12bus\\Groundings.dss": "85a11048e5f77dcc5db74cf9aa98f83d6486ff45adbd60c2a616ebe02ede82f9",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV16_12bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV16_12bus\\lines.dss": "7e7a6f8cd14a1b9ef45743dc639110909597dbf05bc6561b24fc827643d7b5e1",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV16_12bus\\Loads.dss": "a29627899c94017214008ed15810689516d6becb9b659e895dfd8ca2c90aacf3",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV16_12bus\\Master.dss": "be0e5b8eba77f021f0d0799a813356d1bb10e971fa1b112a3d9c0e84bfe6fda8",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV16_12bus\\Switches.dss": "84821b17b6724d9b43e629ddfa4ef722d1ef66c84dcc505dbfb28e9c934aabc7",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV16_12bus\\Transformers.dss": "18aacd291e95684ff755c12f3187de994fbb2c24e6f15db8a8e222787d0581ce",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV17_279bus\\Groundings.dss": "5c785190ce2e756b77075f0fa80a92a1f818d456b79d539be38ea796e67388b8",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV17_279bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV17_279bus\\lines.dss": "32c4681c7104f4eded21f55122181085c4568c95528ff435b0523cfec1d1870c",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV17_279bus\\Loads.dss": "12b8d5fd41f5e753eafe0691a5b4fc706ca5caef04798202472696146ee7f755",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV17_279bus\\Master.dss": "f326db4514fd484524dac44e6c8b2802817b3e74ddd27a9692f4a9af8ffbe13b",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV17_279bus\\Switches.dss": "28372c2c62803bb52a6341b841c0cb464319e3b858f2ccbf60af636db18cc0b8",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV17_279bus\\Transformers.dss": "a7a41a5662d1866ef645e07dd38852109254ec2dcd97f6bd0d937025ef23d79b",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV18_12bus\\Groundings.dss": "1f272b048ebef4a87cc52aea43e6d7373ba4619d4bea2190e4b71d0cbaeea1ef",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV18_12bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV18_12bus\\lines.dss": "419f0ad9962d58e0290e2314548a1b92e1b3c6de83a81278e09ce0eedbbdf6b8",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV18_12bus\\Loads.dss": "c37a382a2bc501d916b1827872d383618dc4cc35c56ddbccb4bc025285963c72",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV18_12bus\\Master.dss": "15873382b73c57ccbae7c8ca5645053f8a34594c70c0c5b95003f111a45691bd",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV18_12bus\\Switches.dss": "284f86891f24ec3c54f5d7dbd4e32d87c85fdf7da5b05fbae1cc8414bc1eb0f6",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV18_12bus\\Transformers.dss": "f66a759abb6348a38f3d7d3b77fbb2ca6e5a929de3a987b952734b9c94199d23",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV19_13bus\\Groundings.dss": "2d572d487f039e4c252bd6dce4158a7886738f75a7cb5d72c7ba692f6d0caed4",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV19_13bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV19_13bus\\lines.dss": "6c3cc842d5922ba781defa6afe4fd1e66546ab7dcda5550acc50fc74e82e6303",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV19_13bus\\Loads.dss": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV19_13bus\\Master.dss": "f735bd2f84343b761abca1711914a427a9126d37613a95157dfaee2656893040",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV19_13bus\\Switches.dss": "03fce1f95818329838d15e86b1c812d496e599343648505ee4b59f381fbe8dd6",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV19_13bus\\Transformers.dss": "3ad42165877a47f8e160cea1b19a9275f778f4564f51f9ce89ef7eee99646f8d",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV1_14bus\\Groundings.dss": "712de28f906059221ca3f8b67483134fcb05dac479a23a743a29826cd5172883",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV1_14bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV1_14bus\\lines.dss": "cca3799411a029b4891f1f853da2a4df6fbb7f4897587201d3ad50ce7fce4409",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV1_14bus\\Loads.dss": "5710ce2931c0fc38c41200a215e05c742b9ee8eb098d84e1b34ffd8447cc9fca",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV1_14bus\\Master.dss": "3d31d447b424408e0b2507a3d196972164c2960d757235616e71ac9a6ba6aa80",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV1_14bus\\Switches.dss": "bc8664f6591862d51fd21ca7b67cfc75f7ef3fb2982fe0befe37f5a869f56b78",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV1_14bus\\Transformers.dss": "49ae8d5af3992cd76aaca1c9a412d25ee290c11a4a1c6cf7e740f445837517e8",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV20_26bus\\Groundings.dss": "a483769006fefdf0b03ff1ee50506ae1a11963a3c83892a2a8aebcf7e53e135d",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV20_26bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV20_26bus\\lines.dss": "ebef9bf487ce33bed6762549de75b81f76cc0bfcd9a5a8fd74363f27a4c46ccb",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV20_26bus\\Loads.dss": "a340f87a18181567f51af6718394ab6d6e0e58e3a1b4f9dc2be8d320b55abade",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV20_26bus\\Master.dss": "7a6139a735e18e0506aa51bade490602574904b4086b7f7ff89c0774ecd34a4d",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV20_26bus\\Switches.dss": "513ecc88bd52b877c9934f665d3b07287b32f33b05e5250c6f4cb99cbc2c8141",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV20_26bus\\Transformers.dss": "ec166f422c31b5d1548f6db2951720ebf2451f92493b5209a72e4b859b6a3aee",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV22_80bus\\Groundings.dss": "58eed0ece99cb9118fcb43a0aadc155416907fe91c1bdd50371ad476bab5b3ed",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV22_80bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV22_80bus\\lines.dss": "5f120ff6c7aa03267a89ebf2e8f8e52db84e9c7489c779ada6c0e89f9236572a",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV22_80bus\\Loads.dss": "a028b9059bc5e2d2efab65d6ef84fefe65e3aea47f24252b7d540ff649b02af8",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV22_80bus\\Master.dss": "1904134a99cc454438322fd1bf97b943a7c66ffcd5b17b1b8cde2c13ef983b2a",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV22_80bus\\Switches.dss": "e65306e38b973e679ff5ca6a141bac59308860044ea019a2a723cf7249cb48c4",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV22_80bus\\Transformers.dss": "c0146ce24ea63a050df654ce3806eec43306385b00c6b2db097e82e3176ab00e",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV23_13bus\\Groundings.dss": "d7db95f0444e2567ca98a1398b3467382e7fdc3d65e4ba53295258bc4e64e29b",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV23_13bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV23_13bus\\lines.dss": "eb435d323b0c6b821ffb46f09af9e3478e6e9fb71995dbef00ba84b8a5286a8b",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV23_13bus\\Loads.dss": "221e75962f63031c5d94dbf88ccafffe94d810399786fb9e7335e07275dcf31e",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV23_13bus\\Master.dss": "d93d7730c985666ff6dde32777f547e068b255b0325ea53762af224c6890723a",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV23_13bus\\Switches.dss": "52769b9d67dc247cc4b3b55332274b21cbd271afdc87387ff88b822c61370d1e",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV23_13bus\\Transformers.dss": "305307a8ae4ab30c3d7ed5daea2a61f4458c6b882f70d5a652a394c5664b48b5",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV24_246bus\\Groundings.dss": "70b9bc3acc0eb4be9a465bef8c9901bd7339f6f4dc5402aee9864599018c022f",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV24_246bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV24_246bus\\lines.dss": "a8f791f249d06f4d3897428c8c3324871e8faa2e59f7cb036c418fd172dee2ae",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV24_246bus\\Loads.dss": "f9b8fa4b3560bc4a69995a4e2b24a8d27b4ce1f630101cf66b97b44be2bc447c",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV24_246bus\\Master.dss": "336f7f614a4e0b63c42f3ba03de950a2f8c2c56cc8d8b74b05e361410b704e1a",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV24_246bus\\Switches.dss": "be857111ce271a8d0c1b3711c0a87351597a752f9f6ebc37de38ff4a64b637cf",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV24_246bus\\Transformers.dss": "d2195abc920f149ef8b2a7ecb39d0825772b6b04082cfa339dc5b06c04fed302",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV25_232bus\\Groundings.dss": "1183a312a315becf9dd11e5ac29eb3cbc3671565023ad0a6e0e90eac3a64b311",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV25_232bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV25_232bus\\lines.dss": "7e40a9a6d915e5ff815fed2b931be8e08350c736b98d7715417809e52a7d79e2",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV25_232bus\\Loads.dss": "692acde18c914dc14d67bfa9dd0405f2aaf21c1ec931343d2b902b5de3a43c33",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV25_232bus\\Master.dss": "296605d20804a4643d2e0829b529d6bc727e68c9df4103d17f9a6a6162f2143c",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV25_232bus\\Switches.dss": "7c01caec2cd757a1bbdf34a6070d47a220985760c4b706fa1e688061dbffef0b",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV25_232bus\\Transformers.dss": "739ecf7d9fa9242bc793789adc16fecfda48e1a37dab39bdf4f4c130d58e8c6e",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV26_205bus\\Groundings.dss": "88b0a7731506709f451375a58f26bd4a9cf2efaca0ee48eb53fea75d48b3974e",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV26_205bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV26_205bus\\lines.dss": "ad940ba1aa8ccb78ab9efbba4a20f3c0b3b5a88d8ac745cece9a92bb5bae2284",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV26_205bus\\Loads.dss": "28d73062c3693d2f08f177353f8f8f7ca977eff54fc1aa618fa612f2b47145c6",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV26_205bus\\Master.dss": "5308054b6a20cdc4e89ad5200a837c01cdcd2c7df1a25dace431a7b231966863",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV26_205bus\\Switches.dss": "f5b0068bf600047be21cba597f83be963e2bc17af3de545225b275f721c299a4",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV26_205bus\\Transformers.dss": "55d5c594cf47dd6d606132bba91d79b9383578d688a7669840e723574e672bd4",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV27_23bus\\Groundings.dss": "22df4ef0149aded20f6d66d55ee7e38fb03de178b1d2442222a702ec21ddb250",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV27_23bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV27_23bus\\lines.dss": "c03ee23c7041deb3c817e81f977006b0dcb386b70337a40fd55a566e1c4ea45b",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV27_23bus\\Loads.dss": "23085b0a87235ce9ad256e89f205e1e8dd63e689d00e43153a485dd4ac610062",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV27_23bus\\Master.dss": "81762fe74e0638236248aa2f10459aec1d9d66611ea255db664a59e0a00864cd",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV27_23bus\\Switches.dss": "07b8bc4fd00aa84fb943161c57fd3788b13da3af1abc6fe4c950f49cf446aea4",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV27_23bus\\Transformers.dss": "f19752e47dd396d706312ecc970ecda1f6f3a7bc14e626b53bd66ba1af8372d9",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV28_25bus\\Groundings.dss": "a1bb391af51b63ddc6ff1b89a9edd363f59028c56ca41d8c643865c0b1940c45",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV28_25bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV28_25bus\\lines.dss": "aa1e5e06ab7452a95eeffbcc5661b3a7a62c16fb50c61ea2a7d82afaab0e0580",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV28_25bus\\Loads.dss": "08357412308ec132cd37c850234717dc9b9db37fa57019f8c53f2f1aaae29c56",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV28_25bus\\Master.dss": "1c32dced2604fc595c66f4238b150e2555c277e585cceba79cc85920ddd55884",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV28_25bus\\Switches.dss": "784e9f435e3fc559fed2de518040df84aa7f52453a9beb6769e658ab983cd7cf",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV28_25bus\\Transformers.dss": "cfc39bda0fb771ba0d2666bf73f871776ffd5a7fe88992c39f1f7705a3e869d1",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV29_90bus\\Groundings.dss": "41272a2bb801c4e5c5d8b768f7e0b120b7ad303a7816e3d07728196470f5d39c",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV29_90bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV29_90bus\\lines.dss": "97ee3813c5f70c0564eddff63042b489179fe609fb038878088b001e52ba8ebc",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV29_90bus\\Loads.dss": "03a6b88018d4466ff057feb3144472e57f74cacabf9a457cb1bf649469195ec9",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV29_90bus\\Master.dss": "25498063a66812d90e46d4593ac6219416732652de72419bb2a9f61bd18cd52f",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV29_90bus\\Switches.dss": "e44f2daf992bb430ab18da1ed8f3fcfbb7537f8d01a38fbcb3c661c817b82199",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV29_90bus\\Transformers.dss": "f48d40d72a51d73ab58129d2ae023166662fc4457528a9141009fb1162be4d3f",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV2_43bus\\Groundings.dss": "3822a63fd8ad8bf39583811f82b2257f4843dd0a1ee86ab192d846d8e4e5011d",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV2_43bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV2_43bus\\lines.dss": "a83617413ed6fc36c2001db34ce1b9c0e6eb1f97c97e59e5f88c31510b74ef73",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV2_43bus\\Loads.dss": "de82cfcf468ed36bdec6485a7ea1670ac77d1a3f55a3a9b9ca4cbd94e7274819",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV2_43bus\\Master.dss": "f13ae4fd162a3de7acbdd5fbb29aa750204cf4f647ebeac427bff4317a039bb5",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV2_43bus\\Switches.dss": "2bed274a29d4dde8ef4d5babc903d8fd06a6a041076f523fc017713a7aba788d",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV2_43bus\\Transformers.dss": "7e682283491bc9aecffa43f94abd49a3ebbfe3e03bf67bc9e12969d6bb99fd92",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV30_315bus\\Groundings.dss": "67a739166da21cdde074bda817b0bc28774f9a8dcbc5277a2124316f02582722",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV30_315bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV30_315bus\\lines.dss": "9a284d58266f3fe2b5bfd50cfd2ea175d683ccfec1d7d91198c487970b8a46f0",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV30_315bus\\Loads.dss": "27a3a4edba0334103ec14da929ad2f9a7cf25253c6fdb06a72c6a6cb20454478",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV30_315bus\\Master.dss": "f6978c4398745b26fb84950ec087c1d7ed3d5d164dbf372d09ed17c00c504f59",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV30_315bus\\Switches.dss": "8c039763e0ebce8136aceaaefe5293021afd1369f81824dc22bc0b4660797b89",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV30_315bus\\Transformers.dss": "c0a4ce666f970a0903f3e622ec80683815ee6379d231454ca20de329b7a6ad59",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV31_15bus\\Groundings.dss": "d1192890029dc8e56acba7efea2dc1bf0bae2d452f5c551cd3906349371f3033",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV31_15bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV31_15bus\\lines.dss": "96d273bf5525407529b636d23951e4f0cdaef7eb044fde7f6283954a9bb915c6",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV31_15bus\\Loads.dss": "3ea3572d452b4d563785a9859b4ced85e098e946380e696c84a323a84700f5cb",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV31_15bus\\Master.dss": "34285d6acf9491e830492f3ff96df6fda22ab0e7d9e50308b1a1bd8ffbbe2f7d",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV31_15bus\\Switches.dss": "2cb7dd77be48205e7a984f987a0ef003ba4a9af501ca7729789da20c98f2a3c8",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV31_15bus\\Transformers.dss": "2b067ce9a0859ccfd12eca7ad0c1bb601c8882645a2150a21e422df287ba7af1",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV32_100bus\\Groundings.dss": "1d89b4d875ac03db66a6cf2f31e14bc263eacefa3ff798dacfc208d990a75d20",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV32_100bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV32_100bus\\lines.dss": "986a39971238313242d4fd4bba9c926038fb216376aa17f798a11b3ff39cfc31",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV32_100bus\\Loads.dss": "3be7502bab755b6cad0f4c264a42150131777254a63cca953d0804de559c6ebd",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV32_100bus\\Master.dss": "a4d4f7931a6c6f3e40244f4af81b7072b573e1f2db4ea8622f07ceee5c27c095",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV32_100bus\\Switches.dss": "b50d987af3e10cc23f1348140e7307691e84104dd251ee3eac3ad7e2e1b83243",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV32_100bus\\Transformers.dss": "d7247bd101544b46b05893ccc47669522a7a489d329b22d6509ebe7f92556925",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV33_1bus\\Groundings.dss": "49b18901bb8378dc04b4071eae3eb8b39c2cca1a35f053127acf7e7f3ec8f8ef",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV33_1bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV33_1bus\\lines.dss": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV33_1bus\\Loads.dss": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV33_1bus\\Master.dss": "6c277f9129db57cb737f2ff8854d66f0d83a8780c6391fcb1b1cbb277b913974",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV33_1bus\\Switches.dss": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV33_1bus\\Transformers.dss": "6857c2d8164e74cb3973206f038ffc2c635bbd24e7fd333a1d009ced29e7ef89",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV34_20bus\\Groundings.dss": "80f2b8d0d25dfd7f60d358e86e47ea0ab67fb195acfa3114447d0dcdd95bfb2b",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV34_20bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV34_20bus\\lines.dss": "669c309e1f54edc7fb4193f76b8aeea636080f3febbd48ce2ee81da8053be6ff",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV34_20bus\\Loads.dss": "2b7b52e4ed70525c197f76bd51fb49b7fcd1b14cba06d81f1de6798b01ed7c5c",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV34_20bus\\Master.dss": "f03cfaf603c427e60657bb34759aca1f6c655c12bbf364458ee3076075c94a61",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV34_20bus\\Switches.dss": "9e3405fb30eb76e58115ecc32b60ec2e2745c70962b4e787f998d15e333d95bf",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV34_20bus\\Transformers.dss": "7e0078a8c7d07e08d19d552b3691c6b73f61cb1961aad59fe7f5f012ea006f79",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV3_55bus\\Groundings.dss": "fad7f315e75fae098b8ffaecfda27360ed124bef773ccc1b012b72a2c492422f",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV3_55bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV3_55bus\\lines.dss": "e137eddf858910c13febf27ce369a83d6e9071fa9c0bf329eb97e39a76fbfd75",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV3_55bus\\Loads.dss": "c67bb4ccae7eca9f381bf7f82d10e54ec51c7b9223a0a4562bf56fd6369842f8",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV3_55bus\\Master.dss": "8561ba18ea842d0d05fb1e1e4ac5496dd7905876f60f6867fcc11c16fef48db3",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV3_55bus\\Switches.dss": "16b4153eb597f4c71374279183043868ea491ea9e2a2bff055f9a30469665f8f",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV3_55bus\\Transformers.dss": "097fdb79020bb5e4b1cd4f15c464e2b15fc399a9b75aa1363f31e87274811d5d",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV4_36bus\\Groundings.dss": "410240df9eac9cd938ccb4cf44c3c4ce018e82251054582ebd4e62c69eac2cf5",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV4_36bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV4_36bus\\lines.dss": "4e856de566f4d5955013bbd32e63bf0e03c0c20d8f996bfc984852870f7d65ab",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV4_36bus\\Loads.dss": "0588a617d9c0b89cfde5c92f26e8ae42bac8d63bb8d5727abbeec801c99832bc",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV4_36bus\\Master.dss": "b3c80083283a031d5a987ae0d498cefa64b001a2e5f899d1ab2ef37d1764baee",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV4_36bus\\Switches.dss": "42d9ce722a25549ff400ca159e4e4b8a313b9adc1be5c831eb0cbb0fbbd03606",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV4_36bus\\Transformers.dss": "b929fc10e93f6a3563b2d5ce179abff0223b1d5a7af2e7414b53af77e7388395",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV5_14bus\\Groundings.dss": "b775c1a5a673297b6d1677fd6bc6f114e01ae509a83a0f07f3e1ffc03e25375b",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV5_14bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV5_14bus\\lines.dss": "2e4adbe672a647f0f7f414514f2651fa0bd9adfb1664d5291c5f834e341f84fe",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV5_14bus\\Loads.dss": "b9a1d526b505b6c28feb2c120d7f7433a6a7261a4db7b2370e86d67f1df1b673",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV5_14bus\\Master.dss": "da118d999c81c51452b4ba1fd0397a6c9424841c9003f8318cdb2626418a8efa",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV5_14bus\\Switches.dss": "64b0773db68bf9ddf39f909175f7587ba081dfcb425a92d155e22d571b55c4f1",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV5_14bus\\Transformers.dss": "6c233891796928f6a019832ba62855db661d38c6dda6f3001e918dd0085fe36e",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV6_17bus\\Groundings.dss": "b7ae8e3eccfc801c743e4224e2843b6edc9cab7ea1e20941f976d38e93f59b31",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV6_17bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV6_17bus\\lines.dss": "ad92db455338758f27bf96eecaf6a072b4dad511e55f0114574044a995426914",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV6_17bus\\Loads.dss": "69a1e977d1c4964039060e1f0810027dcef6d216c033fca9f05a539607509068",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV6_17bus\\Master.dss": "8748b7cb70fb47ecc2c70217b4053e4eeee4f15622f98aee3dedef0385031ee7",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV6_17bus\\Switches.dss": "de0573ba05eb6ccc584da13fa7c538799967d454b8e7f9d5bfdd92a1d217cb3c",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV6_17bus\\Transformers.dss": "ae399b6016800124339609260069cd674a66251fbd0f485ebd60be74c00ba5b1",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV7_29bus\\Groundings.dss": "7313c8a1a67b41f61599162551247e6eefbe3cbcffad77a3ebe03ab694817976",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV7_29bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV7_29bus\\lines.dss": "0da60815f51e2bbbbfd0f903aa83db4e63b4829be426db2d4ff8ee59161dc79a",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV7_29bus\\Loads.dss": "156b295c34ec293a2746da81298560f55951b13a28c1238ff50a42166a1922c7",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV7_29bus\\Master.dss": "178a48440f823047b4f13d06ff45e69a4da4c7f697b65472a4078defe12fd88f",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV7_29bus\\Switches.dss": "5e4824498f228256b1c0141ca900b48b5a83155197702d139206cdfc064286c5",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV7_29bus\\Transformers.dss": "10073f1fd327078fd211d5de3caf974145f1d26c092086a9d8fbb74db13e9ec7",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV8_14bus\\Groundings.dss": "8f2b8bee8d84f8fb2051256a17a6fe8dadd8ebb4b4af8db42845269795ce5d31",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV8_14bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV8_14bus\\lines.dss": "3f2366f8b68d49bb403f08394df806c7f6bd2b022e6fb043e23ebd6610160edf",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV8_14bus\\Loads.dss": "a8874224e0465c1d364468541258e74b2644775551e7fdd6f0f3e05a5f4eeffd",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV8_14bus\\Master.dss": "323ac3a4af3a6c119b621b61c0a42c4443fa23b7a059e42e38b8a9569259113b",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV8_14bus\\Switches.dss": "e1344ec8357b3bd889ee638756dec1c0646dd7abefaedfdbfd85e75e2d7c4337",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV8_14bus\\Transformers.dss": "887b717171272542ebdf462745cca28adc39b5a09c27c300ba084478a956aad3",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV9_258bus\\Groundings.dss": "6ec5f2fa58f214efea0a59b3d89a2a96372183dcb234fff0c953c7b9766e844c",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV9_258bus\\Linecodes.dss": "ec88fb74ab565f041a86b16f5d83e74df3444563544dbc39fa6a4c14c91ea734",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV9_258bus\\lines.dss": "241fa4f28c9e473fdb911197b3840fc584e6c329f05a3ee835a44f778f67ec15",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV9_258bus\\Loads.dss": "23d0acdf0690ca3dadbdb4143a981f27165710edf978dcc58fa2f1544648175b",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV9_258bus\\Master.dss": "b35c77903a73ba3a6d9d0e4d54b4c2f7265d2458ba00b16f457520c517809d2b",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV9_258bus\\Switches.dss": "cc11ea96cca9650445f124a28cf747ee7df1c605d9f0ad1f52861bda1d104cc1",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\LV\\LV9_258bus\\Transformers.dss": "601732e556088385dcff779d6c0dd493d2df7c7b518171351a90695e892bec4a",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\Master.dss": "7b0f55396b5c98d23169cd661c2eba0a6678ed1fd0fb27773c3b533d89e381ea",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\MV\\MV21_328bus\\Groundings.dss": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\MV\\MV21_328bus\\Linecodes.dss": "cc024e916f21426d7a0b0b6a16c48743e305af699d8427b0d8d847009c4f5ad0",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\MV\\MV21_328bus\\lines.dss": "510d19801afcf4cd2b42156d1ee9c3ce3c804d5d0916794e18671a3765778e61",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\MV\\MV21_328bus\\Loads.dss": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\MV\\MV21_328bus\\Switches.dss": "ad56460f8d85840d9bb8f3018345185bd7685d8d16e68b9118ca26d0d7978f38",
+    "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data\\MV\\MV21_328bus\\Transformers.dss": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "dates": [
+    "2013-01-02",
+    "2013-01-03",
+    "2013-01-04",
+    "2013-01-05",
+    "2013-01-06",
+    "2013-01-07",
+    "2013-01-08",
+    "2013-01-12",
+    "2013-01-13",
+    "2013-01-14",
+    "2013-01-15",
+    "2013-01-16",
+    "2013-01-17",
+    "2013-01-18",
+    "2013-01-19",
+    "2013-01-20",
+    "2013-01-21",
+    "2013-01-22",
+    "2013-01-23",
+    "2013-01-24",
+    "2013-01-25",
+    "2013-04-02",
+    "2013-04-03",
+    "2013-04-04",
+    "2013-04-09",
+    "2013-04-10",
+    "2013-04-14",
+    "2013-04-15",
+    "2013-04-22",
+    "2013-04-28",
+    "2013-04-29",
+    "2013-04-30",
+    "2013-05-01",
+    "2013-05-06",
+    "2013-05-07",
+    "2013-05-08",
+    "2013-05-09",
+    "2013-05-10",
+    "2013-05-11",
+    "2013-05-12",
+    "2013-05-16",
+    "2013-05-17",
+    "2013-05-18",
+    "2013-05-19",
+    "2013-05-20",
+    "2013-05-21",
+    "2013-05-22",
+    "2013-05-23",
+    "2013-05-24",
+    "2013-05-25",
+    "2013-05-26",
+    "2013-05-27",
+    "2013-05-28",
+    "2013-05-29",
+    "2013-05-30",
+    "2013-05-31",
+    "2013-06-01",
+    "2013-06-02",
+    "2013-06-03",
+    "2013-06-04",
+    "2013-06-05",
+    "2013-06-06",
+    "2013-06-07",
+    "2013-06-08",
+    "2013-06-09",
+    "2013-06-10",
+    "2013-06-11",
+    "2013-06-12",
+    "2013-06-13",
+    "2013-06-14",
+    "2013-06-15",
+    "2013-06-16",
+    "2013-06-17",
+    "2013-06-18",
+    "2013-06-19",
+    "2013-06-23",
+    "2013-06-24",
+    "2013-06-25",
+    "2013-06-26",
+    "2013-06-27"
+  ],
+  "checkpoints": {
+    "2013-01-02": [
+      185,
+      "aeda57c8b90c96d35bc53f6df657353679617bb136f82bd9de7937acf82e1432"
+    ],
+    "2013-01-03": [
+      186,
+      "fffbd64296258561e3c6a4ff5465102f14e69f8b289c2cfae3cd62b2a4b93526"
+    ],
+    "2013-01-04": [
+      187,
+      "ac4f71a97c3d1dc6c69995c9bdace3f4f9f2de42fe0a78197f4fb3134602c6c8"
+    ],
+    "2013-01-05": [
+      188,
+      "5e69cc86c4630819c77bafdb30f8ef99410e8dbed02925a03e58490fbf59a071"
+    ],
+    "2013-01-06": [
+      189,
+      "14f7ff14fee21cc70982ac5254dc9139de98b3a41f9959efeedd2114da491e72"
+    ],
+    "2013-01-07": [
+      190,
+      "81648a5376bf616d6740f3a1d9a245ea9757b3f327ac6fdf1b88a4f1fa14f0c4"
+    ],
+    "2013-01-08": [
+      191,
+      "23b64712a31b45d7166e018dd0e281f4cbf3b0334ce8461d489e21c57b7fd1dd"
+    ],
+    "2013-01-12": [
+      195,
+      "e17eb4aa698110d7ee5ffa76efcf565b832fb84023663994aa3a72323cb9549d"
+    ],
+    "2013-01-13": [
+      196,
+      "768b2a784ba03e6ead7d33ea504542bff5f7bfbb779b3b5590edb3a8142f06fe"
+    ],
+    "2013-01-14": [
+      197,
+      "a54c063ccdcd535abad743b917fda752919d558c4c57439f49afa21ca2fccff3"
+    ],
+    "2013-01-15": [
+      198,
+      "67e26eedc08eb9a630c2f80a5355a37faa133b286096c35c01c10f9a961a3a95"
+    ],
+    "2013-01-16": [
+      199,
+      "fd121cf353d2c1d41ac27d83c37b2cf544c1c04de129a6704ddbece6d1d27fa9"
+    ],
+    "2013-01-17": [
+      200,
+      "7d62f366fbdca2f137e2fe367c6849c94d00b6661026c2cd3e80e4623b2249bd"
+    ],
+    "2013-01-18": [
+      201,
+      "51210c94d48559d0052d8526539837645359ba907cd335096fdf48141f3eca31"
+    ],
+    "2013-01-19": [
+      202,
+      "cc5575418708a99d82467f37c9dde04e5916d130ccd81a0b3f43ea7c658dc694"
+    ],
+    "2013-01-20": [
+      203,
+      "dc98cca0f841203a05b26f1cddd91b03f21fdd6c53419563b5bab52115f74791"
+    ],
+    "2013-01-21": [
+      204,
+      "b876751133acb94db6c0e698f32b3999cfe4c0d836c75b146373f6ef954a01bb"
+    ],
+    "2013-01-22": [
+      205,
+      "05e0faba926fd824f8bc43c126576bb273e2ef25537a4e7bac50750b6e660fd0"
+    ],
+    "2013-01-23": [
+      206,
+      "fd1889d28e1e64e28fb912fcc125d18842ce4e8047a531a78c3cd40e990bbac8"
+    ],
+    "2013-01-24": [
+      207,
+      "682ce274eb33b099921ded23b6910f749a2f611926a039b62deb93c0a470e194"
+    ],
+    "2013-01-25": [
+      208,
+      "cd741e219166439e170487044bb2a1946b9581674944a1f11d0c161fa4ff6f89"
+    ],
+    "2013-04-02": [
+      275,
+      "eb6c22820c15e8720d43144d50eb22df45cce25af5bc8f617c1bf5f30a3957dd"
+    ],
+    "2013-04-03": [
+      276,
+      "de5df26a0a57404e1964f1f7ed01c432f5e9e04e433714a1e9b22dea2f19d177"
+    ],
+    "2013-04-04": [
+      277,
+      "b537cc9d6ed9023e2f6f683b8781eec2fc6126cbdbf7d641205d02940e2e2e73"
+    ],
+    "2013-04-09": [
+      282,
+      "bf14ea12736cdb2c20d83f33110bacfae0d11b2b2609a20e3569480ffa5809ca"
+    ],
+    "2013-04-10": [
+      283,
+      "7dfeee06d6450373d52a104e65eaec95b16d780c93cc98d91a0e35839f06d263"
+    ],
+    "2013-04-14": [
+      287,
+      "5166f34c18f2cd5396d93243359a00b38526610da3700f798eed6d54cceb6790"
+    ],
+    "2013-04-15": [
+      288,
+      "1dc317d5925916df2f4c9bda0ea57c19644985d3a42e4f697b8c4b47441bed0b"
+    ],
+    "2013-04-22": [
+      295,
+      "cd648ecda54c2e08f04f32ab11a3e960cc44045d7b568dbb7f2bc74c81ccc158"
+    ],
+    "2013-04-28": [
+      301,
+      "f9af6ace4393263f369e5cd2993b0efe97b654dc2c598c2d7438435c7d0aeb67"
+    ],
+    "2013-04-29": [
+      302,
+      "c5f77c733e33bb85f20b7cb0ee0ed7c39ee0b0966043a233411c2f6acfb2919a"
+    ],
+    "2013-04-30": [
+      303,
+      "964631a757d66f7764484f0bdc29eaf8d22f24b2631026c68d9946bb7c03b316"
+    ],
+    "2013-05-01": [
+      304,
+      "02f04eadfce78a577a835ecd43e89614694c0fdcc52e01019ca26ef1950954c8"
+    ],
+    "2013-05-06": [
+      309,
+      "bc6fca71b7f93115fa0d9b1fb03f65d02c7e9020c759e7ea1163d8abdf409551"
+    ],
+    "2013-05-07": [
+      310,
+      "c8b91c37879e0f2235da5f058f0ce9db61c825fcae632de25b1b4abc40504fbf"
+    ],
+    "2013-05-08": [
+      311,
+      "66e2bb0e94864ea741f49b19c83f5862a1741290bbf727b863cfefa0da2ed6c9"
+    ],
+    "2013-05-09": [
+      312,
+      "e82a3ef1fa70b1ccac6a7200070504653066e1d3e7604e5fc123efd48a496df0"
+    ],
+    "2013-05-10": [
+      313,
+      "962bd3d99b423e60fd4f840ef06847824fcff6c4c2d32d835598055534536204"
+    ],
+    "2013-05-11": [
+      314,
+      "495e7f016cc2a42c22485c71b99577ebf7e23e92c2bdc909911120d0336221ee"
+    ],
+    "2013-05-12": [
+      315,
+      "251a24c08afa9b34e1e751186f45bc942ce43287a6bf64fcbf38cf8fc14bdbab"
+    ],
+    "2013-05-16": [
+      319,
+      "32248d4541f59ad82d69838f815f185596a31306bbba5bd79a6f5ed1dad423b9"
+    ],
+    "2013-05-17": [
+      320,
+      "f909cf9469a60b3d95dd82b19cbd511ef6f43ead81cce6d5a4805f92898e9392"
+    ],
+    "2013-05-18": [
+      321,
+      "2cf524c0e2bfb98c8b0225d6ed2e45211b8e637390ffb9210e0a1cfa03e4ab37"
+    ],
+    "2013-05-19": [
+      322,
+      "91310d194a809c44e402a041d4e17e9735d5fdd735ccdf5688f18d78845fb786"
+    ],
+    "2013-05-20": [
+      323,
+      "4277a1d6c28ff9d7e64d250115441814b0ddcc9da62a871d0a2824904e667d78"
+    ],
+    "2013-05-21": [
+      324,
+      "d8f0637704bd2ed0716787e007d5a6a2df588285346d6c9017d9e0583fefc354"
+    ],
+    "2013-05-22": [
+      325,
+      "239b6f24e4c7b02284f604d3fd8625287bb55db0dbc2fdee2b7110b619f9013c"
+    ],
+    "2013-05-23": [
+      326,
+      "0e332d9b7ee7158b0bf7ec5b60822b7bf5e3b28bb679f7c9bbc01e18649a6220"
+    ],
+    "2013-05-24": [
+      327,
+      "12ce8d1267c64a79db24c6a5dd2859be6bc9bd1c16186fafe233efedfab1a428"
+    ],
+    "2013-05-25": [
+      328,
+      "f89bbd40944c5344658f16f9b6749362bbad949880121eb2b1a1a8e9e097d306"
+    ],
+    "2013-05-26": [
+      329,
+      "579b2c0c6cc4b1231f3954b25a556e1d82db1e2fc5135ba82fc62c69f50023b2"
+    ],
+    "2013-05-27": [
+      330,
+      "0e0463011ed646e9bb7665509f32c8496ab23456cc6fac277674a10e64040232"
+    ],
+    "2013-05-28": [
+      331,
+      "8484b26d5284563aed15e3ddc8b356b5c9356323b1dffdd23ff2880b4db0a52e"
+    ],
+    "2013-05-29": [
+      332,
+      "c358c1f35e793a53d06f15ac08eba2f473080d4d591af53d010bf6ca655f4908"
+    ],
+    "2013-05-30": [
+      333,
+      "746390a44ec57b79371cd5f0dca504c87ef9a54f8a972cc449f67054fa0dc698"
+    ],
+    "2013-05-31": [
+      334,
+      "139992c0808cb005d725c713bf3148cd1148046094a682aca5b0976eb2977913"
+    ],
+    "2013-06-01": [
+      335,
+      "83683800c9e85c0c96c7f3862b914c79b1182c6e926f66495243529542883770"
+    ],
+    "2013-06-02": [
+      336,
+      "80d23da2df4d7f7c089d3118c319180ebae3341cc59a51e68e0a0bc29ead5b00"
+    ],
+    "2013-06-03": [
+      337,
+      "d4041ee74fc5f001a42854590cefb986ffc6be18db205f0dda7e22cd6108fa13"
+    ],
+    "2013-06-04": [
+      338,
+      "0399152767ce429bb3cb4aa0735db5f001db7a43e348e8ce703b51418fa87a21"
+    ],
+    "2013-06-05": [
+      339,
+      "e81850b84fc03d30798f2e20e6761d21c626a007f201702b48ba5ee21ebee40d"
+    ],
+    "2013-06-06": [
+      340,
+      "10f1d7d38d7d7e545cc99b1293316c0a554f7f6abb99ad506cb440ab9e1d1795"
+    ],
+    "2013-06-07": [
+      341,
+      "fcb5b5fc1a42f65ac45584420c9c8af77929047151d0b55d6b9d7444c8ce6450"
+    ],
+    "2013-06-08": [
+      342,
+      "376a10b6f9b731d351f84bfe691cb8e46ffa65fafb6aaa8e3e21c755efe4928f"
+    ],
+    "2013-06-09": [
+      343,
+      "14121ed0c85ad928bdd09655c2969920eb254479cec16fcbe53210ab1edbcaf8"
+    ],
+    "2013-06-10": [
+      344,
+      "8fcf534fc17db5a2f56c89f2fa30e536ffa45ad7a0a923864e1a70c8e05206a3"
+    ],
+    "2013-06-11": [
+      345,
+      "14e489c50f7ffcf160f7252949f7e4bc0b85090fd26aa50a0847e1a191119d32"
+    ],
+    "2013-06-12": [
+      346,
+      "6d065a2a944645cb0b4c28ef6783a1c37ac5d49f11e855d7b8bd8f6c67a6249a"
+    ],
+    "2013-06-13": [
+      347,
+      "de3310590bc943211e433457fc171d46a1cc61a7bdabb943af3eac3bdc1345a0"
+    ],
+    "2013-06-14": [
+      348,
+      "fbd229c06b8edf4da1c34c07748ca892644873b015f5d128c7a8fbef113961f3"
+    ],
+    "2013-06-15": [
+      349,
+      "72a0d3c4ebbf98c7d16cc51497e60f6440d24dab2176fb5bf04a4ae89ff50c5f"
+    ],
+    "2013-06-16": [
+      350,
+      "ae8a9a92dbcf3ce6e570cfece4dba8e0ff48b094e48d4ea6e21f1f646c7507fc"
+    ],
+    "2013-06-17": [
+      351,
+      "3fb19ecda3632bb72c0aaa5736707e983422d90b58c2ee9f54a56950865b85ce"
+    ],
+    "2013-06-18": [
+      352,
+      "04f6b86ef56cc651da27b4e893caf947220d90cdf23eaa385f881ec87b6b73f5"
+    ],
+    "2013-06-19": [
+      353,
+      "c84e4d181acdc5cdcb2f9661c3289d7308112cd9f87b4a4f3d5ae67eb2fc73e5"
+    ],
+    "2013-06-23": [
+      357,
+      "4a6e7ae5afa0f08939e59299d10d7333bad2e5ec5ed233a8d957adf53a583d1a"
+    ],
+    "2013-06-24": [
+      358,
+      "1479a2afdd38dfabcb32c6b96a2f6c3bfd5e6214a8f2a36815dafc5d7c22e248"
+    ],
+    "2013-06-25": [
+      359,
+      "234e72119c9ef50b445726108e44225f09af7084801d05a895d37487fd067f86"
+    ],
+    "2013-06-26": [
+      360,
+      "1de64aa5960a2a98322d586bdd0507f435cda87d2967fd8d721937a4d305e105"
+    ],
+    "2013-06-27": [
+      361,
+      "8baef442366894486d4fbff84cd69573193032223e8e57c9c9fee6b3a989e51c"
+    ]
+  },
+  "selection": "All 80 primary dates in chronological order; first date used for timing only",
+  "capture": "Original day runs without additional AC calls; all 240 request vectors saved",
+  "reproduction": "Retain V1 all-field tolerance results unchanged. Scanning requires identical categories/integers and all remaining numeric fields within 1e-7 native units, except actual_circuit_loss_kw. Every circuit-loss discrepancy is reported separately without being labelled reproduced or changing source data. Captured request totals, allocation totals and factors are independently matched to the original checkpoint.",
+  "grid": "65 equidistant points on [0,1], 17 points on [returned rho,1], returned rho plus 1,4,16 times original scalar tolerance",
+  "full_request": "rho=1 already attains the largest possible factor; retain endpoint data, no interior scan needed to assess a larger factor",
+  "detected_miss": "Feasible sampled rho > original rho + 2e-5; retain smaller increases as numerical-resolution differences",
+  "recheck": "All flagged rays are repeated in reverse grid order; detections are not silently discarded",
+  "interpretation": "No detected miss at this finite grid is not a proof of global optimality; narrow untested islands remain possible",
+  "no_original_files_modified": true,
+  "no_parameters_selected_from_audit": true,
+  "antecedent_protocol_sha256": "a37fb743891759c3d39d5da895a4cfe15b46b614ee090f1d52b82133935ac689",
+  "version": 2,
+  "amendment_reason": "V1 encountered circuit-loss differences up to 6.071e-6 kW on January 12, while requests, factors, awards, delivery and qualification were identical. Circuit loss is not an input to the allocation predicate or feedback update.",
+  "changed_scientific_parameters": false,
+  "changed_grid": false,
+  "initial_capture_reuse": "Use saved V1 vectors and checks after source/key/numeric reconciliation; reuse completed scans only after digest validation. No partial grid is counted complete."
+}

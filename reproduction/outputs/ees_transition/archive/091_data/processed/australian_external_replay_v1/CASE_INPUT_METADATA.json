@@ -1,0 +1,311 @@
+{
+  "build_schema_version": "1.0.0",
+  "build_tool": "tools/prepare_ees_australian_case_inputs.py",
+  "case_description": "Data-calibrated replay joining a real-world-derived Australian network model to public Ausgrid household gross-PV and consumption profiles; the sources are not field matched.",
+  "case_id": "AU_REAL_DERIVED_REPLAY_V1",
+  "evidence_scope": "REAL_DERIVED_TOPOLOGY_PLUS_PUBLIC_TIME_SERIES_REPLAY",
+  "input_hashes": {
+    "ausgrid_csv": [
+      {
+        "bytes": 63621419,
+        "path": "outputs/ees_transition/data/external/ausgrid_solar_home_2010_2013/extracted/Solar home half-hour data - 1 July 2010 to 30 June 2011 (1)/2010-2011 Solar home electricity data.csv",
+        "sha256": "2fc1f615e22fbd8ec350cdb19f7465d3a038453fc2ffd19473ef1bd38fd28289"
+      },
+      {
+        "bytes": 64222510,
+        "path": "outputs/ees_transition/data/external/ausgrid_solar_home_2010_2013/extracted/Solar home half-hour data - 1 July 2011 to 30 June 2012 (2)/2011-2012 Solar home electricity data v2.csv",
+        "sha256": "a7d6abd1369311a5566e00d249141fd8aec28e9faba0bc928788607d961fc8c8"
+      },
+      {
+        "bytes": 63782724,
+        "path": "outputs/ees_transition/data/external/ausgrid_solar_home_2010_2013/extracted/Solar home half-hour data - 1 July 2012 to 30 June 2013 (1)/2012-2013 Solar home electricity data v2.csv",
+        "sha256": "e4be46b3c9991c65735a9545319a2f1c33be8e639c75a17a88e0323a8e5098be"
+      }
+    ],
+    "csiro_dss": [
+      {
+        "bytes": 8032,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV10_223bus/Loads.dss",
+        "sha256": "c7d50887731a936181bc4fbed62ff38b8771f6f112942b104aa85711966b1f58"
+      },
+      {
+        "bytes": 9401,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV11_216bus/Loads.dss",
+        "sha256": "3c527165fa1f28c44621195a471b75072a587bbf82d638eeeaab21b701a880c5"
+      },
+      {
+        "bytes": 10345,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV12_248bus/Loads.dss",
+        "sha256": "d920b9cf553a19906bb577ff641f483907094bd57e42329872c40ec30243eda3"
+      },
+      {
+        "bytes": 940,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV13_58bus/Loads.dss",
+        "sha256": "a2766e41e8efca190022926b82ad360b1fdf6f7d242dc9ad251868c2c9730e6d"
+      },
+      {
+        "bytes": 0,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV14_13bus/Loads.dss",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 3941,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV15_137bus/Loads.dss",
+        "sha256": "fdb7edb6a4a3ed8ea008b6513d1f7090bb46e423ac3a139e844268c88127f67d"
+      },
+      {
+        "bytes": 85,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV16_12bus/Loads.dss",
+        "sha256": "a29627899c94017214008ed15810689516d6becb9b659e895dfd8ca2c90aacf3"
+      },
+      {
+        "bytes": 12042,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV17_279bus/Loads.dss",
+        "sha256": "12b8d5fd41f5e753eafe0691a5b4fc706ca5caef04798202472696146ee7f755"
+      },
+      {
+        "bytes": 85,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV18_12bus/Loads.dss",
+        "sha256": "c37a382a2bc501d916b1827872d383618dc4cc35c56ddbccb4bc025285963c72"
+      },
+      {
+        "bytes": 0,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV19_13bus/Loads.dss",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 172,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV1_14bus/Loads.dss",
+        "sha256": "5710ce2931c0fc38c41200a215e05c742b9ee8eb098d84e1b34ffd8447cc9fca"
+      },
+      {
+        "bytes": 343,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV20_26bus/Loads.dss",
+        "sha256": "a340f87a18181567f51af6718394ab6d6e0e58e3a1b4f9dc2be8d320b55abade"
+      },
+      {
+        "bytes": 1791,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV22_80bus/Loads.dss",
+        "sha256": "a028b9059bc5e2d2efab65d6ef84fefe65e3aea47f24252b7d540ff649b02af8"
+      },
+      {
+        "bytes": 85,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV23_13bus/Loads.dss",
+        "sha256": "221e75962f63031c5d94dbf88ccafffe94d810399786fb9e7335e07275dcf31e"
+      },
+      {
+        "bytes": 10343,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV24_246bus/Loads.dss",
+        "sha256": "f9b8fa4b3560bc4a69995a4e2b24a8d27b4ce1f630101cf66b97b44be2bc447c"
+      },
+      {
+        "bytes": 9566,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV25_232bus/Loads.dss",
+        "sha256": "692acde18c914dc14d67bfa9dd0405f2aaf21c1ec931343d2b902b5de3a43c33"
+      },
+      {
+        "bytes": 8018,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV26_205bus/Loads.dss",
+        "sha256": "28d73062c3693d2f08f177353f8f8f7ca977eff54fc1aa618fa612f2b47145c6"
+      },
+      {
+        "bytes": 86,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV27_23bus/Loads.dss",
+        "sha256": "23085b0a87235ce9ad256e89f205e1e8dd63e689d00e43153a485dd4ac610062"
+      },
+      {
+        "bytes": 257,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV28_25bus/Loads.dss",
+        "sha256": "08357412308ec132cd37c850234717dc9b9db37fa57019f8c53f2f1aaae29c56"
+      },
+      {
+        "bytes": 3498,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV29_90bus/Loads.dss",
+        "sha256": "03a6b88018d4466ff057feb3144472e57f74cacabf9a457cb1bf649469195ec9"
+      },
+      {
+        "bytes": 600,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV2_43bus/Loads.dss",
+        "sha256": "de82cfcf468ed36bdec6485a7ea1670ac77d1a3f55a3a9b9ca4cbd94e7274819"
+      },
+      {
+        "bytes": 12910,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV30_315bus/Loads.dss",
+        "sha256": "27a3a4edba0334103ec14da929ad2f9a7cf25253c6fdb06a72c6a6cb20454478"
+      },
+      {
+        "bytes": 258,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV31_15bus/Loads.dss",
+        "sha256": "3ea3572d452b4d563785a9859b4ced85e098e946380e696c84a323a84700f5cb"
+      },
+      {
+        "bytes": 1881,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV32_100bus/Loads.dss",
+        "sha256": "3be7502bab755b6cad0f4c264a42150131777254a63cca953d0804de559c6ebd"
+      },
+      {
+        "bytes": 0,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV33_1bus/Loads.dss",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 85,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV34_20bus/Loads.dss",
+        "sha256": "2b7b52e4ed70525c197f76bd51fb49b7fcd1b14cba06d81f1de6798b01ed7c5c"
+      },
+      {
+        "bytes": 1024,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV3_55bus/Loads.dss",
+        "sha256": "c67bb4ccae7eca9f381bf7f82d10e54ec51c7b9223a0a4562bf56fd6369842f8"
+      },
+      {
+        "bytes": 86,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV4_36bus/Loads.dss",
+        "sha256": "0588a617d9c0b89cfde5c92f26e8ae42bac8d63bb8d5727abbeec801c99832bc"
+      },
+      {
+        "bytes": 171,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV5_14bus/Loads.dss",
+        "sha256": "b9a1d526b505b6c28feb2c120d7f7433a6a7261a4db7b2370e86d67f1df1b673"
+      },
+      {
+        "bytes": 85,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV6_17bus/Loads.dss",
+        "sha256": "69a1e977d1c4964039060e1f0810027dcef6d216c033fca9f05a539607509068"
+      },
+      {
+        "bytes": 426,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV7_29bus/Loads.dss",
+        "sha256": "156b295c34ec293a2746da81298560f55951b13a28c1238ff50a42166a1922c7"
+      },
+      {
+        "bytes": 169,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV8_14bus/Loads.dss",
+        "sha256": "a8874224e0465c1d364468541258e74b2644775551e7fdd6f0f3e05a5f4eeffd"
+      },
+      {
+        "bytes": 10513,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/LV/LV9_258bus/Loads.dss",
+        "sha256": "23d0acdf0690ca3dadbdb4143a981f27165710edf978dcc58fa2f1544648175b"
+      },
+      {
+        "bytes": 6425,
+        "path": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data/Master.dss",
+        "sha256": "7b0f55396b5c98d23169cd661c2eba0a6678ed1fd0fb27773c3b533d89e381ea"
+      }
+    ]
+  },
+  "interval_hours": 0.5,
+  "network": {
+    "data_root": "outputs/ees_transition/data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data",
+    "load_connection_count": 1255,
+    "lv_feeder_count": 30,
+    "lv_feeder_ids": [
+      "LV10_223bus",
+      "LV11_216bus",
+      "LV12_248bus",
+      "LV13_58bus",
+      "LV15_137bus",
+      "LV16_12bus",
+      "LV17_279bus",
+      "LV18_12bus",
+      "LV1_14bus",
+      "LV20_26bus",
+      "LV22_80bus",
+      "LV23_13bus",
+      "LV24_246bus",
+      "LV25_232bus",
+      "LV26_205bus",
+      "LV27_23bus",
+      "LV28_25bus",
+      "LV29_90bus",
+      "LV2_43bus",
+      "LV30_315bus",
+      "LV31_15bus",
+      "LV32_100bus",
+      "LV34_20bus",
+      "LV3_55bus",
+      "LV4_36bus",
+      "LV5_14bus",
+      "LV6_17bus",
+      "LV7_29bus",
+      "LV8_14bus",
+      "LV9_258bus"
+    ],
+    "native_line_ampacity_available": false,
+    "topology_sections_are_not_independent_network_replicates": true
+  },
+  "profile_assignment": {
+    "adoption_levels": [
+      0.3333333333333333,
+      0.5,
+      1.0
+    ],
+    "adoption_levels_are_scenarios_not_observed_penetration": true,
+    "mapping": "outputs/ees_transition/data/processed/australian_external_replay_v1/CSIRO_LOAD_TO_AUSGRID_PROFILE_MAPPING.csv",
+    "method": "SHA256_ORDER_WITH_CYCLIC_REUSE_AFTER_ALL_300_PROFILES",
+    "seed": "AU_REAL_DERIVED_REPLAY_V1_PROFILE_ASSIGNMENT"
+  },
+  "prohibited_descriptions": [
+    "field validation",
+    "digital twin",
+    "historically observed feeder operation",
+    "utility-certified thermal validation"
+  ],
+  "split_policy": {
+    "DEVELOPMENT": {
+      "archive": "outputs/ees_transition/data/processed/australian_external_replay_v1/AUSGRID_DEVELOPMENT_2011_2012.npz",
+      "controlled_load_kwh": 257202.96875,
+      "customer_count": 300,
+      "date_end": "2012-06-30",
+      "date_start": "2011-07-01",
+      "day_count": 366,
+      "fully_complete_days": 366,
+      "general_consumption_kwh": 1721699.625,
+      "gross_generation_kwh": 624954.0,
+      "incomplete_customer_days_excluded_not_imputed": 0,
+      "interval_count_per_day": 48,
+      "interval_hours": 0.5,
+      "mandatory_customer_days_complete": 109800,
+      "mandatory_customer_days_total": 109800,
+      "source_path": "outputs/ees_transition/data/external/ausgrid_solar_home_2010_2013/extracted/Solar home half-hour data - 1 July 2011 to 30 June 2012 (2)/2011-2012 Solar home electricity data v2.csv",
+      "source_sha256": "a7d6abd1369311a5566e00d249141fd8aec28e9faba0bc928788607d961fc8c8"
+    },
+    "EVALUATION": {
+      "archive": "outputs/ees_transition/data/processed/australian_external_replay_v1/AUSGRID_EVALUATION_2012_2013.npz",
+      "controlled_load_kwh": 239721.28125,
+      "customer_count": 300,
+      "date_end": "2013-06-30",
+      "date_start": "2012-07-01",
+      "day_count": 365,
+      "fully_complete_days": 284,
+      "general_consumption_kwh": 1676277.875,
+      "gross_generation_kwh": 654300.125,
+      "incomplete_customer_days_excluded_not_imputed": 81,
+      "interval_count_per_day": 48,
+      "interval_hours": 0.5,
+      "mandatory_customer_days_complete": 109419,
+      "mandatory_customer_days_total": 109500,
+      "source_path": "outputs/ees_transition/data/external/ausgrid_solar_home_2010_2013/extracted/Solar home half-hour data - 1 July 2012 to 30 June 2013 (1)/2012-2013 Solar home electricity data v2.csv",
+      "source_sha256": "e4be46b3c9991c65735a9545319a2f1c33be8e639c75a17a88e0323a8e5098be"
+    },
+    "TRAIN": {
+      "archive": "outputs/ees_transition/data/processed/australian_external_replay_v1/AUSGRID_TRAIN_2010_2011.npz",
+      "controlled_load_kwh": 264950.90625,
+      "customer_count": 300,
+      "date_end": "2011-06-30",
+      "date_start": "2010-07-01",
+      "day_count": 365,
+      "fully_complete_days": 365,
+      "general_consumption_kwh": 1828903.0,
+      "gross_generation_kwh": 635572.875,
+      "incomplete_customer_days_excluded_not_imputed": 0,
+      "interval_count_per_day": 48,
+      "interval_hours": 0.5,
+      "mandatory_customer_days_complete": 109500,
+      "mandatory_customer_days_total": 109500,
+      "source_path": "outputs/ees_transition/data/external/ausgrid_solar_home_2010_2013/extracted/Solar home half-hour data - 1 July 2010 to 30 June 2011 (1)/2010-2011 Solar home electricity data.csv",
+      "source_sha256": "2fc1f615e22fbd8ec350cdb19f7465d3a038453fc2ffd19473ef1bd38fd28289"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "tested_updates": 43200,
+  "closed_condition_recovery_tests": 300,
+  "blocks": 10,
+  "protocol_sha256": "5f49877f2eb90e314fdac773277abb7dbcb3fa8a5070283cddfd6d7f35b042cc"
+}

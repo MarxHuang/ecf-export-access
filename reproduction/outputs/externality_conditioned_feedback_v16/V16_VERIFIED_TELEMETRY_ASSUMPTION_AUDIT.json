@@ -1,0 +1,68 @@
+{
+  "assumption": "For every participant and completed interval, verified post-event available-export telemetry equals realized simulation capability componentwise: a_hat_i^tel(t)=a_i(t).",
+  "assumption_id": "A_TEL_EXACT_V1",
+  "audit_hash": "66127553D529A78152C74287F7566EACF65341894AABB2642155BABF383D4DD1",
+  "counts": {
+    "ecf_interval_records": 12960,
+    "interval_records": 25920,
+    "replay_attempts": 12960,
+    "replay_gates_open": 12910,
+    "telemetry_records": 25920
+  },
+  "gate_results": {
+    "EXACT_TELEMETRY_TRUTH_BINDING": true,
+    "INTERVAL_RECORD_COMPLETENESS": true,
+    "NO_SOLVER_OR_AC_REEXECUTION": true,
+    "OBSERVED_DELIVERY_IDENTITY": true,
+    "REPLAY_ATTEMPT_COMPLETENESS": true,
+    "REPLAY_DELIVERY_IDENTITY": true,
+    "REPLAY_GATE_IDENTITY": true,
+    "REPLAY_GATE_REASON_IDENTITY": true,
+    "REPLAY_METRIC_IDENTITY": true,
+    "REPLAY_REQUEST_IDENTITY": true,
+    "SOURCE_RESULT_TREE_UNCHANGED": true,
+    "TELEMETRY_RECORD_COMPLETENESS": true,
+    "TELEMETRY_VALUES_FINITE_NONNEGATIVE": true
+  },
+  "information_boundary": {
+    "feedback_does_not_receive": [
+      "private signal s_i(t)",
+      "conditional distribution F_i(.|s_i(t))",
+      "pre-allocation realization of available export"
+    ],
+    "feedback_receives": [
+      "submitted request",
+      "registered capacity",
+      "completed allocation",
+      "metered delivery",
+      "verified post-event available-export telemetry",
+      "frozen allocation and network models"
+    ]
+  },
+  "maximum_absolute_errors_mw": {
+    "observed_delivery_reconstruction": 0.0,
+    "replay_delivery_reconstruction": 0.0,
+    "replay_metric_reconstruction": 0.0,
+    "replay_request_reconstruction": 0.0,
+    "telemetry_minus_simulation_truth": 0.0
+  },
+  "mismatch_counts": {
+    "invalid_telemetry_records": 0,
+    "replay_gate_decisions": 0,
+    "replay_gate_reasons": 0,
+    "replay_metric_records": 0
+  },
+  "scientific_role": "EXACT_TELEMETRY_INTERFACE_EQUIVALENCE_AUDIT_NO_NEW_SOLVES",
+  "scope_limits": [
+    "The audit validates the registered ideal verified-telemetry case only.",
+    "It does not establish field estimator accuracy, communication latency, dropout resilience, or privacy governance.",
+    "Those deployment effects are outside the numerical scope of the present paper."
+  ],
+  "serialization_id": "r4r.v16_verified_telemetry_assumption_audit.v1",
+  "source_binding": {
+    "v16_design_hash": "5C437488DF59EF72941ADB1ADD664279A6B2F43D177AA031256E967814673380",
+    "v16_result_file_sha256": "AD3312D57E28EE08456E39C7F541A3D4BF11649A62C20CE4FABD7AA6F129BBB1",
+    "v16_result_hash": "ECD190F2E9F4E2F6B102AF66D87BDEEEE8A6D89B865C0827A1F7A81E7C4E914D"
+  },
+  "status": "V16_VERIFIED_TELEMETRY_ASSUMPTION_AUDIT_COMPLETE"
+}

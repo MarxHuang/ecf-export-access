@@ -1,0 +1,30 @@
+schema_version: "1.0.0"
+environment_name: optimize
+captured_at_local: "2026-08-13"
+platform: "Windows 11, 64 bit"
+python: "3.12.11 (conda-forge build)"
+purpose: >-
+  Key computational environment for the controlled study and the Australian
+  external replay. This is a concise scientific dependency record rather than
+  a full operating-system image.
+python_packages:
+  numpy: "2.3.0"
+  pandas: "2.3.0"
+  scipy: "1.15.2"
+  dss-python: "0.15.7"
+  dss-python-backend: "0.14.5"
+  PyYAML: "6.0.2"
+  jsonschema: "4.24.0"
+  osqp: "1.1.3"
+  cvxpy: "1.9.1"
+  matplotlib: "3.10.8"
+  openpyxl: "3.1.5"
+  pytest: "9.1.1"
+external_scientific_runtime:
+  matpower: "8.1"
+hash_policy: >-
+  Formal run records retain hashes for frozen inputs, protocols, the runner,
+  the analyzer, and the scientific core modules that define allocation, data
+  transformation, OpenDSS screening, policy feedback, and replay gates. Plot
+  layout files and ordinary documentation are not promoted into the numerical
+  evidence hash chain.

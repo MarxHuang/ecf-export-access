@@ -1,0 +1,9 @@
+{
+  "exact_rational_lower_bound_cases": 1875,
+  "random_vector_cases": 20000,
+  "random_qualifying_cases_checked_against_truth": 8418,
+  "invalid_input_cases": 15,
+  "zero_radius_and_monotonicity_checks": 20000,
+  "latent_argument_rejected": true,
+  "interface_sha256": "d10cd918fe376a6598ca606e3b6f6cc1df1343d37da90f778fa2dcf49d73a2b5"
+}

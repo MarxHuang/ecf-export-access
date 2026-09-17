@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "scalar_participant_updates": 1800,
+  "negative_tests": [
+    "unobserved_future_availability_argument",
+    "neighbor_requests_argument",
+    "reward_before_choice",
+    "second_choice_before_delivery",
+    "delivery_above_chosen_request",
+    "checkpoint_before_delivery",
+    "negative_capacity",
+    "nan_capacity",
+    "invalid_probability_draw",
+    "request_above_capacity",
+    "static_learned_checkpoint"
+  ],
+  "actual_admitted_request_can_change": true,
+  "selected_probability_changes": 0.0023150629141899803,
+  "own_delivery_only": true,
+  "static_random_unchanged": true,
+  "checkpoint_exact": true,
+  "source": "Auer et al., SIAM J. Comput. 32(1), 48\u201377, Fig. 1, DOI 10.1137/S0097539701398375",
+  "scope": "Implementation tests only; no network performance conclusion or behavioral theorem transfer."
+}

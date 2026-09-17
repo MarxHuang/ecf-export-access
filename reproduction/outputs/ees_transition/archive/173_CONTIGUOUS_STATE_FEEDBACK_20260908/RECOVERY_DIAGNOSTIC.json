@@ -1,0 +1,2771 @@
+{
+  "protocol_sha256": "5f49877f2eb90e314fdac773277abb7dbcb3fa8a5070283cddfd6d7f35b042cc",
+  "checked_days": 240,
+  "rows": [
+    {
+      "block": 1,
+      "date": "2013-01-02",
+      "beta": 0.25,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 1,
+      "date": "2013-01-03",
+      "beta": 0.25,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 1.9536641529880119,
+      "after_zero_export_max_deficit_kW": 1.9536641529880119,
+      "first_available_max_state_difference_from_daily_reset_kW": 1.9536641529880119
+    },
+    {
+      "block": 1,
+      "date": "2013-01-04",
+      "beta": 0.25,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.1796395997552165,
+      "after_zero_export_max_deficit_kW": 0.1796395997552165,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.1796395997552165
+    },
+    {
+      "block": 1,
+      "date": "2013-01-05",
+      "beta": 0.25,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.3816703902995954,
+      "after_zero_export_max_deficit_kW": 0.3816703902995954,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.3816703902995954
+    },
+    {
+      "block": 1,
+      "date": "2013-01-06",
+      "beta": 0.25,
+      "day_in_block": 5,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.10359364347826971,
+      "after_zero_export_max_deficit_kW": 0.07769523260870229,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.07769523260870229
+    },
+    {
+      "block": 1,
+      "date": "2013-01-07",
+      "beta": 0.25,
+      "day_in_block": 6,
+      "leading_zero_export_halfhours": 6,
+      "midnight_max_deficit_kW": 0.44849305526322225,
+      "after_zero_export_max_deficit_kW": 0.07982212824387061,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.07982212824387061
+    },
+    {
+      "block": 1,
+      "date": "2013-01-08",
+      "beta": 0.25,
+      "day_in_block": 7,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.5774719336691936,
+      "after_zero_export_max_deficit_kW": 0.5774719336691936,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.5774719336691936
+    },
+    {
+      "block": 1,
+      "date": "2013-01-02",
+      "beta": 0.5,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 1,
+      "date": "2013-01-03",
+      "beta": 0.5,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.042008381036170994,
+      "after_zero_export_max_deficit_kW": 0.042008381036170994,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.042008381036170994
+    },
+    {
+      "block": 1,
+      "date": "2013-01-04",
+      "beta": 0.5,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0006166045289635047,
+      "after_zero_export_max_deficit_kW": 0.0006166045289635047,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0006166045289635047
+    },
+    {
+      "block": 1,
+      "date": "2013-01-05",
+      "beta": 0.5,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.004781433561581311,
+      "after_zero_export_max_deficit_kW": 0.004781433561581311,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.004781433561581311
+    },
+    {
+      "block": 1,
+      "date": "2013-01-06",
+      "beta": 0.5,
+      "day_in_block": 5,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.00029884056283388527,
+      "after_zero_export_max_deficit_kW": 0.0001494202814152079,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0001494202814152079
+    },
+    {
+      "block": 1,
+      "date": "2013-01-07",
+      "beta": 0.5,
+      "day_in_block": 6,
+      "leading_zero_export_halfhours": 6,
+      "midnight_max_deficit_kW": 0.005822468194919411,
+      "after_zero_export_max_deficit_kW": 9.097606554556159e-05,
+      "first_available_max_state_difference_from_daily_reset_kW": 9.097606554556159e-05
+    },
+    {
+      "block": 1,
+      "date": "2013-01-08",
+      "beta": 0.5,
+      "day_in_block": 7,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.016110409727425334,
+      "after_zero_export_max_deficit_kW": 0.016110409727425334,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.016110409727425334
+    },
+    {
+      "block": 1,
+      "date": "2013-01-02",
+      "beta": 1.0,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 1,
+      "date": "2013-01-03",
+      "beta": 1.0,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 1,
+      "date": "2013-01-04",
+      "beta": 1.0,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 1,
+      "date": "2013-01-05",
+      "beta": 1.0,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 1,
+      "date": "2013-01-06",
+      "beta": 1.0,
+      "day_in_block": 5,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 1,
+      "date": "2013-01-07",
+      "beta": 1.0,
+      "day_in_block": 6,
+      "leading_zero_export_halfhours": 6,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 1,
+      "date": "2013-01-08",
+      "beta": 1.0,
+      "day_in_block": 7,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-12",
+      "beta": 0.25,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 4,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-13",
+      "beta": 0.25,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.8347577565829198,
+      "after_zero_export_max_deficit_kW": 0.8347577565829198,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.8347577565829198
+    },
+    {
+      "block": 2,
+      "date": "2013-01-14",
+      "beta": 0.25,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 1.6558817170889277,
+      "after_zero_export_max_deficit_kW": 1.6558817170889277,
+      "first_available_max_state_difference_from_daily_reset_kW": 1.6558817170889277
+    },
+    {
+      "block": 2,
+      "date": "2013-01-15",
+      "beta": 0.25,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 2,
+      "midnight_max_deficit_kW": 0.13994923144281662,
+      "after_zero_export_max_deficit_kW": 0.07872144268658565,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.07872144268658565
+    },
+    {
+      "block": 2,
+      "date": "2013-01-16",
+      "beta": 0.25,
+      "day_in_block": 5,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.3307543716147346,
+      "after_zero_export_max_deficit_kW": 0.3307543716147346,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.3307543716147346
+    },
+    {
+      "block": 2,
+      "date": "2013-01-17",
+      "beta": 0.25,
+      "day_in_block": 6,
+      "leading_zero_export_halfhours": 4,
+      "midnight_max_deficit_kW": 0.4775834580643193,
+      "after_zero_export_max_deficit_kW": 0.1511103910281572,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.1511103910281572
+    },
+    {
+      "block": 2,
+      "date": "2013-01-18",
+      "beta": 0.25,
+      "day_in_block": 7,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.23796366844423475,
+      "after_zero_export_max_deficit_kW": 0.23796366844423475,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.23796366844423475
+    },
+    {
+      "block": 2,
+      "date": "2013-01-19",
+      "beta": 0.25,
+      "day_in_block": 8,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 1.7713258276206498,
+      "after_zero_export_max_deficit_kW": 1.3284943707154855,
+      "first_available_max_state_difference_from_daily_reset_kW": 1.3284943707154855
+    },
+    {
+      "block": 2,
+      "date": "2013-01-20",
+      "beta": 0.25,
+      "day_in_block": 9,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 1.0400698655279872,
+      "after_zero_export_max_deficit_kW": 1.0400698655279872,
+      "first_available_max_state_difference_from_daily_reset_kW": 1.0400698655279872
+    },
+    {
+      "block": 2,
+      "date": "2013-01-21",
+      "beta": 0.25,
+      "day_in_block": 10,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.4466789456038234,
+      "after_zero_export_max_deficit_kW": 0.4466789456038234,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.4466789456038234
+    },
+    {
+      "block": 2,
+      "date": "2013-01-22",
+      "beta": 0.25,
+      "day_in_block": 11,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.12141898603369727,
+      "after_zero_export_max_deficit_kW": 0.12141898603369727,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.12141898603369727
+    },
+    {
+      "block": 2,
+      "date": "2013-01-23",
+      "beta": 0.25,
+      "day_in_block": 12,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 2.2596351444116314,
+      "after_zero_export_max_deficit_kW": 2.2596351444116314,
+      "first_available_max_state_difference_from_daily_reset_kW": 2.2596351444116314
+    },
+    {
+      "block": 2,
+      "date": "2013-01-24",
+      "beta": 0.25,
+      "day_in_block": 13,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.6209126346043564,
+      "after_zero_export_max_deficit_kW": 0.4656844759532708,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.4656844759532708
+    },
+    {
+      "block": 2,
+      "date": "2013-01-25",
+      "beta": 0.25,
+      "day_in_block": 14,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.22250195292353864,
+      "after_zero_export_max_deficit_kW": 0.22250195292353864,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.22250195292353864
+    },
+    {
+      "block": 2,
+      "date": "2013-01-12",
+      "beta": 0.5,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 4,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-13",
+      "beta": 0.5,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.02486497248242736,
+      "after_zero_export_max_deficit_kW": 0.02486497248242736,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.02486497248242736
+    },
+    {
+      "block": 2,
+      "date": "2013-01-14",
+      "beta": 0.5,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.026447261961479174,
+      "after_zero_export_max_deficit_kW": 0.026447261961479174,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.026447261961479174
+    },
+    {
+      "block": 2,
+      "date": "2013-01-15",
+      "beta": 0.5,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 2,
+      "midnight_max_deficit_kW": 0.0005487815825239162,
+      "after_zero_export_max_deficit_kW": 0.00013719539563097904,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.00013719539563097904
+    },
+    {
+      "block": 2,
+      "date": "2013-01-16",
+      "beta": 0.5,
+      "day_in_block": 5,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0047814638988973035,
+      "after_zero_export_max_deficit_kW": 0.0047814638988973035,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0047814638988973035
+    },
+    {
+      "block": 2,
+      "date": "2013-01-17",
+      "beta": 0.5,
+      "day_in_block": 6,
+      "leading_zero_export_halfhours": 4,
+      "midnight_max_deficit_kW": 0.016564055596517135,
+      "after_zero_export_max_deficit_kW": 0.001035253474786224,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.001035253474786224
+    },
+    {
+      "block": 2,
+      "date": "2013-01-18",
+      "beta": 0.5,
+      "day_in_block": 7,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.002390716860940084,
+      "after_zero_export_max_deficit_kW": 0.002390716860940084,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.002390716860940084
+    },
+    {
+      "block": 2,
+      "date": "2013-01-19",
+      "beta": 0.5,
+      "day_in_block": 8,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.031030727862611795,
+      "after_zero_export_max_deficit_kW": 0.015515363931309367,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.015515363931309367
+    },
+    {
+      "block": 2,
+      "date": "2013-01-20",
+      "beta": 0.5,
+      "day_in_block": 9,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.02067936767510825,
+      "after_zero_export_max_deficit_kW": 0.02067936767510825,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.02067936767510825
+    },
+    {
+      "block": 2,
+      "date": "2013-01-21",
+      "beta": 0.5,
+      "day_in_block": 10,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.006793261235329973,
+      "after_zero_export_max_deficit_kW": 0.006793261235329973,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.006793261235329973
+    },
+    {
+      "block": 2,
+      "date": "2013-01-22",
+      "beta": 0.5,
+      "day_in_block": 11,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.00021500816303927917,
+      "after_zero_export_max_deficit_kW": 0.00021500816303927917,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.00021500816303927917
+    },
+    {
+      "block": 2,
+      "date": "2013-01-23",
+      "beta": 0.5,
+      "day_in_block": 12,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.025078682261155116,
+      "after_zero_export_max_deficit_kW": 0.025078682261155116,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.025078682261155116
+    },
+    {
+      "block": 2,
+      "date": "2013-01-24",
+      "beta": 0.5,
+      "day_in_block": 13,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.008205328363083964,
+      "after_zero_export_max_deficit_kW": 0.004102664181541982,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.004102664181541982
+    },
+    {
+      "block": 2,
+      "date": "2013-01-25",
+      "beta": 0.5,
+      "day_in_block": 14,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0008836706305061226,
+      "after_zero_export_max_deficit_kW": 0.0008836706305061226,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0008836706305061226
+    },
+    {
+      "block": 2,
+      "date": "2013-01-12",
+      "beta": 1.0,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 4,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-13",
+      "beta": 1.0,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-14",
+      "beta": 1.0,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-15",
+      "beta": 1.0,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 2,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-16",
+      "beta": 1.0,
+      "day_in_block": 5,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-17",
+      "beta": 1.0,
+      "day_in_block": 6,
+      "leading_zero_export_halfhours": 4,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-18",
+      "beta": 1.0,
+      "day_in_block": 7,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-19",
+      "beta": 1.0,
+      "day_in_block": 8,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-20",
+      "beta": 1.0,
+      "day_in_block": 9,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-21",
+      "beta": 1.0,
+      "day_in_block": 10,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-22",
+      "beta": 1.0,
+      "day_in_block": 11,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-23",
+      "beta": 1.0,
+      "day_in_block": 12,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-24",
+      "beta": 1.0,
+      "day_in_block": 13,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 2,
+      "date": "2013-01-25",
+      "beta": 1.0,
+      "day_in_block": 14,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 3,
+      "date": "2013-04-02",
+      "beta": 0.25,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 5,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 3,
+      "date": "2013-04-03",
+      "beta": 0.25,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.6169104285288773,
+      "after_zero_export_max_deficit_kW": 0.6169104285288773,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.6169104285288773
+    },
+    {
+      "block": 3,
+      "date": "2013-04-04",
+      "beta": 0.25,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.8282059004005304,
+      "after_zero_export_max_deficit_kW": 0.8282059004005304,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.8282059004005304
+    },
+    {
+      "block": 3,
+      "date": "2013-04-02",
+      "beta": 0.5,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 5,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 3,
+      "date": "2013-04-03",
+      "beta": 0.5,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.01426422753562917,
+      "after_zero_export_max_deficit_kW": 0.01426422753562917,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.01426422753562917
+    },
+    {
+      "block": 3,
+      "date": "2013-04-04",
+      "beta": 0.5,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.010579637492229288,
+      "after_zero_export_max_deficit_kW": 0.010579637492229288,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.010579637492229288
+    },
+    {
+      "block": 3,
+      "date": "2013-04-02",
+      "beta": 1.0,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 5,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 3,
+      "date": "2013-04-03",
+      "beta": 1.0,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 3,
+      "date": "2013-04-04",
+      "beta": 1.0,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 4,
+      "date": "2013-04-09",
+      "beta": 0.25,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 4,
+      "date": "2013-04-10",
+      "beta": 0.25,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 4,
+      "midnight_max_deficit_kW": 0.5984311736182829,
+      "after_zero_export_max_deficit_kW": 0.1893473635276588,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.1893473635276588
+    },
+    {
+      "block": 4,
+      "date": "2013-04-09",
+      "beta": 0.5,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 4,
+      "date": "2013-04-10",
+      "beta": 0.5,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 4,
+      "midnight_max_deficit_kW": 0.005277574896003778,
+      "after_zero_export_max_deficit_kW": 0.0003298484309993688,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0003298484309993688
+    },
+    {
+      "block": 4,
+      "date": "2013-04-09",
+      "beta": 1.0,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 4,
+      "date": "2013-04-10",
+      "beta": 1.0,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 4,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 5,
+      "date": "2013-04-14",
+      "beta": 0.25,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 5,
+      "date": "2013-04-15",
+      "beta": 0.25,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 3,
+      "midnight_max_deficit_kW": 0.179664227648417,
+      "after_zero_export_max_deficit_kW": 0.07579584603917972,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.07579584603917972
+    },
+    {
+      "block": 5,
+      "date": "2013-04-14",
+      "beta": 0.5,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 5,
+      "date": "2013-04-15",
+      "beta": 0.5,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 3,
+      "midnight_max_deficit_kW": 0.0004136526251738437,
+      "after_zero_export_max_deficit_kW": 5.170657815106727e-05,
+      "first_available_max_state_difference_from_daily_reset_kW": 5.170657815106727e-05
+    },
+    {
+      "block": 5,
+      "date": "2013-04-14",
+      "beta": 1.0,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 5,
+      "date": "2013-04-15",
+      "beta": 1.0,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 3,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 6,
+      "date": "2013-04-22",
+      "beta": 0.25,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 6,
+      "date": "2013-04-22",
+      "beta": 0.5,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 6,
+      "date": "2013-04-22",
+      "beta": 1.0,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 7,
+      "date": "2013-04-28",
+      "beta": 0.25,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 7,
+      "date": "2013-04-29",
+      "beta": 0.25,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.1662700726807742,
+      "after_zero_export_max_deficit_kW": 0.1662700726807742,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.1662700726807742
+    },
+    {
+      "block": 7,
+      "date": "2013-04-30",
+      "beta": 0.25,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.16305520591546746,
+      "after_zero_export_max_deficit_kW": 0.16305520591546746,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.16305520591546746
+    },
+    {
+      "block": 7,
+      "date": "2013-05-01",
+      "beta": 0.25,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.009215291362656142,
+      "after_zero_export_max_deficit_kW": 0.009215291362656142,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.009215291362656142
+    },
+    {
+      "block": 7,
+      "date": "2013-04-28",
+      "beta": 0.5,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 7,
+      "date": "2013-04-29",
+      "beta": 0.5,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.00023578199635082564,
+      "after_zero_export_max_deficit_kW": 0.00023578199635082564,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.00023578199635082564
+    },
+    {
+      "block": 7,
+      "date": "2013-04-30",
+      "beta": 0.5,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.00023164748987752892,
+      "after_zero_export_max_deficit_kW": 0.00023164748987752892,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.00023164748987752892
+    },
+    {
+      "block": 7,
+      "date": "2013-05-01",
+      "beta": 0.5,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 7.877174607040516e-08,
+      "after_zero_export_max_deficit_kW": 7.877174607040516e-08,
+      "first_available_max_state_difference_from_daily_reset_kW": 7.877174607040516e-08
+    },
+    {
+      "block": 7,
+      "date": "2013-04-28",
+      "beta": 1.0,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 7,
+      "date": "2013-04-29",
+      "beta": 1.0,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 7,
+      "date": "2013-04-30",
+      "beta": 1.0,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 7,
+      "date": "2013-05-01",
+      "beta": 1.0,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 8,
+      "date": "2013-05-06",
+      "beta": 0.25,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 2,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 8,
+      "date": "2013-05-07",
+      "beta": 0.25,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.10776632530545838,
+      "after_zero_export_max_deficit_kW": 0.08082474397909378,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.08082474397909378
+    },
+    {
+      "block": 8,
+      "date": "2013-05-08",
+      "beta": 0.25,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.33815642889795106,
+      "after_zero_export_max_deficit_kW": 0.33815642889795106,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.33815642889795106
+    },
+    {
+      "block": 8,
+      "date": "2013-05-09",
+      "beta": 0.25,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.19467558097072124,
+      "after_zero_export_max_deficit_kW": 0.14600668572804787,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.14600668572804787
+    },
+    {
+      "block": 8,
+      "date": "2013-05-10",
+      "beta": 0.25,
+      "day_in_block": 5,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.09604706470872637,
+      "after_zero_export_max_deficit_kW": 0.09604706470872637,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.09604706470872637
+    },
+    {
+      "block": 8,
+      "date": "2013-05-11",
+      "beta": 0.25,
+      "day_in_block": 6,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.17830580466827312,
+      "after_zero_export_max_deficit_kW": 0.17830580466827312,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.17830580466827312
+    },
+    {
+      "block": 8,
+      "date": "2013-05-12",
+      "beta": 0.25,
+      "day_in_block": 7,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.39007307277728887,
+      "after_zero_export_max_deficit_kW": 0.39007307277728887,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.39007307277728887
+    },
+    {
+      "block": 8,
+      "date": "2013-05-06",
+      "beta": 0.5,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 2,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 8,
+      "date": "2013-05-07",
+      "beta": 0.5,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0003281352786571601,
+      "after_zero_export_max_deficit_kW": 0.00016406763932858004,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.00016406763932858004
+    },
+    {
+      "block": 8,
+      "date": "2013-05-08",
+      "beta": 0.5,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0013161194933955511,
+      "after_zero_export_max_deficit_kW": 0.0013161194933955511,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0013161194933955511
+    },
+    {
+      "block": 8,
+      "date": "2013-05-09",
+      "beta": 0.5,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0008891434422481082,
+      "after_zero_export_max_deficit_kW": 0.0004445717211240541,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0004445717211240541
+    },
+    {
+      "block": 8,
+      "date": "2013-05-10",
+      "beta": 0.5,
+      "day_in_block": 5,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 5.586734185686337e-05,
+      "after_zero_export_max_deficit_kW": 5.586734185686337e-05,
+      "first_available_max_state_difference_from_daily_reset_kW": 5.586734185686337e-05
+    },
+    {
+      "block": 8,
+      "date": "2013-05-11",
+      "beta": 0.5,
+      "day_in_block": 6,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.00011582273504867624,
+      "after_zero_export_max_deficit_kW": 0.00011582273504867624,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.00011582273504867624
+    },
+    {
+      "block": 8,
+      "date": "2013-05-12",
+      "beta": 0.5,
+      "day_in_block": 7,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0012974388957920358,
+      "after_zero_export_max_deficit_kW": 0.0012974388957920358,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0012974388957920358
+    },
+    {
+      "block": 8,
+      "date": "2013-05-06",
+      "beta": 1.0,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 2,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 8,
+      "date": "2013-05-07",
+      "beta": 1.0,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 8,
+      "date": "2013-05-08",
+      "beta": 1.0,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 8,
+      "date": "2013-05-09",
+      "beta": 1.0,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 8,
+      "date": "2013-05-10",
+      "beta": 1.0,
+      "day_in_block": 5,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 8,
+      "date": "2013-05-11",
+      "beta": 1.0,
+      "day_in_block": 6,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 8,
+      "date": "2013-05-12",
+      "beta": 1.0,
+      "day_in_block": 7,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-16",
+      "beta": 0.25,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-17",
+      "beta": 0.25,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.19260056326192432,
+      "after_zero_export_max_deficit_kW": 0.19260056326192432,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.19260056326192432
+    },
+    {
+      "block": 9,
+      "date": "2013-05-18",
+      "beta": 0.25,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.06419019235603951,
+      "after_zero_export_max_deficit_kW": 0.04814264426702963,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.04814264426702963
+    },
+    {
+      "block": 9,
+      "date": "2013-05-19",
+      "beta": 0.25,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.06419011949503062,
+      "after_zero_export_max_deficit_kW": 0.04814258962127643,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.04814258962127643
+    },
+    {
+      "block": 9,
+      "date": "2013-05-20",
+      "beta": 0.25,
+      "day_in_block": 5,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.1962899680253566,
+      "after_zero_export_max_deficit_kW": 0.1472174760190209,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.1472174760190209
+    },
+    {
+      "block": 9,
+      "date": "2013-05-21",
+      "beta": 0.25,
+      "day_in_block": 6,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.1941612442906554,
+      "after_zero_export_max_deficit_kW": 0.1941612442906554,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.1941612442906554
+    },
+    {
+      "block": 9,
+      "date": "2013-05-22",
+      "beta": 0.25,
+      "day_in_block": 7,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.10757789385588967,
+      "after_zero_export_max_deficit_kW": 0.10757789385588967,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.10757789385588967
+    },
+    {
+      "block": 9,
+      "date": "2013-05-23",
+      "beta": 0.25,
+      "day_in_block": 8,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.21334284254699576,
+      "after_zero_export_max_deficit_kW": 0.21334284254699576,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.21334284254699576
+    },
+    {
+      "block": 9,
+      "date": "2013-05-24",
+      "beta": 0.25,
+      "day_in_block": 9,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.3059140556761694,
+      "after_zero_export_max_deficit_kW": 0.22943554175712533,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.22943554175712533
+    },
+    {
+      "block": 9,
+      "date": "2013-05-25",
+      "beta": 0.25,
+      "day_in_block": 10,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.19072355740484825,
+      "after_zero_export_max_deficit_kW": 0.19072355740484825,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.19072355740484825
+    },
+    {
+      "block": 9,
+      "date": "2013-05-26",
+      "beta": 0.25,
+      "day_in_block": 11,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.2198066118752548,
+      "after_zero_export_max_deficit_kW": 0.16485495890643936,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.16485495890643936
+    },
+    {
+      "block": 9,
+      "date": "2013-05-27",
+      "beta": 0.25,
+      "day_in_block": 12,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.2182575014797808,
+      "after_zero_export_max_deficit_kW": 0.2182575014797808,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.2182575014797808
+    },
+    {
+      "block": 9,
+      "date": "2013-05-28",
+      "beta": 0.25,
+      "day_in_block": 13,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.352881342591177,
+      "after_zero_export_max_deficit_kW": 0.26466100694338274,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.26466100694338274
+    },
+    {
+      "block": 9,
+      "date": "2013-05-29",
+      "beta": 0.25,
+      "day_in_block": 14,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.141947618322813,
+      "after_zero_export_max_deficit_kW": 0.141947618322813,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.141947618322813
+    },
+    {
+      "block": 9,
+      "date": "2013-05-30",
+      "beta": 0.25,
+      "day_in_block": 15,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.20747590525901222,
+      "after_zero_export_max_deficit_kW": 0.20747590525901222,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.20747590525901222
+    },
+    {
+      "block": 9,
+      "date": "2013-05-31",
+      "beta": 0.25,
+      "day_in_block": 16,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.01841154206137785,
+      "after_zero_export_max_deficit_kW": 0.01841154206137785,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.01841154206137785
+    },
+    {
+      "block": 9,
+      "date": "2013-06-01",
+      "beta": 0.25,
+      "day_in_block": 17,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.21622399194195369,
+      "after_zero_export_max_deficit_kW": 0.16216799395646353,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.16216799395646353
+    },
+    {
+      "block": 9,
+      "date": "2013-06-02",
+      "beta": 0.25,
+      "day_in_block": 18,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0843889012797916,
+      "after_zero_export_max_deficit_kW": 0.0843889012797916,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0843889012797916
+    },
+    {
+      "block": 9,
+      "date": "2013-06-03",
+      "beta": 0.25,
+      "day_in_block": 19,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.09644919464565915,
+      "after_zero_export_max_deficit_kW": 0.09644919464565915,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.09644919464565915
+    },
+    {
+      "block": 9,
+      "date": "2013-06-04",
+      "beta": 0.25,
+      "day_in_block": 20,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.31800256435514374,
+      "after_zero_export_max_deficit_kW": 0.31800256435514374,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.31800256435514374
+    },
+    {
+      "block": 9,
+      "date": "2013-06-05",
+      "beta": 0.25,
+      "day_in_block": 21,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.045682986593652275,
+      "after_zero_export_max_deficit_kW": 0.045682986593652275,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.045682986593652275
+    },
+    {
+      "block": 9,
+      "date": "2013-06-06",
+      "beta": 0.25,
+      "day_in_block": 22,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.1435190166877015,
+      "after_zero_export_max_deficit_kW": 0.1076392625157796,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.1076392625157796
+    },
+    {
+      "block": 9,
+      "date": "2013-06-07",
+      "beta": 0.25,
+      "day_in_block": 23,
+      "leading_zero_export_halfhours": 4,
+      "midnight_max_deficit_kW": 0.0036722608324976647,
+      "after_zero_export_max_deficit_kW": 0.001161926279032166,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.001161926279032166
+    },
+    {
+      "block": 9,
+      "date": "2013-06-08",
+      "beta": 0.25,
+      "day_in_block": 24,
+      "leading_zero_export_halfhours": 2,
+      "midnight_max_deficit_kW": 0.2334014824858996,
+      "after_zero_export_max_deficit_kW": 0.13128833389831895,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.13128833389831895
+    },
+    {
+      "block": 9,
+      "date": "2013-06-09",
+      "beta": 0.25,
+      "day_in_block": 25,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.1338379616687424,
+      "after_zero_export_max_deficit_kW": 0.1338379616687424,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.1338379616687424
+    },
+    {
+      "block": 9,
+      "date": "2013-06-10",
+      "beta": 0.25,
+      "day_in_block": 26,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.001542819816353902,
+      "after_zero_export_max_deficit_kW": 0.001542819816353902,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.001542819816353902
+    },
+    {
+      "block": 9,
+      "date": "2013-06-11",
+      "beta": 0.25,
+      "day_in_block": 27,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0984359932344192,
+      "after_zero_export_max_deficit_kW": 0.0984359932344192,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0984359932344192
+    },
+    {
+      "block": 9,
+      "date": "2013-06-12",
+      "beta": 0.25,
+      "day_in_block": 28,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.07522279836252865,
+      "after_zero_export_max_deficit_kW": 0.05641709877189649,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.05641709877189649
+    },
+    {
+      "block": 9,
+      "date": "2013-06-13",
+      "beta": 0.25,
+      "day_in_block": 29,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.36857557507088967,
+      "after_zero_export_max_deficit_kW": 0.36857557507088967,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.36857557507088967
+    },
+    {
+      "block": 9,
+      "date": "2013-06-14",
+      "beta": 0.25,
+      "day_in_block": 30,
+      "leading_zero_export_halfhours": 2,
+      "midnight_max_deficit_kW": 0.15717934156948832,
+      "after_zero_export_max_deficit_kW": 0.08841337963284152,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.08841337963284152
+    },
+    {
+      "block": 9,
+      "date": "2013-06-15",
+      "beta": 0.25,
+      "day_in_block": 31,
+      "leading_zero_export_halfhours": 3,
+      "midnight_max_deficit_kW": 0.11030389214977676,
+      "after_zero_export_max_deficit_kW": 0.04653445450068794,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.04653445450068794
+    },
+    {
+      "block": 9,
+      "date": "2013-06-16",
+      "beta": 0.25,
+      "day_in_block": 32,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.31208540482075,
+      "after_zero_export_max_deficit_kW": 0.31208540482075,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.31208540482075
+    },
+    {
+      "block": 9,
+      "date": "2013-06-17",
+      "beta": 0.25,
+      "day_in_block": 33,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.22946557210878904,
+      "after_zero_export_max_deficit_kW": 0.22946557210878904,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.22946557210878904
+    },
+    {
+      "block": 9,
+      "date": "2013-06-18",
+      "beta": 0.25,
+      "day_in_block": 34,
+      "leading_zero_export_halfhours": 2,
+      "midnight_max_deficit_kW": 0.2159837757193181,
+      "after_zero_export_max_deficit_kW": 0.12149087384211166,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.12149087384211166
+    },
+    {
+      "block": 9,
+      "date": "2013-06-19",
+      "beta": 0.25,
+      "day_in_block": 35,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.16284295834456675,
+      "after_zero_export_max_deficit_kW": 0.16284295834456675,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.16284295834456675
+    },
+    {
+      "block": 9,
+      "date": "2013-05-16",
+      "beta": 0.5,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-17",
+      "beta": 0.5,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0008796677345504489,
+      "after_zero_export_max_deficit_kW": 0.0008796677345504489,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0008796677345504489
+    },
+    {
+      "block": 9,
+      "date": "2013-05-18",
+      "beta": 0.5,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 4.9638315020861246e-05,
+      "after_zero_export_max_deficit_kW": 2.481915751390007e-05,
+      "first_available_max_state_difference_from_daily_reset_kW": 2.481915751390007e-05
+    },
+    {
+      "block": 9,
+      "date": "2013-05-19",
+      "beta": 0.5,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 4.9638315020861246e-05,
+      "after_zero_export_max_deficit_kW": 2.481915751390007e-05,
+      "first_available_max_state_difference_from_daily_reset_kW": 2.481915751390007e-05
+    },
+    {
+      "block": 9,
+      "date": "2013-05-20",
+      "beta": 0.5,
+      "day_in_block": 5,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0008965184138814974,
+      "after_zero_export_max_deficit_kW": 0.0004482592069407487,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0004482592069407487
+    },
+    {
+      "block": 9,
+      "date": "2013-05-21",
+      "beta": 0.5,
+      "day_in_block": 6,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.000886794956189707,
+      "after_zero_export_max_deficit_kW": 0.000886794956189707,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.000886794956189707
+    },
+    {
+      "block": 9,
+      "date": "2013-05-22",
+      "beta": 0.5,
+      "day_in_block": 7,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0003261023097320126,
+      "after_zero_export_max_deficit_kW": 0.0003261023097320126,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0003261023097320126
+    },
+    {
+      "block": 9,
+      "date": "2013-05-23",
+      "beta": 0.5,
+      "day_in_block": 8,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0003190892076607166,
+      "after_zero_export_max_deficit_kW": 0.0003190892076607166,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0003190892076607166
+    },
+    {
+      "block": 9,
+      "date": "2013-05-24",
+      "beta": 0.5,
+      "day_in_block": 9,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0006500079836255224,
+      "after_zero_export_max_deficit_kW": 0.00032500399181623063,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.00032500399181623063
+    },
+    {
+      "block": 9,
+      "date": "2013-05-25",
+      "beta": 0.5,
+      "day_in_block": 10,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0008626684107060356,
+      "after_zero_export_max_deficit_kW": 0.0008626684107060356,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0008626684107060356
+    },
+    {
+      "block": 9,
+      "date": "2013-05-26",
+      "beta": 0.5,
+      "day_in_block": 11,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0008939610765951178,
+      "after_zero_export_max_deficit_kW": 0.0004469805382975589,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0004469805382975589
+    },
+    {
+      "block": 9,
+      "date": "2013-05-27",
+      "beta": 0.5,
+      "day_in_block": 12,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0008936151859109676,
+      "after_zero_export_max_deficit_kW": 0.0008936151859109676,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0008936151859109676
+    },
+    {
+      "block": 9,
+      "date": "2013-05-28",
+      "beta": 0.5,
+      "day_in_block": 13,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.001321656820860162,
+      "after_zero_export_max_deficit_kW": 0.000660828410430081,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.000660828410430081
+    },
+    {
+      "block": 9,
+      "date": "2013-05-29",
+      "beta": 0.5,
+      "day_in_block": 14,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0004267738959590206,
+      "after_zero_export_max_deficit_kW": 0.0004267738959590206,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0004267738959590206
+    },
+    {
+      "block": 9,
+      "date": "2013-05-30",
+      "beta": 0.5,
+      "day_in_block": 15,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0002501617883191032,
+      "after_zero_export_max_deficit_kW": 0.0002501617883191032,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0002501617883191032
+    },
+    {
+      "block": 9,
+      "date": "2013-05-31",
+      "beta": 0.5,
+      "day_in_block": 16,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 4.172882435427017e-06,
+      "after_zero_export_max_deficit_kW": 4.172882435427017e-06,
+      "first_available_max_state_difference_from_daily_reset_kW": 4.172882435427017e-06
+    },
+    {
+      "block": 9,
+      "date": "2013-06-01",
+      "beta": 0.5,
+      "day_in_block": 17,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0008965184138814974,
+      "after_zero_export_max_deficit_kW": 0.0004482592069407487,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0004482592069407487
+    },
+    {
+      "block": 9,
+      "date": "2013-06-02",
+      "beta": 0.5,
+      "day_in_block": 18,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.00010991114102187893,
+      "after_zero_export_max_deficit_kW": 0.00010991114102187893,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.00010991114102187893
+    },
+    {
+      "block": 9,
+      "date": "2013-06-03",
+      "beta": 0.5,
+      "day_in_block": 19,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 6.980246025634074e-05,
+      "after_zero_export_max_deficit_kW": 6.980246025634074e-05,
+      "first_available_max_state_difference_from_daily_reset_kW": 6.980246025634074e-05
+    },
+    {
+      "block": 9,
+      "date": "2013-06-04",
+      "beta": 0.5,
+      "day_in_block": 20,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0008902706761376722,
+      "after_zero_export_max_deficit_kW": 0.0008902706761376722,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0008902706761376722
+    },
+    {
+      "block": 9,
+      "date": "2013-06-05",
+      "beta": 0.5,
+      "day_in_block": 21,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 1.3447749892814276e-05,
+      "after_zero_export_max_deficit_kW": 1.3447749892814276e-05,
+      "first_available_max_state_difference_from_daily_reset_kW": 1.3447749892814276e-05
+    },
+    {
+      "block": 9,
+      "date": "2013-06-06",
+      "beta": 0.5,
+      "day_in_block": 22,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0004315710147306806,
+      "after_zero_export_max_deficit_kW": 0.0002157855073653403,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0002157855073653403
+    },
+    {
+      "block": 9,
+      "date": "2013-06-07",
+      "beta": 0.5,
+      "day_in_block": 23,
+      "leading_zero_export_halfhours": 4,
+      "midnight_max_deficit_kW": 1.2926645170940887e-07,
+      "after_zero_export_max_deficit_kW": 8.0791554002424e-09,
+      "first_available_max_state_difference_from_daily_reset_kW": 8.0791554002424e-09
+    },
+    {
+      "block": 9,
+      "date": "2013-06-08",
+      "beta": 0.5,
+      "day_in_block": 24,
+      "leading_zero_export_halfhours": 2,
+      "midnight_max_deficit_kW": 0.0008965184138814974,
+      "after_zero_export_max_deficit_kW": 0.0002241296034738438,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0002241296034738438
+    },
+    {
+      "block": 9,
+      "date": "2013-06-09",
+      "beta": 0.5,
+      "day_in_block": 25,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0002127574555560452,
+      "after_zero_export_max_deficit_kW": 0.0002127574555560452,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0002127574555560452
+    },
+    {
+      "block": 9,
+      "date": "2013-06-10",
+      "beta": 0.5,
+      "day_in_block": 26,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 1.0727002619503878e-08,
+      "after_zero_export_max_deficit_kW": 1.0727002619503878e-08,
+      "first_available_max_state_difference_from_daily_reset_kW": 1.0727002619503878e-08
+    },
+    {
+      "block": 9,
+      "date": "2013-06-11",
+      "beta": 0.5,
+      "day_in_block": 27,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.00010783509994671814,
+      "after_zero_export_max_deficit_kW": 0.00010783509994671814,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.00010783509994671814
+    },
+    {
+      "block": 9,
+      "date": "2013-06-12",
+      "beta": 0.5,
+      "day_in_block": 28,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 2.2750894383694042e-05,
+      "after_zero_export_max_deficit_kW": 1.1375447188377574e-05,
+      "first_available_max_state_difference_from_daily_reset_kW": 1.1375447188377574e-05
+    },
+    {
+      "block": 9,
+      "date": "2013-06-13",
+      "beta": 0.5,
+      "day_in_block": 29,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0011636654479244002,
+      "after_zero_export_max_deficit_kW": 0.0011636654479244002,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0011636654479244002
+    },
+    {
+      "block": 9,
+      "date": "2013-06-14",
+      "beta": 0.5,
+      "day_in_block": 30,
+      "leading_zero_export_halfhours": 2,
+      "midnight_max_deficit_kW": 0.00012831310532840368,
+      "after_zero_export_max_deficit_kW": 3.207827633383564e-05,
+      "first_available_max_state_difference_from_daily_reset_kW": 3.207827633383564e-05
+    },
+    {
+      "block": 9,
+      "date": "2013-06-15",
+      "beta": 0.5,
+      "day_in_block": 31,
+      "leading_zero_export_halfhours": 3,
+      "midnight_max_deficit_kW": 0.00033229714955368417,
+      "after_zero_export_max_deficit_kW": 4.1537143696812606e-05,
+      "first_available_max_state_difference_from_daily_reset_kW": 4.1537143696812606e-05
+    },
+    {
+      "block": 9,
+      "date": "2013-06-16",
+      "beta": 0.5,
+      "day_in_block": 32,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0006591184391196991,
+      "after_zero_export_max_deficit_kW": 0.0006591184391196991,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0006591184391196991
+    },
+    {
+      "block": 9,
+      "date": "2013-06-17",
+      "beta": 0.5,
+      "day_in_block": 33,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0008965248630907197,
+      "after_zero_export_max_deficit_kW": 0.0008965248630907197,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0008965248630907197
+    },
+    {
+      "block": 9,
+      "date": "2013-06-18",
+      "beta": 0.5,
+      "day_in_block": 34,
+      "leading_zero_export_halfhours": 2,
+      "midnight_max_deficit_kW": 0.00037245919833062135,
+      "after_zero_export_max_deficit_kW": 9.311479957918589e-05,
+      "first_available_max_state_difference_from_daily_reset_kW": 9.311479957918589e-05
+    },
+    {
+      "block": 9,
+      "date": "2013-06-19",
+      "beta": 0.5,
+      "day_in_block": 35,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 9.723664395194787e-05,
+      "after_zero_export_max_deficit_kW": 9.723664395194787e-05,
+      "first_available_max_state_difference_from_daily_reset_kW": 9.723664395194787e-05
+    },
+    {
+      "block": 9,
+      "date": "2013-05-16",
+      "beta": 1.0,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-17",
+      "beta": 1.0,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-18",
+      "beta": 1.0,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-19",
+      "beta": 1.0,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-20",
+      "beta": 1.0,
+      "day_in_block": 5,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-21",
+      "beta": 1.0,
+      "day_in_block": 6,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-22",
+      "beta": 1.0,
+      "day_in_block": 7,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-23",
+      "beta": 1.0,
+      "day_in_block": 8,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-24",
+      "beta": 1.0,
+      "day_in_block": 9,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-25",
+      "beta": 1.0,
+      "day_in_block": 10,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-26",
+      "beta": 1.0,
+      "day_in_block": 11,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-27",
+      "beta": 1.0,
+      "day_in_block": 12,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-28",
+      "beta": 1.0,
+      "day_in_block": 13,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-29",
+      "beta": 1.0,
+      "day_in_block": 14,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-30",
+      "beta": 1.0,
+      "day_in_block": 15,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-05-31",
+      "beta": 1.0,
+      "day_in_block": 16,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-01",
+      "beta": 1.0,
+      "day_in_block": 17,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-02",
+      "beta": 1.0,
+      "day_in_block": 18,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-03",
+      "beta": 1.0,
+      "day_in_block": 19,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-04",
+      "beta": 1.0,
+      "day_in_block": 20,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-05",
+      "beta": 1.0,
+      "day_in_block": 21,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-06",
+      "beta": 1.0,
+      "day_in_block": 22,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-07",
+      "beta": 1.0,
+      "day_in_block": 23,
+      "leading_zero_export_halfhours": 4,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-08",
+      "beta": 1.0,
+      "day_in_block": 24,
+      "leading_zero_export_halfhours": 2,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-09",
+      "beta": 1.0,
+      "day_in_block": 25,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-10",
+      "beta": 1.0,
+      "day_in_block": 26,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-11",
+      "beta": 1.0,
+      "day_in_block": 27,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-12",
+      "beta": 1.0,
+      "day_in_block": 28,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-13",
+      "beta": 1.0,
+      "day_in_block": 29,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-14",
+      "beta": 1.0,
+      "day_in_block": 30,
+      "leading_zero_export_halfhours": 2,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-15",
+      "beta": 1.0,
+      "day_in_block": 31,
+      "leading_zero_export_halfhours": 3,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-16",
+      "beta": 1.0,
+      "day_in_block": 32,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-17",
+      "beta": 1.0,
+      "day_in_block": 33,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-18",
+      "beta": 1.0,
+      "day_in_block": 34,
+      "leading_zero_export_halfhours": 2,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 9,
+      "date": "2013-06-19",
+      "beta": 1.0,
+      "day_in_block": 35,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 10,
+      "date": "2013-06-23",
+      "beta": 0.25,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 10,
+      "date": "2013-06-24",
+      "beta": 0.25,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.4462040726520636,
+      "after_zero_export_max_deficit_kW": 0.4462040726520636,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.4462040726520636
+    },
+    {
+      "block": 10,
+      "date": "2013-06-25",
+      "beta": 0.25,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.3600703595371263,
+      "after_zero_export_max_deficit_kW": 0.2700527696528482,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.2700527696528482
+    },
+    {
+      "block": 10,
+      "date": "2013-06-26",
+      "beta": 0.25,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.2002309827629084,
+      "after_zero_export_max_deficit_kW": 0.2002309827629084,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.2002309827629084
+    },
+    {
+      "block": 10,
+      "date": "2013-06-27",
+      "beta": 0.25,
+      "day_in_block": 5,
+      "leading_zero_export_halfhours": 3,
+      "midnight_max_deficit_kW": 0.008478805482790841,
+      "after_zero_export_max_deficit_kW": 0.0035769960630496755,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0035769960630496755
+    },
+    {
+      "block": 10,
+      "date": "2013-06-23",
+      "beta": 0.5,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 10,
+      "date": "2013-06-24",
+      "beta": 0.5,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.001092694222500079,
+      "after_zero_export_max_deficit_kW": 0.001092694222500079,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.001092694222500079
+    },
+    {
+      "block": 10,
+      "date": "2013-06-25",
+      "beta": 0.5,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0012275525885299676,
+      "after_zero_export_max_deficit_kW": 0.0006137762942615144,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0006137762942615144
+    },
+    {
+      "block": 10,
+      "date": "2013-06-26",
+      "beta": 0.5,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0008965535342395081,
+      "after_zero_export_max_deficit_kW": 0.0008965535342395081,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0008965535342395081
+    },
+    {
+      "block": 10,
+      "date": "2013-06-27",
+      "beta": 0.5,
+      "day_in_block": 5,
+      "leading_zero_export_halfhours": 3,
+      "midnight_max_deficit_kW": 2.868099299724314e-07,
+      "after_zero_export_max_deficit_kW": 3.585124558336261e-08,
+      "first_available_max_state_difference_from_daily_reset_kW": 3.585124558336261e-08
+    },
+    {
+      "block": 10,
+      "date": "2013-06-23",
+      "beta": 1.0,
+      "day_in_block": 1,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 10,
+      "date": "2013-06-24",
+      "beta": 1.0,
+      "day_in_block": 2,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 10,
+      "date": "2013-06-25",
+      "beta": 1.0,
+      "day_in_block": 3,
+      "leading_zero_export_halfhours": 1,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 10,
+      "date": "2013-06-26",
+      "beta": 1.0,
+      "day_in_block": 4,
+      "leading_zero_export_halfhours": 0,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    },
+    {
+      "block": 10,
+      "date": "2013-06-27",
+      "beta": 1.0,
+      "day_in_block": 5,
+      "leading_zero_export_halfhours": 3,
+      "midnight_max_deficit_kW": 0.0,
+      "after_zero_export_max_deficit_kW": 0.0,
+      "first_available_max_state_difference_from_daily_reset_kW": 0.0
+    }
+  ],
+  "request_binding": [
+    {
+      "block": 1,
+      "beta": 0.25,
+      "max_binding_halfhours": 16,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        10.0,
+        13.0,
+        16.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 1,
+      "beta": 0.5,
+      "max_binding_halfhours": 14,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        6.0,
+        12.0,
+        14.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 1,
+      "beta": 1.0,
+      "max_binding_halfhours": 2,
+      "participant_longest_binding_halfhours_quantiles": [
+        1.0,
+        1.0,
+        2.0,
+        2.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 2,
+      "beta": 0.25,
+      "max_binding_halfhours": 16,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        9.0,
+        12.0,
+        16.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 2,
+      "beta": 0.5,
+      "max_binding_halfhours": 13,
+      "participant_longest_binding_halfhours_quantiles": [
+        2.0,
+        9.0,
+        12.0,
+        13.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 2,
+      "beta": 1.0,
+      "max_binding_halfhours": 3,
+      "participant_longest_binding_halfhours_quantiles": [
+        1.0,
+        2.0,
+        3.0,
+        3.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 3,
+      "beta": 0.25,
+      "max_binding_halfhours": 15,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        10.5,
+        14.0,
+        15.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 3,
+      "beta": 0.5,
+      "max_binding_halfhours": 15,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        7.0,
+        13.0,
+        15.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 3,
+      "beta": 1.0,
+      "max_binding_halfhours": 3,
+      "participant_longest_binding_halfhours_quantiles": [
+        1.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 4,
+      "beta": 0.25,
+      "max_binding_halfhours": 12,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        4.0,
+        11.0,
+        12.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 4,
+      "beta": 0.5,
+      "max_binding_halfhours": 12,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        3.0,
+        9.0,
+        12.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 4,
+      "beta": 1.0,
+      "max_binding_halfhours": 1,
+      "participant_longest_binding_halfhours_quantiles": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 5,
+      "beta": 0.25,
+      "max_binding_halfhours": 13,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        4.0,
+        12.0,
+        13.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 5,
+      "beta": 0.5,
+      "max_binding_halfhours": 12,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        2.0,
+        11.149999999999977,
+        12.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 5,
+      "beta": 1.0,
+      "max_binding_halfhours": 1,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 6,
+      "beta": 0.25,
+      "max_binding_halfhours": 12,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        6.0,
+        11.0,
+        12.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 6,
+      "beta": 0.5,
+      "max_binding_halfhours": 13,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        6.0,
+        11.0,
+        13.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 6,
+      "beta": 1.0,
+      "max_binding_halfhours": 2,
+      "participant_longest_binding_halfhours_quantiles": [
+        1.0,
+        1.0,
+        2.0,
+        2.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 7,
+      "beta": 0.25,
+      "max_binding_halfhours": 13,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        7.0,
+        11.0,
+        13.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 7,
+      "beta": 0.5,
+      "max_binding_halfhours": 13,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        5.0,
+        11.0,
+        13.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 7,
+      "beta": 1.0,
+      "max_binding_halfhours": 2,
+      "participant_longest_binding_halfhours_quantiles": [
+        1.0,
+        1.0,
+        1.0,
+        2.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 8,
+      "beta": 0.25,
+      "max_binding_halfhours": 14,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        6.0,
+        11.0,
+        14.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 8,
+      "beta": 0.5,
+      "max_binding_halfhours": 12,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        4.0,
+        10.0,
+        12.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 8,
+      "beta": 1.0,
+      "max_binding_halfhours": 3,
+      "participant_longest_binding_halfhours_quantiles": [
+        1.0,
+        2.0,
+        3.0,
+        3.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 9,
+      "beta": 0.25,
+      "max_binding_halfhours": 14,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        8.0,
+        12.0,
+        14.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 9,
+      "beta": 0.5,
+      "max_binding_halfhours": 16,
+      "participant_longest_binding_halfhours_quantiles": [
+        1.0,
+        7.5,
+        12.0,
+        16.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 9,
+      "beta": 1.0,
+      "max_binding_halfhours": 4,
+      "participant_longest_binding_halfhours_quantiles": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 10,
+      "beta": 0.25,
+      "max_binding_halfhours": 9,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        3.0,
+        7.0,
+        9.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 10,
+      "beta": 0.5,
+      "max_binding_halfhours": 9,
+      "participant_longest_binding_halfhours_quantiles": [
+        0.0,
+        2.0,
+        6.0,
+        9.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    },
+    {
+      "block": 10,
+      "beta": 1.0,
+      "max_binding_halfhours": 4,
+      "participant_longest_binding_halfhours_quantiles": [
+        1.0,
+        1.0,
+        3.0,
+        4.0
+      ],
+      "definition": "Raw request minus admitted request greater than the existing 2 W tolerance; episodes stop on unbound intervals or calendar gaps."
+    }
+  ],
+  "capacity_recovery_checks": 10117,
+  "max_capacity_recovery_identity_error_MW": 2.665494956170278e-17,
+  "scope": "Closed-condition recovery only; no global feedback contraction or delivery bound is inferred."
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-17",
+  "unit_tests": {
+    "passed": 34,
+    "failed": 0,
+    "files": [
+      "reproduction/tests/unit/test_externality_feedback.py",
+      "reproduction/tests/unit/test_v16_externality_conditioned_feedback.py",
+      "reproduction/tests/unit/test_australian_policy.py",
+      "reproduction/tests/unit/test_australian_data.py"
+    ],
+    "environment": "Recorded local optimize conda environment",
+    "warning": "Disabling pytest's cache provider leaves the existing cache_dir configuration unused."
+  },
+  "controlled_runner_help": "passed",
+  "primary_launcher_dry_run": "passed; missing third-party network and three processed profile arrays are explicitly reported",
+  "main_pdf_pages": 24,
+  "si_pdf_pages": 46,
+  "new_full_simulation_runs": 0
+}

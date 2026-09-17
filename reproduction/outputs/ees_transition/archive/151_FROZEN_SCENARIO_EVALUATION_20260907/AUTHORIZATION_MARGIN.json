@@ -1,0 +1,5 @@
+{
+  "authorization_voltage_max_pu": 1.07,
+  "physical_voltage_max_pu": 1.1,
+  "candidate_sha256": "4cb3d1d16e4b3d9e41ff116bccf98adbc5e77b0a0f84233c324eb92fecafe285"
+}

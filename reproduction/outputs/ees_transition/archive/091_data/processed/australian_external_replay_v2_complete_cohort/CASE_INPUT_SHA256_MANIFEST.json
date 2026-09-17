@@ -1,0 +1,32 @@
+{
+  "case_id": "AU_REAL_DERIVED_REPLAY_V2",
+  "hash_algorithm": "SHA-256",
+  "payload": [
+    {
+      "bytes": 14562542,
+      "path": "outputs/ees_transition/data/processed/australian_external_replay_v2_complete_cohort/AUSGRID_TRAIN_2010_2011.npz",
+      "sha256": "62535c920217c66f46b397a532ee1540a7fadff681dd70e86030657b8a2cfd7c"
+    },
+    {
+      "bytes": 14490958,
+      "path": "outputs/ees_transition/data/processed/australian_external_replay_v2_complete_cohort/AUSGRID_DEVELOPMENT_2011_2012.npz",
+      "sha256": "989729eebd49a820b8454897143a976fa2d92875ea30f1a3a7720b14cdd6d40f"
+    },
+    {
+      "bytes": 14466903,
+      "path": "outputs/ees_transition/data/processed/australian_external_replay_v2_complete_cohort/AUSGRID_EVALUATION_2012_2013.npz",
+      "sha256": "b97030a82f30ae8649ea4516ac12e219a44de4a88c71a7c14adc840183de4c44"
+    },
+    {
+      "bytes": 91463,
+      "path": "outputs/ees_transition/data/processed/australian_external_replay_v2_complete_cohort/CSIRO_LOAD_TO_AUSGRID_PROFILE_MAPPING.csv",
+      "sha256": "db753f500897622629fee0c7bbb66eab83ea86b011e5a084d9f61a9c3584b7f8"
+    },
+    {
+      "bytes": 20375,
+      "path": "outputs/ees_transition/data/processed/australian_external_replay_v2_complete_cohort/CASE_INPUT_METADATA.json",
+      "sha256": "abf4e94de4089339a0297aeda4cc03666a736694bdac26d6ffd6320e9654ec40"
+    }
+  ],
+  "profile_variant": "FIXED_COMPLETE_CUSTOMER_COHORT"
+}

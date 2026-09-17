@@ -1,0 +1,93 @@
+protocol_id: AU_TELEMETRY_GAIN_SENSITIVITY_V1
+status: PREREGISTERED_BEFORE_SENSITIVITY_EVALUATION
+evidence_class: SENSITIVITY_DIAGNOSTIC
+purpose: >-
+  Test whether the held-out Australian replay's selective-delivery result is
+  sensitive to the ECF update gain and to imperfect post-event availability
+  information. These runs cannot replace or select the primary exact-record
+  result.
+
+primary_binding:
+  case_protocol: outputs/ees_transition/AUSTRALIAN_EXTERNAL_CASE_PROTOCOL_V2.yaml
+  processed_package: outputs/ees_transition/data/processed/australian_external_replay_v2
+  load_scale_calibration: outputs/ees_transition/AUSTRALIAN_LOAD_SCALE_DEVELOPMENT_CALIBRATION_V2.json
+  authorization_margin_freeze: outputs/ees_transition/AUSTRALIAN_AUTHORIZATION_MARGIN_FREEZE_V2.json
+  evaluation_split: EVALUATION
+
+invariants:
+  - public source files and their hashes
+  - fixed profile-to-service-point mapping
+  - one-third participation scenario and registered capacities
+  - request forecast and training residual coefficients
+  - load scale and authorization margin
+  - AC implementation, power factors, and physical thresholds
+  - daily state initialization and matched-uniform construction
+
+registered_runs:
+  - run_id: BETA_025_EXACT
+    beta_ecf: 0.25
+    telemetry_mode: EXACT
+  - run_id: BETA_100_EXACT
+    beta_ecf: 1.0
+    telemetry_mode: EXACT
+  - run_id: BETA_050_SCALE_090
+    beta_ecf: 0.5
+    telemetry_mode: MULTIPLICATIVE
+    telemetry_scale: 0.90
+  - run_id: BETA_050_SCALE_110
+    beta_ecf: 0.5
+    telemetry_mode: MULTIPLICATIVE
+    telemetry_scale: 1.10
+  - run_id: BETA_050_LAG_ONE
+    beta_ecf: 0.5
+    telemetry_mode: LAG_ONE_INTERVAL
+  - run_id: BETA_050_DROPOUT_010
+    beta_ecf: 0.5
+    telemetry_mode: DETERMINISTIC_DROPOUT
+    telemetry_dropout_fraction: 0.10
+    telemetry_dropout_seed: AU_TELEMETRY_DROPOUT_V1
+
+telemetry_contract:
+  common_floor: >-
+    Every imperfect availability signal is floored at the participant's metered
+    delivery, because completed delivery is directly observed and the inferred
+    available export cannot be smaller than that delivered amount.
+  exact: constructed same-interval post-event availability used by the primary replay
+  multiplicative: scale constructed availability, then apply the metered-delivery floor
+  lag_one_interval: >-
+    Use the preceding interval's constructed availability with the current
+    metered-delivery floor. At the first interval of each independently initialized
+    network day, use metered delivery only; do not borrow a prior-day state.
+  deterministic_dropout: >-
+    Hash the frozen seed, date, and interval with SHA-256, use the digest to
+    initialize a PCG64 stream, and draw once per connection in fixed network
+    order. Apply the resulting mask only to registered export participants. A
+    dropped signal falls back to metered delivery.
+
+reported_outcomes:
+  - delivered export difference versus no feedback
+  - delivered export difference versus matched uniform attenuation
+  - authorization and idle-authorization differences
+  - paired network-day mean and date-aware dependent-wild 95-percent interval
+  - positive, zero, and negative paired-day counts
+  - replay-gate count and conditional recovery distribution
+  - registered AC pass and failure counts
+
+selection_prohibitions:
+  - evaluation outcomes cannot change a registered run
+  - no run is selected as a replacement primary setting
+  - no telemetry level is calibrated against delivered-energy improvement
+  - a failed or adverse run is retained and reported
+
+statistics:
+  primary_unit: network_day_trajectory
+  ordinary_interval: paired_day_percentile_bootstrap_95_percent
+  dependence_sensitivity:
+    method: date_aware_dependent_wild_bootstrap
+    covariance_kernel: bartlett_on_actual_calendar_lag
+    bandwidth_calendar_days: 7
+    resamples: 10000
+    requirements:
+      - all_eligible_days_have_unit_inclusion_weight
+      - empirical_center_matches_the_observed_paired_day_mean
+      - calendar_gaps_are_preserved

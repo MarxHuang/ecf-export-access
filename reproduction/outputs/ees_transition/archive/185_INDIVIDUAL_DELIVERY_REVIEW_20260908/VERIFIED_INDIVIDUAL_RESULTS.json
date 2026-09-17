@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "result_sha256": "c1cb754976b3a03e615e6b57eda1fbb19174846c97b672ff6dfc88989f3f2fb0",
+  "verifier_sha256": "9fa0b4bb3944163ab6a38611d3575651f11a9e6621b8b1e10e2913984585e59a",
+  "checked_participant_contrasts": 1254,
+  "checked_daily_contrasts": 100320,
+  "rejected_faults": [
+    "net_energy",
+    "sign_count",
+    "run_length",
+    "daily_value",
+    "duplicate_date"
+  ],
+  "calendar_gap_and_interval_run_tests": true,
+  "source_hashes_unchanged": true,
+  "extrema": {
+    "NO_FEEDBACK": {
+      "largest_absolute_loss": {
+        "participant_index": 167,
+        "comparator": "NO_FEEDBACK",
+        "ECF_delivery_MWh": 0.6671696007689114,
+        "control_delivery_MWh": 0.674478692394328,
+        "difference_kWh": -7.3090916254166425,
+        "relative_difference": -0.010836653118677686,
+        "positive_days": 42,
+        "negative_days": 32,
+        "unchanged_days": 6,
+        "longest_consecutive_negative_days": 4,
+        "downward_updates": 162,
+        "qualified_group_memberships": 162,
+        "ceiling_excluded_request_intervals": 234,
+        "ceiling_excluded_request_days": 43,
+        "longest_within_day_excluded_request_intervals": 12
+      },
+      "largest_relative_loss": {
+        "participant_index": 79,
+        "comparator": "NO_FEEDBACK",
+        "ECF_delivery_MWh": 0.21485937228626362,
+        "control_delivery_MWh": 0.21785573060016,
+        "difference_kWh": -2.9963583138963794,
+        "relative_difference": -0.013753865026372544,
+        "positive_days": 9,
+        "negative_days": 12,
+        "unchanged_days": 59,
+        "longest_consecutive_negative_days": 3,
+        "downward_updates": 317,
+        "qualified_group_memberships": 317,
+        "ceiling_excluded_request_intervals": 194,
+        "ceiling_excluded_request_days": 51,
+        "longest_within_day_excluded_request_intervals": 13
+      }
+    },
+    "MATCHED_UNIFORM": {
+      "largest_absolute_loss": {
+        "participant_index": 167,
+        "comparator": "MATCHED_UNIFORM",
+        "ECF_delivery_MWh": 0.6671696007689114,
+        "control_delivery_MWh": 0.6744791778956047,
+        "difference_kWh": -7.309577126693194,
+        "relative_difference": -0.010837365134827873,
+        "positive_days": 42,
+        "negative_days": 33,
+        "unchanged_days": 5,
+        "longest_consecutive_negative_days": 4,
+        "downward_updates": 162,
+        "qualified_group_memberships": 162,
+        "ceiling_excluded_request_intervals": 234,
+        "ceiling_excluded_request_days": 43,
+        "longest_within_day_excluded_request_intervals": 12
+      },
+      "largest_relative_loss": {
+        "participant_index": 79,
+        "comparator": "MATCHED_UNIFORM",
+        "ECF_delivery_MWh": 0.21485937228626362,
+        "control_delivery_MWh": 0.2178558431200404,
+        "difference_kWh": -2.9964708337767787,
+        "relative_difference": -0.01375437441044764,
+        "positive_days": 9,
+        "negative_days": 12,
+        "unchanged_days": 59,
+        "longest_consecutive_negative_days": 3,
+        "downward_updates": 317,
+        "qualified_group_memberships": 317,
+        "ceiling_excluded_request_intervals": 194,
+        "ceiling_excluded_request_days": 51,
+        "longest_within_day_excluded_request_intervals": 13
+      }
+    },
+    "UNQUALIFIED_SAME_UPDATE": {
+      "largest_absolute_loss": {
+        "participant_index": 12,
+        "comparator": "UNQUALIFIED_SAME_UPDATE",
+        "ECF_delivery_MWh": 0.5827542595104016,
+        "control_delivery_MWh": 0.5839262431580411,
+        "difference_kWh": -1.1719836476394434,
+        "relative_difference": -0.002007074799894279,
+        "positive_days": 22,
+        "negative_days": 17,
+        "unchanged_days": 41,
+        "longest_consecutive_negative_days": 5,
+        "downward_updates": 253,
+        "qualified_group_memberships": 253,
+        "ceiling_excluded_request_intervals": 75,
+        "ceiling_excluded_request_days": 36,
+        "longest_within_day_excluded_request_intervals": 4
+      },
+      "largest_relative_loss": {
+        "participant_index": 12,
+        "comparator": "UNQUALIFIED_SAME_UPDATE",
+        "ECF_delivery_MWh": 0.5827542595104016,
+        "control_delivery_MWh": 0.5839262431580411,
+        "difference_kWh": -1.1719836476394434,
+        "relative_difference": -0.002007074799894279,
+        "positive_days": 22,
+        "negative_days": 17,
+        "unchanged_days": 41,
+        "longest_consecutive_negative_days": 5,
+        "downward_updates": 253,
+        "qualified_group_memberships": 253,
+        "ceiling_excluded_request_intervals": 75,
+        "ceiling_excluded_request_days": 36,
+        "longest_within_day_excluded_request_intervals": 4
+      }
+    }
+  },
+  "new_power_flows": 0
+}

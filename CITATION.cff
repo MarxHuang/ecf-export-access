@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and specify the repository tag or commit used. No publication or repository DOI has been assigned here."
+title: "Increasing electricity exports through delivery-informed allocation in distribution networks: research materials"
+type: software
+version: "author-review-2026-09-17"
+date-released: 2026-09-17
+repository-code: "https://github.com/MarxHuang/ecf-export-access"
+authors:
+  - family-names: Huang
+    given-names: Junjie
+  - family-names: Yu
+    given-names: Tao
+  - family-names: Pan
+    given-names: Zhenning
+  - family-names: Wu
+    given-names: Yufeng
+  - family-names: Xiao
+    given-names: Wencong
+  - family-names: Zhu
+    given-names: Rankai
+  - family-names: Huang
+    given-names: Jie
+  - family-names: Xue
+    given-names: Yusheng

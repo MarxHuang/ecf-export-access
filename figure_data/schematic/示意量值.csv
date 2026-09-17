@@ -1,0 +1,7 @@
+panel,connection,request_kW,initial_award_kW,available_export_kW,completed_delivery_kW,replay_request_kW,replay_award_kW,replay_delivery_kW,scope
+a,A,8,5,5,5,,,,illustrative_not_case_study
+a,B,8,5,5,5,,,,illustrative_not_case_study
+b,A,8,5,5,5,8,8,5,illustrative_not_case_study
+b,B,8,5,2,2,2,2,2,illustrative_not_case_study
+c,A,8,5,8,5,8,8,8,illustrative_not_case_study
+c,B,8,5,2,2,2,2,2,illustrative_not_case_study

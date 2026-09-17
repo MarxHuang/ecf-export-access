@@ -1,0 +1,535 @@
+{
+  "case": "taxonomy_J",
+  "group": "taxonomy",
+  "days": 80,
+  "records": 15360,
+  "failed_records": 0,
+  "failure_types": {},
+  "failed_by_control": {},
+  "allocation_status_counts": {
+    "FULL_REQUEST_FEASIBLE": 12256,
+    "FEASIBLE_ZERO_ANCHORED_BISECTION": 3104
+  },
+  "all_physical_pass": true,
+  "totals": {
+    "ECF": {
+      "delivered_export_mwh": 62.13688650986999,
+      "authorized_export_mwh": 102.6794520477441,
+      "idle_authorization_mwh": 40.542565537874125,
+      "curtailed_available_export_mwh": 8.960546407863175,
+      "available_export_mwh": 71.09743291773316,
+      "source_terminal_energy_mwh": 28.39411748813954,
+      "circuit_loss_mwh": 1.7477711824810975
+    },
+    "NO_FEEDBACK": {
+      "delivered_export_mwh": 61.59391039085838,
+      "authorized_export_mwh": 102.4004034115847,
+      "idle_authorization_mwh": 40.806493020726336,
+      "curtailed_available_export_mwh": 9.503522526874782,
+      "available_export_mwh": 71.09743291773316,
+      "source_terminal_energy_mwh": 27.870224224510206,
+      "circuit_loss_mwh": 1.7286883270891893
+    },
+    "MATCHED_UNIFORM": {
+      "delivered_export_mwh": 61.52521327573202,
+      "authorized_export_mwh": 101.88454422778113,
+      "idle_authorization_mwh": 40.35933095204912,
+      "curtailed_available_export_mwh": 9.572219642001144,
+      "available_export_mwh": 71.09743291773316,
+      "source_terminal_energy_mwh": 27.805232980798593,
+      "circuit_loss_mwh": 1.7249824556679367
+    },
+    "PERSISTENCE_ONLY": {
+      "delivered_export_mwh": 51.443657469334724,
+      "authorized_export_mwh": 65.33302228686752,
+      "idle_authorization_mwh": 13.889364817532794,
+      "curtailed_available_export_mwh": 19.653775448398438,
+      "available_export_mwh": 71.09743291773316,
+      "source_terminal_energy_mwh": 18.052847438034302,
+      "circuit_loss_mwh": 1.3958121920259703
+    }
+  },
+  "comparisons": {
+    "NO_FEEDBACK": {
+      "delivered_export_mwh": {
+        "total": 0.5429761190116049,
+        "mean": 0.006787201487645061,
+        "positive": 65,
+        "negative": 7,
+        "zero": 8,
+        "ordinary": {
+          "network_day_count": 80,
+          "mean_difference_mwh_per_network_day": 0.006787201487645061,
+          "median_difference_mwh_per_network_day": 0.005311086755951155,
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            0.004696156283634071,
+            0.009098440455266338
+          ],
+          "positive_day_fraction": 0.8125,
+          "zero_day_fraction": 0.1,
+          "aggregate_difference_mwh_over_observed_days": 0.5429761190116049
+        },
+        "dependent": {
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            0.004805409490185969,
+            0.008768993485104154
+          ],
+          "bootstrap_empirical_center_mwh_per_network_day": 0.00678720148764506,
+          "target_sample_mean_mwh_per_network_day": 0.006787201487645061,
+          "center_error_mwh_per_network_day": -8.673617379884035e-19,
+          "bandwidth_calendar_days": 7,
+          "eligible_observation_count": 80,
+          "observation_coverage_fraction": 1.0,
+          "minimum_covariance_eigenvalue": 0.0051323639640096196
+        }
+      },
+      "authorized_export_mwh": {
+        "total": 0.2790486361594008,
+        "mean": 0.00348810795199251,
+        "positive": 50,
+        "negative": 25,
+        "zero": 5,
+        "ordinary": {
+          "network_day_count": 80,
+          "mean_difference_mwh_per_network_day": 0.00348810795199251,
+          "median_difference_mwh_per_network_day": 0.005718426271250299,
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            -0.0013943952791028004,
+            0.008236072006948321
+          ],
+          "positive_day_fraction": 0.625,
+          "zero_day_fraction": 0.0625,
+          "aggregate_difference_mwh_over_observed_days": 0.2790486361594008
+        },
+        "dependent": {
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            -9.409394961796884e-05,
+            0.007070309853602988
+          ],
+          "bootstrap_empirical_center_mwh_per_network_day": 0.0034881079519925103,
+          "target_sample_mean_mwh_per_network_day": 0.00348810795199251,
+          "center_error_mwh_per_network_day": 4.336808689942018e-19,
+          "bandwidth_calendar_days": 7,
+          "eligible_observation_count": 80,
+          "observation_coverage_fraction": 1.0,
+          "minimum_covariance_eigenvalue": 0.0051323639640096196
+        }
+      },
+      "idle_authorization_mwh": {
+        "total": -0.2639274828522066,
+        "mean": -0.003299093535652582,
+        "positive": 39,
+        "negative": 36,
+        "zero": 5,
+        "ordinary": {
+          "network_day_count": 80,
+          "mean_difference_mwh_per_network_day": -0.003299093535652582,
+          "median_difference_mwh_per_network_day": 0.0,
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            -0.007547820751890915,
+            0.0003966568610454044
+          ],
+          "positive_day_fraction": 0.4875,
+          "zero_day_fraction": 0.0625,
+          "aggregate_difference_mwh_over_observed_days": -0.2639274828522066
+        },
+        "dependent": {
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            -0.0067345740769955125,
+            0.00013638700569034817
+          ],
+          "bootstrap_empirical_center_mwh_per_network_day": -0.0032990935356525825,
+          "target_sample_mean_mwh_per_network_day": -0.003299093535652582,
+          "center_error_mwh_per_network_day": -4.336808689942018e-19,
+          "bandwidth_calendar_days": 7,
+          "eligible_observation_count": 80,
+          "observation_coverage_fraction": 1.0,
+          "minimum_covariance_eigenvalue": 0.0051323639640096196
+        }
+      },
+      "curtailed_available_export_mwh": {
+        "total": -0.5429761190116056,
+        "mean": -0.00678720148764507,
+        "positive": 7,
+        "negative": 65,
+        "zero": 8,
+        "ordinary": {
+          "network_day_count": 80,
+          "mean_difference_mwh_per_network_day": -0.00678720148764507,
+          "median_difference_mwh_per_network_day": -0.005311086755951263,
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            -0.009056994143870772,
+            -0.004731812613601624
+          ],
+          "positive_day_fraction": 0.0875,
+          "zero_day_fraction": 0.1,
+          "aggregate_difference_mwh_over_observed_days": -0.5429761190116056
+        },
+        "dependent": {
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            -0.008848896283821924,
+            -0.004725506691468215
+          ],
+          "bootstrap_empirical_center_mwh_per_network_day": -0.006787201487645069,
+          "target_sample_mean_mwh_per_network_day": -0.00678720148764507,
+          "center_error_mwh_per_network_day": 8.673617379884035e-19,
+          "bandwidth_calendar_days": 7,
+          "eligible_observation_count": 80,
+          "observation_coverage_fraction": 1.0,
+          "minimum_covariance_eigenvalue": 0.0051323639640096196
+        }
+      },
+      "available_export_mwh": {
+        "total": 0.0,
+        "mean": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "zero": 80
+      },
+      "source_terminal_energy_mwh": {
+        "total": 0.5238932636293319,
+        "mean": 0.006548665795366648,
+        "positive": 65,
+        "negative": 7,
+        "zero": 8
+      },
+      "circuit_loss_mwh": {
+        "total": 0.019082855391908203,
+        "mean": 0.00023853569239885253,
+        "positive": 57,
+        "negative": 15,
+        "zero": 8
+      },
+      "relative_delivery_gain_percent": 0.8815418854981354,
+      "source_retention_fraction": 0.9648550742581273
+    },
+    "MATCHED_UNIFORM": {
+      "delivered_export_mwh": {
+        "total": 0.6116732341379669,
+        "mean": 0.007645915426724587,
+        "positive": 67,
+        "negative": 7,
+        "zero": 6,
+        "ordinary": {
+          "network_day_count": 80,
+          "mean_difference_mwh_per_network_day": 0.007645915426724587,
+          "median_difference_mwh_per_network_day": 0.005363699999979543,
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            0.005417451642558165,
+            0.010067246297743457
+          ],
+          "positive_day_fraction": 0.8375,
+          "zero_day_fraction": 0.075,
+          "aggregate_difference_mwh_over_observed_days": 0.6116732341379669
+        },
+        "dependent": {
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            0.005436946986036466,
+            0.009854883867412706
+          ],
+          "bootstrap_empirical_center_mwh_per_network_day": 0.007645915426724587,
+          "target_sample_mean_mwh_per_network_day": 0.007645915426724587,
+          "center_error_mwh_per_network_day": 0.0,
+          "bandwidth_calendar_days": 7,
+          "eligible_observation_count": 80,
+          "observation_coverage_fraction": 1.0,
+          "minimum_covariance_eigenvalue": 0.0051323639640096196
+        }
+      },
+      "authorized_export_mwh": {
+        "total": 0.7949078199629752,
+        "mean": 0.009936347749537191,
+        "positive": 54,
+        "negative": 18,
+        "zero": 8,
+        "ordinary": {
+          "network_day_count": 80,
+          "mean_difference_mwh_per_network_day": 0.009936347749537191,
+          "median_difference_mwh_per_network_day": 0.008636632972666258,
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            0.005737694777358228,
+            0.014215396421739529
+          ],
+          "positive_day_fraction": 0.675,
+          "zero_day_fraction": 0.1,
+          "aggregate_difference_mwh_over_observed_days": 0.7949078199629752
+        },
+        "dependent": {
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            0.006822976870565502,
+            0.01304971862850888
+          ],
+          "bootstrap_empirical_center_mwh_per_network_day": 0.009936347749537191,
+          "target_sample_mean_mwh_per_network_day": 0.009936347749537191,
+          "center_error_mwh_per_network_day": 0.0,
+          "bandwidth_calendar_days": 7,
+          "eligible_observation_count": 80,
+          "observation_coverage_fraction": 1.0,
+          "minimum_covariance_eigenvalue": 0.0051323639640096196
+        }
+      },
+      "idle_authorization_mwh": {
+        "total": 0.18323458582500823,
+        "mean": 0.002290432322812603,
+        "positive": 47,
+        "negative": 27,
+        "zero": 6,
+        "ordinary": {
+          "network_day_count": 80,
+          "mean_difference_mwh_per_network_day": 0.002290432322812603,
+          "median_difference_mwh_per_network_day": 0.0012205099888847049,
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            -0.0009536109327066662,
+            0.0052078524461405965
+          ],
+          "positive_day_fraction": 0.5875,
+          "zero_day_fraction": 0.075,
+          "aggregate_difference_mwh_over_observed_days": 0.18323458582500823
+        },
+        "dependent": {
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            -0.00014281375017021196,
+            0.0047236783957954175
+          ],
+          "bootstrap_empirical_center_mwh_per_network_day": 0.002290432322812603,
+          "target_sample_mean_mwh_per_network_day": 0.002290432322812603,
+          "center_error_mwh_per_network_day": 0.0,
+          "bandwidth_calendar_days": 7,
+          "eligible_observation_count": 80,
+          "observation_coverage_fraction": 1.0,
+          "minimum_covariance_eigenvalue": 0.0051323639640096196
+        }
+      },
+      "curtailed_available_export_mwh": {
+        "total": -0.6116732341379675,
+        "mean": -0.007645915426724594,
+        "positive": 7,
+        "negative": 67,
+        "zero": 6,
+        "ordinary": {
+          "network_day_count": 80,
+          "mean_difference_mwh_per_network_day": -0.007645915426724594,
+          "median_difference_mwh_per_network_day": -0.005363699999979541,
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            -0.010071544994884881,
+            -0.005455074626889584
+          ],
+          "positive_day_fraction": 0.0875,
+          "zero_day_fraction": 0.075,
+          "aggregate_difference_mwh_over_observed_days": -0.6116732341379675
+        },
+        "dependent": {
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            -0.009842536188210772,
+            -0.005449294665238416
+          ],
+          "bootstrap_empirical_center_mwh_per_network_day": -0.007645915426724594,
+          "target_sample_mean_mwh_per_network_day": -0.007645915426724594,
+          "center_error_mwh_per_network_day": 0.0,
+          "bandwidth_calendar_days": 7,
+          "eligible_observation_count": 80,
+          "observation_coverage_fraction": 1.0,
+          "minimum_covariance_eigenvalue": 0.0051323639640096196
+        }
+      },
+      "available_export_mwh": {
+        "total": 0.0,
+        "mean": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "zero": 80
+      },
+      "source_terminal_energy_mwh": {
+        "total": 0.5888845073409437,
+        "mean": 0.0073610563417617954,
+        "positive": 67,
+        "negative": 7,
+        "zero": 6
+      },
+      "circuit_loss_mwh": {
+        "total": 0.02278872681316078,
+        "mean": 0.00028485908516450977,
+        "positive": 64,
+        "negative": 10,
+        "zero": 6
+      },
+      "relative_delivery_gain_percent": 0.994183037443017,
+      "source_retention_fraction": 0.9627436259669928
+    },
+    "PERSISTENCE_ONLY": {
+      "delivered_export_mwh": {
+        "total": 10.693229040535261,
+        "mean": 0.13366536300669077,
+        "positive": 80,
+        "negative": 0,
+        "zero": 0,
+        "ordinary": {
+          "network_day_count": 80,
+          "mean_difference_mwh_per_network_day": 0.13366536300669077,
+          "median_difference_mwh_per_network_day": 0.0832405929778069,
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            0.10576934623045436,
+            0.16397151745423652
+          ],
+          "positive_day_fraction": 1.0,
+          "zero_day_fraction": 0.0,
+          "aggregate_difference_mwh_over_observed_days": 10.693229040535261
+        },
+        "dependent": {
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            0.10808099169996505,
+            0.1592497343134165
+          ],
+          "bootstrap_empirical_center_mwh_per_network_day": 0.13366536300669077,
+          "target_sample_mean_mwh_per_network_day": 0.13366536300669077,
+          "center_error_mwh_per_network_day": 0.0,
+          "bandwidth_calendar_days": 7,
+          "eligible_observation_count": 80,
+          "observation_coverage_fraction": 1.0,
+          "minimum_covariance_eigenvalue": 0.0051323639640096196
+        }
+      },
+      "authorized_export_mwh": {
+        "total": 37.34642976087659,
+        "mean": 0.46683037201095734,
+        "positive": 80,
+        "negative": 0,
+        "zero": 0,
+        "ordinary": {
+          "network_day_count": 80,
+          "mean_difference_mwh_per_network_day": 0.46683037201095734,
+          "median_difference_mwh_per_network_day": 0.42398306005088937,
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            0.4240034568753643,
+            0.5112772743619022
+          ],
+          "positive_day_fraction": 1.0,
+          "zero_day_fraction": 0.0,
+          "aggregate_difference_mwh_over_observed_days": 37.34642976087659
+        },
+        "dependent": {
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            0.3934373530261498,
+            0.5402233909957648
+          ],
+          "bootstrap_empirical_center_mwh_per_network_day": 0.4668303720109574,
+          "target_sample_mean_mwh_per_network_day": 0.46683037201095734,
+          "center_error_mwh_per_network_day": 5.551115123125783e-17,
+          "bandwidth_calendar_days": 7,
+          "eligible_observation_count": 80,
+          "observation_coverage_fraction": 1.0,
+          "minimum_covariance_eigenvalue": 0.0051323639640096196
+        }
+      },
+      "idle_authorization_mwh": {
+        "total": 26.653200720341335,
+        "mean": 0.3331650090042667,
+        "positive": 80,
+        "negative": 0,
+        "zero": 0,
+        "ordinary": {
+          "network_day_count": 80,
+          "mean_difference_mwh_per_network_day": 0.3331650090042667,
+          "median_difference_mwh_per_network_day": 0.3234886236625013,
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            0.2976772718067943,
+            0.37021857427765537
+          ],
+          "positive_day_fraction": 1.0,
+          "zero_day_fraction": 0.0,
+          "aggregate_difference_mwh_over_observed_days": 26.653200720341335
+        },
+        "dependent": {
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            0.2618432725999193,
+            0.4044867454086141
+          ],
+          "bootstrap_empirical_center_mwh_per_network_day": 0.3331650090042667,
+          "target_sample_mean_mwh_per_network_day": 0.3331650090042667,
+          "center_error_mwh_per_network_day": 0.0,
+          "bandwidth_calendar_days": 7,
+          "eligible_observation_count": 80,
+          "observation_coverage_fraction": 1.0,
+          "minimum_covariance_eigenvalue": 0.0051323639640096196
+        }
+      },
+      "curtailed_available_export_mwh": {
+        "total": -10.693229040535263,
+        "mean": -0.1336653630066908,
+        "positive": 0,
+        "negative": 80,
+        "zero": 0,
+        "ordinary": {
+          "network_day_count": 80,
+          "mean_difference_mwh_per_network_day": -0.1336653630066908,
+          "median_difference_mwh_per_network_day": -0.08324059297780709,
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            -0.16410776969668944,
+            -0.10634110552950388
+          ],
+          "positive_day_fraction": 0.0,
+          "zero_day_fraction": 0.0,
+          "aggregate_difference_mwh_over_observed_days": -10.693229040535263
+        },
+        "dependent": {
+          "bootstrap_95_ci_mean_mwh_per_network_day": [
+            -0.1595015350089659,
+            -0.10782919100441568
+          ],
+          "bootstrap_empirical_center_mwh_per_network_day": -0.1336653630066908,
+          "target_sample_mean_mwh_per_network_day": -0.1336653630066908,
+          "center_error_mwh_per_network_day": 0.0,
+          "bandwidth_calendar_days": 7,
+          "eligible_observation_count": 80,
+          "observation_coverage_fraction": 1.0,
+          "minimum_covariance_eigenvalue": 0.0051323639640096196
+        }
+      },
+      "available_export_mwh": {
+        "total": 0.0,
+        "mean": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "zero": 80
+      },
+      "source_terminal_energy_mwh": {
+        "total": 10.341270050105237,
+        "mean": 0.12926587562631547,
+        "positive": 80,
+        "negative": 0,
+        "zero": 0
+      },
+      "circuit_loss_mwh": {
+        "total": 0.35195899045512713,
+        "mean": 0.004399487380689089,
+        "positive": 75,
+        "negative": 5,
+        "zero": 0
+      },
+      "relative_delivery_gain_percent": 20.78629235666114,
+      "source_retention_fraction": 0.9670858083095538
+    }
+  },
+  "vmin": 0.9412497560618224,
+  "vmax": 1.0742520570189913,
+  "transformer_max": 0.9999988362914392,
+  "gate_count": 328,
+  "gate_fraction": 0.08541666666666667,
+  "max_energy_identity_error_kw": 7.105427357601002e-14,
+  "max_equal_total_error_kw": 1.1368683772161603e-13,
+  "max_daily_aggregation_error_mwh": 6.661338147750939e-16,
+  "settings": {
+    "beta": 0.5,
+    "telemetry_mode": "EXACT",
+    "telemetry_scale": 1.0,
+    "telemetry_dropout_fraction": 0.0,
+    "load_scale": 0.3,
+    "authorization_voltage_max_pu": 1.07,
+    "pv_scale": 5.881304516313253
+  },
+  "input_hashes": {
+    "AU_EXTERNAL_RUN_SUMMARY.json": "6341d479a392e9062e4d44b5015b5af158101d8c38acd073ae51b31afb61effe",
+    "AU_EXTERNAL_DAY_SUMMARY.csv": "0b7558c44ec275a11c2f216db951549c435c1ed329c2f55cf4240cf9c28dc2dd",
+    "AU_EXTERNAL_INTERVAL_RESULTS.csv": "ef129734ebc5916b85047b6307b9bdaeab25c7cd81b938fbda04bb2d9a74bf01"
+  }
+}

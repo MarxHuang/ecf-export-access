@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "selected_load_multiplier": 0.3,
+  "qualification_scope": "13 nested LV models, no-feedback design dates only",
+  "candidate_sha256": "4cb3d1d16e4b3d9e41ff116bccf98adbc5e77b0a0f84233c324eb92fecafe285",
+  "pass_means": "candidate passed its development qualification, not that all evaluation cases have passed"
+}
