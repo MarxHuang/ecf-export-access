@@ -14,6 +14,7 @@ docs/DATA_SOURCES.md,CC-BY-4.0,Contributors rights only; executable documentatio
 docs/EXPERIMENTS.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 docs/FIGURE_DATA.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 docs/PUBLIC_RELEASE.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+docs/RELEASE_20260924_R2.md,CC-BY-4.0,Author-owned calculated data or documentation; upstream rights excluded
 docs/REPRODUCING.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 figure_data/australian_main/Fig10_sensitivity.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 figure_data/australian_main/Fig11_topology.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
@@ -47,6 +48,7 @@ figure_data/controlled/Fig07_gate_reason_summary.csv,CC-BY-4.0,Contributors righ
 figure_data/controlled/Fig07_paired_primary_distribution.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 figure_data/controlled/Fig08_physical_validity_summary.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 figure_data/controlled/Fig08_trajectory_physical_fairness.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/nc_submission/controlled_figures.xlsx,CC-BY-4.0,Author-owned calculated data or documentation; upstream rights excluded
 figure_data/participant_adaptation/Behavior.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 figure_data/participant_adaptation/Blocks.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 figure_data/participant_adaptation/Contrasts.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
@@ -63,14 +65,22 @@ figure_data/pv_capacity/Daily.csv,CC-BY-4.0,Contributors rights only; executable
 figure_data/pv_capacity/Energy.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 figure_data/pv_capacity/Exposure.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 figure_data/pv_capacity/PV_capacity.xlsx,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+figure_data/qualification_value/qualification_value.xlsx,CC-BY-4.0,Author-owned calculated source data; third-party raw inputs excluded
 figure_data/schematic/示意量值.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 paper/README.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 paper/main.pdf,LicenseRef-Manuscript,All rights reserved; no open licence grant
 paper/supporting_information.pdf,LicenseRef-Manuscript,All rights reserved; no open licence grant
 provenance/DEPOSIT_CHECK.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 provenance/LICENSE_MANIFEST.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+provenance/RELEASE_CHECK_20260924_R2.json,CC-BY-4.0,Author-owned calculated data or documentation; upstream rights excluded
 provenance/SOURCE_MANIFEST.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 provenance/TEST_STATUS.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
+reproduction/diagnostics/qualification_value/DESIGN.md,CC-BY-4.0,Author-owned explanatory documentation
+reproduction/diagnostics/qualification_value/prepare_figure.py,MIT,Original analysis and figure-generation software
+reproduction/diagnostics/qualification_value/run_frequency_control.py,MIT,Original numerical experiment software; local archive paths require relocation
+reproduction/diagnostics/qualification_value_12seed/DESIGN_12SEED.md,CC-BY-4.0,Author-owned explanatory documentation
+reproduction/diagnostics/qualification_value_12seed/prepare_figure.py,MIT,Original analysis and figure-generation software
+reproduction/diagnostics/qualification_value_12seed/run_frequency_control.py,MIT,Original numerical experiment software; local archive paths require relocation
 reproduction/outputs/dynamic_feedback_v12_3/DYNAMIC_FEEDBACK_DESIGN_MANIFEST.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 reproduction/outputs/ees_transition/archive/048_AUSTRALIAN_TELEMETRY_AND_GAIN_SENSITIVITY_PROTOCOL_V1.yaml,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 reproduction/outputs/ees_transition/archive/091_data/external/ausgrid_solar_home_2010_2013/LOCAL_SHA256_MANIFEST.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
@@ -324,6 +334,15 @@ reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/test_
 reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/test_postprocess.py,MIT,Original software/configuration; third-party dependencies excluded
 reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/test_saved_ac.py,MIT,Original software/configuration; third-party dependencies excluded
 reproduction/outputs/ees_transition/archive/189_ADAPTIVE_REQUESTS_20260908/test_saved_audit.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/outputs/ees_transition/qualification_value/CALENDAR_ROBUSTNESS.json,CC-BY-4.0,Author-owned calculated results
+reproduction/outputs/ees_transition/qualification_value/DAILY_RESULTS.csv,CC-BY-4.0,Author-owned calculated results
+reproduction/outputs/ees_transition/qualification_value/INPUT_MANIFEST.json,CC-BY-4.0,Author-owned experimental provenance
+reproduction/outputs/ees_transition/qualification_value/INTERVAL_RESULTS.csv,CC-BY-4.0,Author-owned calculated results
+reproduction/outputs/ees_transition/qualification_value/SUMMARY.json,CC-BY-4.0,Author-owned calculated results
+reproduction/outputs/ees_transition/qualification_value_12seed/DAILY_RESULTS.csv,CC-BY-4.0,Author-owned calculated results
+reproduction/outputs/ees_transition/qualification_value_12seed/INPUT_MANIFEST.json,CC-BY-4.0,Author-owned experimental provenance
+reproduction/outputs/ees_transition/qualification_value_12seed/INTERVAL_RESULTS.csv,CC-BY-4.0,Author-owned calculated results
+reproduction/outputs/ees_transition/qualification_value_12seed/SUMMARY.json,CC-BY-4.0,Author-owned calculated results
 reproduction/outputs/endogenous_request_choice_v14/ENDOGENOUS_MARGINAL_EXTERNALITY_CELLS.csv.gz,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 reproduction/outputs/endogenous_request_choice_v14/ENDOGENOUS_OUT_OF_SAMPLE_SHIFT_SUMMARY.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 reproduction/outputs/endogenous_request_choice_v14/ENDOGENOUS_REQUEST_CHOICE_AGGREGATE.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
@@ -472,24 +491,8 @@ reproduction/tools/run_v16_externality_conditioned_feedback.py,MIT,Original soft
 reproduction/tools/split_identity.py,MIT,Original software/configuration; third-party dependencies excluded
 reproduction/tools/verify_ees_australian_case_inputs.py,MIT,Original software/configuration; third-party dependencies excluded
 reproduction/tools/verify_ees_australian_network_energy_endpoint_statistics.py,MIT,Original software/configuration; third-party dependencies excluded
-figure_data/qualification_value/qualification_value.xlsx,CC-BY-4.0,Author-owned calculated source data; third-party raw inputs excluded
-reproduction/diagnostics/qualification_value/DESIGN.md,CC-BY-4.0,Author-owned explanatory documentation
-reproduction/diagnostics/qualification_value/prepare_figure.py,MIT,Original analysis and figure-generation software
-reproduction/diagnostics/qualification_value/run_frequency_control.py,MIT,Original numerical experiment software; local archive paths require relocation
-reproduction/outputs/ees_transition/qualification_value/CALENDAR_ROBUSTNESS.json,CC-BY-4.0,Author-owned calculated results
-reproduction/outputs/ees_transition/qualification_value/DAILY_RESULTS.csv,CC-BY-4.0,Author-owned calculated results
-reproduction/outputs/ees_transition/qualification_value/INPUT_MANIFEST.json,CC-BY-4.0,Author-owned experimental provenance
-reproduction/outputs/ees_transition/qualification_value/INTERVAL_RESULTS.csv,CC-BY-4.0,Author-owned calculated results
-reproduction/outputs/ees_transition/qualification_value/SUMMARY.json,CC-BY-4.0,Author-owned calculated results
-tools/verify_qualification_value.py,MIT,Original saved-result verification software
 tools/expand_results.py,MIT,Original software/configuration; third-party dependencies excluded
 tools/run_public_case.py,MIT,Original software/configuration; third-party dependencies excluded
 tools/verify_deposit.py,MIT,Original software/configuration; third-party dependencies excluded
-reproduction/diagnostics/qualification_value_12seed/DESIGN_12SEED.md,CC-BY-4.0,Author-owned explanatory documentation
-reproduction/diagnostics/qualification_value_12seed/prepare_figure.py,MIT,Original analysis and figure-generation software
-reproduction/diagnostics/qualification_value_12seed/run_frequency_control.py,MIT,Original numerical experiment software; local archive paths require relocation
-reproduction/outputs/ees_transition/qualification_value_12seed/DAILY_RESULTS.csv,CC-BY-4.0,Author-owned calculated results
-reproduction/outputs/ees_transition/qualification_value_12seed/INPUT_MANIFEST.json,CC-BY-4.0,Author-owned experimental provenance
-reproduction/outputs/ees_transition/qualification_value_12seed/INTERVAL_RESULTS.csv,CC-BY-4.0,Author-owned calculated results
-reproduction/outputs/ees_transition/qualification_value_12seed/SUMMARY.json,CC-BY-4.0,Author-owned calculated results
+tools/verify_qualification_value.py,MIT,Original saved-result verification software
 tools/verify_qualification_value_12seed.py,MIT,Original saved-result verification software

@@ -1,0 +1,68 @@
+{
+  "deposit": {
+    "passed": true,
+    "files_verified": 453,
+    "australian_cases": 30,
+    "australian_interval_rows": 514752,
+    "primary_days": 80,
+    "primary_comparisons": {
+      "NO_FEEDBACK": {
+        "delivery_MWh": 1.3922339022548158,
+        "authorization_MWh": 1.2064296342909984,
+        "unused_authorization_MWh": -0.1858042679637748
+      },
+      "MATCHED_UNIFORM": {
+        "delivery_MWh": 1.3919993710973984,
+        "authorization_MWh": 1.2132508196267509,
+        "unused_authorization_MWh": -0.1787485514706333
+      }
+    },
+    "primary_qualification_count": 483,
+    "primary_assessed_intervals": 3840,
+    "scope": "Saved-file integrity and aggregate arithmetic; no new simulation or AC solution."
+  },
+  "qualification_3": {
+    "passed": true,
+    "days": 80,
+    "interval_records": 11520,
+    "random_update_counts": [
+      484,
+      495,
+      489
+    ],
+    "ecf_minus_random_mean_mwh": 1.3596548403779187,
+    "scope": "saved-result arithmetic and flags, not independent AC rerun"
+  },
+  "qualification_12": {
+    "passed": true,
+    "dates": 80,
+    "schedules": 12,
+    "interval_records": 46080,
+    "update_count_range": [
+      463,
+      519
+    ],
+    "ecf_advantage_mwh_range": [
+      0.9165231993968348,
+      1.5961596312357074
+    ],
+    "ecf_advantage_mwh_mean": 1.3432714606551244,
+    "scope": "Saved-result arithmetic and pass flags, not an independent AC rerun"
+  },
+  "primary_dry_run": {
+    "case": "primary",
+    "execute": false,
+    "missing_inputs": [
+      "outputs/ees_transition/archive/091_data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data",
+      "outputs/ees_transition/archive/091_data/processed/australian_external_replay_v2/AUSGRID_TRAIN_2010_2011.npz",
+      "outputs/ees_transition/archive/091_data/processed/australian_external_replay_v2/AUSGRID_DEVELOPMENT_2011_2012.npz",
+      "outputs/ees_transition/archive/091_data/processed/australian_external_replay_v2/AUSGRID_EVALUATION_2012_2013.npz"
+    ],
+    "expected_days": 80
+  },
+  "date": "2026-09-24",
+  "release": "nc-review-2026-09-24-r2",
+  "new_simulation_runs": 0,
+  "main_pdf_pages": 29,
+  "si_pdf_pages": 52
+}

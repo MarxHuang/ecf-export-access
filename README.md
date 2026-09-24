@@ -6,6 +6,7 @@ The study examines when unused export permission prevents other participants fro
 
 ## Start here
 
+- [Current deposited revision](docs/RELEASE_20260924_R2.md): synchronized main/SI PDFs, submission-data correspondence and verification results.
 - [Manuscript](paper/main.pdf) and [Supporting Information](paper/supporting_information.pdf).
 - [Figure data and figure-number mapping](docs/FIGURE_DATA.md), including Excel and CSV files.
 - [Reproduction instructions](docs/REPRODUCING.md), with a quick check that requires only Python's standard library.
