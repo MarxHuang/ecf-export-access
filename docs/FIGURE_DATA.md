@@ -7,20 +7,26 @@ Use the figure numbers in the current manuscript, not a historical export filena
 | Fig. 1 | `figure_data/schematic/`; illustrative quantities, not experimental measurements |
 | Fig. 2 | Algorithm diagram; definitions and equations in the main text, no fitted numerical series |
 | Fig. 3 | `figure_data/controlled/Fig03_*.csv`, `Fig03c_request_choice_classes.xlsx` |
-| Fig. 4 | `figure_data/controlled/Fig04_representative_causal_trace.csv` |
-| Fig. 5 | `figure_data/controlled/Fig05_*.csv` |
-| Fig. 6 | `figure_data/controlled/Fig07_*.csv` — historical data filenames use 07 for gain and replay results |
-| Fig. 7 | `figure_data/controlled/Fig06_dimension_robustness_theta0.csv` — historical filename uses 06 |
-| Fig. 8 | `figure_data/controlled/Fig08_*.csv` |
-| Fig. 9 | `figure_data/australian_main/Fig9a_daily.csv`, `Fig9a_summary.csv`, `Fig9b_energy.csv` |
-| Fig. 10 | `figure_data/australian_main/Fig10_sensitivity.csv` |
-| Fig. 11 | `figure_data/australian_main/Fig11_topology.csv` |
-| Fig. S1 | `figure_data/profile_mapping/` |
-| Fig. S2 | `figure_data/participant_adaptation/` |
+| Fig. 4 | `figure_data/controlled/Fig07_*.csv` — historical data filenames use 07 for gain and replay results |
+| Fig. 5 | `figure_data/controlled/Controlled_figure_data.xlsx`, sheet `F07_Robustness`; `Fig06_dimension_robustness_theta0.csv` holds a related analysis |
+| Fig. 6 | `figure_data/australian_main/Fig9a_daily.csv`, `Fig9a_summary.csv`, `Fig9b_energy.csv` |
+| Fig. 7 | `figure_data/qualification_value/qualification_value.xlsx`: `Fig07_Daily`, `Fig07_Summary` |
+| Fig. 8 | `figure_data/australian_main/Fig10_sensitivity.csv` |
+| Supplementary Fig. 1 | `figure_data/controlled/Fig04_representative_causal_trace.csv` |
+| Supplementary Fig. 2 | `figure_data/controlled/Fig05_*.csv` |
+| Supplementary Fig. 3 | `figure_data/controlled/Fig08_*.csv` |
+| Supplementary Fig. 4 | `figure_data/profile_mapping/` |
+| Supplementary Fig. 5 | `figure_data/australian_main/Fig11_topology.csv` |
+| Supplementary Fig. 6 | `figure_data/participant_adaptation/` |
 
 `Controlled_figure_data.xlsx` groups the controlled-study data using the original exporter organization. The separate Fig. 3(c) workbook provides the later four-category presentation. For exact category membership and counts, use the request-choice result tables and SI definitions, not inferred colours.
 
-The `pv_capacity/` and `bounded_record/` folders support the additional SI tables. The Australian main workbook is `Fig9-11_Origin_data.xlsx`. These workbooks are included unchanged; the deposit does not regenerate or restyle them.
+The `pv_capacity/` and `bounded_record/` folders support additional SI tables.
+The Australian historical workbook is `Fig9-11_Origin_data.xlsx`; its sheet
+names keep the older figure numbers. The new diagnostic workbook also contains
+exact unrounded inputs to main Table 2 (`Table02_Energy`) and Supplementary
+Table 16 (`Seed_audit`). The deposited table and interval outputs are in
+`reproduction/outputs/ees_transition/qualification_value/`.
 
 ## Working in Origin
 

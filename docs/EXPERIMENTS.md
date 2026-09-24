@@ -5,7 +5,7 @@ All paths below are relative to `reproduction/`. The main text and SI in `paper/
 ## Controlled study
 
 - `outputs/endogenous_request_choice_v14/`: request-choice surfaces and finite-difference diagnostics used in Fig. 3.
-- `outputs/externality_conditioned_feedback_v16/`: interval and trajectory results, gain and control comparisons, classification diagnostics, and allocation/delivery AC checks used in Figs. 4–8 and the corresponding SI tables.
+- `outputs/externality_conditioned_feedback_v16/`: interval and trajectory results, gain and control comparisons, classification diagnostics, and allocation/delivery AC checks used in Figs. 4–5 and Supplementary Figs. 1–3.
 - `outputs/rate_v4_design/V4_FREEZE_DEVELOPMENT/`: the frozen synthetic branch-rating policy and calibrated allocation inputs.
 - `tools/run_v16_externality_conditioned_feedback.py`: experiment runner. It imports some helpers with older version identifiers; those imports are preserved and included.
 
@@ -17,7 +17,7 @@ These paths are under `outputs/ees_transition/archive/`:
 
 | Directory prefix | Role in the current paper |
 |---|---|
-| `151_FROZEN_SCENARIO_EVALUATION_20260907` | Primary 80-day comparison, gain/record/cohort sensitivities, nested sections, and representative LV models; Figs. 9–11 |
+| `151_FROZEN_SCENARIO_EVALUATION_20260907` | Primary 80-day comparison, gain/record/cohort sensitivities, nested sections, and representative LV models; Figs. 6 and 8 and Supplementary Fig. 5 |
 | `157_PROPORTIONAL_SEARCH_AUDIT_20260907/v2` | One-dimensional allocation-search checks |
 | `160_ALLOCATION_VECTOR_REVIEW_20260907` | Allocation-vector diagnostics |
 | `164_CEILING_TRAJECTORY_REVIEW_20260907` | Ceiling-trajectory checks |
@@ -25,11 +25,22 @@ These paths are under `outputs/ees_transition/archive/`:
 | `173_CONTIGUOUS_STATE_FEEDBACK_20260908` | State retention across contiguous observed days and recovery diagnostics |
 | `175_BOUNDED_RECORD_INTERFACE_20260908` | Availability-record uncertainty interface |
 | `176_BOUNDED_RECORD_FEEDBACK_20260908` | Feedback under bounded record error |
-| `180_PROFILE_MAPPING_ROBUSTNESS_20260908` | Alternative profile placements; Fig. S1 |
+| `180_PROFILE_MAPPING_ROBUSTNESS_20260908` | Alternative profile placements; Supplementary Fig. 4 |
 | `184_PV_SCALE_ROBUSTNESS_20260908` | PV-capacity sensitivity |
 | `185_INDIVIDUAL_DELIVERY_REVIEW_20260908` | Distribution of individual delivery changes |
 | `186_ADAPTATION_INFORMATION_REVIEW_20260908` | Information available to the participant-response model |
-| `189_ADAPTIVE_REQUESTS_20260908` | Experience-based request adjustment; Fig. S2 |
+| `189_ADAPTIVE_REQUESTS_20260908` | Experience-based request adjustment; Supplementary Fig. 6 |
+
+The post hoc replay-selection diagnostic is in
+`outputs/ees_transition/qualification_value/` and
+`diagnostics/qualification_value/`. Its three fixed schedules use ECF's target
+and gain after unused awards but choose update intervals without replay at a
+frequency calibrated from the original ECF result. Fig. 7 and Supplementary
+Table 16 report this diagnostic. The deposited daily and interval outputs can
+be checked with `tools/verify_qualification_value.py`; full AC rerunning also
+requires the externally sourced network/profile inputs and omitted local
+captured-ray and trajectory caches. The exact local runner is supplied for
+inspection, not advertised as a portable one-command run.
 
 The Australian scientific modules are preserved in `151_.../scientific_source/`. They must not be replaced by similarly named modules in the controlled-study source tree. The latter tree also contains preprocessing utilities; the frozen implementation is the authority for the current Australian numerical results.
 

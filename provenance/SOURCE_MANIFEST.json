@@ -1,5 +1,5 @@
 {
-  "description": "Retained original scientific files, unchanged numerically; gzip entries expand to original bytes. Manuscript compilation assets were withdrawn from the current tree on 2026-09-17.",
+  "description": "Retained original scientific files plus current compiled NC manuscript PDFs; gzip entries expand to original bytes. Manuscript compilation assets are not in the current tree.",
   "created": "2026-09-17",
   "files": [
     {
@@ -445,20 +445,20 @@
     },
     {
       "path": "paper/main.pdf",
-      "bytes": 2422214,
-      "sha256": "b50beac4954737f26533b606fc6f04a29004238b8b3b69171913f95dec53ba36",
-      "source_path": "outputs/ees_transition/EES_PARAGRAPH_REVIEW_MASTER_20260901/main.pdf",
-      "source_bytes": 2422214,
-      "source_sha256": "b50beac4954737f26533b606fc6f04a29004238b8b3b69171913f95dec53ba36",
+      "bytes": 1579293,
+      "sha256": "b6a6854911d0c859a57f44ea66023c61cc450d407ca1ae9ac1c4b87cf792a700",
+      "source_path": "outputs/nc_transition/NC_MASTER_20260924/submission/NC_manuscript.pdf",
+      "source_bytes": 1579293,
+      "source_sha256": "b6a6854911d0c859a57f44ea66023c61cc450d407ca1ae9ac1c4b87cf792a700",
       "encoding": "original"
     },
     {
       "path": "paper/supporting_information.pdf",
-      "bytes": 2230672,
-      "sha256": "fe131cf38314ad79ff50fd6081bed764117f2f15115a40ae75881a8d8c05e359",
-      "source_path": "outputs/ees_transition/EES_PARAGRAPH_REVIEW_MASTER_20260901/supporting_information.pdf",
-      "source_bytes": 2230672,
-      "source_sha256": "fe131cf38314ad79ff50fd6081bed764117f2f15115a40ae75881a8d8c05e359",
+      "bytes": 2980013,
+      "sha256": "8bd143386dffcb9d47b7e8b996eca3d122947e6c234f496a59bc46f9a8640d07",
+      "source_path": "outputs/nc_transition/NC_MASTER_20260924/submission/NC_supplementary_information.pdf",
+      "source_bytes": 2980013,
+      "source_sha256": "8bd143386dffcb9d47b7e8b996eca3d122947e6c234f496a59bc46f9a8640d07",
       "encoding": "original"
     },
     {

@@ -472,6 +472,16 @@ reproduction/tools/run_v16_externality_conditioned_feedback.py,MIT,Original soft
 reproduction/tools/split_identity.py,MIT,Original software/configuration; third-party dependencies excluded
 reproduction/tools/verify_ees_australian_case_inputs.py,MIT,Original software/configuration; third-party dependencies excluded
 reproduction/tools/verify_ees_australian_network_energy_endpoint_statistics.py,MIT,Original software/configuration; third-party dependencies excluded
+figure_data/qualification_value/qualification_value.xlsx,CC-BY-4.0,Author-owned calculated source data; third-party raw inputs excluded
+reproduction/diagnostics/qualification_value/DESIGN.md,CC-BY-4.0,Author-owned explanatory documentation
+reproduction/diagnostics/qualification_value/prepare_figure.py,MIT,Original analysis and figure-generation software
+reproduction/diagnostics/qualification_value/run_frequency_control.py,MIT,Original numerical experiment software; local archive paths require relocation
+reproduction/outputs/ees_transition/qualification_value/CALENDAR_ROBUSTNESS.json,CC-BY-4.0,Author-owned calculated results
+reproduction/outputs/ees_transition/qualification_value/DAILY_RESULTS.csv,CC-BY-4.0,Author-owned calculated results
+reproduction/outputs/ees_transition/qualification_value/INPUT_MANIFEST.json,CC-BY-4.0,Author-owned experimental provenance
+reproduction/outputs/ees_transition/qualification_value/INTERVAL_RESULTS.csv,CC-BY-4.0,Author-owned calculated results
+reproduction/outputs/ees_transition/qualification_value/SUMMARY.json,CC-BY-4.0,Author-owned calculated results
+tools/verify_qualification_value.py,MIT,Original saved-result verification software
 tools/expand_results.py,MIT,Original software/configuration; third-party dependencies excluded
 tools/run_public_case.py,MIT,Original software/configuration; third-party dependencies excluded
 tools/verify_deposit.py,MIT,Original software/configuration; third-party dependencies excluded

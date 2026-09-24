@@ -1,0 +1,69 @@
+{
+  "case": "post-hoc frequency-matched randomized update",
+  "dates": 80,
+  "seeds": [
+    2401,
+    2402,
+    2403
+  ],
+  "interval_records": 11520,
+  "update_probability": 0.1562601099967648,
+  "ecf_original_update_count": 483,
+  "ecf_delivered_mwh": 239.35556526309938,
+  "no_feedback_delivered_mwh": 237.96333136084456,
+  "ecf_minus_random_seed_average_mwh": 1.3596548403779158,
+  "ecf_minus_random_daily_mean_kwh": 16.995685504723948,
+  "ecf_minus_random_95pct_daily_mean_kwh": [
+    7.564645956610926,
+    26.426725052836964
+  ],
+  "positive_days_seed_averaged": 61,
+  "negative_days_seed_averaged": 19,
+  "longest_35_day_block_contrast_mwh": 0.7996470126354378,
+  "remaining_45_day_contrast_mwh": 0.560007827742478,
+  "seed_results": {
+    "2401": {
+      "random_delivered_mwh": 237.9427327858191,
+      "ecf_minus_random_mwh": 1.412832477280285,
+      "random_update_count": 484,
+      "eligible_unused_intervals": 3086,
+      "positive_days": 60,
+      "negative_days": 20,
+      "all_physical_pass": true,
+      "all_allocation_pass": true,
+      "power_flow_count": 43628,
+      "source_terminal_exchange_mwh": -260.9792175098392,
+      "authorized_export_mwh": 328.45597680450567,
+      "idle_authorization_mwh": 90.51324401868655
+    },
+    "2402": {
+      "random_delivered_mwh": 238.26982366247734,
+      "ecf_minus_random_mwh": 1.0857416006220406,
+      "random_update_count": 495,
+      "eligible_unused_intervals": 3086,
+      "positive_days": 57,
+      "negative_days": 23,
+      "all_physical_pass": true,
+      "all_allocation_pass": true,
+      "power_flow_count": 43611,
+      "source_terminal_exchange_mwh": -260.65654518444677,
+      "authorized_export_mwh": 328.3857452140084,
+      "idle_authorization_mwh": 90.11592155153106
+    },
+    "2403": {
+      "random_delivered_mwh": 237.77517481986794,
+      "ecf_minus_random_mwh": 1.5803904432314222,
+      "random_update_count": 489,
+      "eligible_unused_intervals": 3086,
+      "positive_days": 57,
+      "negative_days": 23,
+      "all_physical_pass": true,
+      "all_allocation_pass": true,
+      "power_flow_count": 43628,
+      "source_terminal_exchange_mwh": -261.1450315542827,
+      "authorized_export_mwh": 328.09882549160034,
+      "idle_authorization_mwh": 90.32365067173237
+    }
+  },
+  "inputs_manifest_sha256": "6cacc2e93c04dfe636a51ec4d3c12020549af8edf8ecc5bfff980c3b22d4d306"
+}

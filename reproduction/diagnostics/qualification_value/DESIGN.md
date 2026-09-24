@@ -1,0 +1,11 @@
+# Diagnostic comparison for the information in replay qualification
+
+This comparison was designed after the original Australian results were known. It is a mechanism diagnostic, not a new blind validation or an operational proposal.
+
+The existing primary ECF trajectory qualified 483 of 3,840 half-hours and had an unused-award set in 3,091 half-hours. Before computing the new control, set the probability of updating on an eligible unused-award interval to 483/3,091. This matches ECF's observed intervention frequency in expectation, rather than matching its update decisions or outcomes. The probability is not optimized for delivered energy. Use three fixed, independently hashed schedules (seeds 2401, 2402 and 2403) and report all of them.
+
+For each schedule, rerun the same 80 dates, the same raw requests, network, profile placement, loading, available output, allocation search, AC screens, feedback gain (0.5), and daily initialization as the primary study. Each control follows its own resulting allocations, metered-model delivery, and ceiling state. On an interval with unused awards, a hash of the fixed seed, date and half-hour determines whether to use the completed delivery as the update target for the unused-award set. Otherwise the target is capacity. The update formula is identical to ECF's. The randomized control does not inspect replay or current available export when deciding whether to update. It still observes delivery and the unused-award set, as ECF does.
+
+Primary diagnostic: paired 80-day delivered-export difference, ECF minus the mean of the three schedules. Also report the three separate differences, intervention counts, authorization, unused authorization, source-terminal exchange, daily wins/losses, date-dependent interval, all physical screens, and necessary AC solve counts. Compare with the original no-feedback and unqualified-update outcomes without recomputing them. Do not choose a seed or a schedule on its delivery result.
+
+Interpretation: This tests whether reducing intervention frequency alone explains ECF's advantage over updating after every unused award. It does not identify the value of each replay condition separately, and it cannot turn this post hoc control into independent validation. If the randomized control matches or exceeds ECF, revise the mechanism-value claim accordingly.

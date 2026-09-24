@@ -2,8 +2,8 @@
 
 Applied with author authorization on 17 September 2026. This is a mixed-material
 repository, not a dual-licensed work in which every file can be used under either
-MIT or CC BY. Repository access and reuse permission are separate: applying these
-terms does not make this private repository public.
+MIT or CC BY. Repository access and reuse permission are separate: the repository
+is public, but its manuscript PDFs are not covered by the open code/data grants.
 
 ## Scope by material
 

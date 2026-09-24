@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Please cite the accompanying manuscript and specify the repository tag or commit used. No publication or repository DOI has been assigned here."
 title: "Increasing electricity exports through delivery-informed allocation in distribution networks: research materials"
 type: software
-version: "author-review-2026-09-17-r4"
-date-released: 2026-09-17
+version: "nc-review-2026-09-24-r1"
+date-released: 2026-09-24
 repository-code: "https://github.com/MarxHuang/ecf-export-access"
 authors:
   - family-names: Huang

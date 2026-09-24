@@ -6,9 +6,16 @@ Python 3.12 is recommended. This command only uses the standard library:
 
 ```console
 python tools/verify_deposit.py
+python tools/verify_qualification_value.py
 ```
 
-It checks every file in `provenance/SOURCE_MANIFEST.json`, verifies lossless gzip expansion, reconciles the Australian day tables with the run summaries, and compares the primary energy differences against Fig. 9 data. It does not rerun an AC power flow or establish that a physical model is correct.
+The first command checks every file in `provenance/SOURCE_MANIFEST.json`,
+verifies lossless gzip expansion, reconciles the Australian day tables with
+run summaries, and checks the primary energy differences against the historical
+Fig. 9 data files (now main Fig. 6). The second independently recomputes the
+new diagnostic's seed totals, update counts, energy identities and physical
+screen flags from deposited daily and interval records. Neither command
+reruns an AC power flow or establishes that the physical model is correct.
 
 ## 2. Read or expand larger files
 
@@ -47,7 +54,13 @@ python tools/run_public_case.py --case primary --execute --workers 2
 
 New results go into `reproduction/reruns/primary/`. Existing results are never overwritten by this entry point. `--limit-days 1` requests a labelled smoke run, not a replacement for the full result. Other existing case IDs are listed by `--list`. The launcher modifies only path resolution, the worker count and explicitly requested smoke-run length; it does not choose gains, dates, load scales, ratings or other experimental parameters.
 
-The archived extra-study scripts are also included. Some depend on auxiliary captured-ray or per-connection trajectory caches that are not part of this deposit, and contain original absolute-path checks. They require reconstruction of those caches and relocation before a full rerun. See `EXPERIMENTS.md`. Do not interpret the presence of their source as a claim that every historical script runs unchanged on a fresh computer.
+The archived extra-study scripts and the new frequency-calibrated diagnostic
+runner are included. Some depend on auxiliary captured-ray or per-connection
+trajectory caches that are not part of this deposit and contain original
+absolute-path checks. They require reconstruction of those caches and relocation
+before a full rerun. See `EXPERIMENTS.md`. Do not interpret the presence of
+their source as a claim that every historical script runs unchanged on a fresh
+computer.
 
 ## 5. Controlled study
 

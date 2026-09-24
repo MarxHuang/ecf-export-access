@@ -11,11 +11,11 @@ The study examines when unused export permission prevents other participants fro
 - [Reproduction instructions](docs/REPRODUCING.md), with a quick check that requires only Python's standard library.
 - [Input sources and redistribution status](docs/DATA_SOURCES.md).
 - [Version and experiment map](docs/EXPERIMENTS.md).
-- [File-by-file licensing](LICENSING.md) and [public-release checklist](docs/PUBLIC_RELEASE.md).
+- [File-by-file licensing](LICENSING.md) and [repository status](docs/PUBLIC_RELEASE.md).
 
-This repository is a **private author-review deposit** as of 17 September 2026. The authors have authorized the scoped reuse licences below. This does not change repository visibility: editors and reviewers still need working access. The repository URL is unchanged; no repository DOI has been assigned. The manuscript is not presented as an accepted publication.
+This repository is **public** as of 24 September 2026. It contains author-generated code, calculated results, source-data tables and compiled author manuscript PDFs. It has no repository DOI, and the paper is not an accepted publication. Code/data licences and manuscript-PDF rights differ as described below.
 
-The `author-review-2026-09-17-r4` revision updates the main PDF to restore six omitted author email addresses from the earlier IEEE manuscript, retaining the two already present. All eight addresses have name labels and mailto links. Only the author-contact footnotes changed; the abstract, scientific text, SI, numerical code, result tables and figure data are unchanged. Manuscript TeX, bibliography/style files, standalone manuscript figures and publisher compilation assets remain absent from the current tree following r3. Older commits and tags still contain manuscript sources; this update does not erase Git history.
+The 24 September revision updates the manuscript and SI for a prospective Nature Communications submission. It adds a frequency-calibrated replay-free control to distinguish replay-based update selection from simply updating less often. Three fixed schedules, daily and interval results, source-data workbook and exact analysis scripts are deposited. The diagnostic was designed after the original 80-day result; it is not an independent validation. Manuscript TeX, bibliography/style files, standalone manuscript figures and publisher compilation assets remain absent from the current tree. Older public commits and tags may still expose those withdrawn sources; no history rewrite has been performed.
 
 ## Contents
 
@@ -25,6 +25,7 @@ The `author-review-2026-09-17-r4` revision updates the main PDF to restore six o
 | `figure_data/` | Source tables for the current main and supplementary figures, plus tabulated sensitivities |
 | `reproduction/src/` and `reproduction/tools/` | Controlled-study implementation and preprocessing/analysis tools |
 | `reproduction/outputs/` | Selected parameter files, calculated results, and the frozen Australian implementation |
+| `reproduction/diagnostics/qualification_value/` | Post hoc replay-selection design and exact local analysis code |
 | `provenance/` | File hashes and source-file correspondence |
 | `tools/` | Deposit verification, lossless expansion, and portable entry points |
 
@@ -36,13 +37,16 @@ From the repository root:
 
 ```console
 python tools/verify_deposit.py
+python tools/verify_qualification_value.py
 python tools/run_public_case.py --list
 python tools/run_public_case.py --case primary
 ```
 
-The first command checks the deposited source hashes, reads all 30 Australian case tables, and recalculates the primary energy comparisons. The last command is a **dry run**: it reports which externally acquired inputs are still needed. It does not start a simulation without `--execute`.
+The first command checks deposited source hashes and primary energy arithmetic. The second checks the new diagnostic's 240 daily records and 11,520 interval records against its summary. The last command is a **dry run**: it reports externally acquired inputs still needed and does not start a simulation without `--execute`.
 
 The primary ECF-minus-no-feedback comparison is approximately **+1.392 MWh delivered export** over 80 assessed days. Total authorization rises by about **1.206 MWh**, while unused authorization falls by about **0.186 MWh**. These signs follow the current results and are not replaced with the earlier interpretation that total authorization always falls.
+
+With ECF's update formula but no replay test, updating after every unused award reduces delivery by 6.423 MWh relative to ECF. That comparison also changes update frequency. A replay-free control calibrated to a similar frequency delivers 1.360 MWh less than ECF on average across three fixed schedules; its mean is only 0.033 MWh above no feedback. These are modeled 80-day differences, not field-metered gains.
 
 ## Source data and reuse
 
@@ -57,4 +61,4 @@ Ausgrid measurements and the CSIRO/GridQube networks must be obtained from their
 
 See [LICENSING.md](LICENSING.md) for exact scope, [the per-file register](provenance/LICENSE_MANIFEST.csv), and [third-party notices](THIRD_PARTY_NOTICES.md). MIT and CC BY permit commercial reuse of material within their respective scopes. These grants cover only rights held by the contributors; they do not override upstream restrictions or grant rights to third-party source data, publisher artwork, logos or fonts. Code snippets in the documentation are MIT-licensed.
 
-The repository remains private. In particular, **do not make the existing history public while manuscript-source disclosure is unwanted**. See [PUBLIC_RELEASE.md](docs/PUBLIC_RELEASE.md) for the access and history checks still needed before release.
+The repository is already public. Removing source files from the current tree did not remove older copies from Git history; see [the repository-status note](docs/PUBLIC_RELEASE.md). Do not treat the current branch's absence of manuscript source as proof that historical source is inaccessible.
