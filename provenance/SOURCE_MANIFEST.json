@@ -445,11 +445,11 @@
     },
     {
       "path": "paper/main.pdf",
-      "bytes": 1579293,
-      "sha256": "b6a6854911d0c859a57f44ea66023c61cc450d407ca1ae9ac1c4b87cf792a700",
+      "bytes": 1579283,
+      "sha256": "1791a509384ad4f0d28a2ddfbad7334bd351b596bf972d3bca369b9148a8db4c",
       "source_path": "outputs/nc_transition/NC_MASTER_20260924/submission/NC_manuscript.pdf",
-      "source_bytes": 1579293,
-      "source_sha256": "b6a6854911d0c859a57f44ea66023c61cc450d407ca1ae9ac1c4b87cf792a700",
+      "source_bytes": 1579283,
+      "source_sha256": "1791a509384ad4f0d28a2ddfbad7334bd351b596bf972d3bca369b9148a8db4c",
       "encoding": "original"
     },
     {
