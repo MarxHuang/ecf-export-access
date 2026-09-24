@@ -1,4 +1,4 @@
-"""Draw the NC mechanism diagnostic and preserve its Origin-ready tables."""
+"""Prepare the verified Origin-ready data for NC Fig. 7 and Table 2."""
 
 from __future__ import annotations
 
@@ -6,8 +6,6 @@ import csv
 import json
 from pathlib import Path
 
-import matplotlib.pyplot as plt
-from matplotlib.ticker import AutoMinorLocator
 import numpy as np
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
@@ -127,7 +125,7 @@ for line in [
     "Table02_Energy contains exact unrounded inputs to main Table 2.",
     "The randomized control was specified after the original results and is a diagnostic, not an independent validation.",
     "All twelve fixed schedules are retained; do not select a seed by outcome.",
-    "Fig. 7(a) uses ecf_minus_random_mean_kwh; the 35-day shading uses longest_35_day_block.",
+    "Fig. 7(a) uses ecf_minus_random_mean_kwh; dashed vertical lines bound the longest 35-day block.",
     "Fig. 7(b) uses minus_no_feedback_MWh and update_intervals from Fig07_Summary.",
     "The original published control and AC results were not recomputed for this figure.",
 ]:
@@ -150,70 +148,6 @@ for worksheet in book:
 
 workbook_path = NC_ROOT / "source_data" / "qualification_value.xlsx"
 book.save(workbook_path)
-
-plt.rcParams.update({
-    "font.family": "Times New Roman", "font.size": 8.5,
-    "axes.labelsize": 8.5, "axes.titlesize": 9, "pdf.fonttype": 42,
-    "axes.linewidth": .7, "xtick.direction": "out", "ytick.direction": "out",
-    "xtick.major.size": 3.0, "ytick.major.size": 3.0,
-})
-teal = "#21A798"
-coral = "#E39062"
-slate = "#69839B"
-violet = "#9B6DB6"
-dark = "#27374A"
-fig, axes = plt.subplots(1, 2, figsize=(7.08, 2.72), gridspec_kw={"width_ratios": [1.16, 1]})
-fig.subplots_adjust(left=.075, right=.985, bottom=.20, top=.82, wspace=.50)
-ax = axes[0]
-days = np.asarray([row["day_index"] for row in daily_values])
-diff = np.asarray([row["ecf_minus_random_mean_kwh"] for row in daily_values])
-ax.axhline(0, lw=.8, color="#69717B", linestyle=(0, (3, 2)))
-block_days = [row["day_index"] for row in daily_values if row["longest_35_day_block"]]
-ax.axvspan(min(block_days)-.5, max(block_days)+.5, color=teal, alpha=.09, lw=0)
-ax.scatter(days[diff >= 0], diff[diff >= 0], s=17, color=teal, alpha=.88, linewidth=0)
-ax.scatter(days[diff < 0], diff[diff < 0], s=17, color=coral, alpha=.88, linewidth=0)
-ax.set_xlabel("Eligible network day (chronological)")
-ax.set_ylabel("ECF minus replay-free update\n(kWh per day)")
-ax.set_xlim(0, 81)
-ax.xaxis.set_minor_locator(AutoMinorLocator(2))
-ax.spines[["top", "right"]].set_visible(True)
-ax.spines["top"].set_linewidth(.7)
-ax.spines["right"].set_linewidth(.7)
-ax.tick_params(top=False, right=False)
-ax.text(0, 1.12, "a  Daily delivery difference", transform=ax.transAxes, color=dark,
-        fontsize=9, fontweight="bold", va="bottom")
-
-ax = axes[1]
-rows = [
-    ("ECF", ecf_total-no_feedback_total, teal),
-    ("Replay-free update", np.mean(random_totals)-no_feedback_total, coral),
-    ("No feedback", 0.0, slate),
-    ("Every idle award", unqualified_total-no_feedback_total, violet),
-]
-for j, (label, value, color) in enumerate(rows):
-    y = 3-j
-    ax.scatter(value, y, s=50 if j in (0,1) else 34, color=color, edgecolors="white", linewidths=.4, zorder=3)
-    if j == 1:
-        seed_offsets = np.asarray(random_totals) - no_feedback_total
-        ax.plot([min(seed_offsets), max(seed_offsets)], [y, y], color=color,
-                lw=2, alpha=.75, zorder=2)
-ax.axvline(0, lw=.8, color="#69717B", linestyle=(0, (3, 2)))
-ax.set_yticks(range(4), [item[0] for item in reversed(rows)])
-ax.set_xlabel("Delivered export minus no feedback (MWh / 80 days)")
-ax.set_xlim(-5.6, 2.0)
-ax.set_ylim(-.5, 3.5)
-ax.xaxis.set_minor_locator(AutoMinorLocator(2))
-ax.spines[["top", "right"]].set_visible(True)
-ax.spines["top"].set_linewidth(.7)
-ax.spines["right"].set_linewidth(.7)
-ax.tick_params(top=False, right=False)
-ax.text(0, 1.12, "b  Delivery by update rule", transform=ax.transAxes,
-        color=dark, fontsize=9, fontweight="bold", va="bottom")
-
-figure_path = NC_ROOT / "figures" / "fig07_replay_selection_comparison.pdf"
-fig.savefig(figure_path, bbox_inches="tight", pad_inches=.035)
-fig.savefig(OUTPUTS / "fig07_replay_selection_comparison.png", dpi=210, bbox_inches="tight", pad_inches=.035)
-plt.close(fig)
-print(json.dumps({"figure": str(figure_path), "workbook": str(workbook_path),
+print(json.dumps({"workbook": str(workbook_path),
                   "source_rows_daily": len(daily_values), "random_update_count": random_updates},
                  ensure_ascii=False))
