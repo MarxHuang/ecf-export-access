@@ -5,7 +5,7 @@
 
 These are the current 24 September 2026 Nature Communications submission
 drafts, not accepted articles or publisher versions of record. They are
-publicly readable under the manuscript notice; no open article licence is
+available to users granted repository access under the manuscript notice; no open article licence is
 granted by placing these PDFs in this repository.
 All rights are reserved under [the manuscript notice](../LICENSES/LicenseRef-Manuscript.txt);
 the repository's MIT and CC BY grants do not apply to these PDFs.

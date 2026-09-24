@@ -3,7 +3,7 @@
 Applied with author authorization on 17 September 2026. This is a mixed-material
 repository, not a dual-licensed work in which every file can be used under either
 MIT or CC BY. Repository access and reuse permission are separate: the repository
-is public, but its manuscript PDFs are not covered by the open code/data grants.
+is currently private, and its manuscript PDFs are not covered by the open code/data grants. Changing access does not change these scoped reuse terms.
 
 ## Scope by material
 
