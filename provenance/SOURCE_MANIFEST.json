@@ -445,20 +445,20 @@
     },
     {
       "path": "paper/main.pdf",
-      "bytes": 1579283,
-      "sha256": "1791a509384ad4f0d28a2ddfbad7334bd351b596bf972d3bca369b9148a8db4c",
+      "bytes": 1570113,
+      "sha256": "e9ec4abec1a4b26ba6709fcd4163c844d0ecf1b5bd5af97e3c64c6901608af95",
       "source_path": "outputs/nc_transition/NC_MASTER_20260924/submission/NC_manuscript.pdf",
-      "source_bytes": 1579283,
-      "source_sha256": "1791a509384ad4f0d28a2ddfbad7334bd351b596bf972d3bca369b9148a8db4c",
+      "source_bytes": 1570113,
+      "source_sha256": "e9ec4abec1a4b26ba6709fcd4163c844d0ecf1b5bd5af97e3c64c6901608af95",
       "encoding": "original"
     },
     {
       "path": "paper/supporting_information.pdf",
-      "bytes": 2980013,
-      "sha256": "8bd143386dffcb9d47b7e8b996eca3d122947e6c234f496a59bc46f9a8640d07",
+      "bytes": 2979845,
+      "sha256": "06c65ede0104f5cffacd9c392de5a8b816d9525537cbab0096a14ff907bf86f0",
       "source_path": "outputs/nc_transition/NC_MASTER_20260924/submission/NC_supplementary_information.pdf",
-      "source_bytes": 2980013,
-      "source_sha256": "8bd143386dffcb9d47b7e8b996eca3d122947e6c234f496a59bc46f9a8640d07",
+      "source_bytes": 2979845,
+      "source_sha256": "06c65ede0104f5cffacd9c392de5a8b816d9525537cbab0096a14ff907bf86f0",
       "encoding": "original"
     },
     {

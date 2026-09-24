@@ -485,3 +485,11 @@ tools/verify_qualification_value.py,MIT,Original saved-result verification softw
 tools/expand_results.py,MIT,Original software/configuration; third-party dependencies excluded
 tools/run_public_case.py,MIT,Original software/configuration; third-party dependencies excluded
 tools/verify_deposit.py,MIT,Original software/configuration; third-party dependencies excluded
+reproduction/diagnostics/qualification_value_12seed/DESIGN_12SEED.md,CC-BY-4.0,Author-owned explanatory documentation
+reproduction/diagnostics/qualification_value_12seed/prepare_figure.py,MIT,Original analysis and figure-generation software
+reproduction/diagnostics/qualification_value_12seed/run_frequency_control.py,MIT,Original numerical experiment software; local archive paths require relocation
+reproduction/outputs/ees_transition/qualification_value_12seed/DAILY_RESULTS.csv,CC-BY-4.0,Author-owned calculated results
+reproduction/outputs/ees_transition/qualification_value_12seed/INPUT_MANIFEST.json,CC-BY-4.0,Author-owned experimental provenance
+reproduction/outputs/ees_transition/qualification_value_12seed/INTERVAL_RESULTS.csv,CC-BY-4.0,Author-owned calculated results
+reproduction/outputs/ees_transition/qualification_value_12seed/SUMMARY.json,CC-BY-4.0,Author-owned calculated results
+tools/verify_qualification_value_12seed.py,MIT,Original saved-result verification software

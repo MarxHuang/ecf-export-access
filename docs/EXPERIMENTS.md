@@ -31,13 +31,18 @@ These paths are under `outputs/ees_transition/archive/`:
 | `186_ADAPTATION_INFORMATION_REVIEW_20260908` | Information available to the participant-response model |
 | `189_ADAPTIVE_REQUESTS_20260908` | Experience-based request adjustment; Supplementary Fig. 6 |
 
-The post hoc replay-selection diagnostic is in
+The original post hoc replay-selection diagnostic is retained in
 `outputs/ees_transition/qualification_value/` and
-`diagnostics/qualification_value/`. Its three fixed schedules use ECF's target
-and gain after unused awards but choose update intervals without replay at a
-frequency calibrated from the original ECF result. Fig. 7 and Supplementary
-Table 16 report this diagnostic. The deposited daily and interval outputs can
-be checked with `tools/verify_qualification_value.py`; full AC rerunning also
+`diagnostics/qualification_value/`. The expanded diagnostic is separately
+deposited in sibling directories with the suffix `_12seed`. All 12 fixed
+schedules use ECF's target and gain after unused awards but choose update
+intervals without replay at a frequency calibrated from the original ECF
+result. Seeds 2401–2403 are unchanged from the earlier three-schedule deposit;
+the expansion added seeds 2404–2412 without choosing among them by outcome.
+Fig. 7 and Supplementary Table 16 report the 12-schedule comparison. The
+deposited daily and interval outputs can be checked with
+`tools/verify_qualification_value_12seed.py`. The original check remains
+available as `tools/verify_qualification_value.py`. Full AC rerunning also
 requires the externally sourced network/profile inputs and omitted local
 captured-ray and trajectory caches. The exact local runner is supplied for
 inspection, not advertised as a portable one-command run.

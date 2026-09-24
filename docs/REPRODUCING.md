@@ -7,14 +7,17 @@ Python 3.12 is recommended. This command only uses the standard library:
 ```console
 python tools/verify_deposit.py
 python tools/verify_qualification_value.py
+python tools/verify_qualification_value_12seed.py
 ```
 
 The first command checks every file in `provenance/SOURCE_MANIFEST.json`,
 verifies lossless gzip expansion, reconciles the Australian day tables with
 run summaries, and checks the primary energy differences against the historical
-Fig. 9 data files (now main Fig. 6). The second independently recomputes the
-new diagnostic's seed totals, update counts, energy identities and physical
-screen flags from deposited daily and interval records. Neither command
+Fig. 9 data files (now main Fig. 6). The second verifies the retained
+three-schedule diagnostic; the third independently recomputes the expanded
+12-schedule totals, update counts, energy identities and physical-screen flags
+from 960 daily and 46,080 interval records. The third also checks that the
+first three schedules match the earlier deposit. None of these commands
 reruns an AC power flow or establishes that the physical model is correct.
 
 ## 2. Read or expand larger files

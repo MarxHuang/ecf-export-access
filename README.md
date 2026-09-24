@@ -15,7 +15,7 @@ The study examines when unused export permission prevents other participants fro
 
 This repository is **public** as of 24 September 2026. It contains author-generated code, calculated results, source-data tables and compiled author manuscript PDFs. It has no repository DOI, and the paper is not an accepted publication. Code/data licences and manuscript-PDF rights differ as described below.
 
-The 24 September revision updates the manuscript and SI for a prospective Nature Communications submission. It adds a frequency-calibrated replay-free control to distinguish replay-based update selection from simply updating less often. Three fixed schedules, daily and interval results, source-data workbook and exact analysis scripts are deposited. The diagnostic was designed after the original 80-day result; it is not an independent validation. Manuscript TeX, bibliography/style files, standalone manuscript figures and publisher compilation assets remain absent from the current tree. Older public commits and tags may still expose those withdrawn sources; no history rewrite has been performed.
+The 24 September revision updates the manuscript and SI for a prospective Nature Communications submission. It adds a frequency-calibrated replay-free control to distinguish replay-based update selection from simply updating less often. The expanded comparison reports all 12 fixed schedules: the original three are retained unchanged, and nine additional schedules are deposited with daily and interval results. The diagnostic was designed after the original 80-day result; it is not an independent validation. Manuscript TeX, bibliography/style files, standalone manuscript figures and publisher compilation assets remain absent from the current tree. Older public commits and tags may still expose those withdrawn sources; no history rewrite has been performed.
 
 ## Contents
 
@@ -25,7 +25,7 @@ The 24 September revision updates the manuscript and SI for a prospective Nature
 | `figure_data/` | Source tables for the current main and supplementary figures, plus tabulated sensitivities |
 | `reproduction/src/` and `reproduction/tools/` | Controlled-study implementation and preprocessing/analysis tools |
 | `reproduction/outputs/` | Selected parameter files, calculated results, and the frozen Australian implementation |
-| `reproduction/diagnostics/qualification_value/` | Post hoc replay-selection design and exact local analysis code |
+| `reproduction/diagnostics/qualification_value/` and `qualification_value_12seed/` | Original and expanded post hoc replay-selection designs and exact local analysis code |
 | `provenance/` | File hashes and source-file correspondence |
 | `tools/` | Deposit verification, lossless expansion, and portable entry points |
 
@@ -38,15 +38,16 @@ From the repository root:
 ```console
 python tools/verify_deposit.py
 python tools/verify_qualification_value.py
+python tools/verify_qualification_value_12seed.py
 python tools/run_public_case.py --list
 python tools/run_public_case.py --case primary
 ```
 
-The first command checks deposited source hashes and primary energy arithmetic. The second checks the new diagnostic's 240 daily records and 11,520 interval records against its summary. The last command is a **dry run**: it reports externally acquired inputs still needed and does not start a simulation without `--execute`.
+The first command checks deposited source hashes and primary energy arithmetic. The next two check the retained three-schedule and expanded 12-schedule diagnostics, respectively. The latter verifies 960 daily records and 46,080 interval records, including numerical agreement of the first three schedules with the earlier deposit. The last command is a **dry run**: it reports externally acquired inputs still needed and does not start a simulation without `--execute`.
 
 The primary ECF-minus-no-feedback comparison is approximately **+1.392 MWh delivered export** over 80 assessed days. Total authorization rises by about **1.206 MWh**, while unused authorization falls by about **0.186 MWh**. These signs follow the current results and are not replaced with the earlier interpretation that total authorization always falls.
 
-With ECF's update formula but no replay test, updating after every unused award reduces delivery by 6.423 MWh relative to ECF. That comparison also changes update frequency. A replay-free control calibrated to a similar frequency delivers 1.360 MWh less than ECF on average across three fixed schedules; its mean is only 0.033 MWh above no feedback. These are modeled 80-day differences, not field-metered gains.
+With ECF's update formula but no replay test, updating after every unused award reduces delivery by 6.423 MWh relative to ECF. That comparison also changes update frequency. Across 12 replay-free schedules calibrated to a similar expected frequency, ECF delivers 0.917–1.596 MWh more, averaging 1.343 MWh. The schedule mean is only 0.049 MWh above no feedback. These are modeled 80-day differences, not field-metered gains.
 
 ## Source data and reuse
 

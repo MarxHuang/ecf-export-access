@@ -23,10 +23,13 @@ Use the figure numbers in the current manuscript, not a historical export filena
 
 The `pv_capacity/` and `bounded_record/` folders support additional SI tables.
 The Australian historical workbook is `Fig9-11_Origin_data.xlsx`; its sheet
-names keep the older figure numbers. The new diagnostic workbook also contains
-exact unrounded inputs to main Table 2 (`Table02_Energy`) and Supplementary
-Table 16 (`Seed_audit`). The deposited table and interval outputs are in
-`reproduction/outputs/ees_transition/qualification_value/`.
+names keep the older figure numbers. The expanded diagnostic workbook also
+contains exact unrounded inputs to main Table 2 (`Table02_Energy`) and
+Supplementary Table 16 (`Seed_audit`). The current 12-schedule daily and
+interval outputs are in
+`reproduction/outputs/ees_transition/qualification_value_12seed/`; the
+original three-schedule record is preserved in the sibling directory without
+the suffix.
 
 ## Working in Origin
 

@@ -1,0 +1,9 @@
+# Expanded replay-free update diagnostic
+
+The earlier three-schedule diagnostic was specified after the primary Australian ECF results. This extension is likewise post hoc. Its purpose is to check whether the comparison with ECF depends on those three particular schedules, not to create an independent validation cohort.
+
+Before running any additional schedule, use the contiguous SHA-256 seed set 2401--2412 and report every result. Reuse the already archived complete results for seeds 2401--2403 without changing them; run seeds 2404--2412 on the same 80 network days. The update probability remains 483/3091, fixed from the original ECF trajectory. It is calibrated to ECF's observed frequency, not chosen for delivered energy. Every schedule uses its own endogenous awards, delivery, unused-award set and ceiling state, while retaining the frozen network, chronological inputs, raw requests, allocation search, AC checks, gain 0.5, and daily reset.
+
+The primary expanded diagnostic is ECF minus the within-date mean of all 12 replay-free schedules, aggregated across the 80 paired dates. Report the full range of schedule-level contrasts, every schedule's update count, the paired-day dependence-adjusted interval, and AC pass status. Do not remove or select schedules based on outcomes. If some or all schedules equal or exceed ECF, state that result and narrow the replay-selection claim.
+
+As in the original design, this comparison varies the information used to select update intervals while matching the expected update frequency and retaining the ceiling formula and gain. It cannot identify which of the four replay conditions is individually necessary, and it is not prospective field validation. The original three-schedule results remain in `results/`; expanded results are stored separately in `results_12seed/`.
