@@ -1,8 +1,8 @@
 # Repository status and manuscript rights
 
 Status checked in the authenticated GitHub interface on 24 September 2026: this repository is **private**. Unauthenticated requests could not retrieve the repository or manuscript PDFs. Earlier documentation describing current public availability was inaccurate and has been corrected. This update does not change access permissions.
-The current branch contains compiled author manuscript and Supporting
-Information PDFs, numerical code, author-generated result tables and figure
+The current branch contains the 13 October 2026 compiled author manuscript and Supplemental
+information PDFs, numerical code, author-generated result tables and figure
 data. It does not contain the current manuscript TeX source package or
 standalone manuscript figures.
 
@@ -26,10 +26,10 @@ The scoped terms in [LICENSING.md](../LICENSING.md) and the
 These are different rights for different materials; a public GitHub page
 does not change the manuscript licence or grant rights in upstream data.
 No repository DOI is assigned. The manuscript's data and code statements
-point to this URL, but the current main-text description of a public project repository does not match its private visibility. Before submission, the authors must establish reviewer access or an appropriate public deposit and align those statements. The repository contains exact saved results plus
+point to this URL without describing it as publicly accessible. Before submission, the authors must establish reviewer access or an appropriate public deposit. The repository contains exact saved results plus
 instructions distinguishing arithmetic verification from complete AC reruns.
 
-## Author checks before a Nature Communications submission
+## Author checks before a Nexus submission
 
 - Decide whether to keep this repository private with a separate reviewer-accessible deposit, or make approved materials public. Do not change visibility without considering historical source exposure.
 - Confirm all authors approve any planned public availability of the current draft PDFs

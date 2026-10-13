@@ -1,10 +1,11 @@
 # Author manuscript PDFs
 
 - [Main manuscript](main.pdf)
-- [Supporting Information](supporting_information.pdf)
+- [Supplemental information](supporting_information.pdf)
 
-These are the current 24 September 2026 Nature Communications submission
-drafts, not accepted articles or publisher versions of record. They are
+These are the current 13 October 2026 Nexus submission
+drafts: 25 pages for the manuscript and 54 for Supplemental information.
+They are not accepted articles or publisher versions of record. They are
 available to users granted repository access under the manuscript notice; no open article licence is
 granted by placing these PDFs in this repository.
 All rights are reserved under [the manuscript notice](../LICENSES/LicenseRef-Manuscript.txt);
@@ -17,3 +18,8 @@ Numerical source code, saved results and figure-data tables remain available
 elsewhere in this repository. See [reproduction instructions](../docs/REPRODUCING.md).
 
 This withdrawal does not erase source files from older public Git commits or tags.
+
+The stable filename `supporting_information.pdf` is retained for existing links;
+its contents and heading use the current term "Supplemental information".
+Cover letters, interest declarations, editorial correspondence and manuscript
+source packages are not included here.

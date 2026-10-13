@@ -15,6 +15,7 @@ docs/EXPERIMENTS.md,CC-BY-4.0,Contributors rights only; executable documentation
 docs/FIGURE_DATA.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 docs/PUBLIC_RELEASE.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 docs/RELEASE_20260924_R2.md,CC-BY-4.0,Author-owned calculated data or documentation; upstream rights excluded
+docs/RELEASE_20261013_NEXUS.md,CC-BY-4.0,Author-owned calculated data or documentation; upstream rights excluded
 docs/REPRODUCING.md,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 figure_data/australian_main/Fig10_sensitivity.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 figure_data/australian_main/Fig11_topology.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
@@ -73,6 +74,7 @@ paper/supporting_information.pdf,LicenseRef-Manuscript,All rights reserved; no o
 provenance/DEPOSIT_CHECK.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 provenance/LICENSE_MANIFEST.csv,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 provenance/RELEASE_CHECK_20260924_R2.json,CC-BY-4.0,Author-owned calculated data or documentation; upstream rights excluded
+provenance/RELEASE_CHECK_20261013_NEXUS.json,CC-BY-4.0,Author-owned calculated data or documentation; upstream rights excluded
 provenance/SOURCE_MANIFEST.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 provenance/TEST_STATUS.json,CC-BY-4.0,Contributors rights only; executable documentation examples also MIT; upstream rights excluded
 reproduction/diagnostics/qualification_value/DESIGN.md,CC-BY-4.0,Author-owned explanatory documentation

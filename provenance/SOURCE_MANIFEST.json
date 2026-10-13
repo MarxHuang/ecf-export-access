@@ -1,5 +1,5 @@
 {
-  "description": "Retained original scientific files plus current compiled NC manuscript PDFs; gzip entries expand to original bytes. Manuscript compilation assets are not in the current tree.",
+  "description": "Retained original scientific files plus current compiled Nexus manuscript PDFs; gzip entries expand to original bytes. Manuscript compilation assets are not in the current tree.",
   "created": "2026-09-17",
   "files": [
     {
@@ -454,20 +454,20 @@
     },
     {
       "path": "paper/main.pdf",
-      "bytes": 1643643,
-      "sha256": "51cb9f5c7877c859e5ccf61b9733867c6b32620019baf33a26a90fd7fbce9d6e",
-      "source_path": "outputs/nc_transition/NC_MASTER_20260924/submission/NC_manuscript.pdf",
-      "source_bytes": 1643643,
-      "source_sha256": "51cb9f5c7877c859e5ccf61b9733867c6b32620019baf33a26a90fd7fbce9d6e",
+      "bytes": 1466381,
+      "sha256": "cae6ae5d55773d5720ce36f12d701ce51ec8eee8ee9e180c6d6d8bb1cf78231e",
+      "source_path": "outputs/nexus_transition/NEXUS_MASTER_20261013/submission/Nexus_manuscript.pdf",
+      "source_bytes": 1466381,
+      "source_sha256": "cae6ae5d55773d5720ce36f12d701ce51ec8eee8ee9e180c6d6d8bb1cf78231e",
       "encoding": "original"
     },
     {
       "path": "paper/supporting_information.pdf",
-      "bytes": 3669485,
-      "sha256": "4dad002435a4ab6a134d9699123c8a7e39fdba07873fb540e4ee8fc40872a805",
-      "source_path": "outputs/nc_transition/NC_MASTER_20260924/submission/NC_supplementary_information.pdf",
-      "source_bytes": 3669485,
-      "source_sha256": "4dad002435a4ab6a134d9699123c8a7e39fdba07873fb540e4ee8fc40872a805",
+      "bytes": 3377741,
+      "sha256": "a66884b43a5ffe76ae8b644ff7e5b61a4c13d4d01dc1e28e3d5657b8082f5ed6",
+      "source_path": "outputs/nexus_transition/NEXUS_MASTER_20261013/submission/Nexus_supplemental_information.pdf",
+      "source_bytes": 3377741,
+      "source_sha256": "a66884b43a5ffe76ae8b644ff7e5b61a4c13d4d01dc1e28e3d5657b8082f5ed6",
       "encoding": "original"
     },
     {
@@ -4080,6 +4080,6 @@
       "encoding": "original"
     }
   ],
-  "updated": "2026-09-24",
-  "release": "nc-review-2026-09-24-r2"
+  "updated": "2026-10-13",
+  "release": "nexus-submission-2026-10-13"
 }

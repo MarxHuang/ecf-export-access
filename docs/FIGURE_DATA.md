@@ -2,6 +2,11 @@
 
 Use the figure numbers in the current manuscript, not a historical export filename. The original numerical precision is retained in the CSV/XLSX files; rounding in the manuscript is for presentation.
 
+All eight workbooks in the 13 October 2026 Nexus submission match existing
+repository files byte-for-byte. `provenance/RELEASE_CHECK_20261013_NEXUS.json`
+lists their exact correspondence and hashes. The historical `nc_submission/`
+directory name is retained; its workbook is also the current Nexus plotting input.
+
 | Current figure | Data directory and files |
 |---|---|
 | Fig. 1 | `figure_data/schematic/`; illustrative quantities, not experimental measurements |
@@ -12,22 +17,22 @@ Use the figure numbers in the current manuscript, not a historical export filena
 | Fig. 6 | `figure_data/australian_main/Fig9a_daily.csv`, `Fig9a_summary.csv`, `Fig9b_energy.csv` |
 | Fig. 7 | `figure_data/qualification_value/qualification_value.xlsx`: `Fig07_Daily`, `Fig07_Summary` |
 | Fig. 8 | `figure_data/australian_main/Fig10_sensitivity.csv` |
-| Supplementary Fig. 1 | `figure_data/controlled/Fig04_representative_causal_trace.csv` |
-| Supplementary Fig. 2 | `figure_data/controlled/Fig05_*.csv` |
-| Supplementary Fig. 3 | `figure_data/controlled/Fig08_*.csv` |
-| Supplementary Fig. 4 | `figure_data/profile_mapping/` |
-| Supplementary Fig. 5 | `figure_data/australian_main/Fig11_topology.csv` |
-| Supplementary Fig. 6 | `figure_data/participant_adaptation/` |
+| Figure S1 | `figure_data/controlled/Fig04_representative_causal_trace.csv` |
+| Figure S2 | `figure_data/controlled/Fig05_*.csv` |
+| Figure S3 | `figure_data/controlled/Fig08_*.csv` |
+| Figure S4 | `figure_data/profile_mapping/` |
+| Figure S5 | `figure_data/australian_main/Fig11_topology.csv` |
+| Figure S6 | `figure_data/participant_adaptation/` |
 
 `figure_data/controlled/Controlled_figure_data.xlsx` retains the original exporter organization. The current submission's consolidated workbook is `figure_data/nc_submission/controlled_figures.xlsx`; its tab names differ from the original exporter. Use `F02A_UtilityCurve`, `F02BC_ChoiceSurface` and `F02D_ConsequenceEq` for Fig. 3, `F06AB_Beta`, `F06C_PairedTargets` and `F06D_ReplayDist` for Fig. 4, and `F07_Robustness` for Fig. 5. The separate Fig. 3(c) workbook provides the four-category presentation. For exact category membership and counts, use the request-choice result tables and SI definitions, not inferred colours.
 
-For Supplementary Figs. 1-3, the consolidated tabs are `F04_CausalTrace`, `F05A_BehaviorEffect`/`F05BCD_StageCompare`, and `F08A_Physical`/`F08BCD_PhysFair`, respectively. Historical F09-F11 tabs in this consolidated workbook are not the source for the current Australian figures. Use the dedicated `australian_main/` and `qualification_value/` files listed above for main Figs. 6-8 and Supplementary Fig. 5.
+For Figures S1-S3, the consolidated tabs are `F04_CausalTrace`, `F05A_BehaviorEffect`/`F05BCD_StageCompare`, and `F08A_Physical`/`F08BCD_PhysFair`, respectively. Historical F09-F11 tabs in this consolidated workbook are not the source for the current Australian figures. Use the dedicated `australian_main/` and `qualification_value/` files listed above for main Figs. 6-8 and Figure S5.
 
 The `pv_capacity/` and `bounded_record/` folders support additional SI tables.
 The Australian historical workbook is `Fig9-11_Origin_data.xlsx`; its sheet
 names keep the older figure numbers. The expanded diagnostic workbook also
 contains exact unrounded inputs to main Table 2 (`Table02_Energy`) and
-Supplementary Table 16 (`Seed_audit`). The current 12-schedule daily and
+Table S16 (`Seed_audit`). The current 12-schedule daily and
 interval outputs are in
 `reproduction/outputs/ees_transition/qualification_value_12seed/`; the
 original three-schedule record is preserved in the sibling directory without

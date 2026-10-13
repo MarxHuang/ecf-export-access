@@ -6,8 +6,8 @@ The study examines when unused export permission prevents other participants fro
 
 ## Start here
 
-- [Current deposited revision](docs/RELEASE_20260924_R2.md): synchronized main/SI PDFs, submission-data correspondence and verification results.
-- [Manuscript](paper/main.pdf) and [Supporting Information](paper/supporting_information.pdf).
+- [Current deposited revision](docs/RELEASE_20261013_NEXUS.md): synchronized main/SI PDFs, submission-data correspondence and verification results.
+- [Manuscript](paper/main.pdf) and [Supplemental information](paper/supporting_information.pdf).
 - [Figure data and figure-number mapping](docs/FIGURE_DATA.md), including Excel and CSV files.
 - [Reproduction instructions](docs/REPRODUCING.md), with a quick check that requires only Python's standard library.
 - [Input sources and redistribution status](docs/DATA_SOURCES.md).
@@ -16,7 +16,9 @@ The study examines when unused export permission prevents other participants fro
 
 GitHub identifies this repository as **private**, verified on 24 September 2026. Unauthenticated readers cannot currently obtain its contents. The authors must arrange reviewer access or a public deposit before submitting a statement that these materials are publicly available. The repository contains author-generated code, calculated results, source-data tables and compiled author manuscript PDFs. It has no repository DOI, and the paper is not an accepted publication. Code/data licences and manuscript-PDF rights differ as described below.
 
-The 24 September revision updates the manuscript and SI for a prospective Nature Communications submission. It adds a frequency-calibrated replay-free control to distinguish replay-based update selection from simply updating less often. The expanded comparison reports all 12 fixed schedules: the original three are retained unchanged, and nine additional schedules are deposited with daily and interval results. The diagnostic was designed after the original 80-day result; it is not an independent validation. Manuscript TeX, bibliography/style files, standalone manuscript figures and publisher compilation assets remain absent from the current tree. Older public commits and tags may still expose those withdrawn sources; no history rewrite has been performed.
+The 13 October revision synchronizes the manuscript and Supplemental information with the Nexus submission materials. It updates the presentation and explanations, not the numerical results. All eight submission source-data workbooks match files already deposited here byte-for-byte. The current PDFs contain 25 and 54 pages, respectively.
+
+The retained frequency-calibrated replay-free comparison reports all 12 fixed schedules, including the original three. It distinguishes replay-based update selection from simply updating less often. This diagnostic was designed after the original 80-day result; it is not an independent validation. Manuscript TeX, bibliography/style files, standalone manuscript figures and publisher compilation assets remain absent from the current tree. Cover letters, declaration forms and other submission-only documents are not deposited. Older public commits and tags may still expose withdrawn manuscript sources; no history rewrite has been performed.
 
 ## Contents
 

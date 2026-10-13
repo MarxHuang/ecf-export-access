@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-13",
+  "release": "nexus-submission-2026-10-13",
+  "new_simulation_runs": 0,
+  "deposit": {
+    "passed": true,
+    "files_verified": 453,
+    "australian_cases": 30,
+    "australian_interval_rows": 514752,
+    "primary_days": 80,
+    "primary_comparisons": {
+      "NO_FEEDBACK": {
+        "delivery_MWh": 1.3922339022548158,
+        "authorization_MWh": 1.2064296342909984,
+        "unused_authorization_MWh": -0.1858042679637748
+      },
+      "MATCHED_UNIFORM": {
+        "delivery_MWh": 1.3919993710973984,
+        "authorization_MWh": 1.2132508196267509,
+        "unused_authorization_MWh": -0.1787485514706333
+      }
+    },
+    "primary_qualification_count": 483,
+    "primary_assessed_intervals": 3840,
+    "scope": "Saved-file integrity and aggregate arithmetic; no new simulation or AC solution."
+  },
+  "qualification_3": {
+    "passed": true,
+    "days": 80,
+    "interval_records": 11520,
+    "random_update_counts": [
+      484,
+      495,
+      489
+    ],
+    "ecf_minus_random_mean_mwh": 1.3596548403779187,
+    "scope": "Saved-result arithmetic and flags; not an independent AC rerun."
+  },
+  "qualification_12": {
+    "passed": true,
+    "dates": 80,
+    "schedules": 12,
+    "interval_records": 46080,
+    "update_count_range": [
+      463,
+      519
+    ],
+    "ecf_advantage_mwh_range": [
+      0.9165231993968348,
+      1.5961596312357074
+    ],
+    "ecf_advantage_mwh_mean": 1.3432714606551244,
+    "scope": "Saved-result arithmetic and pass flags; not an independent AC rerun."
+  },
+  "primary_dry_run": {
+    "case": "primary",
+    "execute": false,
+    "expected_days": 80,
+    "missing_inputs": [
+      "outputs/ees_transition/archive/091_data/external/csiro_australian_mv_lv_feeder_v1/000065408v001/data",
+      "outputs/ees_transition/archive/091_data/processed/australian_external_replay_v2/AUSGRID_TRAIN_2010_2011.npz",
+      "outputs/ees_transition/archive/091_data/processed/australian_external_replay_v2/AUSGRID_DEVELOPMENT_2011_2012.npz",
+      "outputs/ees_transition/archive/091_data/processed/australian_external_replay_v2/AUSGRID_EVALUATION_2012_2013.npz"
+    ]
+  },
+  "pdf_files": [
+    {
+      "path": "paper/main.pdf",
+      "sha256": "cae6ae5d55773d5720ce36f12d701ce51ec8eee8ee9e180c6d6d8bb1cf78231e",
+      "matches_submission": true,
+      "pages": 25
+    },
+    {
+      "path": "paper/supporting_information.pdf",
+      "sha256": "a66884b43a5ffe76ae8b644ff7e5b61a4c13d4d01dc1e28e3d5657b8082f5ed6",
+      "matches_submission": true,
+      "pages": 54
+    }
+  ],
+  "submission_workbooks": [
+    {
+      "submission_file": "bounded_record_feedback.xlsx",
+      "repository_file": "figure_data/bounded_record/Bounded_record_feedback.xlsx",
+      "sha256": "b60f014405e7637ec8cc425d0ecb3e917ba62c929df60c69b1f2217de7203735",
+      "bytes": 49498
+    },
+    {
+      "submission_file": "controlled_figures.xlsx",
+      "repository_file": "figure_data/nc_submission/controlled_figures.xlsx",
+      "sha256": "0b6806da5dd2f6833cf7078b71807223420577693e4e78bfb26ac01ba7f76d0b",
+      "bytes": 346690
+    },
+    {
+      "submission_file": "participant_adaptation.xlsx",
+      "repository_file": "figure_data/participant_adaptation/Participant_adaptation.xlsx",
+      "sha256": "82ea3157327fa197821e931c9151a5086f71b209d075992efa3c6fb49a6f376c",
+      "bytes": 334392
+    },
+    {
+      "submission_file": "profile_mapping.xlsx",
+      "repository_file": "figure_data/profile_mapping/Profile_mapping.xlsx",
+      "sha256": "83c2ee5ecda319de19d5e52f21dbb0ffe77a235209f78700f5238c31d664fc11",
+      "bytes": 122636
+    },
+    {
+      "submission_file": "public_replay_figures.xlsx",
+      "repository_file": "figure_data/australian_main/Fig9-11_Origin_data.xlsx",
+      "sha256": "cdd1b756aa95b5b675ecbfab48b115b75f93383849113389c71b13f32d2e90a3",
+      "bytes": 13277
+    },
+    {
+      "submission_file": "pv_capacity.xlsx",
+      "repository_file": "figure_data/pv_capacity/PV_capacity.xlsx",
+      "sha256": "d66329cedbb6748b2a7afce8a6ce74653c96fbfd2c8d56c7ba6b48abd747e5dc",
+      "bytes": 125775
+    },
+    {
+      "submission_file": "qualification_value.xlsx",
+      "repository_file": "figure_data/qualification_value/qualification_value.xlsx",
+      "sha256": "f46227fb805fc1d6282fe51072c85641ad66e53d3459fcf41fa204f9f721e52a",
+      "bytes": 30033
+    },
+    {
+      "submission_file": "request_classes_fig3c.xlsx",
+      "repository_file": "figure_data/controlled/Fig03c_request_choice_classes.xlsx",
+      "sha256": "00c118ad8477d9e411807023e4b958af707e003da53c9fac5f95cc07a4385d44",
+      "bytes": 6996
+    }
+  ],
+  "numerical_code_results_data_and_licenses_unchanged": true,
+  "excluded_submission_materials": [
+    "manuscript sources and Overleaf packages",
+    "cover letters and logos",
+    "declaration forms",
+    "editorial correspondence",
+    "Highlights and eTOC upload files"
+  ],
+  "access_permissions_changed": false,
+  "license_terms_changed": false
+}
