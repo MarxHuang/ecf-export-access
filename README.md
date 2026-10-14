@@ -6,7 +6,7 @@ The study examines when unused export permission prevents other participants fro
 
 ## Start here
 
-- [Current deposited revision](docs/RELEASE_20261013_NEXUS.md): synchronized main/SI PDFs, submission-data correspondence and verification results.
+- [Current deposited revision](docs/RELEASE_20261014_NEXUS.md): synchronized main/SI PDFs, author information, submission-data correspondence and verification results.
 - [Manuscript](paper/main.pdf) and [Supplemental information](paper/supporting_information.pdf).
 - [Figure data and figure-number mapping](docs/FIGURE_DATA.md), including Excel and CSV files.
 - [Reproduction instructions](docs/REPRODUCING.md), with a quick check that requires only Python's standard library.
@@ -16,7 +16,9 @@ The study examines when unused export permission prevents other participants fro
 
 GitHub identifies this repository as **private**, verified on 24 September 2026. Unauthenticated readers cannot currently obtain its contents. The authors must arrange reviewer access or a public deposit before submitting a statement that these materials are publicly available. The repository contains author-generated code, calculated results, source-data tables and compiled author manuscript PDFs. It has no repository DOI, and the paper is not an accepted publication. Code/data licences and manuscript-PDF rights differ as described below.
 
-The 13 October revision synchronizes the manuscript and Supplemental information with the Nexus submission materials. It updates the presentation and explanations, not the numerical results. All eight submission source-data workbooks match files already deposited here byte-for-byte. The current PDFs contain 25 and 54 pages, respectively.
+The 14 October revision synchronizes the manuscript and Supplemental information with the final Nexus submission materials. It incorporates the final prose polish and current seven-author list, not new numerical results. All eight submission source-data workbooks match files already deposited here byte-for-byte. The current PDFs contain 25 and 54 pages, respectively.
+
+The authors, in order, are Junjie Huang, Tao Yu, Zhenning Pan, Yufeng Wu, Wencong Xiao, Rankai Zhu and Jie Huang. The corresponding author and lead contact is Zhenning Pan (scutpanzn@163.com). `CITATION.cff` follows this author order.
 
 The retained frequency-calibrated replay-free comparison reports all 12 fixed schedules, including the original three. It distinguishes replay-based update selection from simply updating less often. This diagnostic was designed after the original 80-day result; it is not an independent validation. Manuscript TeX, bibliography/style files, standalone manuscript figures and publisher compilation assets remain absent from the current tree. Cover letters, declaration forms and other submission-only documents are not deposited. Older public commits and tags may still expose withdrawn manuscript sources; no history rewrite has been performed.
 

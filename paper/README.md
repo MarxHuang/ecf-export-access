@@ -3,13 +3,16 @@
 - [Main manuscript](main.pdf)
 - [Supplemental information](supporting_information.pdf)
 
-These are the current 13 October 2026 Nexus submission
+These are the current 14 October 2026 Nexus submission
 drafts: 25 pages for the manuscript and 54 for Supplemental information.
 They are not accepted articles or publisher versions of record. They are
 available to users granted repository access under the manuscript notice; no open article licence is
 granted by placing these PDFs in this repository.
 All rights are reserved under [the manuscript notice](../LICENSES/LicenseRef-Manuscript.txt);
 the repository's MIT and CC BY grants do not apply to these PDFs.
+
+Both PDFs use the seven-author list beginning with Junjie Huang. Zhenning Pan
+is the corresponding author and lead contact (scutpanzn@163.com).
 
 Manuscript TeX, bibliography/style files, standalone figure PDFs and publisher
 compilation assets have been withdrawn from the current tree. They remain in the

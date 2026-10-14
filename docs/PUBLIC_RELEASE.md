@@ -1,7 +1,7 @@
 # Repository status and manuscript rights
 
 Status checked in the authenticated GitHub interface on 24 September 2026: this repository is **private**. Unauthenticated requests could not retrieve the repository or manuscript PDFs. Earlier documentation describing current public availability was inaccurate and has been corrected. This update does not change access permissions.
-The current branch contains the 13 October 2026 compiled author manuscript and Supplemental
+The current branch contains the 14 October 2026 compiled author manuscript and Supplemental
 information PDFs, numerical code, author-generated result tables and figure
 data. It does not contain the current manuscript TeX source package or
 standalone manuscript figures.

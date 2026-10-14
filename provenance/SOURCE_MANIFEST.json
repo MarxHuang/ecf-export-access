@@ -454,20 +454,20 @@
     },
     {
       "path": "paper/main.pdf",
-      "bytes": 1466381,
-      "sha256": "cae6ae5d55773d5720ce36f12d701ce51ec8eee8ee9e180c6d6d8bb1cf78231e",
+      "bytes": 1467182,
+      "sha256": "7bf718a8983b1e83f069bd914e0cb4886b968dcfb60ce0e466463824c5f0e11e",
       "source_path": "outputs/nexus_transition/NEXUS_MASTER_20261013/submission/Nexus_manuscript.pdf",
-      "source_bytes": 1466381,
-      "source_sha256": "cae6ae5d55773d5720ce36f12d701ce51ec8eee8ee9e180c6d6d8bb1cf78231e",
+      "source_bytes": 1467182,
+      "source_sha256": "7bf718a8983b1e83f069bd914e0cb4886b968dcfb60ce0e466463824c5f0e11e",
       "encoding": "original"
     },
     {
       "path": "paper/supporting_information.pdf",
-      "bytes": 3377741,
-      "sha256": "a66884b43a5ffe76ae8b644ff7e5b61a4c13d4d01dc1e28e3d5657b8082f5ed6",
+      "bytes": 3377726,
+      "sha256": "c9e732a149826f6e54a45659d83599780ab7cfc2e97c998312a7e8fe53f0ac3c",
       "source_path": "outputs/nexus_transition/NEXUS_MASTER_20261013/submission/Nexus_supplemental_information.pdf",
-      "source_bytes": 3377741,
-      "source_sha256": "a66884b43a5ffe76ae8b644ff7e5b61a4c13d4d01dc1e28e3d5657b8082f5ed6",
+      "source_bytes": 3377726,
+      "source_sha256": "c9e732a149826f6e54a45659d83599780ab7cfc2e97c998312a7e8fe53f0ac3c",
       "encoding": "original"
     },
     {

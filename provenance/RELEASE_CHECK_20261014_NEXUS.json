@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-14",
+  "release": "nexus-submission-2026-10-14",
+  "new_simulation_runs": 0,
+  "authors": [
+    "Junjie Huang",
+    "Tao Yu",
+    "Zhenning Pan",
+    "Yufeng Wu",
+    "Wencong Xiao",
+    "Rankai Zhu",
+    "Jie Huang"
+  ],
+  "corresponding_author_and_lead_contact": {
+    "name": "Zhenning Pan",
+    "email": "scutpanzn@163.com"
+  },
+  "deposit": {
+    "passed": true,
+    "files_verified": 453,
+    "australian_cases": 30,
+    "australian_interval_rows": 514752,
+    "primary_days": 80,
+    "primary_comparisons": {
+      "NO_FEEDBACK": {
+        "delivery_MWh": 1.3922339022548158,
+        "authorization_MWh": 1.2064296342909984,
+        "unused_authorization_MWh": -0.1858042679637748
+      },
+      "MATCHED_UNIFORM": {
+        "delivery_MWh": 1.3919993710973984,
+        "authorization_MWh": 1.2132508196267509,
+        "unused_authorization_MWh": -0.1787485514706333
+      }
+    },
+    "primary_qualification_count": 483,
+    "primary_assessed_intervals": 3840,
+    "scope": "Saved-file integrity and aggregate arithmetic; no new simulation or AC solution."
+  },
+  "qualification_3": {
+    "passed": true,
+    "days": 80,
+    "interval_records": 11520,
+    "random_update_counts": [
+      484,
+      495,
+      489
+    ],
+    "ecf_minus_random_mean_mwh": 1.3596548403779187,
+    "scope": "saved-result arithmetic and flags, not independent AC rerun"
+  },
+  "qualification_12": {
+    "passed": true,
+    "dates": 80,
+    "schedules": 12,
+    "interval_records": 46080,
+    "update_count_range": [
+      463,
+      519
+    ],
+    "ecf_advantage_mwh_range": [
+      0.9165231993968348,
+      1.5961596312357074
+    ],
+    "ecf_advantage_mwh_mean": 1.3432714606551244,
+    "scope": "Saved-result arithmetic and pass flags, not an independent AC rerun"
+  },
+  "primary_dry_run": {
+    "case": "primary",
+    "execute": false,
+    "arguments": [
+      "--case-id",
+      "AU_FROZEN_L030_V107_PRIMARY",
+      "--package",
+      "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\03_GitHub仓库\\ecf-export-access\\reproduction\\outputs\\ees_transition\\archive\\091_data\\processed\\australian_external_replay_v2",
+      "--mapping-file",
+      "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\03_GitHub仓库\\ecf-export-access\\reproduction\\outputs\\ees_transition\\archive\\091_data\\processed\\australian_external_replay_v2\\CSIRO_LOAD_TO_AUSGRID_PROFILE_MAPPING.csv",
+      "--dss-root",
+      "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\03_GitHub仓库\\ecf-export-access\\reproduction\\outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data",
+      "--protocol",
+      "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\03_GitHub仓库\\ecf-export-access\\reproduction\\outputs\\ees_transition\\archive\\151_FROZEN_SCENARIO_EVALUATION_20260907\\EVALUATION_PROTOCOL.json",
+      "--load-scale-calibration",
+      "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\03_GitHub仓库\\ecf-export-access\\reproduction\\outputs\\ees_transition\\archive\\151_FROZEN_SCENARIO_EVALUATION_20260907\\LOAD_SCALE.json",
+      "--authorization-margin-freeze",
+      "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\03_GitHub仓库\\ecf-export-access\\reproduction\\outputs\\ees_transition\\archive\\151_FROZEN_SCENARIO_EVALUATION_20260907\\AUTHORIZATION_MARGIN.json",
+      "--output-dir",
+      "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\03_GitHub仓库\\ecf-export-access\\reproduction\\reruns\\primary",
+      "--evidence-class",
+      "PRIMARY_EXTERNAL_EVALUATION",
+      "--sensitivity-protocol",
+      "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\03_GitHub仓库\\ecf-export-access\\reproduction\\outputs\\ees_transition\\archive\\048_AUSTRALIAN_TELEMETRY_AND_GAIN_SENSITIVITY_PROTOCOL_V1.yaml",
+      "--eligible-dates-file",
+      "F:\\Research Files\\14 拓扑压迫分析\\r4r_rebuild\\outputs\\ees_transition\\03_GitHub仓库\\ecf-export-access\\reproduction\\outputs\\ees_transition\\archive\\091_data\\processed\\australian_external_replay_v2\\AU_PRIMARY_EVALUATION_DATES_80.txt",
+      "--workers",
+      "2"
+    ],
+    "missing_inputs": [
+      "outputs\\ees_transition\\archive\\091_data\\external\\csiro_australian_mv_lv_feeder_v1\\000065408v001\\data",
+      "outputs\\ees_transition\\archive\\091_data\\processed\\australian_external_replay_v2\\AUSGRID_TRAIN_2010_2011.npz",
+      "outputs\\ees_transition\\archive\\091_data\\processed\\australian_external_replay_v2\\AUSGRID_DEVELOPMENT_2011_2012.npz",
+      "outputs\\ees_transition\\archive\\091_data\\processed\\australian_external_replay_v2\\AUSGRID_EVALUATION_2012_2013.npz"
+    ],
+    "expected_days": 80
+  },
+  "pdf_files": [
+    {
+      "path": "paper/main.pdf",
+      "sha256": "7bf718a8983b1e83f069bd914e0cb4886b968dcfb60ce0e466463824c5f0e11e",
+      "matches_submission": true,
+      "pages": 25
+    },
+    {
+      "path": "paper/supporting_information.pdf",
+      "sha256": "c9e732a149826f6e54a45659d83599780ab7cfc2e97c998312a7e8fe53f0ac3c",
+      "matches_submission": true,
+      "pages": 54
+    }
+  ],
+  "submission_workbooks": [
+    {
+      "submission_file": "bounded_record_feedback.xlsx",
+      "repository_file": "figure_data/bounded_record/Bounded_record_feedback.xlsx",
+      "sha256": "b60f014405e7637ec8cc425d0ecb3e917ba62c929df60c69b1f2217de7203735",
+      "bytes": 49498
+    },
+    {
+      "submission_file": "controlled_figures.xlsx",
+      "repository_file": "figure_data/nc_submission/controlled_figures.xlsx",
+      "sha256": "0b6806da5dd2f6833cf7078b71807223420577693e4e78bfb26ac01ba7f76d0b",
+      "bytes": 346690
+    },
+    {
+      "submission_file": "participant_adaptation.xlsx",
+      "repository_file": "figure_data/participant_adaptation/Participant_adaptation.xlsx",
+      "sha256": "82ea3157327fa197821e931c9151a5086f71b209d075992efa3c6fb49a6f376c",
+      "bytes": 334392
+    },
+    {
+      "submission_file": "profile_mapping.xlsx",
+      "repository_file": "figure_data/profile_mapping/Profile_mapping.xlsx",
+      "sha256": "83c2ee5ecda319de19d5e52f21dbb0ffe77a235209f78700f5238c31d664fc11",
+      "bytes": 122636
+    },
+    {
+      "submission_file": "public_replay_figures.xlsx",
+      "repository_file": "figure_data/australian_main/Fig9-11_Origin_data.xlsx",
+      "sha256": "cdd1b756aa95b5b675ecbfab48b115b75f93383849113389c71b13f32d2e90a3",
+      "bytes": 13277
+    },
+    {
+      "submission_file": "pv_capacity.xlsx",
+      "repository_file": "figure_data/pv_capacity/PV_capacity.xlsx",
+      "sha256": "d66329cedbb6748b2a7afce8a6ce74653c96fbfd2c8d56c7ba6b48abd747e5dc",
+      "bytes": 125775
+    },
+    {
+      "submission_file": "qualification_value.xlsx",
+      "repository_file": "figure_data/qualification_value/qualification_value.xlsx",
+      "sha256": "f46227fb805fc1d6282fe51072c85641ad66e53d3459fcf41fa204f9f721e52a",
+      "bytes": 30033
+    },
+    {
+      "submission_file": "request_classes_fig3c.xlsx",
+      "repository_file": "figure_data/controlled/Fig03c_request_choice_classes.xlsx",
+      "sha256": "00c118ad8477d9e411807023e4b958af707e003da53c9fac5f95cc07a4385d44",
+      "bytes": 6996
+    }
+  ],
+  "manuscript_sources_and_submission_only_documents_added": false,
+  "visibility_changed": false,
+  "licences_changed": false,
+  "scope": "Synchronize final manuscript/SI and author metadata; numerical code, inputs and results unchanged. No new simulation or independently repeated AC solution."
+}
