@@ -1,0 +1,80 @@
+{
+  "base_commit": "950897b8a9b155afed3fc765dc715d579736678a",
+  "new_experiments": 0,
+  "visibility_changed": false,
+  "licences_changed": false,
+  "history_rewritten": false,
+  "files": [
+    {
+      "path": "paper/main.pdf",
+      "bytes": 1668290,
+      "sha256": "e13f9ddaaf6b81e7b95e1996daca1106ccabac4c57496502a960dd56c978eb19",
+      "pages": 22
+    },
+    {
+      "path": "paper/supporting_information.pdf",
+      "bytes": 3526518,
+      "sha256": "cf1fb090bbada4b4981520e5f3ae037420a76f71829944a44ac9b707f98d1ede",
+      "pages": 54
+    }
+  ],
+  "workbooks": [
+    {
+      "submission_file": "bounded_record_feedback.xlsx",
+      "repository_file": "figure_data/bounded_record/Bounded_record_feedback.xlsx",
+      "sha256": "b60f014405e7637ec8cc425d0ecb3e917ba62c929df60c69b1f2217de7203735",
+      "bytes": 49498,
+      "matches_current_S1_byte_for_byte": true
+    },
+    {
+      "submission_file": "controlled_figures.xlsx",
+      "repository_file": "figure_data/nc_submission/controlled_figures.xlsx",
+      "sha256": "0b6806da5dd2f6833cf7078b71807223420577693e4e78bfb26ac01ba7f76d0b",
+      "bytes": 346690,
+      "matches_current_S1_byte_for_byte": true
+    },
+    {
+      "submission_file": "participant_adaptation.xlsx",
+      "repository_file": "figure_data/participant_adaptation/Participant_adaptation.xlsx",
+      "sha256": "82ea3157327fa197821e931c9151a5086f71b209d075992efa3c6fb49a6f376c",
+      "bytes": 334392,
+      "matches_current_S1_byte_for_byte": true
+    },
+    {
+      "submission_file": "profile_mapping.xlsx",
+      "repository_file": "figure_data/profile_mapping/Profile_mapping.xlsx",
+      "sha256": "83c2ee5ecda319de19d5e52f21dbb0ffe77a235209f78700f5238c31d664fc11",
+      "bytes": 122636,
+      "matches_current_S1_byte_for_byte": true
+    },
+    {
+      "submission_file": "public_replay_figures.xlsx",
+      "repository_file": "figure_data/australian_main/Fig9-11_Origin_data.xlsx",
+      "sha256": "cdd1b756aa95b5b675ecbfab48b115b75f93383849113389c71b13f32d2e90a3",
+      "bytes": 13277,
+      "matches_current_S1_byte_for_byte": true
+    },
+    {
+      "submission_file": "pv_capacity.xlsx",
+      "repository_file": "figure_data/pv_capacity/PV_capacity.xlsx",
+      "sha256": "d66329cedbb6748b2a7afce8a6ce74653c96fbfd2c8d56c7ba6b48abd747e5dc",
+      "bytes": 125775,
+      "matches_current_S1_byte_for_byte": true
+    },
+    {
+      "submission_file": "qualification_value.xlsx",
+      "repository_file": "figure_data/qualification_value/qualification_value.xlsx",
+      "sha256": "f46227fb805fc1d6282fe51072c85641ad66e53d3459fcf41fa204f9f721e52a",
+      "bytes": 30033,
+      "matches_current_S1_byte_for_byte": true
+    },
+    {
+      "submission_file": "request_classes_fig3c.xlsx",
+      "repository_file": "figure_data/controlled/Fig03c_request_choice_classes.xlsx",
+      "sha256": "00c118ad8477d9e411807023e4b958af707e003da53c9fac5f95cc07a4385d44",
+      "bytes": 6996,
+      "matches_current_S1_byte_for_byte": true
+    }
+  ],
+  "scope": "Exact local candidate PDF and existing workbook integrity only; no new simulation, AC solution or independent numerical reproduction."
+}

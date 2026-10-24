@@ -3,11 +3,10 @@
 - [Main manuscript](main.pdf)
 - [Supplemental information](supporting_information.pdf)
 
-These are the current 14 October 2026 Nexus submission
-drafts: 25 pages for the manuscript and 54 for Supplemental information.
-They are not accepted articles or publisher versions of record. They are
-available to users granted repository access under the manuscript notice; no open article licence is
-granted by placing these PDFs in this repository.
+These are the current 24 October 2026 Applied Energy author drafts: 22 pages
+for the manuscript and 54 for supplementary information. They are publicly
+accessible here, but are not accepted articles or publisher versions of record.
+No open article licence is granted by placing these PDFs in this repository.
 All rights are reserved under [the manuscript notice](../LICENSES/LicenseRef-Manuscript.txt);
 the repository's MIT and CC BY grants do not apply to these PDFs.
 
@@ -23,6 +22,6 @@ elsewhere in this repository. See [reproduction instructions](../docs/REPRODUCIN
 This withdrawal does not erase source files from older public Git commits or tags.
 
 The stable filename `supporting_information.pdf` is retained for existing links;
-its contents and heading use the current term "Supplemental information".
+its contents and heading use the current term "Supplementary information".
 Cover letters, interest declarations, editorial correspondence and manuscript
 source packages are not included here.

@@ -2,10 +2,11 @@
 
 Use the figure numbers in the current manuscript, not a historical export filename. The original numerical precision is retained in the CSV/XLSX files; rounding in the manuscript is for presentation.
 
-All eight workbooks in the 14 October 2026 Nexus submission match existing
-repository files byte-for-byte. `provenance/RELEASE_CHECK_20261014_NEXUS.json`
-lists their exact correspondence and hashes. The historical `nc_submission/`
-directory name is retained; its workbook is also the current Nexus plotting input.
+All eight workbooks in the 24 October 2026 Applied Energy R2 local candidate
+match existing repository files byte-for-byte.
+`provenance/RELEASE_CHECK_20261024_APEN_R2.json` lists the exact correspondence
+and hashes. The historical `nc_submission/` directory name and worksheet names
+are retained to preserve provenance; the workbook is the current plotting input.
 
 | Current figure | Data directory and files |
 |---|---|

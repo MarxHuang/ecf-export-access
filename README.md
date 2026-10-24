@@ -6,7 +6,7 @@ The study examines when unused export permission prevents other participants fro
 
 ## Start here
 
-- [Current deposited revision](docs/RELEASE_20261014_NEXUS.md): synchronized main/SI PDFs, author information, submission-data correspondence and verification results.
+- [Current deposited revision](docs/RELEASE_20261024_APEN_R2.md): synchronized main/SI PDFs, author information, submission-data correspondence and verification results.
 - [Manuscript](paper/main.pdf) and [Supplemental information](paper/supporting_information.pdf).
 - [Figure data and figure-number mapping](docs/FIGURE_DATA.md), including Excel and CSV files.
 - [Reproduction instructions](docs/REPRODUCING.md), with a quick check that requires only Python's standard library.
@@ -14,9 +14,9 @@ The study examines when unused export permission prevents other participants fro
 - [Version and experiment map](docs/EXPERIMENTS.md).
 - [File-by-file licensing](LICENSING.md) and [repository status](docs/PUBLIC_RELEASE.md).
 
-GitHub identifies this repository as **private**, verified on 24 September 2026. Unauthenticated readers cannot currently obtain its contents. The authors must arrange reviewer access or a public deposit before submitting a statement that these materials are publicly available. The repository contains author-generated code, calculated results, source-data tables and compiled author manuscript PDFs. It has no repository DOI, and the paper is not an accepted publication. Code/data licences and manuscript-PDF rights differ as described below.
+This repository is **public**, verified through the authenticated GitHub repository API on 24 October 2026. Its compiled author manuscript PDFs, author-generated code, calculated results and source-data tables can be accessed directly. It has no repository DOI, and the paper is not an accepted publication. Code/data licences and manuscript-PDF rights differ as described below.
 
-The 14 October revision synchronizes the manuscript and Supplemental information with the final Nexus submission materials. It incorporates the final prose polish and current seven-author list, not new numerical results. All eight submission source-data workbooks match files already deposited here byte-for-byte. The current PDFs contain 25 and 54 pages, respectively.
+The 24 October 2026 Applied Energy revision contains a 22-page main manuscript and 54-page supplementary information. It clarifies the operating contribution and comparison baselines and repairs layout continuity. Models, experimental settings, numerical results and figure data are unchanged. All eight current source-data workbooks match the files already deposited here byte-for-byte. See the current release note for exact PDF hashes; the 14 October Nexus release note remains a historical record.
 
 The authors, in order, are Junjie Huang, Tao Yu, Zhenning Pan, Yufeng Wu, Wencong Xiao, Rankai Zhu and Jie Huang. The corresponding author and lead contact is Zhenning Pan (scutpanzn@163.com). `CITATION.cff` follows this author order.
 
@@ -67,4 +67,4 @@ Ausgrid measurements and the CSIRO/GridQube networks must be obtained from their
 
 See [LICENSING.md](LICENSING.md) for exact scope, [the per-file register](provenance/LICENSE_MANIFEST.csv), and [third-party notices](THIRD_PARTY_NOTICES.md). MIT and CC BY permit commercial reuse of material within their respective scopes. These grants cover only rights held by the contributors; they do not override upstream restrictions or grant rights to third-party source data, publisher artwork, logos or fonts. Code snippets in the documentation are MIT-licensed.
 
-Repository visibility has not been changed by this update. Removing source files from the current tree did not remove older copies from Git history; see [the repository-status note](docs/PUBLIC_RELEASE.md). Making this repository public may also expose those historical files. Do not treat the current branch's absence of manuscript source as proof that historical source is absent.
+Repository visibility has not been changed by this update. Removing source files from the current tree did not remove older copies from Git history; see [the repository-status note](docs/PUBLIC_RELEASE.md). The public repository history may expose those historical files. Do not treat the current branch's absence of manuscript source as proof that historical source is absent.

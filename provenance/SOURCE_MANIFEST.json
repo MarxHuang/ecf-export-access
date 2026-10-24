@@ -1,5 +1,5 @@
 {
-  "description": "Retained original scientific files plus current compiled Nexus manuscript PDFs; gzip entries expand to original bytes. Manuscript compilation assets are not in the current tree.",
+  "description": "Retained original scientific files plus current compiled Applied Energy author PDFs; gzip entries expand to original bytes. Manuscript compilation assets are not in the current tree.",
   "created": "2026-09-17",
   "files": [
     {
@@ -454,20 +454,20 @@
     },
     {
       "path": "paper/main.pdf",
-      "bytes": 1467182,
-      "sha256": "7bf718a8983b1e83f069bd914e0cb4886b968dcfb60ce0e466463824c5f0e11e",
-      "source_path": "outputs/nexus_transition/NEXUS_MASTER_20261013/submission/Nexus_manuscript.pdf",
-      "source_bytes": 1467182,
-      "source_sha256": "7bf718a8983b1e83f069bd914e0cb4886b968dcfb60ce0e466463824c5f0e11e",
+      "bytes": 1668290,
+      "sha256": "e13f9ddaaf6b81e7b95e1996daca1106ccabac4c57496502a960dd56c978eb19",
+      "source_path": "APEN_PREFLIGHT_20261024_R2/submission/Applied_Energy_manuscript.pdf",
+      "source_bytes": 1668290,
+      "source_sha256": "e13f9ddaaf6b81e7b95e1996daca1106ccabac4c57496502a960dd56c978eb19",
       "encoding": "original"
     },
     {
       "path": "paper/supporting_information.pdf",
-      "bytes": 3377726,
-      "sha256": "c9e732a149826f6e54a45659d83599780ab7cfc2e97c998312a7e8fe53f0ac3c",
-      "source_path": "outputs/nexus_transition/NEXUS_MASTER_20261013/submission/Nexus_supplemental_information.pdf",
-      "source_bytes": 3377726,
-      "source_sha256": "c9e732a149826f6e54a45659d83599780ab7cfc2e97c998312a7e8fe53f0ac3c",
+      "bytes": 3526518,
+      "sha256": "cf1fb090bbada4b4981520e5f3ae037420a76f71829944a44ac9b707f98d1ede",
+      "source_path": "APEN_PREFLIGHT_20261024_R2/submission/Applied_Energy_Supplementary_information.pdf",
+      "source_bytes": 3526518,
+      "source_sha256": "cf1fb090bbada4b4981520e5f3ae037420a76f71829944a44ac9b707f98d1ede",
       "encoding": "original"
     },
     {
@@ -4080,6 +4080,6 @@
       "encoding": "original"
     }
   ],
-  "updated": "2026-10-13",
-  "release": "nexus-submission-2026-10-13"
+  "updated": "2026-10-24",
+  "release": "apen-preflight-2026-10-24-r2"
 }

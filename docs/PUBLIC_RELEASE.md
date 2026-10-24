@@ -1,16 +1,21 @@
 # Repository status and manuscript rights
 
-Status checked in the authenticated GitHub interface on 24 September 2026: this repository is **private**. Unauthenticated requests could not retrieve the repository or manuscript PDFs. Earlier documentation describing current public availability was inaccurate and has been corrected. This update does not change access permissions.
-The current branch contains the 14 October 2026 compiled author manuscript and Supplemental
-information PDFs, numerical code, author-generated result tables and figure
-data. It does not contain the current manuscript TeX source package or
-standalone manuscript figures.
+Status checked through the authenticated GitHub repository API on 24 October
+2026: this repository is **public**. Its current author manuscript and
+supplementary PDFs can be retrieved without a private reviewer-access grant.
+Earlier status notes recorded a private repository on 24 September; that is a
+historical observation, not the current access state. This update does not
+change repository visibility or permissions.
+The current branch contains the 24 October 2026 Applied Energy author PDFs,
+numerical code, author-generated result tables and figure data. It does not
+contain the current manuscript TeX source package or standalone manuscript
+figures. The current release note records the exact deposited PDF hashes.
 
 Removing source assets from the current branch did **not** remove them from
 older public commits or tags. This revision does not rewrite Git history.
 Authors concerned about historical source exposure should review repository
 history with the institution before choosing any separate history-management
-action. The current compiled PDFs require repository access and remain author
+action. The current compiled PDFs are publicly accessible and remain author
 manuscripts rather than accepted or publisher versions of record.
 
 ## Reuse terms
@@ -25,13 +30,12 @@ The scoped terms in [LICENSING.md](../LICENSING.md) and the
 
 These are different rights for different materials; a public GitHub page
 does not change the manuscript licence or grant rights in upstream data.
-No repository DOI is assigned. The manuscript's data and code statements
-point to this URL without describing it as publicly accessible. Before submission, the authors must establish reviewer access or an appropriate public deposit. The repository contains exact saved results plus
+No repository DOI is assigned. The manuscript's data and code statements point to this public URL and the release note identifying the corresponding PDFs. The repository contains exact saved results plus
 instructions distinguishing arithmetic verification from complete AC reruns.
 
-## Author checks before a Nexus submission
+## Author checks before journal submission
 
-- Decide whether to keep this repository private with a separate reviewer-accessible deposit, or make approved materials public. Do not change visibility without considering historical source exposure.
+- Recognize that the repository and its existing Git history are public. No visibility change or history rewrite is performed by this update.
 - Confirm all authors approve any planned public availability of the current draft PDFs
   and understand that older Git history may contain withdrawn source files.
 - Verify the submitted manuscript and SI PDFs match `paper/` and cite a fixed
