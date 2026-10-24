@@ -6,7 +6,7 @@ The study examines when unused export permission prevents other participants fro
 
 ## Start here
 
-- [Current deposited revision](docs/RELEASE_20261024_APEN_R2.md): synchronized main/SI PDFs, author information, submission-data correspondence and verification results.
+- [Current deposited revision](docs/RELEASE_20261024_APEN_R3.md): synchronized main/SI PDFs, author information, submission-data correspondence and verification results.
 - [Manuscript](paper/main.pdf) and [Supplemental information](paper/supporting_information.pdf).
 - [Figure data and figure-number mapping](docs/FIGURE_DATA.md), including Excel and CSV files.
 - [Reproduction instructions](docs/REPRODUCING.md), with a quick check that requires only Python's standard library.
@@ -16,7 +16,7 @@ The study examines when unused export permission prevents other participants fro
 
 This repository is **public**, verified through the authenticated GitHub repository API on 24 October 2026. Its compiled author manuscript PDFs, author-generated code, calculated results and source-data tables can be accessed directly. It has no repository DOI, and the paper is not an accepted publication. Code/data licences and manuscript-PDF rights differ as described below.
 
-The 24 October 2026 Applied Energy revision contains a 22-page main manuscript and 54-page supplementary information. It clarifies the operating contribution and comparison baselines and repairs layout continuity. Models, experimental settings, numerical results and figure data are unchanged. All eight current source-data workbooks match the files already deposited here byte-for-byte. See the current release note for exact PDF hashes; the 14 October Nexus release note remains a historical record.
+The 24 October 2026 Applied Energy revision contains a 23-page main manuscript and 55-page supplementary information. The R3 update stabilizes figure/table placement at complete-paragraph boundaries and clarifies that Figure 4(c,d) uses the primary gain 0.5. Models, experimental settings, numerical results and figure data are unchanged. All eight current source-data workbooks match the files already deposited here byte-for-byte. See the current release note for exact PDF hashes; the 14 October Nexus release note remains a historical record.
 
 The authors, in order, are Junjie Huang, Tao Yu, Zhenning Pan, Yufeng Wu, Wencong Xiao, Rankai Zhu and Jie Huang. The corresponding author and lead contact is Zhenning Pan (scutpanzn@163.com). `CITATION.cff` follows this author order.
 

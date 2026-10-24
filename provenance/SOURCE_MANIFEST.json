@@ -454,20 +454,20 @@
     },
     {
       "path": "paper/main.pdf",
-      "bytes": 1668290,
-      "sha256": "e13f9ddaaf6b81e7b95e1996daca1106ccabac4c57496502a960dd56c978eb19",
-      "source_path": "APEN_PREFLIGHT_20261024_R2/submission/Applied_Energy_manuscript.pdf",
-      "source_bytes": 1668290,
-      "source_sha256": "e13f9ddaaf6b81e7b95e1996daca1106ccabac4c57496502a960dd56c978eb19",
+      "bytes": 1668923,
+      "sha256": "bf863a8709a62afb6fba97b52d8e661c2593cba118e2d9a41f3b4867aa10e629",
+      "source_path": "APEN_PREFLIGHT_20261024_R3/submission/Applied_Energy_manuscript.pdf",
+      "source_bytes": 1668923,
+      "source_sha256": "bf863a8709a62afb6fba97b52d8e661c2593cba118e2d9a41f3b4867aa10e629",
       "encoding": "original"
     },
     {
       "path": "paper/supporting_information.pdf",
-      "bytes": 3526518,
-      "sha256": "cf1fb090bbada4b4981520e5f3ae037420a76f71829944a44ac9b707f98d1ede",
-      "source_path": "APEN_PREFLIGHT_20261024_R2/submission/Applied_Energy_Supplementary_information.pdf",
-      "source_bytes": 3526518,
-      "source_sha256": "cf1fb090bbada4b4981520e5f3ae037420a76f71829944a44ac9b707f98d1ede",
+      "bytes": 3527031,
+      "sha256": "69b435f580f7dc950ba857c3e9535c890e7cc04ee6dfd2799cae608fbfafc81a",
+      "source_path": "APEN_PREFLIGHT_20261024_R3/submission/Applied_Energy_Supplementary_information.pdf",
+      "source_bytes": 3527031,
+      "source_sha256": "69b435f580f7dc950ba857c3e9535c890e7cc04ee6dfd2799cae608fbfafc81a",
       "encoding": "original"
     },
     {
@@ -4081,5 +4081,5 @@
     }
   ],
   "updated": "2026-10-24",
-  "release": "apen-preflight-2026-10-24-r2"
+  "release": "apen-preflight-2026-10-24-r3"
 }

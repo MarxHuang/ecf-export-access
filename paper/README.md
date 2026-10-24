@@ -3,8 +3,8 @@
 - [Main manuscript](main.pdf)
 - [Supplemental information](supporting_information.pdf)
 
-These are the current 24 October 2026 Applied Energy author drafts: 22 pages
-for the manuscript and 54 for supplementary information. They are publicly
+These are the current 24 October 2026 Applied Energy author drafts: 23 pages
+for the manuscript and 55 for supplementary information. They are publicly
 accessible here, but are not accepted articles or publisher versions of record.
 No open article licence is granted by placing these PDFs in this repository.
 All rights are reserved under [the manuscript notice](../LICENSES/LicenseRef-Manuscript.txt);

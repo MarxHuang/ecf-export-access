@@ -9,7 +9,7 @@ change repository visibility or permissions.
 The current branch contains the 24 October 2026 Applied Energy author PDFs,
 numerical code, author-generated result tables and figure data. It does not
 contain the current manuscript TeX source package or standalone manuscript
-figures. The current release note records the exact deposited PDF hashes.
+figures. The current R3 release note records the exact deposited PDF hashes (23-page main text and 55-page SI).
 
 Removing source assets from the current branch did **not** remove them from
 older public commits or tags. This revision does not rewrite Git history.
